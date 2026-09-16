@@ -9,8 +9,21 @@ that day. Files are append-only: a past day never changes once written, so you c
 date once and cache it. `manifest.json` lists the covered range (`first_day`, `last_day`).
 
 ## `ips.txt`
-Plain text, one IPv4 per line. Lines starting with `#` are comments (header only). This
-is the firewall/blocklist view.
+Plain text, one IPv4 per line. Lines starting with `#` are comments (header only). The
+**curated** blocklist view — confirmed malicious, all-time, research scanners excluded.
+
+## `active.txt`
+Same as `ips.txt` but **aged**: only IPs whose `last_seen` is within the last 90 days
+(`active_window_days` in `manifest.json`). The self-cleaning blocklist view.
+
+## `feeds/all-observed.txt` / `.csv`
+The **broad** tier: every IP the sensors flagged, *including* identified research scanners,
+which carry the `research-scanner` tag. For hunting and enrichment — not a blocklist.
+
+## `allowlist.txt`
+The benign research-scanner ranges (Censys, Shadowserver, Palo Alto Xpanse, Shodan, …) we
+exclude from the curated views, one CIDR per line with attribution. Published for
+transparency; propose changes via a false-positive issue.
 
 ## `indicators.csv`
 Header row, then one row per IP:

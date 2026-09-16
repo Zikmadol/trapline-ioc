@@ -1,0 +1,45 @@
+# Benign research-scanner allowlist — never published as attackers.
+#
+# These organisations scan the whole internet for defensive/security research. Our decoy
+# parser already ignores bare recon (a connect or a banner-grab GET), so a scanner only
+# risks the feed if it trips an "abuse" path (e.g. fetches /.env during broad scanning).
+# This is the safety net for that case: any IP in these ranges is suppressed with reason
+# "benign-scanner" and never published. One CIDR (or IP) per line; `#` comments.
+#
+# Curated and conservative — dedicated scanner infrastructure only, each with attribution.
+# To propose an addition/removal, open an issue on the public feed.
+
+# ── Censys (censys.io) ──
+162.142.125.0/24
+167.94.138.0/24
+167.94.145.0/24
+167.94.146.0/24
+167.248.133.0/24
+199.45.154.0/24
+199.45.155.0/24
+206.168.34.0/23
+
+# ── Shadowserver Foundation (shadowserver.org) ──
+184.105.247.0/24
+216.218.206.0/24
+74.82.47.0/24
+65.49.20.0/24
+
+# ── Palo Alto Networks / Cortex Xpanse (self-identifies in scans) ──
+205.210.31.0/24
+198.235.24.0/24
+
+# ── Shodan (shodan.io census infrastructure) ──
+80.82.77.0/24
+82.221.105.0/24
+185.163.109.0/24
+198.20.69.0/24
+198.20.70.0/24
+
+# ── BinaryEdge (binaryedge.io) ──
+5.180.148.0/24
+
+# Deliberately NOT allowlisted without per-range verification: Rapid7 Sonar and Onyphe
+# (their scans originate from mixed provider ranges — e.g. Hetzner — that also host real
+# attackers, so a broad allowlist there would hide threats). Add specific verified CIDRs
+# via the false-positive issue process.
