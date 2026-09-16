@@ -1,28 +1,29 @@
 {
-  "generated": "2026-09-16T14:00:15+00:00",
+  "generated": "2026-09-16T15:00:15+00:00",
   "window": {
     "first_day": "2026-09-15",
     "last_day": "2026-09-16",
     "days": 2
   },
   "totals": {
-    "attackers": 23,
-    "actions": 12180,
-    "gpu_probing": 5,
+    "attackers": 26,
+    "actions": 12357,
+    "gpu_probing": 6,
     "canary_hits": 1,
     "multi_sensor": 0,
     "stage2_hosts": 0
   },
   "by_protocol": {
-    "ssh": 21,
+    "ssh": 23,
+    "llamacpp": 2,
     "jupyter": 1,
-    "llamacpp": 1,
     "vllm": 1
   },
   "by_category": {
-    "ssh-bruteforce": 17,
-    "ssh-exploit": 4,
+    "ssh-bruteforce": 18,
+    "ssh-exploit": 5,
     "canary-aws-key": 3,
+    "llamacpp-abuse": 1,
     "jupyter-key-replay": 1
   },
   "top_usernames": [
@@ -32,7 +33,7 @@
     ],
     [
       "root",
-      7
+      9
     ],
     [
       "administrator",
@@ -90,14 +91,18 @@
   "top_passwords": [
     [
       "123456",
-      8
+      9
     ],
     [
       "1234",
-      6
+      7
     ],
     [
       "12345678",
+      7
+    ],
+    [
+      "12345",
       6
     ],
     [
@@ -109,8 +114,12 @@
       6
     ],
     [
-      "12345",
-      5
+      "123",
+      6
+    ],
+    [
+      "123456789",
+      6
     ],
     [
       "!QAZ2wsx",
@@ -129,10 +138,6 @@
       5
     ],
     [
-      "123",
-      5
-    ],
-    [
       "admin",
       4
     ],
@@ -143,16 +148,12 @@
     [
       "!@",
       4
-    ],
-    [
-      "!Q2w3e4r",
-      4
     ]
   ],
   "top_commands": [
     [
       "uname",
-      8
+      9
     ],
     [
       "uptime",
@@ -160,7 +161,7 @@
     ],
     [
       "export",
-      3
+      4
     ],
     [
       "/bin/./uname",
@@ -173,6 +174,10 @@
     [
       "nvidia-smi",
       2
+    ],
+    [
+      "canary_env",
+      1
     ]
   ]
 }
