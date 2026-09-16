@@ -4,6 +4,16 @@ A small, free feed of **IP addresses caught attacking honeypot sensors**. Every 
 here took a hostile action against a decoy that hosts nothing legitimate, so there is no
 reason for a real user to touch it. Updated continuously from first-party observation.
 
+[![indicators](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FZikmadol%2Ftrapline-ioc%2Fmain%2Fmanifest.json&query=%24.count&label=indicators&color=e4572e&style=flat-square)](ips.txt)
+[![attackers](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FZikmadol%2Ftrapline-ioc%2Fmain%2Fstats.json&query=%24.totals.attackers&label=attackers%20%28recent%29&color=ff5277&style=flat-square)](STATS.md)
+[![GPU-probing](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FZikmadol%2Ftrapline-ioc%2Fmain%2Fstats.json&query=%24.totals.gpu_probing&label=GPU-probing&color=41c9e8&style=flat-square)](STATS.md)
+[![updated](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FZikmadol%2Ftrapline-ioc%2Fmain%2Fmanifest.json&query=%24.last_day&label=updated&color=5ce6ad&style=flat-square)](daily)
+[![license](https://img.shields.io/badge/license-CC%20BY%204.0-5ce6ad?style=flat-square)](LICENSE)
+
+![Daily attacker activity](activity.svg)
+
+![What attackers came for, by day](landscape.svg)
+
 No aggregation of other people's lists, no scraped blocklists. These are IPs our own
 sensors and canaries confirmed, first-hand.
 
@@ -45,6 +55,17 @@ brute-forced an SSH decoy, drove a fake AI endpoint, or used a leaked canary key
 misconfigured CDN — it chose to attack something with no legitimate purpose.
 
 ## How it's collected
+
+```mermaid
+flowchart LR
+  A["Attacker"] -->|"SSH · Redis · AI APIs"| B["Honeypot decoys<br/>(grant nothing)"]
+  B -->|"leaked fake .env"| C{"Canary credential"}
+  C -->|"key used elsewhere"| D["Attacker's real IP"]
+  B --> E["Sanitise<br/>+ suppress own infra"]
+  D --> E
+  E --> F["Public feed<br/>ips.txt · daily/ · STATS.md"]
+```
+
 
 The sensors are ordinary-looking servers that exist only to be attacked: an SSH endpoint,
 Redis, and a set of exposed-AI decoys (Ollama, llama.cpp, vLLM, Jupyter, Ray). They grant
