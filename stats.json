@@ -1,25 +1,28 @@
 {
-  "generated": "2026-09-16T12:00:15+00:00",
+  "generated": "2026-09-16T13:00:15+00:00",
   "window": {
     "first_day": "2026-09-15",
     "last_day": "2026-09-16",
     "days": 2
   },
   "totals": {
-    "attackers": 20,
-    "actions": 11843,
-    "gpu_probing": 4,
+    "attackers": 23,
+    "actions": 12102,
+    "gpu_probing": 5,
     "canary_hits": 1,
     "multi_sensor": 0,
     "stage2_hosts": 0
   },
   "by_protocol": {
-    "ssh": 19
+    "ssh": 21,
+    "jupyter": 1,
+    "vllm": 1
   },
   "by_category": {
-    "ssh-bruteforce": 16,
+    "ssh-bruteforce": 18,
     "ssh-exploit": 3,
-    "canary-aws-key": 3
+    "canary-aws-key": 3,
+    "jupyter-key-replay": 1
   },
   "top_usernames": [
     [
@@ -47,15 +50,19 @@
       5
     ],
     [
+      "admin123",
+      5
+    ],
+    [
+      "admin2",
+      5
+    ],
+    [
       "adminuser",
       5
     ],
     [
       "ai",
-      5
-    ],
-    [
-      "airflow",
       5
     ],
     [
@@ -77,16 +84,16 @@
     [
       "actian",
       4
-    ],
-    [
-      "adm1n",
-      4
     ]
   ],
   "top_passwords": [
     [
       "123456",
-      7
+      8
+    ],
+    [
+      "1234",
+      6
     ],
     [
       "0",
@@ -109,11 +116,11 @@
       5
     ],
     [
-      "051178",
+      "00000000",
       5
     ],
     [
-      "123",
+      "051178",
       5
     ],
     [
@@ -139,10 +146,6 @@
     [
       "!Q@W3e4r",
       4
-    ],
-    [
-      "!QAZ2wsx3edc",
-      4
     ]
   ],
   "top_commands": [
@@ -152,7 +155,7 @@
     ],
     [
       "uptime",
-      5
+      6
     ],
     [
       "export",
@@ -160,15 +163,15 @@
     ],
     [
       "/bin/./uname",
-      1
+      2
     ],
     [
       "lspci",
-      1
+      2
     ],
     [
       "nvidia-smi",
-      1
+      2
     ]
   ]
 }
