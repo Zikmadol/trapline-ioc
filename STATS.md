@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**29 attackers** · **12,783 hostile actions** · covering 2 day(s) through 2026-09-16
+**33 attackers** · **14,261 hostile actions** · covering 2 day(s) through 2026-09-16
 
 | signal | count |
 |---|---|
@@ -15,35 +15,37 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `ssh-bruteforce` | 19 |
+| `ssh-bruteforce` | 20 |
 | `ssh-exploit` | 7 |
 | `canary-aws-key` | 3 |
-| `llamacpp-abuse` | 1 |
+| `llamacpp-abuse` | 2 |
 | `jupyter-key-replay` | 1 |
+| `llamacpp-key-replay` | 1 |
+| `vllm-abuse` | 1 |
 
 ### By protocol
 
 | protocol | events |
 |---|---|
-| `ssh` | 26 |
-| `llamacpp` | 2 |
+| `ssh` | 27 |
+| `llamacpp` | 4 |
+| `vllm` | 2 |
 | `jupyter` | 1 |
-| `vllm` | 1 |
 
 ### Top usernames tried
 
 | username | tries |
 |---|---|
-| `admin` | 13 |
+| `admin` | 15 |
 | `root` | 11 |
-| `administrator` | 7 |
-| `admin1` | 6 |
-| `a` | 5 |
-| `aaa` | 5 |
-| `admin123` | 5 |
-| `admin2` | 5 |
-| `adminuser` | 5 |
-| `ai` | 5 |
+| `administrator` | 8 |
+| `admin1` | 7 |
+| `a` | 6 |
+| `aaa` | 6 |
+| `admin123` | 6 |
+| `admin2` | 6 |
+| `adminuser` | 6 |
+| `ai` | 6 |
 | `AdminGPON` | 4 |
 | `Asalem` | 4 |
 | `Caps` | 4 |
@@ -57,30 +59,32 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `123456` | 11 |
 | `1234` | 9 |
 | `12345678` | 9 |
+| `123` | 8 |
 | `12345` | 8 |
-| `123` | 7 |
-| `123456789` | 7 |
-| `0` | 6 |
-| `000000` | 6 |
-| `!QAZ2wsx` | 5 |
-| `0000` | 5 |
-| `00000000` | 5 |
-| `051178` | 5 |
-| `111111` | 5 |
+| `123456789` | 8 |
+| `0` | 7 |
+| `000000` | 7 |
+| `!QAZ2wsx` | 6 |
+| `0000` | 6 |
+| `00000000` | 6 |
+| `051178` | 6 |
+| `111111` | 6 |
+| `admin` | 5 |
 | `1234567` | 5 |
-| `1q2w3e4r` | 5 |
 
 ### Top commands run
 
 | command | times |
 |---|---|
-| `uname` | 9 |
+| `uname` | 10 |
 | `uptime` | 6 |
 | `export` | 6 |
+| `chat` | 2 |
 | `/bin/./uname` | 2 |
 | `lspci` | 2 |
 | `nvidia-smi` | 2 |
 | `canary_env` | 1 |
+| `completions` | 1 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._
