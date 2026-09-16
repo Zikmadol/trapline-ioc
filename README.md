@@ -28,6 +28,8 @@ dates you don't have yet:
 curl -s https://raw.githubusercontent.com/Zikmadol/trapline-ioc/main/daily/$(date -u +%F).txt
 ```
 
+Curious what the attackers actually do? [STATS.md](STATS.md) is a sanitised, aggregate view — top usernames and passwords tried, command families, and the GPU-hunting and canary signals — refreshed with the feed.
+
 ## What's in it
 
 | Field | Meaning |
