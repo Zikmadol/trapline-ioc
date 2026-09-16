@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**14 attackers** · **7,167 hostile actions** · covering 2 day(s) through 2026-09-16
+**14 attackers** · **8,141 hostile actions** · covering 2 day(s) through 2026-09-16
 
 | signal | count |
 |---|---|
@@ -15,8 +15,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `ssh-bruteforce` | 10 |
-| `ssh-exploit` | 3 |
+| `ssh-bruteforce` | 11 |
+| `ssh-exploit` | 2 |
 | `canary-aws-key` | 1 |
 
 ### By protocol
@@ -30,20 +30,20 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | username | tries |
 |---|---|
 | `admin` | 9 |
-| `root` | 5 |
+| `root` | 4 |
 | `administrator` | 4 |
+| `AdminGPON` | 3 |
 | `Asalem` | 3 |
 | `Caps` | 3 |
 | `a` | 3 |
 | `aaa` | 3 |
 | `abigail` | 3 |
+| `actian` | 3 |
+| `adm1n` | 3 |
 | `admin1` | 3 |
+| `admin123` | 3 |
 | `admin1234` | 3 |
 | `admin2` | 3 |
-| `admins` | 3 |
-| `adminuser` | 3 |
-| `agent` | 3 |
-| `ai` | 3 |
 
 ### Top passwords tried
 
@@ -54,16 +54,16 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `admin` | 4 |
 | `0` | 4 |
 | `000000` | 4 |
-| `111111` | 4 |
 | `!1@2` | 3 |
 | `!@` | 3 |
 | `!Q2w3e4r` | 3 |
 | `!Q@W3e4r` | 3 |
 | `!QAZ2wsx` | 3 |
 | `!QAZ2wsx3edc` | 3 |
+| `!qaz@WSX` | 3 |
+| `******` | 3 |
+| `.` | 3 |
 | `0000` | 3 |
-| `00000000` | 3 |
-| `00008888` | 3 |
 
 ### Top commands run
 
