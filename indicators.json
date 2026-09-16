@@ -1,9 +1,9 @@
 {
   "feed": "trapline-ioc",
-  "generated": "2026-09-16T09:00:15+00:00",
+  "generated": "2026-09-16T09:43:04+00:00",
   "count": 62,
   "days": {
-    "2026-09-16": 14,
+    "2026-09-16": 15,
     "2026-09-15": 22,
     "2026-09-14": 32,
     "2026-09-13": 1
@@ -11,6 +11,22 @@
   "license": "CC-BY-4.0",
   "description": "Attacker IPs confirmed by first-party honeypot and canary observation. Each IP took a hostile action against our decoys.",
   "indicators": [
+    {
+      "ip": "217.60.241.51",
+      "category": "canary-aws-key",
+      "categories": [
+        "canary-aws-key"
+      ],
+      "confidence": 98,
+      "first_seen": "2026-09-15",
+      "last_seen": "2026-09-16",
+      "tags": [
+        "canary",
+        "cloud-abuse",
+        "credential-abuse",
+        "honeypot"
+      ]
+    },
     {
       "ip": "219.144.80.143",
       "category": "ssh-bruteforce",
@@ -231,22 +247,6 @@
         "exploit",
         "honeypot",
         "ssh"
-      ]
-    },
-    {
-      "ip": "217.60.241.51",
-      "category": "canary-aws-key",
-      "categories": [
-        "canary-aws-key"
-      ],
-      "confidence": 98,
-      "first_seen": "2026-09-15",
-      "last_seen": "2026-09-15",
-      "tags": [
-        "canary",
-        "cloud-abuse",
-        "credential-abuse",
-        "honeypot"
       ]
     },
     {

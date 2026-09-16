@@ -46,9 +46,23 @@ Header row, then one row per IP:
 }
 ```
 
+## `feeds/` — AI-threat sub-feeds
+Focused, all-time cumulative views regenerated with every build. Same schema as the
+top-level files, filtered to the AI-targeting activity that is this feed's reason to exist.
+
+| File | Membership |
+|---|---|
+| `feeds/ai-infra.txt` / `.csv` | Attacked AI infrastructure: drove an exposed-AI decoy (Ollama/vLLM/llama.cpp/Jupyter/Ray), ran GPU/AI-hardware recon, or used a credential planted on an AI box. |
+| `feeds/gpu-probing.txt` | Ran GPU / AI-hardware reconnaissance (`nvidia-smi`, `lspci \| grep nvidia`). |
+| `feeds/llmjacking.txt` / `.csv` | Used a cloud credential planted in an AI server's `.env` — canary-confirmed (confidence 98). |
+
+The `.txt` files are one IP per line with `#` comment headers; the `.csv` files use the
+same columns as `indicators.csv`.
+
 ## `manifest.json`
-Build metadata only: `feed`, `generated`, `count`, `confidence_min`, `confidence_max`,
-`license`. Poll this to detect updates cheaply.
+Build metadata: `feed`, `generated`, `count`, `days`, `first_day`, `last_day`, `license`,
+plus a count for each sub-feed (`ai_infra`, `gpu_probing`, `llmjacking`) and a `subfeeds`
+object. Poll this to detect updates cheaply.
 
 ## Categories
 

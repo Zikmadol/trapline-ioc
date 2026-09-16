@@ -1,12 +1,18 @@
 # Trapline IOC feed
 
-A small, free feed of **IP addresses caught attacking honeypot sensors**. Every address
-here took a hostile action against a decoy that hosts nothing legitimate, so there is no
-reason for a real user to touch it. Updated continuously from first-party observation.
+Free, first-party threat intelligence from a honeypot sensor network — with a focus you
+won't find in a generic blocklist: **attacks against AI infrastructure.** Alongside the
+usual SSH and Redis brute-forcers, this feed tracks the IPs probing exposed
+Ollama / vLLM / llama.cpp / Jupyter / Ray servers, hunting for GPUs, and — caught by
+planted canary credentials — the ones stealing and reusing keys harvested from AI boxes
+(LLMjacking). Every address took a hostile action against a decoy that hosts nothing
+legitimate, so there is no reason for a real user to touch it. Updated hourly from live
+capture.
 
 [![indicators](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FZikmadol%2Ftrapline-ioc%2Fmain%2Fmanifest.json&query=%24.count&label=indicators&color=e4572e&style=flat-square)](ips.txt)
-[![attackers](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FZikmadol%2Ftrapline-ioc%2Fmain%2Fstats.json&query=%24.totals.attackers&label=attackers%20%28recent%29&color=ff5277&style=flat-square)](STATS.md)
-[![GPU-probing](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FZikmadol%2Ftrapline-ioc%2Fmain%2Fstats.json&query=%24.totals.gpu_probing&label=GPU-probing&color=41c9e8&style=flat-square)](STATS.md)
+[![AI-infra attackers](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FZikmadol%2Ftrapline-ioc%2Fmain%2Fmanifest.json&query=%24.ai_infra&label=AI-infra%20attackers&color=8b5cf6&style=flat-square)](feeds/ai-infra.txt)
+[![GPU-probing](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FZikmadol%2Ftrapline-ioc%2Fmain%2Fmanifest.json&query=%24.gpu_probing&label=GPU-probing&color=41c9e8&style=flat-square)](feeds/gpu-probing.txt)
+[![LLMjacking](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FZikmadol%2Ftrapline-ioc%2Fmain%2Fmanifest.json&query=%24.llmjacking&label=LLMjacking&color=ff5277&style=flat-square)](feeds/llmjacking.txt)
 [![updated](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FZikmadol%2Ftrapline-ioc%2Fmain%2Fmanifest.json&query=%24.last_day&label=updated&color=5ce6ad&style=flat-square)](daily)
 [![license](https://img.shields.io/badge/license-CC%20BY%204.0-5ce6ad?style=flat-square)](LICENSE)
 
@@ -16,6 +22,27 @@ reason for a real user to touch it. Updated continuously from first-party observ
 
 No aggregation of other people's lists, no scraped blocklists. These are IPs our own
 sensors and canaries confirmed, first-hand.
+
+## AI-infrastructure threat feeds
+
+The reason this project exists. Most blocklists lump every attacker together; these three
+carve out the AI-targeting activity our decoys and canaries catch first-hand. Each is a
+plain one-IP-per-line list (with a `.csv` where noted), all-time cumulative, regenerated
+hourly under [`feeds/`](feeds).
+
+| Feed | What's in it | Context |
+|---|---|---|
+| [`feeds/ai-infra.txt`](feeds/ai-infra.txt) | Every IP that attacked AI infrastructure — drove an exposed-AI decoy, ran GPU/AI-hardware recon, or used a credential planted on an AI box. | [`.csv`](feeds/ai-infra.csv) |
+| [`feeds/gpu-probing.txt`](feeds/gpu-probing.txt) | IPs running GPU/AI-hardware reconnaissance (`nvidia-smi`, `lspci \| grep nvidia`) — hunting for compute, not generic servers. | — |
+| [`feeds/llmjacking.txt`](feeds/llmjacking.txt) | **LLMjacking**: IPs that *used* a cloud key we planted in an AI server's `.env`. Canary-confirmed, zero ambiguity (confidence 98). | [`.csv`](feeds/llmjacking.csv) |
+
+```
+curl -s https://raw.githubusercontent.com/Zikmadol/trapline-ioc/main/feeds/ai-infra.txt
+```
+
+Read [the LLMjacking writeup](reports/llmjacking-canary.md) for how a planted canary caught
+an attacker our sensors never even saw — the key was stolen from one host and used from
+another minutes later.
 
 ## Use it
 
@@ -63,7 +90,7 @@ flowchart LR
   C -->|"key used elsewhere"| D["Attacker's real IP"]
   B --> E["Sanitise<br/>+ suppress own infra"]
   D --> E
-  E --> F["Public feed<br/>ips.txt · daily/ · STATS.md"]
+  E --> F["Public feed<br/>ips.txt · daily/ · feeds/ai-infra · feeds/llmjacking"]
 ```
 
 
