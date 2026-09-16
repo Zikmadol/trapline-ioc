@@ -36,7 +36,7 @@ curl -s https://raw.githubusercontent.com/Zikmadol/trapline-ioc/main/daily/$(dat
 | `category` | What it did, e.g. `ssh-bruteforce`, `ollama-abuse`, `canary-aws-key`, `payload-host`. |
 | `confidence` | 90 = direct observation on our decoys. 98 = used a credential we planted (unambiguous). |
 | `first_seen` / `last_seen` | UTC dates we observed it. |
-| `tags` | Coarse labels: protocol, `bruteforce`/`exploit`/`abuse`, `canary`, `cloud-abuse`, `stage2`. |
+| `tags` | Coarse labels: protocol, `bruteforce`/`exploit`/`abuse`, `key-replay`, `canary`, `cloud-abuse`, `gpu-probing`, `stage2`. |
 
 Confidence is deliberately high because there are no bystanders here. An IP that
 brute-forced an SSH decoy, drove a fake AI endpoint, or used a leaked canary key is not a

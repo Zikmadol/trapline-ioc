@@ -60,3 +60,5 @@ Build metadata only: `feed`, `generated`, `count`, `confidence_min`, `confidence
 | `jupyter-*` / `ray-*` | Hit the Jupyter or Ray decoy's execution surface. |
 | `canary-aws-key` | Used a planted AWS credential (highest confidence). |
 | `payload-host` | A stage-2 host named inside a captured attack payload. |
+
+Notable tags: **`gpu-probing`** — the source ran GPU / AI-hardware reconnaissance (e.g. `lspci | grep nvidia`, `nvidia-smi`), hunting for AI infrastructure. **`canary`** — used one of our planted canary credentials.
