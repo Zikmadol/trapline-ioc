@@ -2,87 +2,97 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**38 attackers** · **15,692 hostile actions** · covering 3 day(s) through 2026-09-17
+**101 attackers** · **39,890 hostile actions** · covering 5 day(s) through 2026-09-17
 
 | signal | count |
 |---|---|
-| GPU / AI-hardware probing | 10 |
+| GPU / AI-hardware probing | 15 |
 | Used a planted canary credential | 1 |
 | Seen on more than one sensor | 0 |
-| Stage-2 hosts named in payloads | 0 |
+| Stage-2 hosts named in payloads | 1 |
 
 ### By category
 
 | category | IPs |
 |---|---|
-| `ssh-bruteforce` | 23 |
-| `ssh-exploit` | 9 |
+| `ssh-bruteforce` | 73 |
+| `ssh-exploit` | 16 |
+| `llamacpp-abuse` | 4 |
 | `canary-aws-key` | 3 |
-| `llamacpp-abuse` | 2 |
-| `llamacpp-key-replay` | 2 |
-| `vllm-abuse` | 1 |
+| `vllm-abuse` | 2 |
+| `jupyter-abuse` | 1 |
+| `jupyter-key-replay` | 1 |
+| `llamacpp-key-replay` | 1 |
+| `vllm-bruteforce` | 1 |
 
 ### By protocol
 
 | protocol | events |
 |---|---|
-| `ssh` | 32 |
-| `llamacpp` | 4 |
-| `vllm` | 3 |
+| `ssh` | 89 |
+| `llamacpp` | 6 |
+| `vllm` | 5 |
+| `jupyter` | 2 |
 
 ### Top usernames tried
 
 | username | tries |
 |---|---|
-| `admin` | 17 |
-| `root` | 12 |
-| `administrator` | 10 |
-| `admin1` | 8 |
-| `aaa` | 7 |
-| `admin123` | 7 |
-| `admin2` | 7 |
-| `ai` | 7 |
-| `a` | 6 |
-| `adminuser` | 6 |
-| `AdminGPON` | 5 |
-| `abigail` | 5 |
-| `adm1n` | 5 |
-| `admin1234` | 5 |
-| `airflow` | 5 |
+| `root` | 50 |
+| `admin` | 40 |
+| `administrator` | 19 |
+| `admin1` | 16 |
+| `AdminGPON` | 14 |
+| `a` | 14 |
+| `aaa` | 14 |
+| `admin123` | 14 |
+| `admin2` | 14 |
+| `adminuser` | 14 |
+| `ai` | 14 |
+| `Asalem` | 12 |
+| `Caps` | 12 |
+| `abigail` | 12 |
+| `adm1n` | 12 |
 
 ### Top passwords tried
 
 | password | tries |
 |---|---|
-| `123456` | 12 |
-| `1234` | 10 |
-| `12345678` | 10 |
-| `123` | 9 |
-| `12345` | 8 |
-| `admin` | 8 |
-| `0` | 8 |
-| `123456789` | 8 |
-| `!QAZ2wsx` | 7 |
-| `0000` | 7 |
-| `000000` | 7 |
-| `00000000` | 7 |
-| `111111` | 7 |
-| `051178` | 6 |
-| `!@` | 5 |
+| `123456` | 25 |
+| `12345678` | 21 |
+| `admin` | 21 |
+| `1234` | 19 |
+| `000000` | 19 |
+| `123456789` | 17 |
+| `12345` | 16 |
+| `!QAZ2wsx` | 15 |
+| `0` | 15 |
+| `0000` | 15 |
+| `123` | 14 |
+| `00000000` | 14 |
+| `051178` | 14 |
+| `111111` | 13 |
+| `123123` | 13 |
 
 ### Top commands run
 
 | command | times |
 |---|---|
-| `uname` | 11 |
-| `export` | 8 |
-| `uptime` | 7 |
+| `uname` | 22 |
+| `uptime` | 14 |
+| `export` | 13 |
+| `canary_env` | 5 |
+| `echo` | 4 |
 | `chat` | 2 |
 | `/bin/./uname` | 2 |
 | `lspci` | 2 |
 | `nvidia-smi` | 2 |
-| `canary_env` | 1 |
+| `#!/bin/sh` | 2 |
+| `ls` | 2 |
 | `completions` | 1 |
+| `.` | 1 |
+| `ps` | 1 |
+| `id` | 1 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._

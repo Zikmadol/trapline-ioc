@@ -1,167 +1,179 @@
 {
-  "generated": "2026-09-17T21:00:34+00:00",
+  "generated": "2026-09-17T22:00:32+00:00",
   "window": {
-    "first_day": "2026-09-15",
+    "first_day": "2026-09-13",
     "last_day": "2026-09-17",
-    "days": 3
+    "days": 5
   },
   "totals": {
-    "attackers": 38,
-    "actions": 15692,
-    "gpu_probing": 10,
+    "attackers": 101,
+    "actions": 39890,
+    "gpu_probing": 15,
     "canary_hits": 1,
     "multi_sensor": 0,
-    "stage2_hosts": 0
+    "stage2_hosts": 1
   },
   "by_protocol": {
-    "ssh": 32,
-    "llamacpp": 4,
-    "vllm": 3
+    "ssh": 89,
+    "llamacpp": 6,
+    "vllm": 5,
+    "jupyter": 2
   },
   "by_category": {
-    "ssh-bruteforce": 23,
-    "ssh-exploit": 9,
+    "ssh-bruteforce": 73,
+    "ssh-exploit": 16,
+    "llamacpp-abuse": 4,
     "canary-aws-key": 3,
-    "llamacpp-abuse": 2,
-    "llamacpp-key-replay": 2,
-    "vllm-abuse": 1
+    "vllm-abuse": 2,
+    "jupyter-abuse": 1,
+    "jupyter-key-replay": 1,
+    "llamacpp-key-replay": 1,
+    "vllm-bruteforce": 1
   },
   "top_usernames": [
     [
-      "admin",
-      17
+      "root",
+      50
     ],
     [
-      "root",
-      12
+      "admin",
+      40
     ],
     [
       "administrator",
-      10
+      19
     ],
     [
       "admin1",
-      8
-    ],
-    [
-      "aaa",
-      7
-    ],
-    [
-      "admin123",
-      7
-    ],
-    [
-      "admin2",
-      7
-    ],
-    [
-      "ai",
-      7
-    ],
-    [
-      "a",
-      6
-    ],
-    [
-      "adminuser",
-      6
+      16
     ],
     [
       "AdminGPON",
-      5
+      14
+    ],
+    [
+      "a",
+      14
+    ],
+    [
+      "aaa",
+      14
+    ],
+    [
+      "admin123",
+      14
+    ],
+    [
+      "admin2",
+      14
+    ],
+    [
+      "adminuser",
+      14
+    ],
+    [
+      "ai",
+      14
+    ],
+    [
+      "Asalem",
+      12
+    ],
+    [
+      "Caps",
+      12
     ],
     [
       "abigail",
-      5
+      12
     ],
     [
       "adm1n",
-      5
-    ],
-    [
-      "admin1234",
-      5
-    ],
-    [
-      "airflow",
-      5
+      12
     ]
   ],
   "top_passwords": [
     [
       "123456",
-      12
-    ],
-    [
-      "1234",
-      10
+      25
     ],
     [
       "12345678",
-      10
-    ],
-    [
-      "123",
-      9
-    ],
-    [
-      "12345",
-      8
+      21
     ],
     [
       "admin",
-      8
+      21
     ],
     [
-      "0",
-      8
-    ],
-    [
-      "123456789",
-      8
-    ],
-    [
-      "!QAZ2wsx",
-      7
-    ],
-    [
-      "0000",
-      7
+      "1234",
+      19
     ],
     [
       "000000",
-      7
+      19
+    ],
+    [
+      "123456789",
+      17
+    ],
+    [
+      "12345",
+      16
+    ],
+    [
+      "!QAZ2wsx",
+      15
+    ],
+    [
+      "0",
+      15
+    ],
+    [
+      "0000",
+      15
+    ],
+    [
+      "123",
+      14
     ],
     [
       "00000000",
-      7
-    ],
-    [
-      "111111",
-      7
+      14
     ],
     [
       "051178",
-      6
+      14
     ],
     [
-      "!@",
-      5
+      "111111",
+      13
+    ],
+    [
+      "123123",
+      13
     ]
   ],
   "top_commands": [
     [
       "uname",
-      11
-    ],
-    [
-      "export",
-      8
+      22
     ],
     [
       "uptime",
-      7
+      14
+    ],
+    [
+      "export",
+      13
+    ],
+    [
+      "canary_env",
+      5
+    ],
+    [
+      "echo",
+      4
     ],
     [
       "chat",
@@ -180,11 +192,27 @@
       2
     ],
     [
-      "canary_env",
-      1
+      "#!/bin/sh",
+      2
+    ],
+    [
+      "ls",
+      2
     ],
     [
       "completions",
+      1
+    ],
+    [
+      ".",
+      1
+    ],
+    [
+      "ps",
+      1
+    ],
+    [
+      "id",
       1
     ]
   ]
