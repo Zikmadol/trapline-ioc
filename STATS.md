@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**101 attackers** · **39,890 hostile actions** · covering 5 day(s) through 2026-09-17
+**103 attackers** · **40,005 hostile actions** · covering 5 day(s) through 2026-09-17
 
 | signal | count |
 |---|---|
@@ -15,7 +15,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `ssh-bruteforce` | 73 |
+| `ssh-bruteforce` | 75 |
 | `ssh-exploit` | 16 |
 | `llamacpp-abuse` | 4 |
 | `canary-aws-key` | 3 |
@@ -29,7 +29,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 89 |
+| `ssh` | 91 |
 | `llamacpp` | 6 |
 | `vllm` | 5 |
 | `jupyter` | 2 |
@@ -39,7 +39,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | username | tries |
 |---|---|
 | `root` | 50 |
-| `admin` | 40 |
+| `admin` | 42 |
 | `administrator` | 19 |
 | `admin1` | 16 |
 | `AdminGPON` | 14 |
@@ -52,15 +52,15 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `Asalem` | 12 |
 | `Caps` | 12 |
 | `abigail` | 12 |
-| `adm1n` | 12 |
+| `actian` | 12 |
 
 ### Top passwords tried
 
 | password | tries |
 |---|---|
 | `123456` | 25 |
+| `admin` | 23 |
 | `12345678` | 21 |
-| `admin` | 21 |
 | `1234` | 19 |
 | `000000` | 19 |
 | `123456789` | 17 |
