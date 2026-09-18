@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**136 attackers** · **40,876 hostile actions** · covering 6 day(s) through 2026-09-18
+**139 attackers** · **41,132 hostile actions** · covering 6 day(s) through 2026-09-18
 
 | signal | count |
 |---|---|
@@ -15,12 +15,12 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `ssh-bruteforce` | 101 |
+| `ssh-bruteforce` | 103 |
 | `ssh-exploit` | 19 |
 | `llamacpp-abuse` | 4 |
 | `canary-aws-key` | 3 |
+| `mcp-abuse` | 2 |
 | `vllm-abuse` | 2 |
-| `mcp-abuse` | 1 |
 | `jupyter-abuse` | 1 |
 | `jupyter-key-replay` | 1 |
 | `llamacpp-key-replay` | 1 |
@@ -31,19 +31,19 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 120 |
+| `ssh` | 122 |
 | `llamacpp` | 6 |
 | `vllm` | 5 |
+| `mcp` | 2 |
 | `jupyter` | 2 |
-| `mcp` | 1 |
 | `ollama` | 1 |
 
 ### Top usernames tried
 
 | username | tries |
 |---|---|
-| `root` | 57 |
-| `admin` | 53 |
+| `root` | 58 |
+| `admin` | 55 |
 | `administrator` | 19 |
 | `admin1` | 16 |
 | `AdminGPON` | 14 |
@@ -62,8 +62,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | password | tries |
 |---|---|
-| `admin` | 27 |
-| `123456` | 26 |
+| `admin` | 28 |
+| `123456` | 27 |
 | `12345678` | 22 |
 | `1234` | 21 |
 | `000000` | 21 |
@@ -85,7 +85,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `uname` | 26 |
 | `uptime` | 15 |
 | `export` | 14 |
-| `canary_env` | 6 |
+| `canary_env` | 7 |
 | `echo` | 4 |
 | `nvidia-smi` | 3 |
 | `chat` | 2 |
