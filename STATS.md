@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**160 attackers** · **43,141 hostile actions** · covering 6 day(s) through 2026-09-18
+**161 attackers** · **43,155 hostile actions** · covering 6 day(s) through 2026-09-18
 
 | signal | count |
 |---|---|
@@ -17,7 +17,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `ssh-bruteforce` | 110 |
 | `ssh-exploit` | 20 |
-| `mcp-abuse` | 14 |
+| `mcp-abuse` | 15 |
 | `llamacpp-abuse` | 5 |
 | `canary-aws-key` | 3 |
 | `vllm-abuse` | 2 |
@@ -32,7 +32,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | protocol | events |
 |---|---|
 | `ssh` | 130 |
-| `mcp` | 14 |
+| `mcp` | 15 |
 | `llamacpp` | 7 |
 | `vllm` | 5 |
 | `jupyter` | 2 |
@@ -83,7 +83,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | command | times |
 |---|---|
 | `uname` | 29 |
-| `canary_env` | 19 |
+| `canary_env` | 20 |
 | `uptime` | 15 |
 | `export` | 14 |
 | `nvidia-smi` | 4 |
