@@ -1,33 +1,37 @@
 {
-  "generated": "2026-09-18T08:00:21+00:00",
+  "generated": "2026-09-18T09:00:29+00:00",
   "window": {
     "first_day": "2026-09-13",
     "last_day": "2026-09-18",
     "days": 6
   },
   "totals": {
-    "attackers": 128,
-    "actions": 40573,
+    "attackers": 133,
+    "actions": 40675,
     "gpu_probing": 17,
     "canary_hits": 1,
     "multi_sensor": 0,
     "stage2_hosts": 3
   },
   "by_protocol": {
-    "ssh": 114,
+    "ssh": 117,
     "llamacpp": 6,
     "vllm": 5,
-    "jupyter": 2
+    "jupyter": 2,
+    "mcp": 1,
+    "ollama": 1
   },
   "by_category": {
-    "ssh-bruteforce": 95,
+    "ssh-bruteforce": 98,
     "ssh-exploit": 19,
     "llamacpp-abuse": 4,
     "canary-aws-key": 3,
     "vllm-abuse": 2,
+    "mcp-abuse": 1,
     "jupyter-abuse": 1,
     "jupyter-key-replay": 1,
     "llamacpp-key-replay": 1,
+    "ollama-abuse": 1,
     "vllm-bruteforce": 1
   },
   "top_usernames": [
@@ -37,7 +41,7 @@
     ],
     [
       "admin",
-      49
+      51
     ],
     [
       "administrator",
@@ -94,11 +98,11 @@
   ],
   "top_passwords": [
     [
-      "123456",
-      26
+      "admin",
+      27
     ],
     [
-      "admin",
+      "123456",
       26
     ],
     [
@@ -169,7 +173,7 @@
     ],
     [
       "canary_env",
-      5
+      6
     ],
     [
       "echo",
@@ -200,6 +204,10 @@
       2
     ],
     [
+      "generate",
+      1
+    ],
+    [
       "completions",
       1
     ],
@@ -209,10 +217,6 @@
     ],
     [
       "ps",
-      1
-    ],
-    [
-      "id",
       1
     ]
   ]
