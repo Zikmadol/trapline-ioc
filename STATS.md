@@ -2,21 +2,21 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**116 attackers** · **40,391 hostile actions** · covering 6 day(s) through 2026-09-18
+**121 attackers** · **40,503 hostile actions** · covering 6 day(s) through 2026-09-18
 
 | signal | count |
 |---|---|
-| GPU / AI-hardware probing | 16 |
+| GPU / AI-hardware probing | 17 |
 | Used a planted canary credential | 1 |
 | Seen on more than one sensor | 0 |
-| Stage-2 hosts named in payloads | 1 |
+| Stage-2 hosts named in payloads | 2 |
 
 ### By category
 
 | category | IPs |
 |---|---|
-| `ssh-bruteforce` | 87 |
-| `ssh-exploit` | 17 |
+| `ssh-bruteforce` | 90 |
+| `ssh-exploit` | 18 |
 | `llamacpp-abuse` | 4 |
 | `canary-aws-key` | 3 |
 | `vllm-abuse` | 2 |
@@ -29,7 +29,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 104 |
+| `ssh` | 108 |
 | `llamacpp` | 6 |
 | `vllm` | 5 |
 | `jupyter` | 2 |
@@ -38,8 +38,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 53 |
-| `admin` | 45 |
+| `root` | 55 |
+| `admin` | 46 |
 | `administrator` | 19 |
 | `admin1` | 16 |
 | `AdminGPON` | 14 |
@@ -63,9 +63,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `12345678` | 22 |
 | `000000` | 21 |
 | `1234` | 20 |
-| `123456789` | 18 |
+| `123456789` | 19 |
 | `12345` | 17 |
-| `123` | 15 |
+| `123` | 16 |
 | `!QAZ2wsx` | 15 |
 | `0` | 15 |
 | `0000` | 15 |
@@ -78,15 +78,15 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | command | times |
 |---|---|
-| `uname` | 22 |
-| `uptime` | 14 |
+| `uname` | 24 |
+| `uptime` | 15 |
 | `export` | 14 |
 | `canary_env` | 5 |
 | `echo` | 4 |
+| `nvidia-smi` | 3 |
 | `chat` | 2 |
 | `/bin/./uname` | 2 |
 | `lspci` | 2 |
-| `nvidia-smi` | 2 |
 | `#!/bin/sh` | 2 |
 | `ls` | 2 |
 | `completions` | 1 |
