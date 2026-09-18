@@ -1,29 +1,32 @@
 {
-  "generated": "2026-09-18T22:00:23+00:00",
+  "generated": "2026-09-18T23:00:22+00:00",
   "window": {
     "first_day": "2026-09-13",
     "last_day": "2026-09-18",
     "days": 6
   },
   "totals": {
-    "attackers": 161,
-    "actions": 43155,
+    "attackers": 183,
+    "actions": 43400,
     "gpu_probing": 18,
     "canary_hits": 1,
     "multi_sensor": 0,
-    "stage2_hosts": 3
+    "stage2_hosts": 7
   },
   "by_protocol": {
     "ssh": 130,
+    "redis": 18,
     "mcp": 15,
-    "llamacpp": 7,
+    "llamacpp": 10,
     "vllm": 5,
-    "jupyter": 2,
+    "jupyter": 3,
+    "litellm": 1,
     "ollama": 1
   },
   "by_category": {
     "ssh-bruteforce": 110,
     "ssh-exploit": 20,
+    "redis-exploit": 18,
     "mcp-abuse": 15,
     "llamacpp-abuse": 5,
     "canary-aws-key": 3,
@@ -168,12 +171,36 @@
       20
     ],
     [
+      "INFO",
+      15
+    ],
+    [
       "uptime",
       15
     ],
     [
       "export",
       14
+    ],
+    [
+      "COMMAND",
+      9
+    ],
+    [
+      "CONFIG",
+      9
+    ],
+    [
+      "FLUSHALL",
+      8
+    ],
+    [
+      "SAVE",
+      8
+    ],
+    [
+      "SET",
+      8
     ],
     [
       "nvidia-smi",
@@ -184,40 +211,16 @@
       4
     ],
     [
+      "PING",
+      3
+    ],
+    [
       "chat",
       3
     ],
     [
       "lspci",
       3
-    ],
-    [
-      "/bin/./uname",
-      2
-    ],
-    [
-      "#!/bin/sh",
-      2
-    ],
-    [
-      "ls",
-      2
-    ],
-    [
-      "nproc",
-      2
-    ],
-    [
-      "generate",
-      1
-    ],
-    [
-      "completions",
-      1
-    ],
-    [
-      ".",
-      1
     ]
   ]
 }

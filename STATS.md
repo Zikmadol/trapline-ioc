@@ -2,14 +2,14 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**161 attackers** · **43,155 hostile actions** · covering 6 day(s) through 2026-09-18
+**183 attackers** · **43,400 hostile actions** · covering 6 day(s) through 2026-09-18
 
 | signal | count |
 |---|---|
 | GPU / AI-hardware probing | 18 |
 | Used a planted canary credential | 1 |
 | Seen on more than one sensor | 0 |
-| Stage-2 hosts named in payloads | 3 |
+| Stage-2 hosts named in payloads | 7 |
 
 ### By category
 
@@ -17,6 +17,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `ssh-bruteforce` | 110 |
 | `ssh-exploit` | 20 |
+| `redis-exploit` | 18 |
 | `mcp-abuse` | 15 |
 | `llamacpp-abuse` | 5 |
 | `canary-aws-key` | 3 |
@@ -32,10 +33,12 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | protocol | events |
 |---|---|
 | `ssh` | 130 |
+| `redis` | 18 |
 | `mcp` | 15 |
-| `llamacpp` | 7 |
+| `llamacpp` | 10 |
 | `vllm` | 5 |
-| `jupyter` | 2 |
+| `jupyter` | 3 |
+| `litellm` | 1 |
 | `ollama` | 1 |
 
 ### Top usernames tried
@@ -84,19 +87,19 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `uname` | 29 |
 | `canary_env` | 20 |
+| `INFO` | 15 |
 | `uptime` | 15 |
 | `export` | 14 |
+| `COMMAND` | 9 |
+| `CONFIG` | 9 |
+| `FLUSHALL` | 8 |
+| `SAVE` | 8 |
+| `SET` | 8 |
 | `nvidia-smi` | 4 |
 | `echo` | 4 |
+| `PING` | 3 |
 | `chat` | 3 |
 | `lspci` | 3 |
-| `/bin/./uname` | 2 |
-| `#!/bin/sh` | 2 |
-| `ls` | 2 |
-| `nproc` | 2 |
-| `generate` | 1 |
-| `completions` | 1 |
-| `.` | 1 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._
