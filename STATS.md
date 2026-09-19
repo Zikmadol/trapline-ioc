@@ -2,21 +2,21 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**218 attackers** · **57,748 hostile actions** · covering 7 day(s) through 2026-09-19
+**221 attackers** · **57,772 hostile actions** · covering 7 day(s) through 2026-09-19
 
 | signal | count |
 |---|---|
 | GPU / AI-hardware probing | 20 |
 | Used a planted canary credential | 1 |
 | Seen on more than one sensor | 1 |
-| Stage-2 hosts named in payloads | 10 |
+| Stage-2 hosts named in payloads | 11 |
 
 ### By category
 
 | category | IPs |
 |---|---|
 | `ssh-bruteforce` | 115 |
-| `redis-exploit` | 34 |
+| `redis-exploit` | 36 |
 | `mcp-abuse` | 22 |
 | `ssh-exploit` | 22 |
 | `llamacpp-abuse` | 5 |
@@ -33,15 +33,15 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | protocol | events |
 |---|---|
 | `ssh` | 137 |
-| `redis` | 34 |
+| `redis` | 36 |
 | `mcp` | 24 |
 | `llamacpp` | 11 |
 | `vllm` | 7 |
 | `jupyter` | 5 |
 | `litellm` | 3 |
+| `ray` | 2 |
 | `docker` | 2 |
 | `hfhub` | 1 |
-| `ray` | 1 |
 | `ollama` | 1 |
 
 ### Top usernames tried
@@ -101,8 +101,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `PING` | 7 |
 | `nvidia-smi` | 6 |
 | `echo` | 6 |
+| `GET` | 5 |
 | `lspci` | 5 |
-| `chat` | 4 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._
