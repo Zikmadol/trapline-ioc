@@ -1,52 +1,53 @@
 {
-  "generated": "2026-09-19T07:16:41+00:00",
+  "generated": "2026-09-19T12:07:56+00:00",
   "window": {
     "first_day": "2026-09-13",
     "last_day": "2026-09-19",
     "days": 7
   },
   "totals": {
-    "attackers": 195,
-    "actions": 56785,
+    "attackers": 218,
+    "actions": 57748,
     "gpu_probing": 20,
     "canary_hits": 1,
-    "multi_sensor": 0,
-    "stage2_hosts": 8
+    "multi_sensor": 1,
+    "stage2_hosts": 10
   },
   "by_protocol": {
-    "ssh": 133,
-    "redis": 24,
-    "mcp": 17,
-    "llamacpp": 10,
-    "vllm": 6,
-    "jupyter": 4,
-    "litellm": 2,
+    "ssh": 137,
+    "redis": 34,
+    "mcp": 24,
+    "llamacpp": 11,
+    "vllm": 7,
+    "jupyter": 5,
+    "litellm": 3,
+    "docker": 2,
+    "hfhub": 1,
     "ray": 1,
-    "ollama": 1,
-    "docker": 1
+    "ollama": 1
   },
   "by_category": {
-    "ssh-bruteforce": 111,
-    "redis-exploit": 24,
+    "ssh-bruteforce": 115,
+    "redis-exploit": 34,
+    "mcp-abuse": 22,
     "ssh-exploit": 22,
-    "mcp-abuse": 16,
     "llamacpp-abuse": 5,
     "canary-aws-key": 3,
+    "llamacpp-key-replay": 2,
     "vllm-abuse": 2,
     "jupyter-abuse": 1,
     "jupyter-key-replay": 1,
-    "llamacpp-key-replay": 1,
     "ollama-abuse": 1,
     "vllm-bruteforce": 1
   },
   "top_usernames": [
     [
       "admin",
-      62
+      63
     ],
     [
       "root",
-      60
+      61
     ],
     [
       "administrator",
@@ -103,12 +104,12 @@
   ],
   "top_passwords": [
     [
-      "123456",
-      28
+      "admin",
+      29
     ],
     [
-      "admin",
-      27
+      "123456",
+      28
     ],
     [
       "123456789",
@@ -170,43 +171,43 @@
     ],
     [
       "canary_env",
-      21
+      27
     ],
     [
       "INFO",
-      19
+      26
     ],
     [
       "uptime",
       17
     ],
     [
+      "CONFIG",
+      15
+    ],
+    [
       "export",
       14
     ],
     [
-      "CONFIG",
-      11
-    ],
-    [
       "COMMAND",
-      10
+      13
     ],
     [
       "SET",
-      10
+      13
     ],
     [
       "FLUSHALL",
-      9
+      12
     ],
     [
       "SAVE",
-      9
+      12
     ],
     [
       "PING",
-      6
+      7
     ],
     [
       "nvidia-smi",
@@ -221,7 +222,7 @@
       5
     ],
     [
-      "nproc",
+      "chat",
       4
     ]
   ]
