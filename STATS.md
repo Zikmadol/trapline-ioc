@@ -2,23 +2,23 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**183 attackers** · **43,406 hostile actions** · covering 6 day(s) through 2026-09-18
+**195 attackers** · **56,785 hostile actions** · covering 7 day(s) through 2026-09-19
 
 | signal | count |
 |---|---|
-| GPU / AI-hardware probing | 18 |
+| GPU / AI-hardware probing | 20 |
 | Used a planted canary credential | 1 |
 | Seen on more than one sensor | 0 |
-| Stage-2 hosts named in payloads | 7 |
+| Stage-2 hosts named in payloads | 8 |
 
 ### By category
 
 | category | IPs |
 |---|---|
-| `ssh-bruteforce` | 110 |
-| `ssh-exploit` | 20 |
-| `redis-exploit` | 18 |
-| `mcp-abuse` | 15 |
+| `ssh-bruteforce` | 111 |
+| `redis-exploit` | 24 |
+| `ssh-exploit` | 22 |
+| `mcp-abuse` | 16 |
 | `llamacpp-abuse` | 5 |
 | `canary-aws-key` | 3 |
 | `vllm-abuse` | 2 |
@@ -32,74 +32,76 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 130 |
-| `redis` | 18 |
-| `mcp` | 15 |
+| `ssh` | 133 |
+| `redis` | 24 |
+| `mcp` | 17 |
 | `llamacpp` | 10 |
-| `vllm` | 5 |
-| `jupyter` | 3 |
-| `litellm` | 1 |
+| `vllm` | 6 |
+| `jupyter` | 4 |
+| `litellm` | 2 |
+| `ray` | 1 |
 | `ollama` | 1 |
+| `docker` | 1 |
 
 ### Top usernames tried
 
 | username | tries |
 |---|---|
-| `admin` | 60 |
+| `admin` | 62 |
 | `root` | 60 |
-| `administrator` | 19 |
-| `admin1` | 16 |
-| `AdminGPON` | 14 |
-| `a` | 14 |
-| `aaa` | 14 |
-| `admin123` | 14 |
-| `admin2` | 14 |
-| `adminuser` | 14 |
-| `ai` | 14 |
-| `Asalem` | 12 |
-| `Caps` | 12 |
-| `abigail` | 12 |
-| `actian` | 12 |
+| `administrator` | 21 |
+| `admin1` | 18 |
+| `AdminGPON` | 16 |
+| `a` | 16 |
+| `aaa` | 16 |
+| `admin123` | 16 |
+| `admin2` | 16 |
+| `adminuser` | 16 |
+| `ai` | 16 |
+| `Asalem` | 14 |
+| `Caps` | 14 |
+| `abigail` | 14 |
+| `actian` | 14 |
 
 ### Top passwords tried
 
 | password | tries |
 |---|---|
 | `123456` | 28 |
-| `admin` | 28 |
-| `123456789` | 24 |
-| `1234` | 23 |
-| `12345678` | 23 |
-| `000000` | 22 |
-| `12345` | 18 |
+| `admin` | 27 |
+| `123456789` | 25 |
+| `1234` | 24 |
+| `12345678` | 24 |
+| `000000` | 24 |
+| `12345` | 19 |
+| `!QAZ2wsx` | 18 |
 | `123` | 17 |
-| `!QAZ2wsx` | 16 |
-| `111111` | 16 |
-| `0` | 15 |
-| `0000` | 15 |
-| `123123` | 15 |
-| `00000000` | 14 |
-| `051178` | 14 |
+| `0` | 17 |
+| `0000` | 17 |
+| `111111` | 17 |
+| `00000000` | 16 |
+| `051178` | 16 |
+| `123123` | 16 |
 
 ### Top commands run
 
 | command | times |
 |---|---|
-| `uname` | 29 |
-| `canary_env` | 20 |
-| `INFO` | 15 |
-| `uptime` | 15 |
+| `uname` | 31 |
+| `canary_env` | 21 |
+| `INFO` | 19 |
+| `uptime` | 17 |
 | `export` | 14 |
-| `COMMAND` | 9 |
-| `CONFIG` | 9 |
-| `FLUSHALL` | 8 |
-| `SAVE` | 8 |
-| `SET` | 8 |
-| `nvidia-smi` | 4 |
-| `echo` | 4 |
-| `PING` | 3 |
-| `chat` | 3 |
-| `lspci` | 3 |
+| `CONFIG` | 11 |
+| `COMMAND` | 10 |
+| `SET` | 10 |
+| `FLUSHALL` | 9 |
+| `SAVE` | 9 |
+| `PING` | 6 |
+| `nvidia-smi` | 6 |
+| `echo` | 6 |
+| `lspci` | 5 |
+| `nproc` | 4 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._
