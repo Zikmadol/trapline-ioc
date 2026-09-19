@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**240 attackers** · **64,031 hostile actions** · covering 7 day(s) through 2026-09-19
+**244 attackers** · **64,162 hostile actions** · covering 7 day(s) through 2026-09-19
 
 | signal | count |
 |---|---|
@@ -16,9 +16,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | category | IPs |
 |---|---|
 | `ssh-bruteforce` | 121 |
-| `redis-exploit` | 42 |
+| `redis-exploit` | 43 |
+| `ssh-exploit` | 28 |
 | `mcp-abuse` | 25 |
-| `ssh-exploit` | 25 |
 | `llamacpp-abuse` | 6 |
 | `llamacpp-key-replay` | 2 |
 | `vllm-abuse` | 2 |
@@ -32,8 +32,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 147 |
-| `redis` | 43 |
+| `ssh` | 150 |
+| `redis` | 44 |
 | `mcp` | 28 |
 | `llamacpp` | 13 |
 | `vllm` | 9 |
@@ -48,7 +48,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 65 |
+| `root` | 67 |
 | `admin` | 65 |
 | `administrator` | 22 |
 | `admin1` | 20 |
@@ -68,12 +68,12 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | password | tries |
 |---|---|
+| `123456` | 32 |
 | `admin` | 31 |
-| `123456` | 30 |
 | `123456789` | 27 |
+| `12345678` | 26 |
 | `000000` | 25 |
 | `1234` | 25 |
-| `12345678` | 25 |
 | `12345` | 20 |
 | `!QAZ2wsx` | 20 |
 | `0000` | 19 |
@@ -88,9 +88,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | command | times |
 |---|---|
-| `uname` | 35 |
+| `uname` | 37 |
+| `INFO` | 32 |
 | `canary_env` | 31 |
-| `INFO` | 31 |
 | `CONFIG` | 19 |
 | `uptime` | 19 |
 | `SET` | 17 |
@@ -98,11 +98,11 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `COMMAND` | 15 |
 | `FLUSHALL` | 15 |
 | `export` | 14 |
-| `PING` | 9 |
+| `PING` | 10 |
+| `echo` | 10 |
 | `nvidia-smi` | 9 |
 | `lspci` | 8 |
-| `echo` | 8 |
-| `nproc` | 7 |
+| `lscpu` | 7 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._

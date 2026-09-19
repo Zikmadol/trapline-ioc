@@ -1,21 +1,21 @@
 {
-  "generated": "2026-09-19T19:17:26+00:00",
+  "generated": "2026-09-19T20:17:26+00:00",
   "window": {
     "first_day": "2026-09-13",
     "last_day": "2026-09-19",
     "days": 7
   },
   "totals": {
-    "attackers": 240,
-    "actions": 64031,
+    "attackers": 244,
+    "actions": 64162,
     "gpu_probing": 23,
     "canary_hits": 1,
     "multi_sensor": 3,
     "stage2_hosts": 12
   },
   "by_protocol": {
-    "ssh": 147,
-    "redis": 43,
+    "ssh": 150,
+    "redis": 44,
     "mcp": 28,
     "llamacpp": 13,
     "vllm": 9,
@@ -28,9 +28,9 @@
   },
   "by_category": {
     "ssh-bruteforce": 121,
-    "redis-exploit": 42,
+    "redis-exploit": 43,
+    "ssh-exploit": 28,
     "mcp-abuse": 25,
-    "ssh-exploit": 25,
     "llamacpp-abuse": 6,
     "llamacpp-key-replay": 2,
     "vllm-abuse": 2,
@@ -43,7 +43,7 @@
   "top_usernames": [
     [
       "root",
-      65
+      67
     ],
     [
       "admin",
@@ -104,16 +104,20 @@
   ],
   "top_passwords": [
     [
+      "123456",
+      32
+    ],
+    [
       "admin",
       31
     ],
     [
-      "123456",
-      30
-    ],
-    [
       "123456789",
       27
+    ],
+    [
+      "12345678",
+      26
     ],
     [
       "000000",
@@ -121,10 +125,6 @@
     ],
     [
       "1234",
-      25
-    ],
-    [
-      "12345678",
       25
     ],
     [
@@ -167,14 +167,14 @@
   "top_commands": [
     [
       "uname",
-      35
-    ],
-    [
-      "canary_env",
-      31
+      37
     ],
     [
       "INFO",
+      32
+    ],
+    [
+      "canary_env",
       31
     ],
     [
@@ -207,7 +207,11 @@
     ],
     [
       "PING",
-      9
+      10
+    ],
+    [
+      "echo",
+      10
     ],
     [
       "nvidia-smi",
@@ -218,11 +222,7 @@
       8
     ],
     [
-      "echo",
-      8
-    ],
-    [
-      "nproc",
+      "lscpu",
       7
     ]
   ]
