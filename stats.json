@@ -1,13 +1,13 @@
 {
-  "generated": "2026-09-19T16:17:27+00:00",
+  "generated": "2026-09-19T17:17:25+00:00",
   "window": {
     "first_day": "2026-09-13",
     "last_day": "2026-09-19",
     "days": 7
   },
   "totals": {
-    "attackers": 231,
-    "actions": 61919,
+    "attackers": 234,
+    "actions": 62785,
     "gpu_probing": 22,
     "canary_hits": 1,
     "multi_sensor": 3,
@@ -15,8 +15,8 @@
   },
   "by_protocol": {
     "ssh": 144,
-    "redis": 40,
-    "mcp": 26,
+    "redis": 42,
+    "mcp": 27,
     "llamacpp": 13,
     "vllm": 9,
     "jupyter": 7,
@@ -28,9 +28,9 @@
   },
   "by_category": {
     "ssh-bruteforce": 119,
-    "redis-exploit": 39,
+    "redis-exploit": 41,
+    "mcp-abuse": 24,
     "ssh-exploit": 24,
-    "mcp-abuse": 23,
     "llamacpp-abuse": 6,
     "llamacpp-key-replay": 2,
     "vllm-abuse": 2,
@@ -112,12 +112,12 @@
       29
     ],
     [
-      "123456789",
+      "000000",
       25
     ],
     [
-      "000000",
-      24
+      "123456789",
+      25
     ],
     [
       "1234",
@@ -171,35 +171,35 @@
     ],
     [
       "canary_env",
-      29
+      30
     ],
     [
       "INFO",
-      29
+      30
+    ],
+    [
+      "CONFIG",
+      18
     ],
     [
       "uptime",
       18
     ],
     [
-      "CONFIG",
-      17
-    ],
-    [
       "SET",
-      15
+      16
     ],
     [
       "COMMAND",
-      14
+      15
     ],
     [
       "FLUSHALL",
-      14
+      15
     ],
     [
       "SAVE",
-      14
+      15
     ],
     [
       "export",
@@ -207,7 +207,7 @@
     ],
     [
       "PING",
-      8
+      9
     ],
     [
       "nvidia-smi",
