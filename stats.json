@@ -1,21 +1,21 @@
 {
-  "generated": "2026-09-19T18:17:24+00:00",
+  "generated": "2026-09-19T19:17:26+00:00",
   "window": {
     "first_day": "2026-09-13",
     "last_day": "2026-09-19",
     "days": 7
   },
   "totals": {
-    "attackers": 235,
-    "actions": 62799,
-    "gpu_probing": 22,
+    "attackers": 240,
+    "actions": 64031,
+    "gpu_probing": 23,
     "canary_hits": 1,
     "multi_sensor": 3,
-    "stage2_hosts": 11
+    "stage2_hosts": 12
   },
   "by_protocol": {
-    "ssh": 144,
-    "redis": 42,
+    "ssh": 147,
+    "redis": 43,
     "mcp": 28,
     "llamacpp": 13,
     "vllm": 9,
@@ -27,10 +27,10 @@
     "ollama": 2
   },
   "by_category": {
-    "ssh-bruteforce": 119,
-    "redis-exploit": 41,
+    "ssh-bruteforce": 121,
+    "redis-exploit": 42,
     "mcp-abuse": 25,
-    "ssh-exploit": 24,
+    "ssh-exploit": 25,
     "llamacpp-abuse": 6,
     "llamacpp-key-replay": 2,
     "vllm-abuse": 2,
@@ -42,12 +42,12 @@
   },
   "top_usernames": [
     [
-      "admin",
-      64
+      "root",
+      65
     ],
     [
-      "root",
-      63
+      "admin",
+      65
     ],
     [
       "administrator",
@@ -55,7 +55,11 @@
     ],
     [
       "admin1",
-      19
+      20
+    ],
+    [
+      "admin2",
+      18
     ],
     [
       "AdminGPON",
@@ -74,16 +78,16 @@
       17
     ],
     [
-      "admin2",
-      17
-    ],
-    [
       "adminuser",
       17
     ],
     [
       "ai",
       17
+    ],
+    [
+      "admin1234",
+      16
     ],
     [
       "Asalem",
@@ -96,60 +100,56 @@
     [
       "abigail",
       15
-    ],
-    [
-      "actian",
-      15
     ]
   ],
   "top_passwords": [
     [
       "admin",
-      30
+      31
     ],
     [
       "123456",
-      29
+      30
+    ],
+    [
+      "123456789",
+      27
     ],
     [
       "000000",
       25
     ],
     [
-      "123456789",
+      "1234",
       25
     ],
     [
-      "1234",
-      24
-    ],
-    [
       "12345678",
-      24
+      25
     ],
     [
       "12345",
-      19
+      20
     ],
     [
       "!QAZ2wsx",
-      19
+      20
     ],
     [
       "0000",
+      19
+    ],
+    [
+      "111111",
+      18
+    ],
+    [
+      "123",
       18
     ],
     [
       "0",
       18
-    ],
-    [
-      "111111",
-      17
-    ],
-    [
-      "123",
-      17
     ],
     [
       "00000000",
@@ -167,7 +167,7 @@
   "top_commands": [
     [
       "uname",
-      33
+      35
     ],
     [
       "canary_env",
@@ -175,18 +175,22 @@
     ],
     [
       "INFO",
-      30
+      31
     ],
     [
       "CONFIG",
-      18
+      19
     ],
     [
       "uptime",
-      18
+      19
     ],
     [
       "SET",
+      17
+    ],
+    [
+      "SAVE",
       16
     ],
     [
@@ -195,10 +199,6 @@
     ],
     [
       "FLUSHALL",
-      15
-    ],
-    [
-      "SAVE",
       15
     ],
     [
@@ -211,19 +211,19 @@
     ],
     [
       "nvidia-smi",
-      8
+      9
     ],
     [
       "lspci",
-      7
+      8
     ],
     [
       "echo",
-      7
+      8
     ],
     [
       "nproc",
-      6
+      7
     ]
   ]
 }
