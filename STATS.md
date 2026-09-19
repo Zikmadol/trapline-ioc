@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**246 attackers** · **64,986 hostile actions** · covering 7 day(s) through 2026-09-19
+**248 attackers** · **68,291 hostile actions** · covering 7 day(s) through 2026-09-19
 
 | signal | count |
 |---|---|
@@ -18,7 +18,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `ssh-bruteforce` | 121 |
 | `redis-exploit` | 43 |
 | `ssh-exploit` | 29 |
-| `mcp-abuse` | 26 |
+| `mcp-abuse` | 28 |
 | `llamacpp-abuse` | 6 |
 | `llamacpp-key-replay` | 2 |
 | `vllm-abuse` | 2 |
@@ -34,7 +34,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `ssh` | 151 |
 | `redis` | 44 |
-| `mcp` | 29 |
+| `mcp` | 31 |
 | `llamacpp` | 14 |
 | `vllm` | 9 |
 | `jupyter` | 7 |
@@ -50,46 +50,46 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `root` | 67 |
 | `admin` | 66 |
-| `administrator` | 22 |
+| `administrator` | 23 |
 | `admin1` | 21 |
+| `admin2` | 19 |
+| `a` | 18 |
 | `aaa` | 18 |
 | `admin123` | 18 |
-| `admin2` | 18 |
+| `adminuser` | 18 |
+| `ai` | 18 |
 | `AdminGPON` | 17 |
-| `a` | 17 |
-| `adminuser` | 17 |
-| `ai` | 17 |
+| `Caps` | 16 |
+| `abigail` | 16 |
 | `actian` | 16 |
 | `admin1234` | 16 |
-| `Asalem` | 15 |
-| `Caps` | 15 |
 
 ### Top passwords tried
 
 | password | tries |
 |---|---|
-| `123456` | 33 |
-| `admin` | 31 |
-| `12345678` | 27 |
+| `123456` | 32 |
+| `admin` | 30 |
 | `123456789` | 27 |
-| `1234` | 26 |
-| `000000` | 25 |
-| `12345` | 21 |
+| `000000` | 26 |
+| `12345678` | 26 |
+| `1234` | 25 |
 | `!QAZ2wsx` | 21 |
-| `111111` | 19 |
-| `123` | 19 |
-| `0000` | 19 |
-| `0` | 18 |
+| `12345` | 20 |
+| `0000` | 20 |
+| `0` | 19 |
+| `111111` | 18 |
+| `123` | 18 |
 | `051178` | 18 |
-| `123123` | 17 |
-| `00000000` | 17 |
+| `!@` | 17 |
+| `!Q2w3e4r` | 17 |
 
 ### Top commands run
 
 | command | times |
 |---|---|
 | `uname` | 38 |
-| `canary_env` | 32 |
+| `canary_env` | 34 |
 | `INFO` | 32 |
 | `uptime` | 20 |
 | `CONFIG` | 19 |
