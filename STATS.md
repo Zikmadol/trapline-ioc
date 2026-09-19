@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**227 attackers** · **58,724 hostile actions** · covering 7 day(s) through 2026-09-19
+**231 attackers** · **61,919 hostile actions** · covering 7 day(s) through 2026-09-19
 
 | signal | count |
 |---|---|
@@ -15,8 +15,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `ssh-bruteforce` | 116 |
-| `redis-exploit` | 38 |
+| `ssh-bruteforce` | 119 |
+| `redis-exploit` | 39 |
 | `ssh-exploit` | 24 |
 | `mcp-abuse` | 23 |
 | `llamacpp-abuse` | 6 |
@@ -32,8 +32,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 141 |
-| `redis` | 39 |
+| `ssh` | 144 |
+| `redis` | 40 |
 | `mcp` | 26 |
 | `llamacpp` | 13 |
 | `vllm` | 9 |
@@ -49,40 +49,40 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | username | tries |
 |---|---|
 | `admin` | 64 |
-| `root` | 62 |
-| `administrator` | 21 |
-| `admin1` | 18 |
+| `root` | 63 |
+| `administrator` | 22 |
+| `admin1` | 19 |
+| `AdminGPON` | 17 |
 | `a` | 17 |
+| `aaa` | 17 |
+| `admin123` | 17 |
+| `admin2` | 17 |
 | `adminuser` | 17 |
-| `AdminGPON` | 16 |
-| `aaa` | 16 |
-| `admin123` | 16 |
-| `admin2` | 16 |
-| `ai` | 16 |
+| `ai` | 17 |
+| `Asalem` | 15 |
+| `Caps` | 15 |
 | `abigail` | 15 |
-| `Asalem` | 14 |
-| `Caps` | 14 |
-| `actian` | 14 |
+| `actian` | 15 |
 
 ### Top passwords tried
 
 | password | tries |
 |---|---|
-| `123456` | 30 |
-| `admin` | 29 |
-| `123456789` | 26 |
-| `1234` | 25 |
-| `12345678` | 25 |
+| `admin` | 30 |
+| `123456` | 29 |
+| `123456789` | 25 |
 | `000000` | 24 |
-| `12345` | 20 |
+| `1234` | 24 |
+| `12345678` | 24 |
+| `12345` | 19 |
 | `!QAZ2wsx` | 19 |
-| `111111` | 18 |
-| `123` | 18 |
 | `0000` | 18 |
-| `123123` | 17 |
-| `0` | 17 |
+| `0` | 18 |
+| `111111` | 17 |
+| `123` | 17 |
 | `00000000` | 17 |
-| `!Q2w3e4r` | 16 |
+| `051178` | 17 |
+| `123123` | 16 |
 
 ### Top commands run
 
@@ -90,14 +90,14 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `uname` | 33 |
 | `canary_env` | 29 |
-| `INFO` | 28 |
+| `INFO` | 29 |
 | `uptime` | 18 |
-| `CONFIG` | 16 |
+| `CONFIG` | 17 |
+| `SET` | 15 |
 | `COMMAND` | 14 |
-| `SET` | 14 |
+| `FLUSHALL` | 14 |
+| `SAVE` | 14 |
 | `export` | 14 |
-| `FLUSHALL` | 13 |
-| `SAVE` | 13 |
 | `PING` | 8 |
 | `nvidia-smi` | 8 |
 | `lspci` | 7 |
