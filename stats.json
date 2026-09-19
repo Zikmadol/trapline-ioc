@@ -1,44 +1,44 @@
 {
-  "generated": "2026-09-19T13:18:30+00:00",
+  "generated": "2026-09-19T13:53:59+00:00",
   "window": {
     "first_day": "2026-09-13",
     "last_day": "2026-09-19",
     "days": 7
   },
   "totals": {
-    "attackers": 221,
-    "actions": 57772,
-    "gpu_probing": 20,
+    "attackers": 222,
+    "actions": 57875,
+    "gpu_probing": 21,
     "canary_hits": 1,
-    "multi_sensor": 1,
+    "multi_sensor": 3,
     "stage2_hosts": 11
   },
   "by_protocol": {
-    "ssh": 137,
-    "redis": 36,
-    "mcp": 24,
-    "llamacpp": 11,
-    "vllm": 7,
-    "jupyter": 5,
-    "litellm": 3,
-    "ray": 2,
-    "docker": 2,
-    "hfhub": 1,
-    "ollama": 1
+    "ssh": 139,
+    "redis": 38,
+    "mcp": 25,
+    "llamacpp": 12,
+    "vllm": 8,
+    "jupyter": 7,
+    "litellm": 4,
+    "docker": 3,
+    "ray": 3,
+    "hfhub": 2,
+    "ollama": 2
   },
   "by_category": {
     "ssh-bruteforce": 115,
-    "redis-exploit": 36,
+    "redis-exploit": 37,
+    "ssh-exploit": 23,
     "mcp-abuse": 22,
-    "ssh-exploit": 22,
     "llamacpp-abuse": 5,
-    "canary-aws-key": 3,
     "llamacpp-key-replay": 2,
     "vllm-abuse": 2,
     "jupyter-abuse": 1,
     "jupyter-key-replay": 1,
     "ollama-abuse": 1,
-    "vllm-bruteforce": 1
+    "vllm-bruteforce": 1,
+    "docker-abuse": 1
   },
   "top_usernames": [
     [
@@ -47,7 +47,7 @@
     ],
     [
       "root",
-      61
+      62
     ],
     [
       "administrator",
@@ -104,16 +104,20 @@
   ],
   "top_passwords": [
     [
+      "123456",
+      29
+    ],
+    [
       "admin",
       29
     ],
     [
-      "123456",
-      28
-    ],
-    [
       "123456789",
       25
+    ],
+    [
+      "000000",
+      24
     ],
     [
       "1234",
@@ -121,10 +125,6 @@
     ],
     [
       "12345678",
-      24
-    ],
-    [
-      "000000",
       24
     ],
     [
@@ -136,11 +136,11 @@
       18
     ],
     [
-      "123",
+      "111111",
       17
     ],
     [
-      "0",
+      "123",
       17
     ],
     [
@@ -148,8 +148,12 @@
       17
     ],
     [
-      "111111",
+      "0",
       17
+    ],
+    [
+      "123123",
+      16
     ],
     [
       "00000000",
@@ -158,24 +162,20 @@
     [
       "051178",
       16
-    ],
-    [
-      "123123",
-      16
     ]
   ],
   "top_commands": [
     [
       "uname",
-      31
+      32
     ],
     [
       "canary_env",
-      27
+      28
     ],
     [
       "INFO",
-      26
+      27
     ],
     [
       "uptime",
@@ -207,23 +207,23 @@
     ],
     [
       "PING",
-      7
+      8
     ],
     [
       "nvidia-smi",
+      7
+    ],
+    [
+      "lspci",
+      6
+    ],
+    [
+      "GET",
       6
     ],
     [
       "echo",
       6
-    ],
-    [
-      "GET",
-      5
-    ],
-    [
-      "lspci",
-      5
     ]
   ]
 }
