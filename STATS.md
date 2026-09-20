@@ -2,22 +2,22 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**273 attackers** · **70,575 hostile actions** · covering 8 day(s) through 2026-09-20
+**278 attackers** · **73,387 hostile actions** · covering 8 day(s) through 2026-09-20
 
 | signal | count |
 |---|---|
-| GPU / AI-hardware probing | 26 |
+| GPU / AI-hardware probing | 27 |
 | Used a planted canary credential | 1 |
 | Seen on more than one sensor | 5 |
-| Stage-2 hosts named in payloads | 13 |
+| Stage-2 hosts named in payloads | 15 |
 
 ### By category
 
 | category | IPs |
 |---|---|
-| `ssh-bruteforce` | 121 |
-| `redis-exploit` | 52 |
-| `ssh-exploit` | 43 |
+| `ssh-bruteforce` | 122 |
+| `redis-exploit` | 53 |
+| `ssh-exploit` | 44 |
 | `mcp-abuse` | 29 |
 | `llamacpp-abuse` | 6 |
 | `llamacpp-key-replay` | 2 |
@@ -32,8 +32,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 165 |
-| `redis` | 53 |
+| `ssh` | 167 |
+| `redis` | 54 |
 | `mcp` | 32 |
 | `llamacpp` | 15 |
 | `vllm` | 9 |
@@ -49,20 +49,20 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | username | tries |
 |---|---|
 | `root` | 80 |
-| `admin` | 67 |
-| `administrator` | 24 |
-| `admin1` | 21 |
-| `admin2` | 19 |
+| `admin` | 70 |
+| `administrator` | 25 |
+| `admin1` | 23 |
+| `admin2` | 21 |
+| `a` | 19 |
+| `aaa` | 19 |
+| `admin123` | 19 |
+| `adminuser` | 19 |
+| `ai` | 19 |
 | `AdminGPON` | 18 |
-| `a` | 18 |
-| `aaa` | 18 |
-| `admin123` | 18 |
-| `adminuser` | 18 |
-| `ai` | 18 |
-| `Asalem` | 16 |
-| `Caps` | 16 |
-| `abigail` | 16 |
-| `actian` | 16 |
+| `Asalem` | 17 |
+| `Caps` | 17 |
+| `admin1234` | 17 |
+| `admins` | 17 |
 
 ### Top passwords tried
 
@@ -70,37 +70,37 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `123456` | 37 |
 | `1234` | 32 |
+| `admin` | 31 |
 | `12345678` | 31 |
-| `admin` | 30 |
 | `123456789` | 29 |
 | `000000` | 26 |
+| `12345` | 23 |
+| `!QAZ2wsx` | 23 |
 | `123` | 22 |
-| `12345` | 22 |
-| `!QAZ2wsx` | 21 |
-| `0000` | 20 |
-| `111111` | 19 |
+| `0000` | 22 |
+| `111111` | 21 |
 | `0` | 19 |
+| `!@` | 19 |
 | `00000000` | 19 |
-| `051178` | 18 |
-| `123123` | 17 |
+| `123123` | 18 |
 
 ### Top commands run
 
 | command | times |
 |---|---|
-| `uname` | 51 |
-| `INFO` | 38 |
+| `uname` | 52 |
+| `INFO` | 39 |
 | `canary_env` | 35 |
-| `echo` | 24 |
-| `CONFIG` | 22 |
-| `lscpu` | 21 |
-| `uptime` | 21 |
-| `crontab` | 21 |
-| `SET` | 19 |
-| `SAVE` | 18 |
-| `FLUSHALL` | 17 |
+| `echo` | 25 |
+| `CONFIG` | 23 |
+| `lscpu` | 22 |
+| `uptime` | 22 |
+| `crontab` | 22 |
+| `SET` | 20 |
+| `SAVE` | 19 |
+| `FLUSHALL` | 18 |
+| `COMMAND` | 17 |
 | `cat` | 16 |
-| `COMMAND` | 16 |
 | `ls` | 16 |
 | `df` | 15 |
 
