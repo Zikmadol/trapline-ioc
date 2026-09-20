@@ -1,36 +1,36 @@
 {
-  "generated": "2026-09-20T01:17:28+00:00",
+  "generated": "2026-09-20T02:17:26+00:00",
   "window": {
     "first_day": "2026-09-13",
     "last_day": "2026-09-20",
     "days": 8
   },
   "totals": {
-    "attackers": 256,
-    "actions": 69377,
+    "attackers": 259,
+    "actions": 69618,
     "gpu_probing": 24,
     "canary_hits": 1,
     "multi_sensor": 5,
     "stage2_hosts": 13
   },
   "by_protocol": {
-    "ssh": 154,
-    "redis": 48,
-    "mcp": 31,
+    "ssh": 155,
+    "redis": 49,
+    "mcp": 32,
     "llamacpp": 14,
     "vllm": 9,
     "jupyter": 7,
     "docker": 4,
     "litellm": 4,
-    "ray": 3,
-    "hfhub": 2,
+    "ray": 4,
+    "hfhub": 3,
     "ollama": 2
   },
   "by_category": {
-    "ssh-bruteforce": 124,
-    "redis-exploit": 47,
-    "ssh-exploit": 29,
-    "mcp-abuse": 28,
+    "ssh-bruteforce": 122,
+    "redis-exploit": 48,
+    "ssh-exploit": 32,
+    "mcp-abuse": 29,
     "llamacpp-abuse": 6,
     "llamacpp-key-replay": 2,
     "vllm-abuse": 2,
@@ -43,7 +43,7 @@
   "top_usernames": [
     [
       "root",
-      68
+      71
     ],
     [
       "admin",
@@ -51,7 +51,7 @@
     ],
     [
       "administrator",
-      23
+      24
     ],
     [
       "admin1",
@@ -105,7 +105,7 @@
   "top_passwords": [
     [
       "123456",
-      32
+      33
     ],
     [
       "admin",
@@ -120,24 +120,28 @@
       26
     ],
     [
+      "1234",
+      26
+    ],
+    [
       "12345678",
       26
     ],
     [
-      "1234",
-      25
+      "12345",
+      21
     ],
     [
       "!QAZ2wsx",
       21
     ],
     [
-      "12345",
+      "0000",
       20
     ],
     [
-      "0000",
-      20
+      "123",
+      19
     ],
     [
       "0",
@@ -145,10 +149,6 @@
     ],
     [
       "111111",
-      18
-    ],
-    [
-      "123",
       18
     ],
     [
@@ -167,15 +167,15 @@
   "top_commands": [
     [
       "uname",
-      38
+      41
     ],
     [
       "INFO",
-      35
+      36
     ],
     [
       "canary_env",
-      34
+      35
     ],
     [
       "CONFIG",
@@ -207,6 +207,14 @@
     ],
     [
       "echo",
+      14
+    ],
+    [
+      "lscpu",
+      11
+    ],
+    [
+      "crontab",
       11
     ],
     [
@@ -216,14 +224,6 @@
     [
       "nvidia-smi",
       10
-    ],
-    [
-      "lspci",
-      9
-    ],
-    [
-      "lscpu",
-      8
     ]
   ]
 }
