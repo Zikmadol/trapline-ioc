@@ -1,23 +1,23 @@
 {
-  "generated": "2026-09-20T03:17:26+00:00",
+  "generated": "2026-09-20T04:17:28+00:00",
   "window": {
     "first_day": "2026-09-13",
     "last_day": "2026-09-20",
     "days": 8
   },
   "totals": {
-    "attackers": 264,
-    "actions": 69796,
-    "gpu_probing": 25,
+    "attackers": 273,
+    "actions": 70575,
+    "gpu_probing": 26,
     "canary_hits": 1,
     "multi_sensor": 5,
     "stage2_hosts": 13
   },
   "by_protocol": {
-    "ssh": 156,
+    "ssh": 165,
     "redis": 53,
     "mcp": 32,
-    "llamacpp": 14,
+    "llamacpp": 15,
     "vllm": 9,
     "jupyter": 7,
     "docker": 4,
@@ -29,7 +29,7 @@
   "by_category": {
     "ssh-bruteforce": 121,
     "redis-exploit": 52,
-    "ssh-exploit": 34,
+    "ssh-exploit": 43,
     "mcp-abuse": 29,
     "llamacpp-abuse": 6,
     "llamacpp-key-replay": 2,
@@ -43,7 +43,7 @@
   "top_usernames": [
     [
       "root",
-      72
+      80
     ],
     [
       "admin",
@@ -105,27 +105,31 @@
   "top_passwords": [
     [
       "123456",
-      34
+      37
+    ],
+    [
+      "1234",
+      32
+    ],
+    [
+      "12345678",
+      31
     ],
     [
       "admin",
       30
     ],
     [
-      "12345678",
-      28
-    ],
-    [
       "123456789",
-      28
-    ],
-    [
-      "1234",
-      27
+      29
     ],
     [
       "000000",
       26
+    ],
+    [
+      "123",
+      22
     ],
     [
       "12345",
@@ -134,10 +138,6 @@
     [
       "!QAZ2wsx",
       21
-    ],
-    [
-      "123",
-      20
     ],
     [
       "0000",
@@ -153,7 +153,7 @@
     ],
     [
       "00000000",
-      18
+      19
     ],
     [
       "051178",
@@ -167,7 +167,7 @@
   "top_commands": [
     [
       "uname",
-      42
+      51
     ],
     [
       "INFO",
@@ -178,12 +178,24 @@
       35
     ],
     [
+      "echo",
+      24
+    ],
+    [
       "CONFIG",
       22
     ],
     [
+      "lscpu",
+      21
+    ],
+    [
       "uptime",
-      20
+      21
+    ],
+    [
+      "crontab",
+      21
     ],
     [
       "SET",
@@ -198,32 +210,20 @@
       17
     ],
     [
+      "cat",
+      16
+    ],
+    [
       "COMMAND",
       16
     ],
     [
-      "export",
+      "ls",
+      16
+    ],
+    [
+      "df",
       15
-    ],
-    [
-      "echo",
-      15
-    ],
-    [
-      "PING",
-      12
-    ],
-    [
-      "lscpu",
-      12
-    ],
-    [
-      "crontab",
-      12
-    ],
-    [
-      "nvidia-smi",
-      10
     ]
   ]
 }
