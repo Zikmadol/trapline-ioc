@@ -2,11 +2,11 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**259 attackers** · **69,618 hostile actions** · covering 8 day(s) through 2026-09-20
+**264 attackers** · **69,796 hostile actions** · covering 8 day(s) through 2026-09-20
 
 | signal | count |
 |---|---|
-| GPU / AI-hardware probing | 24 |
+| GPU / AI-hardware probing | 25 |
 | Used a planted canary credential | 1 |
 | Seen on more than one sensor | 5 |
 | Stage-2 hosts named in payloads | 13 |
@@ -15,9 +15,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `ssh-bruteforce` | 122 |
-| `redis-exploit` | 48 |
-| `ssh-exploit` | 32 |
+| `ssh-bruteforce` | 121 |
+| `redis-exploit` | 52 |
+| `ssh-exploit` | 34 |
 | `mcp-abuse` | 29 |
 | `llamacpp-abuse` | 6 |
 | `llamacpp-key-replay` | 2 |
@@ -32,8 +32,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 155 |
-| `redis` | 49 |
+| `ssh` | 156 |
+| `redis` | 53 |
 | `mcp` | 32 |
 | `llamacpp` | 14 |
 | `vllm` | 9 |
@@ -48,7 +48,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 71 |
+| `root` | 72 |
 | `admin` | 67 |
 | `administrator` | 24 |
 | `admin1` | 21 |
@@ -68,40 +68,40 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | password | tries |
 |---|---|
-| `123456` | 33 |
+| `123456` | 34 |
 | `admin` | 30 |
-| `123456789` | 27 |
+| `12345678` | 28 |
+| `123456789` | 28 |
+| `1234` | 27 |
 | `000000` | 26 |
-| `1234` | 26 |
-| `12345678` | 26 |
-| `12345` | 21 |
+| `12345` | 22 |
 | `!QAZ2wsx` | 21 |
+| `123` | 20 |
 | `0000` | 20 |
-| `123` | 19 |
+| `111111` | 19 |
 | `0` | 19 |
-| `111111` | 18 |
 | `00000000` | 18 |
 | `051178` | 18 |
-| `!@` | 17 |
+| `123123` | 17 |
 
 ### Top commands run
 
 | command | times |
 |---|---|
-| `uname` | 41 |
-| `INFO` | 36 |
+| `uname` | 42 |
+| `INFO` | 38 |
 | `canary_env` | 35 |
-| `CONFIG` | 21 |
+| `CONFIG` | 22 |
 | `uptime` | 20 |
 | `SET` | 19 |
 | `SAVE` | 18 |
 | `FLUSHALL` | 17 |
 | `COMMAND` | 16 |
-| `export` | 14 |
-| `echo` | 14 |
-| `lscpu` | 11 |
-| `crontab` | 11 |
-| `PING` | 10 |
+| `export` | 15 |
+| `echo` | 15 |
+| `PING` | 12 |
+| `lscpu` | 12 |
+| `crontab` | 12 |
 | `nvidia-smi` | 10 |
 
 

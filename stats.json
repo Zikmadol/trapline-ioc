@@ -1,21 +1,21 @@
 {
-  "generated": "2026-09-20T02:17:26+00:00",
+  "generated": "2026-09-20T03:17:26+00:00",
   "window": {
     "first_day": "2026-09-13",
     "last_day": "2026-09-20",
     "days": 8
   },
   "totals": {
-    "attackers": 259,
-    "actions": 69618,
-    "gpu_probing": 24,
+    "attackers": 264,
+    "actions": 69796,
+    "gpu_probing": 25,
     "canary_hits": 1,
     "multi_sensor": 5,
     "stage2_hosts": 13
   },
   "by_protocol": {
-    "ssh": 155,
-    "redis": 49,
+    "ssh": 156,
+    "redis": 53,
     "mcp": 32,
     "llamacpp": 14,
     "vllm": 9,
@@ -27,9 +27,9 @@
     "ollama": 2
   },
   "by_category": {
-    "ssh-bruteforce": 122,
-    "redis-exploit": 48,
-    "ssh-exploit": 32,
+    "ssh-bruteforce": 121,
+    "redis-exploit": 52,
+    "ssh-exploit": 34,
     "mcp-abuse": 29,
     "llamacpp-abuse": 6,
     "llamacpp-key-replay": 2,
@@ -43,7 +43,7 @@
   "top_usernames": [
     [
       "root",
-      71
+      72
     ],
     [
       "admin",
@@ -105,14 +105,22 @@
   "top_passwords": [
     [
       "123456",
-      33
+      34
     ],
     [
       "admin",
       30
     ],
     [
+      "12345678",
+      28
+    ],
+    [
       "123456789",
+      28
+    ],
+    [
+      "1234",
       27
     ],
     [
@@ -120,36 +128,28 @@
       26
     ],
     [
-      "1234",
-      26
-    ],
-    [
-      "12345678",
-      26
-    ],
-    [
       "12345",
-      21
+      22
     ],
     [
       "!QAZ2wsx",
       21
     ],
     [
+      "123",
+      20
+    ],
+    [
       "0000",
       20
     ],
     [
-      "123",
+      "111111",
       19
     ],
     [
       "0",
       19
-    ],
-    [
-      "111111",
-      18
     ],
     [
       "00000000",
@@ -160,18 +160,18 @@
       18
     ],
     [
-      "!@",
+      "123123",
       17
     ]
   ],
   "top_commands": [
     [
       "uname",
-      41
+      42
     ],
     [
       "INFO",
-      36
+      38
     ],
     [
       "canary_env",
@@ -179,7 +179,7 @@
     ],
     [
       "CONFIG",
-      21
+      22
     ],
     [
       "uptime",
@@ -203,23 +203,23 @@
     ],
     [
       "export",
-      14
+      15
     ],
     [
       "echo",
-      14
-    ],
-    [
-      "lscpu",
-      11
-    ],
-    [
-      "crontab",
-      11
+      15
     ],
     [
       "PING",
-      10
+      12
+    ],
+    [
+      "lscpu",
+      12
+    ],
+    [
+      "crontab",
+      12
     ],
     [
       "nvidia-smi",
