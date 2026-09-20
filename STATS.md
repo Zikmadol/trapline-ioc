@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**384 attackers** · **86,692 hostile actions** · covering 8 day(s) through 2026-09-20
+**387 attackers** · **88,587 hostile actions** · covering 8 day(s) through 2026-09-20
 
 | signal | count |
 |---|---|
@@ -15,9 +15,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `ssh-bruteforce` | 129 |
+| `ssh-bruteforce` | 130 |
 | `ssh-exploit` | 123 |
-| `redis-exploit` | 65 |
+| `redis-exploit` | 67 |
 | `mcp-abuse` | 34 |
 | `llamacpp-abuse` | 9 |
 | `llamacpp-key-replay` | 2 |
@@ -32,8 +32,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 253 |
-| `redis` | 67 |
+| `ssh` | 254 |
+| `redis` | 69 |
 | `mcp` | 37 |
 | `llamacpp` | 20 |
 | `vllm` | 11 |
@@ -48,18 +48,18 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 134 |
+| `root` | 135 |
 | `345gs5662d34` | 91 |
 | `admin` | 77 |
 | `administrator` | 28 |
 | `admin1` | 24 |
-| `admin2` | 22 |
+| `admin2` | 23 |
+| `AdminGPON` | 21 |
+| `a` | 21 |
+| `aaa` | 21 |
 | `admin123` | 21 |
 | `adminuser` | 21 |
 | `ai` | 21 |
-| `AdminGPON` | 20 |
-| `a` | 20 |
-| `aaa` | 20 |
 | `Asalem` | 19 |
 | `Caps` | 19 |
 | `abigail` | 19 |
@@ -70,7 +70,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `345gs5662d34` | 91 |
 | `3245gs5662d34` | 90 |
-| `123456` | 72 |
+| `123456` | 73 |
 | `1234` | 39 |
 | `123` | 37 |
 | `12345678` | 33 |
@@ -89,7 +89,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | command | times |
 |---|---|
 | `uname` | 131 |
-| `echo` | 104 |
+| `echo` | 105 |
 | `lscpu` | 101 |
 | `crontab` | 100 |
 | `cat` | 94 |
@@ -100,9 +100,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `top` | 93 |
 | `w` | 92 |
 | `free` | 91 |
-| `INFO` | 48 |
+| `INFO` | 50 |
 | `canary_env` | 42 |
-| `CONFIG` | 26 |
+| `CONFIG` | 27 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._
