@@ -2,43 +2,43 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**496 attackers** · **110,078 hostile actions** · covering 9 day(s) through 2026-09-21
+**499 attackers** · **111,973 hostile actions** · covering 9 day(s) through 2026-09-21
 
 | signal | count |
 |---|---|
-| GPU / AI-hardware probing | 31 |
+| GPU / AI-hardware probing | 32 |
 | Used a planted canary credential | 0 |
 | Seen on more than one sensor | 7 |
-| Stage-2 hosts named in payloads | 15 |
+| Stage-2 hosts named in payloads | 16 |
 
 ### By category
 
 | category | IPs |
 |---|---|
-| `ssh-exploit` | 171 |
+| `ssh-exploit` | 172 |
 | `ssh-bruteforce` | 160 |
 | `redis-exploit` | 89 |
 | `mcp-abuse` | 37 |
 | `llamacpp-abuse` | 12 |
+| `docker-abuse` | 4 |
 | `vllm-abuse` | 3 |
-| `docker-abuse` | 3 |
-| `llamacpp-key-replay` | 2 |
 | `jupyter-abuse` | 1 |
+| `llamacpp-key-replay` | 1 |
 | `jupyter-key-replay` | 1 |
+| `vllm-key-replay` | 1 |
 | `ollama-abuse` | 1 |
-| `vllm-bruteforce` | 1 |
 
 ### By protocol
 
 | protocol | events |
 |---|---|
-| `ssh` | 336 |
+| `ssh` | 337 |
 | `redis` | 91 |
 | `mcp` | 43 |
 | `llamacpp` | 24 |
 | `vllm` | 14 |
 | `jupyter` | 10 |
-| `docker` | 6 |
+| `docker` | 7 |
 | `hfhub` | 5 |
 | `ray` | 4 |
 | `litellm` | 3 |
@@ -50,16 +50,16 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `root` | 185 |
 | `345gs5662d34` | 138 |
-| `admin` | 97 |
+| `admin` | 98 |
 | `administrator` | 32 |
-| `admin1` | 29 |
+| `admin1` | 30 |
 | `admin2` | 27 |
+| `admin123` | 26 |
+| `AdminGPON` | 25 |
 | `a` | 25 |
-| `admin123` | 25 |
+| `aaa` | 25 |
 | `adminuser` | 25 |
 | `ai` | 25 |
-| `AdminGPON` | 24 |
-| `aaa` | 24 |
 | `Asalem` | 23 |
 | `Caps` | 23 |
 | `abigail` | 23 |
@@ -70,28 +70,28 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `345gs5662d34` | 138 |
 | `3245gs5662d34` | 137 |
-| `123456` | 96 |
-| `123` | 50 |
-| `1234` | 47 |
+| `123456` | 98 |
+| `123` | 51 |
+| `1234` | 48 |
 | `admin` | 40 |
-| `000000` | 35 |
-| `12345678` | 35 |
+| `000000` | 36 |
+| `12345678` | 36 |
 | `12345` | 32 |
 | `123456789` | 29 |
-| `!QAZ2wsx` | 28 |
+| `!QAZ2wsx` | 29 |
 | `0000` | 27 |
 | `0` | 27 |
+| `!qaz@WSX` | 25 |
 | `00000000` | 25 |
-| `!@` | 24 |
 
 ### Top commands run
 
 | command | times |
 |---|---|
-| `uname` | 183 |
-| `echo` | 158 |
-| `lscpu` | 155 |
-| `crontab` | 153 |
+| `uname` | 184 |
+| `echo` | 159 |
+| `lscpu` | 156 |
+| `crontab` | 154 |
 | `ls` | 142 |
 | `cd` | 142 |
 | `cat` | 142 |
