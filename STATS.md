@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**455 attackers** · **95,923 hostile actions** · covering 9 day(s) through 2026-09-21
+**457 attackers** · **96,063 hostile actions** · covering 9 day(s) through 2026-09-21
 
 | signal | count |
 |---|---|
@@ -17,7 +17,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `ssh-bruteforce` | 152 |
 | `ssh-exploit` | 150 |
-| `redis-exploit` | 81 |
+| `redis-exploit` | 83 |
 | `mcp-abuse` | 36 |
 | `llamacpp-abuse` | 10 |
 | `docker-abuse` | 3 |
@@ -33,7 +33,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | protocol | events |
 |---|---|
 | `ssh` | 305 |
-| `redis` | 83 |
+| `redis` | 85 |
 | `mcp` | 39 |
 | `llamacpp` | 20 |
 | `vllm` | 11 |
@@ -50,7 +50,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `root` | 169 |
 | `345gs5662d34` | 119 |
-| `admin` | 90 |
+| `admin` | 91 |
 | `administrator` | 29 |
 | `admin1` | 26 |
 | `admin2` | 24 |
@@ -72,7 +72,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `3245gs5662d34` | 118 |
 | `123456` | 88 |
 | `123` | 45 |
-| `1234` | 43 |
+| `1234` | 44 |
 | `admin` | 41 |
 | `12345678` | 34 |
 | `000000` | 33 |
@@ -81,8 +81,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `!QAZ2wsx` | 25 |
 | `0000` | 24 |
 | `0` | 24 |
+| `1234567` | 22 |
 | `00000000` | 22 |
-| `051178` | 22 |
 
 ### Top commands run
 
@@ -100,9 +100,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `w` | 122 |
 | `whoami` | 122 |
 | `free` | 121 |
-| `INFO` | 59 |
+| `INFO` | 60 |
 | `canary_env` | 44 |
-| `CONFIG` | 33 |
+| `CONFIG` | 34 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._
