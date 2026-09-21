@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**417 attackers** · **93,861 hostile actions** · covering 9 day(s) through 2026-09-21
+**422 attackers** · **94,761 hostile actions** · covering 9 day(s) through 2026-09-21
 
 | signal | count |
 |---|---|
@@ -15,9 +15,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `ssh-bruteforce` | 141 |
+| `ssh-bruteforce` | 145 |
 | `ssh-exploit` | 139 |
-| `redis-exploit` | 69 |
+| `redis-exploit` | 70 |
 | `mcp-abuse` | 34 |
 | `llamacpp-abuse` | 9 |
 | `llamacpp-key-replay` | 2 |
@@ -32,8 +32,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 281 |
-| `redis` | 70 |
+| `ssh` | 285 |
+| `redis` | 71 |
 | `mcp` | 37 |
 | `llamacpp` | 19 |
 | `vllm` | 11 |
@@ -48,9 +48,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 153 |
+| `root` | 156 |
 | `345gs5662d34` | 109 |
-| `admin` | 85 |
+| `admin` | 86 |
 | `administrator` | 29 |
 | `admin1` | 25 |
 | `admin2` | 24 |
@@ -73,7 +73,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `123456` | 81 |
 | `123` | 43 |
 | `1234` | 39 |
-| `admin` | 36 |
+| `admin` | 37 |
 | `000000` | 33 |
 | `12345678` | 33 |
 | `12345` | 30 |
@@ -81,8 +81,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `!QAZ2wsx` | 25 |
 | `0000` | 24 |
 | `0` | 24 |
+| `00000000` | 22 |
 | `051178` | 22 |
-| `123123` | 21 |
 
 ### Top commands run
 
@@ -100,7 +100,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `w` | 111 |
 | `whoami` | 111 |
 | `free` | 110 |
-| `INFO` | 51 |
+| `INFO` | 52 |
 | `canary_env` | 41 |
 | `CONFIG` | 28 |
 
