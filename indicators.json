@@ -1,9 +1,9 @@
 {
   "feed": "trapline-ioc",
-  "generated": "2026-09-22T03:17:24+00:00",
-  "count": 541,
+  "generated": "2026-09-22T04:17:23+00:00",
+  "count": 543,
   "days": {
-    "2026-09-22": 49,
+    "2026-09-22": 54,
     "2026-09-21": 157,
     "2026-09-20": 183,
     "2026-09-19": 92,
@@ -30,6 +30,22 @@
         "bruteforce",
         "exploit",
         "gpu-probing",
+        "honeypot",
+        "ssh"
+      ]
+    },
+    {
+      "ip": "83.220.225.7",
+      "category": "ssh-exploit",
+      "categories": [
+        "ssh-exploit"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "tags": [
+        "bruteforce",
+        "exploit",
         "honeypot",
         "ssh"
       ]
@@ -124,6 +140,21 @@
         "bruteforce",
         "honeypot",
         "ssh"
+      ]
+    },
+    {
+      "ip": "62.169.26.141",
+      "category": "mcp-abuse",
+      "categories": [
+        "mcp-abuse"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-09-19",
+      "last_seen": "2026-09-22",
+      "tags": [
+        "abuse",
+        "honeypot",
+        "mcp"
       ]
     },
     {
@@ -266,13 +297,15 @@
       "ip": "46.36.216.132",
       "category": "ssh-bruteforce",
       "categories": [
-        "ssh-bruteforce"
+        "ssh-bruteforce",
+        "ssh-exploit"
       ],
       "confidence": 90,
       "first_seen": "2026-09-22",
       "last_seen": "2026-09-22",
       "tags": [
         "bruteforce",
+        "exploit",
         "honeypot",
         "ssh"
       ]
@@ -290,6 +323,39 @@
         "bruteforce",
         "honeypot",
         "ssh"
+      ]
+    },
+    {
+      "ip": "36.255.97.185",
+      "category": "llamacpp-key-replay",
+      "categories": [
+        "llamacpp-key-replay",
+        "vllm-key-replay"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-09-16",
+      "last_seen": "2026-09-22",
+      "tags": [
+        "honeypot",
+        "key-replay",
+        "llamacpp",
+        "vllm"
+      ]
+    },
+    {
+      "ip": "23.252.123.134",
+      "category": "vllm-abuse",
+      "categories": [
+        "vllm-abuse"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-09-21",
+      "last_seen": "2026-09-22",
+      "tags": [
+        "abuse",
+        "honeypot",
+        "llamacpp",
+        "vllm"
       ]
     },
     {
@@ -630,6 +696,22 @@
     },
     {
       "ip": "120.48.80.100",
+      "category": "ssh-exploit",
+      "categories": [
+        "ssh-exploit"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "tags": [
+        "bruteforce",
+        "exploit",
+        "honeypot",
+        "ssh"
+      ]
+    },
+    {
+      "ip": "119.209.12.20",
       "category": "ssh-exploit",
       "categories": [
         "ssh-exploit"
@@ -1190,21 +1272,6 @@
       ]
     },
     {
-      "ip": "62.169.26.141",
-      "category": "mcp-abuse",
-      "categories": [
-        "mcp-abuse"
-      ],
-      "confidence": 90,
-      "first_seen": "2026-09-19",
-      "last_seen": "2026-09-21",
-      "tags": [
-        "abuse",
-        "honeypot",
-        "mcp"
-      ]
-    },
-    {
       "ip": "62.169.20.168",
       "category": "mcp-abuse",
       "categories": [
@@ -1513,22 +1580,6 @@
       ]
     },
     {
-      "ip": "36.255.97.185",
-      "category": "llamacpp-key-replay",
-      "categories": [
-        "llamacpp-key-replay"
-      ],
-      "confidence": 90,
-      "first_seen": "2026-09-16",
-      "last_seen": "2026-09-21",
-      "tags": [
-        "honeypot",
-        "key-replay",
-        "llamacpp",
-        "vllm"
-      ]
-    },
-    {
       "ip": "36.134.27.91",
       "category": "redis-exploit",
       "categories": [
@@ -1586,21 +1637,6 @@
         "exploit",
         "honeypot",
         "redis"
-      ]
-    },
-    {
-      "ip": "23.252.123.134",
-      "category": "vllm-abuse",
-      "categories": [
-        "vllm-abuse"
-      ],
-      "confidence": 90,
-      "first_seen": "2026-09-21",
-      "last_seen": "2026-09-21",
-      "tags": [
-        "abuse",
-        "honeypot",
-        "vllm"
       ]
     },
     {
