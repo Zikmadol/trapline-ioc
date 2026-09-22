@@ -1,9 +1,9 @@
 {
   "feed": "trapline-ioc",
-  "generated": "2026-09-22T05:17:23+00:00",
-  "count": 546,
+  "generated": "2026-09-22T06:17:25+00:00",
+  "count": 547,
   "days": {
-    "2026-09-22": 61,
+    "2026-09-22": 65,
     "2026-09-21": 157,
     "2026-09-20": 183,
     "2026-09-19": 92,
@@ -17,6 +17,41 @@
   "license": "CC-BY-4.0",
   "description": "Attacker IPs confirmed by first-party honeypot and canary observation. Each IP took a hostile action against our decoys. Research scanners are excluded from this curated view.",
   "indicators": [
+    {
+      "ip": "89.248.172.10",
+      "category": "redis-exploit",
+      "categories": [
+        "redis-exploit"
+      ],
+      "confidence": 95,
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-22",
+      "tags": [
+        "exploit",
+        "honeypot",
+        "multi-sensor",
+        "redis",
+        "ssh"
+      ]
+    },
+    {
+      "ip": "45.79.207.110",
+      "category": "redis-exploit",
+      "categories": [
+        "redis-exploit"
+      ],
+      "confidence": 95,
+      "first_seen": "2026-09-19",
+      "last_seen": "2026-09-22",
+      "tags": [
+        "exploit",
+        "hfhub",
+        "honeypot",
+        "multi-sensor",
+        "redis",
+        "ssh"
+      ]
+    },
     {
       "ip": "92.118.39.14",
       "category": "ssh-exploit",
@@ -139,6 +174,21 @@
         "abuse",
         "honeypot",
         "llamacpp"
+      ]
+    },
+    {
+      "ip": "66.94.126.66",
+      "category": "mcp-abuse",
+      "categories": [
+        "mcp-abuse"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-22",
+      "tags": [
+        "abuse",
+        "honeypot",
+        "mcp"
       ]
     },
     {
@@ -539,6 +589,21 @@
       ]
     },
     {
+      "ip": "2.25.232.211",
+      "category": "mcp-abuse",
+      "categories": [
+        "mcp-abuse"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-22",
+      "tags": [
+        "abuse",
+        "honeypot",
+        "mcp"
+      ]
+    },
+    {
       "ip": "197.225.146.23",
       "category": "ssh-exploit",
       "categories": [
@@ -579,6 +644,21 @@
       ],
       "confidence": 90,
       "first_seen": "2026-09-15",
+      "last_seen": "2026-09-22",
+      "tags": [
+        "bruteforce",
+        "honeypot",
+        "ssh"
+      ]
+    },
+    {
+      "ip": "185.246.130.20",
+      "category": "ssh-bruteforce",
+      "categories": [
+        "ssh-bruteforce"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-09-14",
       "last_seen": "2026-09-22",
       "tags": [
         "bruteforce",
@@ -720,6 +800,21 @@
         "exploit",
         "honeypot",
         "ssh"
+      ]
+    },
+    {
+      "ip": "155.133.26.49",
+      "category": "mcp-abuse",
+      "categories": [
+        "mcp-abuse"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-09-18",
+      "last_seen": "2026-09-22",
+      "tags": [
+        "abuse",
+        "honeypot",
+        "mcp"
       ]
     },
     {
@@ -1301,21 +1396,6 @@
         "honeypot",
         "jupyter",
         "redis"
-      ]
-    },
-    {
-      "ip": "66.94.126.66",
-      "category": "mcp-abuse",
-      "categories": [
-        "mcp-abuse"
-      ],
-      "confidence": 90,
-      "first_seen": "2026-09-18",
-      "last_seen": "2026-09-21",
-      "tags": [
-        "abuse",
-        "honeypot",
-        "mcp"
       ]
     },
     {
@@ -2131,21 +2211,6 @@
       ]
     },
     {
-      "ip": "185.246.130.20",
-      "category": "ssh-bruteforce",
-      "categories": [
-        "ssh-bruteforce"
-      ],
-      "confidence": 90,
-      "first_seen": "2026-09-14",
-      "last_seen": "2026-09-21",
-      "tags": [
-        "bruteforce",
-        "honeypot",
-        "ssh"
-      ]
-    },
-    {
       "ip": "185.208.172.54",
       "category": "ssh-exploit",
       "categories": [
@@ -2443,21 +2508,6 @@
       ],
       "confidence": 90,
       "first_seen": "2026-09-19",
-      "last_seen": "2026-09-21",
-      "tags": [
-        "abuse",
-        "honeypot",
-        "mcp"
-      ]
-    },
-    {
-      "ip": "155.133.26.49",
-      "category": "mcp-abuse",
-      "categories": [
-        "mcp-abuse"
-      ],
-      "confidence": 90,
-      "first_seen": "2026-09-18",
       "last_seen": "2026-09-21",
       "tags": [
         "abuse",
@@ -4202,21 +4252,6 @@
       ]
     },
     {
-      "ip": "2.25.232.211",
-      "category": "mcp-abuse",
-      "categories": [
-        "mcp-abuse"
-      ],
-      "confidence": 90,
-      "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20",
-      "tags": [
-        "abuse",
-        "honeypot",
-        "mcp"
-      ]
-    },
-    {
       "ip": "199.241.120.131",
       "category": "ssh-exploit",
       "categories": [
@@ -5656,23 +5691,6 @@
         "derived",
         "honeypot",
         "stage2"
-      ]
-    },
-    {
-      "ip": "45.79.207.110",
-      "category": "redis-exploit",
-      "categories": [
-        "redis-exploit"
-      ],
-      "confidence": 95,
-      "first_seen": "2026-09-19",
-      "last_seen": "2026-09-19",
-      "tags": [
-        "exploit",
-        "honeypot",
-        "multi-sensor",
-        "redis",
-        "ssh"
       ]
     },
     {
