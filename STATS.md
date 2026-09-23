@@ -2,11 +2,11 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**655 attackers** · **136,442 hostile actions** · covering 11 day(s) through 2026-09-23
+**657 attackers** · **136,622 hostile actions** · covering 11 day(s) through 2026-09-23
 
 | signal | count |
 |---|---|
-| GPU / AI-hardware probing | 35 |
+| GPU / AI-hardware probing | 36 |
 | Used a planted canary credential | 0 |
 | Seen on more than one sensor | 12 |
 | Stage-2 hosts named in payloads | 16 |
@@ -15,9 +15,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `ssh-exploit` | 236 |
+| `ssh-exploit` | 237 |
 | `ssh-bruteforce` | 197 |
-| `redis-exploit` | 126 |
+| `redis-exploit` | 127 |
 | `mcp-abuse` | 44 |
 | `llamacpp-abuse` | 15 |
 | `docker-abuse` | 7 |
@@ -32,14 +32,14 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 441 |
-| `redis` | 131 |
+| `ssh` | 442 |
+| `redis` | 132 |
 | `mcp` | 55 |
 | `llamacpp` | 33 |
 | `vllm` | 18 |
-| `jupyter` | 14 |
+| `jupyter` | 15 |
+| `hfhub` | 11 |
 | `docker` | 11 |
-| `hfhub` | 10 |
 | `ollama` | 6 |
 | `litellm` | 4 |
 | `ray` | 4 |
@@ -53,7 +53,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `admin` | 142 |
 | `administrator` | 37 |
 | `admin1` | 32 |
-| `ubuntu` | 31 |
+| `ubuntu` | 32 |
 | `admin2` | 29 |
 | `AdminGPON` | 27 |
 | `a` | 27 |
@@ -70,8 +70,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `345gs5662d34` | 187 |
 | `3245gs5662d34` | 186 |
-| `123456` | 121 |
-| `123` | 61 |
+| `123456` | 122 |
+| `123` | 62 |
 | `1234` | 58 |
 | `admin` | 49 |
 | `000000` | 39 |
@@ -100,7 +100,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `whoami` | 193 |
 | `free` | 192 |
 | `w` | 192 |
-| `INFO` | 90 |
+| `INFO` | 91 |
 | `canary_env` | 56 |
 | `CONFIG` | 42 |
 
