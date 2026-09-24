@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**724 attackers** · **145,396 hostile actions** · covering 12 day(s) through 2026-09-24
+**728 attackers** · **145,531 hostile actions** · covering 12 day(s) through 2026-09-24
 
 | signal | count |
 |---|---|
@@ -16,28 +16,28 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | category | IPs |
 |---|---|
 | `ssh-exploit` | 266 |
-| `ssh-bruteforce` | 210 |
-| `redis-exploit` | 145 |
-| `mcp-abuse` | 49 |
+| `ssh-bruteforce` | 211 |
+| `redis-exploit` | 146 |
+| `mcp-abuse` | 50 |
 | `llamacpp-abuse` | 15 |
 | `docker-abuse` | 8 |
 | `vllm-abuse` | 4 |
 | `ollama-abuse` | 4 |
 | `jupyter-abuse` | 2 |
+| `jupyter-key-replay` | 2 |
 | `llamacpp-key-replay` | 1 |
-| `jupyter-key-replay` | 1 |
 | `vllm-key-replay` | 1 |
 
 ### By protocol
 
 | protocol | events |
 |---|---|
-| `ssh` | 488 |
-| `redis` | 150 |
-| `mcp` | 63 |
-| `llamacpp` | 36 |
+| `ssh` | 489 |
+| `redis` | 151 |
+| `mcp` | 64 |
+| `llamacpp` | 37 |
 | `vllm` | 21 |
-| `jupyter` | 17 |
+| `jupyter` | 18 |
 | `docker` | 13 |
 | `hfhub` | 12 |
 | `litellm` | 8 |
@@ -101,8 +101,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `whoami` | 217 |
 | `w` | 216 |
 | `INFO` | 104 |
-| `canary_env` | 61 |
-| `PING` | 48 |
+| `canary_env` | 62 |
+| `PING` | 49 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._
