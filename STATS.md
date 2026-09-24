@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**717 attackers** · **145,027 hostile actions** · covering 12 day(s) through 2026-09-24
+**721 attackers** · **145,189 hostile actions** · covering 12 day(s) through 2026-09-24
 
 | signal | count |
 |---|---|
@@ -15,9 +15,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `ssh-exploit` | 263 |
-| `ssh-bruteforce` | 208 |
-| `redis-exploit` | 143 |
+| `ssh-exploit` | 265 |
+| `ssh-bruteforce` | 209 |
+| `redis-exploit` | 144 |
 | `mcp-abuse` | 49 |
 | `llamacpp-abuse` | 15 |
 | `docker-abuse` | 8 |
@@ -32,11 +32,11 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 483 |
-| `redis` | 148 |
+| `ssh` | 486 |
+| `redis` | 149 |
 | `mcp` | 63 |
 | `llamacpp` | 36 |
-| `vllm` | 19 |
+| `vllm` | 20 |
 | `jupyter` | 17 |
 | `docker` | 13 |
 | `hfhub` | 12 |
@@ -50,9 +50,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `root` | 252 |
 | `345gs5662d34` | 210 |
-| `admin` | 151 |
+| `admin` | 153 |
 | `administrator` | 40 |
-| `ubuntu` | 37 |
+| `ubuntu` | 38 |
 | `admin1` | 36 |
 | `admin2` | 30 |
 | `adminuser` | 29 |
@@ -71,9 +71,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `345gs5662d34` | 210 |
 | `3245gs5662d34` | 208 |
 | `123456` | 130 |
-| `123` | 70 |
+| `123` | 71 |
 | `1234` | 64 |
-| `admin` | 51 |
+| `admin` | 52 |
 | `000000` | 40 |
 | `12345678` | 40 |
 | `12345` | 34 |
@@ -88,19 +88,19 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | command | times |
 |---|---|
-| `uname` | 272 |
+| `uname` | 274 |
 | `echo` | 240 |
 | `lscpu` | 235 |
 | `crontab` | 232 |
-| `cat` | 230 |
-| `cd` | 229 |
+| `cat` | 232 |
+| `cd` | 231 |
 | `ls` | 218 |
 | `top` | 218 |
 | `df` | 217 |
 | `free` | 217 |
 | `whoami` | 216 |
 | `w` | 215 |
-| `INFO` | 102 |
+| `INFO` | 103 |
 | `canary_env` | 61 |
 | `PING` | 47 |
 
