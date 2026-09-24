@@ -12,7 +12,7 @@ ip,category,confidence,first_seen,last_seen,tags
 77.90.185.20,ssh-bruteforce,90,2026-09-17,2026-09-24,bruteforce|exploit|honeypot|ssh
 71.6.232.23,redis-exploit,90,2026-09-14,2026-09-24,exploit|honeypot|llamacpp|redis
 69.5.20.202,llamacpp-abuse,90,2026-09-18,2026-09-24,abuse|honeypot|llamacpp
-69.5.169.177,redis-exploit,90,2026-09-21,2026-09-24,exploit|hfhub|honeypot|jupyter|litellm|redis
+69.5.169.177,redis-exploit,90,2026-09-21,2026-09-24,exploit|hfhub|honeypot|jupyter|litellm|mcp|redis
 69.5.169.139,redis-exploit,90,2026-09-24,2026-09-24,exploit|honeypot|redis
 69.5.169.136,redis-exploit,90,2026-09-16,2026-09-24,exploit|honeypot|jupyter|mcp|redis
 66.132.195.51,redis-exploit,90,2026-09-22,2026-09-24,exploit|honeypot|redis|vllm
@@ -20,6 +20,7 @@ ip,category,confidence,first_seen,last_seen,tags
 62.164.211.80,mcp-abuse,90,2026-09-18,2026-09-24,abuse|honeypot|mcp
 58.152.42.212,ssh-exploit,90,2026-09-24,2026-09-24,bruteforce|exploit|honeypot|ssh
 57.129.48.33,mcp-abuse,90,2026-09-19,2026-09-24,abuse|honeypot|mcp
+49.7.204.85,redis-exploit,90,2026-09-19,2026-09-24,exploit|honeypot|redis
 47.236.181.57,ssh-exploit,90,2026-09-24,2026-09-24,bruteforce|exploit|honeypot|ssh
 45.153.34.117,ssh-bruteforce,90,2026-09-21,2026-09-24,bruteforce|honeypot|ssh
 45.148.10.183,ssh-bruteforce,90,2026-09-24,2026-09-24,bruteforce|exploit|gpu-probing|honeypot|ssh
@@ -41,7 +42,7 @@ ip,category,confidence,first_seen,last_seen,tags
 2.57.121.112,ssh-bruteforce,90,2026-09-15,2026-09-24,bruteforce|honeypot|ssh
 2.26.60.113,mcp-abuse,90,2026-09-18,2026-09-24,abuse|honeypot|mcp
 195.178.110.227,ssh-exploit,90,2026-09-15,2026-09-24,bruteforce|exploit|gpu-probing|honeypot|ssh
-194.88.98.121,redis-exploit,90,2026-09-24,2026-09-24,exploit|honeypot|redis
+194.88.98.121,redis-exploit,90,2026-09-24,2026-09-24,exploit|honeypot|mcp|redis
 193.46.255.86,ssh-bruteforce,90,2026-09-15,2026-09-24,bruteforce|honeypot|ssh
 193.124.20.237,redis-exploit,90,2026-09-17,2026-09-24,exploit|honeypot|jupyter|litellm|redis|vllm
 185.246.130.20,ssh-bruteforce,90,2026-09-14,2026-09-24,bruteforce|honeypot|ssh
@@ -54,12 +55,13 @@ ip,category,confidence,first_seen,last_seen,tags
 157.10.100.12,ssh-exploit,90,2026-09-24,2026-09-24,bruteforce|exploit|honeypot|ssh
 155.133.26.49,mcp-abuse,90,2026-09-18,2026-09-24,abuse|honeypot|mcp
 150.136.214.177,ssh-exploit,90,2026-09-23,2026-09-24,bruteforce|exploit|honeypot|ssh
+147.93.158.45,mcp-abuse,90,2026-09-20,2026-09-24,abuse|honeypot|mcp
 143.47.44.232,mcp-abuse,90,2026-09-23,2026-09-24,abuse|honeypot|mcp
 139.19.117.129,ssh-bruteforce,90,2026-09-14,2026-09-24,bruteforce|honeypot|ssh
 137.131.6.32,mcp-abuse,90,2026-09-18,2026-09-24,abuse|honeypot|mcp
 130.12.180.51,ssh-bruteforce,90,2026-09-14,2026-09-24,bruteforce|exploit|honeypot|ssh
 13.140.181.223,mcp-abuse,90,2026-09-24,2026-09-24,abuse|honeypot|mcp
-128.199.145.5,ssh-bruteforce,90,2026-09-24,2026-09-24,bruteforce|honeypot|ssh
+128.199.145.5,ssh-bruteforce,90,2026-09-24,2026-09-24,bruteforce|exploit|honeypot|ssh
 109.160.32.90,ssh-exploit,90,2026-09-23,2026-09-24,bruteforce|exploit|gpu-probing|honeypot|ssh
 109.160.32.80,ssh-exploit,90,2026-09-19,2026-09-24,bruteforce|exploit|gpu-probing|honeypot|ssh
 102.88.137.213,ssh-exploit,90,2026-09-24,2026-09-24,bruteforce|exploit|honeypot|ssh
@@ -164,7 +166,6 @@ ip,category,confidence,first_seen,last_seen,tags
 161.97.146.48,mcp-abuse,90,2026-09-22,2026-09-23,abuse|honeypot|mcp
 161.97.134.31,mcp-abuse,90,2026-09-19,2026-09-23,abuse|honeypot|mcp
 154.18.197.29,ssh-bruteforce,90,2026-09-23,2026-09-23,bruteforce|exploit|honeypot|ssh
-147.93.158.45,mcp-abuse,90,2026-09-20,2026-09-23,abuse|honeypot|mcp
 147.90.234.19,ssh-exploit,90,2026-09-23,2026-09-23,bruteforce|exploit|honeypot|ssh
 147.185.132.85,redis-exploit,90,2026-09-22,2026-09-23,exploit|hfhub|honeypot|redis
 146.190.129.106,redis-exploit,90,2026-09-23,2026-09-23,exploit|honeypot|redis
@@ -573,7 +574,6 @@ ip,category,confidence,first_seen,last_seen,tags
 77.237.232.88,mcp-abuse,90,2026-09-19,2026-09-19,abuse|honeypot|mcp
 73.147.130.85,ssh-bruteforce,90,2026-09-19,2026-09-19,bruteforce|honeypot|ssh
 72.56.111.121,mcp-abuse,90,2026-09-19,2026-09-19,abuse|honeypot|mcp
-49.7.204.85,redis-exploit,90,2026-09-19,2026-09-19,exploit|honeypot|redis
 45.79.181.251,redis-exploit,90,2026-09-19,2026-09-19,exploit|honeypot|redis
 45.12.1.49,ssh-exploit,90,2026-09-18,2026-09-19,bruteforce|exploit|honeypot|ssh
 35.240.38.123,redis-exploit,90,2026-09-19,2026-09-19,exploit|honeypot|redis
