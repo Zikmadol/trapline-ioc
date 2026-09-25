@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**834 attackers** · **178,695 hostile actions** · covering 13 day(s) through 2026-09-25
+**835 attackers** · **178,766 hostile actions** · covering 13 day(s) through 2026-09-25
 
 | signal | count |
 |---|---|
@@ -17,7 +17,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `ssh-exploit` | 323 |
 | `ssh-bruteforce` | 222 |
-| `redis-exploit` | 172 |
+| `redis-exploit` | 173 |
 | `mcp-abuse` | 56 |
 | `llamacpp-abuse` | 16 |
 | `docker-abuse` | 9 |
@@ -33,9 +33,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | protocol | events |
 |---|---|
 | `ssh` | 561 |
-| `redis` | 177 |
+| `redis` | 178 |
 | `mcp` | 76 |
-| `llamacpp` | 49 |
+| `llamacpp` | 50 |
 | `vllm` | 27 |
 | `jupyter` | 23 |
 | `hfhub` | 18 |
@@ -100,9 +100,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `free` | 262 |
 | `whoami` | 261 |
 | `w` | 260 |
-| `INFO` | 118 |
+| `INFO` | 119 |
 | `canary_env` | 68 |
-| `PING` | 60 |
+| `PING` | 61 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._
