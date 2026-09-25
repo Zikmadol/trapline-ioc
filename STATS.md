@@ -2,11 +2,11 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**821 attackers** · **173,632 hostile actions** · covering 13 day(s) through 2026-09-25
+**826 attackers** · **174,660 hostile actions** · covering 13 day(s) through 2026-09-25
 
 | signal | count |
 |---|---|
-| GPU / AI-hardware probing | 46 |
+| GPU / AI-hardware probing | 47 |
 | Used a planted canary credential | 0 |
 | Seen on more than one sensor | 22 |
 | Stage-2 hosts named in payloads | 17 |
@@ -15,9 +15,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `ssh-exploit` | 314 |
+| `ssh-exploit` | 318 |
 | `ssh-bruteforce` | 221 |
-| `redis-exploit` | 170 |
+| `redis-exploit` | 171 |
 | `mcp-abuse` | 55 |
 | `llamacpp-abuse` | 16 |
 | `docker-abuse` | 9 |
@@ -32,14 +32,14 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 551 |
-| `redis` | 175 |
+| `ssh` | 555 |
+| `redis` | 176 |
 | `mcp` | 75 |
 | `llamacpp` | 49 |
 | `vllm` | 27 |
 | `jupyter` | 23 |
 | `hfhub` | 18 |
-| `docker` | 17 |
+| `docker` | 18 |
 | `ollama` | 10 |
 | `litellm` | 9 |
 | `ray` | 5 |
@@ -48,19 +48,19 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 293 |
-| `345gs5662d34` | 248 |
-| `admin` | 167 |
+| `root` | 296 |
+| `345gs5662d34` | 251 |
+| `admin` | 168 |
 | `administrator` | 49 |
 | `admin1` | 41 |
 | `ubuntu` | 41 |
-| `admin2` | 34 |
+| `admin2` | 35 |
+| `a` | 34 |
 | `AdminGPON` | 33 |
-| `a` | 33 |
 | `aaa` | 33 |
 | `adminuser` | 33 |
 | `ai` | 33 |
-| `Asalem` | 31 |
+| `Asalem` | 32 |
 | `admin123` | 31 |
 | `aishani` | 31 |
 
@@ -68,41 +68,41 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | password | tries |
 |---|---|
-| `345gs5662d34` | 248 |
-| `3245gs5662d34` | 247 |
-| `123456` | 145 |
-| `123` | 87 |
-| `1234` | 72 |
+| `345gs5662d34` | 251 |
+| `3245gs5662d34` | 250 |
+| `123456` | 148 |
+| `123` | 88 |
+| `1234` | 73 |
 | `admin` | 57 |
 | `000000` | 44 |
-| `12345678` | 43 |
-| `12345` | 37 |
-| `123456789` | 37 |
-| `!QAZ2wsx` | 37 |
+| `12345678` | 44 |
+| `12345` | 38 |
+| `123456789` | 38 |
+| `!QAZ2wsx` | 38 |
 | `0000` | 36 |
 | `password` | 35 |
+| `1` | 34 |
 | `0` | 34 |
-| `!Q2w3e4r` | 33 |
 
 ### Top commands run
 
 | command | times |
 |---|---|
-| `uname` | 322 |
-| `echo` | 288 |
-| `lscpu` | 282 |
-| `crontab` | 280 |
-| `cat` | 273 |
-| `cd` | 272 |
-| `ls` | 259 |
-| `top` | 259 |
-| `df` | 258 |
-| `free` | 258 |
-| `whoami` | 257 |
-| `w` | 256 |
-| `INFO` | 116 |
+| `uname` | 326 |
+| `echo` | 292 |
+| `lscpu` | 286 |
+| `crontab` | 284 |
+| `cat` | 276 |
+| `cd` | 275 |
+| `ls` | 262 |
+| `top` | 262 |
+| `df` | 261 |
+| `free` | 261 |
+| `whoami` | 260 |
+| `w` | 259 |
+| `INFO` | 117 |
 | `canary_env` | 67 |
-| `PING` | 59 |
+| `PING` | 60 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._
