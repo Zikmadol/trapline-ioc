@@ -2,13 +2,13 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**938 attackers** · **194,936 hostile actions** · covering 14 day(s) through 2026-09-26
+**939 attackers** · **196,984 hostile actions** · covering 14 day(s) through 2026-09-26
 
 | signal | count |
 |---|---|
-| GPU / AI-hardware probing | 51 |
+| GPU / AI-hardware probing | 52 |
 | Used a planted canary credential | 0 |
-| Seen on more than one sensor | 39 |
+| Seen on more than one sensor | 41 |
 | Stage-2 hosts named in payloads | 18 |
 
 ### By category
@@ -16,7 +16,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | category | IPs |
 |---|---|
 | `ssh-exploit` | 368 |
-| `ssh-bruteforce` | 237 |
+| `ssh-bruteforce` | 238 |
 | `redis-exploit` | 199 |
 | `mcp-abuse` | 64 |
 | `llamacpp-abuse` | 19 |
@@ -32,14 +32,14 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 621 |
+| `ssh` | 622 |
 | `redis` | 205 |
 | `mcp` | 88 |
 | `llamacpp` | 59 |
 | `vllm` | 33 |
 | `jupyter` | 29 |
-| `hfhub` | 24 |
-| `docker` | 18 |
+| `hfhub` | 25 |
+| `docker` | 19 |
 | `ollama` | 12 |
 | `litellm` | 10 |
 | `ray` | 6 |
@@ -48,21 +48,21 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 340 |
+| `root` | 341 |
 | `345gs5662d34` | 291 |
-| `admin` | 186 |
+| `admin` | 187 |
 | `administrator` | 58 |
 | `ubuntu` | 52 |
 | `admin1` | 45 |
 | `aaa` | 39 |
 | `admin2` | 38 |
+| `AdminGPON` | 37 |
 | `a` | 37 |
 | `adminuser` | 37 |
 | `ai` | 37 |
-| `AdminGPON` | 36 |
-| `Asalem` | 34 |
+| `Asalem` | 35 |
+| `admin123` | 35 |
 | `Caps` | 34 |
-| `actian` | 34 |
 
 ### Top passwords tried
 
@@ -70,25 +70,25 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `345gs5662d34` | 291 |
 | `3245gs5662d34` | 290 |
-| `123456` | 165 |
+| `123456` | 166 |
 | `123` | 102 |
 | `1234` | 85 |
 | `admin` | 62 |
 | `12345678` | 48 |
-| `000000` | 46 |
-| `12345` | 42 |
+| `000000` | 47 |
+| `12345` | 43 |
 | `!QAZ2wsx` | 41 |
 | `123456789` | 40 |
 | `0000` | 40 |
 | `password` | 39 |
-| `1` | 38 |
 | `0` | 38 |
+| `1` | 37 |
 
 ### Top commands run
 
 | command | times |
 |---|---|
-| `uname` | 376 |
+| `uname` | 377 |
 | `echo` | 336 |
 | `lscpu` | 328 |
 | `crontab` | 325 |
