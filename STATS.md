@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**1032 attackers** · **229,187 hostile actions** · covering 15 day(s) through 2026-09-27
+**1033 attackers** · **229,248 hostile actions** · covering 15 day(s) through 2026-09-27
 
 | signal | count |
 |---|---|
@@ -15,7 +15,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `ssh-exploit` | 400 |
+| `ssh-exploit` | 401 |
 | `ssh-bruteforce` | 252 |
 | `redis-exploit` | 220 |
 | `mcp-abuse` | 73 |
@@ -32,7 +32,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 671 |
+| `ssh` | 672 |
 | `redis` | 228 |
 | `mcp` | 102 |
 | `llamacpp` | 66 |
@@ -48,8 +48,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 373 |
-| `345gs5662d34` | 316 |
+| `root` | 374 |
+| `345gs5662d34` | 317 |
 | `admin` | 204 |
 | `administrator` | 63 |
 | `ubuntu` | 55 |
@@ -68,9 +68,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | password | tries |
 |---|---|
-| `3245gs5662d34` | 316 |
-| `345gs5662d34` | 316 |
-| `123456` | 182 |
+| `3245gs5662d34` | 317 |
+| `345gs5662d34` | 317 |
+| `123456` | 183 |
 | `123` | 113 |
 | `1234` | 91 |
 | `admin` | 64 |
@@ -88,18 +88,18 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | command | times |
 |---|---|
-| `uname` | 409 |
-| `echo` | 366 |
-| `lscpu` | 358 |
-| `crontab` | 355 |
-| `cd` | 353 |
-| `cat` | 353 |
-| `top` | 328 |
-| `ls` | 327 |
-| `df` | 327 |
-| `free` | 327 |
-| `whoami` | 326 |
-| `w` | 325 |
+| `uname` | 410 |
+| `echo` | 367 |
+| `lscpu` | 359 |
+| `crontab` | 356 |
+| `cd` | 354 |
+| `cat` | 354 |
+| `top` | 329 |
+| `ls` | 328 |
+| `df` | 328 |
+| `free` | 328 |
+| `whoami` | 327 |
+| `w` | 326 |
 | `INFO` | 150 |
 | `canary_env` | 92 |
 | `PING` | 87 |
