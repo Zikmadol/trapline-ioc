@@ -43,6 +43,7 @@ ip,category,confidence,first_seen,last_seen,tags
 5.226.140.35,redis-exploit,90,2026-09-27,2026-09-27,exploit|honeypot|redis
 46.147.113.91,ssh-exploit,90,2026-09-27,2026-09-27,bruteforce|exploit|honeypot|ssh
 45.78.224.198,ssh-bruteforce,90,2026-09-27,2026-09-27,bruteforce|honeypot|ssh
+45.116.78.92,ssh-exploit,90,2026-09-27,2026-09-27,bruteforce|exploit|honeypot|ssh
 43.198.35.199,litellm-key-replay,90,2026-09-27,2026-09-27,honeypot|key-replay|litellm
 39.107.104.228,docker-abuse,90,2026-09-27,2026-09-27,abuse|docker|honeypot
 38.207.137.41,redis-exploit,90,2026-09-27,2026-09-27,exploit|honeypot|redis
@@ -51,6 +52,7 @@ ip,category,confidence,first_seen,last_seen,tags
 36.92.140.209,ssh-exploit,90,2026-09-27,2026-09-27,bruteforce|exploit|honeypot|ssh
 36.64.131.68,ssh-exploit,90,2026-09-23,2026-09-27,bruteforce|exploit|honeypot|ssh
 34.24.42.105,vllm-key-replay,90,2026-09-27,2026-09-27,honeypot|key-replay|vllm
+34.123.134.194,ssh-exploit,90,2026-09-27,2026-09-27,bruteforce|exploit|honeypot|ssh
 31.57.216.7,ssh-bruteforce,90,2026-09-27,2026-09-27,bruteforce|honeypot|ssh
 23.94.28.176,ssh-bruteforce,90,2026-09-26,2026-09-27,bruteforce|honeypot|ssh
 23.175.50.52,ssh-bruteforce,90,2026-09-21,2026-09-27,bruteforce|honeypot|ssh
@@ -61,6 +63,7 @@ ip,category,confidence,first_seen,last_seen,tags
 211.105.129.57,ssh-exploit,90,2026-09-27,2026-09-27,bruteforce|exploit|honeypot|ssh
 20.42.90.131,redis-exploit,90,2026-09-27,2026-09-27,exploit|honeypot|redis
 20.171.192.152,redis-exploit,90,2026-09-27,2026-09-27,exploit|honeypot|redis
+20.17.98.5,ssh-exploit,90,2026-09-27,2026-09-27,bruteforce|exploit|honeypot|ssh
 2.57.122.53,ssh-bruteforce,90,2026-09-23,2026-09-27,bruteforce|exploit|gpu-probing|honeypot|ssh
 2.57.122.238,ssh-bruteforce,90,2026-09-14,2026-09-27,bruteforce|exploit|gpu-probing|honeypot|ssh
 2.57.121.112,ssh-bruteforce,90,2026-09-15,2026-09-27,bruteforce|honeypot|ssh
@@ -90,8 +93,10 @@ ip,category,confidence,first_seen,last_seen,tags
 130.12.180.51,ssh-bruteforce,90,2026-09-14,2026-09-27,bruteforce|exploit|honeypot|ssh
 13.231.136.157,litellm-abuse,90,2026-09-27,2026-09-27,abuse|exploit|hfhub|honeypot|jupyter|litellm|llamacpp|redis|vllm
 123.58.215.196,ssh-bruteforce,90,2026-09-24,2026-09-27,bruteforce|exploit|honeypot|ssh
+121.31.210.125,ssh-exploit,90,2026-09-27,2026-09-27,bruteforce|exploit|honeypot|ssh
 119.45.248.246,redis-exploit,90,2026-09-26,2026-09-27,exploit|honeypot|redis
 117.50.208.11,ssh-bruteforce,90,2026-09-22,2026-09-27,bruteforce|honeypot|ssh
+115.91.48.140,ssh-exploit,90,2026-09-21,2026-09-27,bruteforce|exploit|honeypot|ssh
 115.190.151.242,ssh-exploit,90,2026-09-27,2026-09-27,bruteforce|exploit|honeypot|ssh
 113.31.115.157,ssh-exploit,90,2026-09-27,2026-09-27,bruteforce|exploit|honeypot|ssh
 111.29.52.71,ssh-bruteforce,90,2026-09-27,2026-09-27,bruteforce|honeypot|ssh
@@ -106,6 +111,7 @@ ip,category,confidence,first_seen,last_seen,tags
 104.199.176.250,ssh-bruteforce,90,2026-09-27,2026-09-27,bruteforce|exploit|honeypot|ssh
 103.90.226.200,ssh-exploit,90,2026-09-24,2026-09-27,bruteforce|exploit|honeypot|ssh
 103.156.164.30,vllm-key-replay,90,2026-09-27,2026-09-27,abuse|honeypot|key-replay|vllm
+103.154.63.62,ssh-exploit,90,2026-09-27,2026-09-27,bruteforce|exploit|honeypot|ssh
 1.117.171.170,docker-abuse,90,2026-09-27,2026-09-27,abuse|docker|honeypot
 191.223.220.53,payload-host,75,2026-09-27,2026-09-27,derived|honeypot|stage2
 93.127.217.131,mcp-abuse,95,2026-09-18,2026-09-26,abuse|honeypot|mcp|multi-sensor
@@ -745,7 +751,6 @@ ip,category,confidence,first_seen,last_seen,tags
 120.48.54.130,ssh-bruteforce,90,2026-09-21,2026-09-21,bruteforce|exploit|honeypot|ssh
 120.203.25.201,ssh-exploit,90,2026-09-21,2026-09-21,bruteforce|exploit|honeypot|ssh
 118.26.36.161,ssh-bruteforce,90,2026-09-21,2026-09-21,bruteforce|exploit|honeypot|ssh
-115.91.48.140,ssh-exploit,90,2026-09-21,2026-09-21,bruteforce|exploit|honeypot|ssh
 115.191.16.236,ssh-exploit,90,2026-09-20,2026-09-21,bruteforce|exploit|honeypot|ssh
 115.190.249.177,ssh-bruteforce,90,2026-09-21,2026-09-21,bruteforce|honeypot|ssh
 115.190.235.8,ssh-bruteforce,90,2026-09-21,2026-09-21,bruteforce|honeypot|ssh
