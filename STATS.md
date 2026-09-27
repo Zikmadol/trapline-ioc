@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**1025 attackers** · **225,581 hostile actions** · covering 15 day(s) through 2026-09-27
+**1030 attackers** · **228,499 hostile actions** · covering 15 day(s) through 2026-09-27
 
 | signal | count |
 |---|---|
@@ -15,9 +15,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `ssh-exploit` | 398 |
+| `ssh-exploit` | 399 |
 | `ssh-bruteforce` | 252 |
-| `redis-exploit` | 216 |
+| `redis-exploit` | 220 |
 | `mcp-abuse` | 73 |
 | `llamacpp-abuse` | 21 |
 | `docker-abuse` | 12 |
@@ -32,8 +32,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 669 |
-| `redis` | 224 |
+| `ssh` | 670 |
+| `redis` | 228 |
 | `mcp` | 102 |
 | `llamacpp` | 66 |
 | `vllm` | 40 |
@@ -54,15 +54,15 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `administrator` | 63 |
 | `ubuntu` | 55 |
 | `admin1` | 50 |
-| `aaa` | 42 |
+| `AdminGPON` | 43 |
+| `aaa` | 43 |
+| `a` | 42 |
 | `admin2` | 42 |
 | `adminuser` | 42 |
-| `AdminGPON` | 41 |
-| `a` | 41 |
 | `admin123` | 40 |
 | `ai` | 40 |
 | `Asalem` | 39 |
-| `Caps` | 38 |
+| `Caps` | 39 |
 
 ### Top passwords tried
 
@@ -70,39 +70,39 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `3245gs5662d34` | 315 |
 | `345gs5662d34` | 315 |
-| `123456` | 181 |
-| `123` | 114 |
+| `123456` | 182 |
+| `123` | 113 |
 | `1234` | 91 |
 | `admin` | 64 |
-| `12345678` | 54 |
+| `12345678` | 53 |
 | `000000` | 51 |
-| `12345` | 46 |
 | `!QAZ2wsx` | 46 |
-| `123456789` | 44 |
+| `12345` | 45 |
+| `0` | 44 |
+| `1` | 43 |
+| `123456789` | 43 |
 | `0000` | 43 |
-| `0` | 43 |
-| `1` | 42 |
 | `!Q2w3e4r` | 42 |
 
 ### Top commands run
 
 | command | times |
 |---|---|
-| `uname` | 407 |
-| `echo` | 364 |
-| `lscpu` | 356 |
-| `crontab` | 353 |
-| `cd` | 351 |
-| `cat` | 351 |
-| `top` | 326 |
-| `ls` | 325 |
-| `df` | 325 |
-| `free` | 325 |
-| `whoami` | 324 |
-| `w` | 323 |
-| `INFO` | 146 |
+| `uname` | 408 |
+| `echo` | 365 |
+| `lscpu` | 357 |
+| `crontab` | 354 |
+| `cd` | 352 |
+| `cat` | 352 |
+| `top` | 327 |
+| `ls` | 326 |
+| `df` | 326 |
+| `free` | 326 |
+| `whoami` | 325 |
+| `w` | 324 |
+| `INFO` | 150 |
 | `canary_env` | 92 |
-| `PING` | 84 |
+| `PING` | 87 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._
