@@ -2,11 +2,11 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**1102 attackers** · **238,548 hostile actions** · covering 16 day(s) through 2026-09-28
+**1103 attackers** · **242,948 hostile actions** · covering 16 day(s) through 2026-09-28
 
 | signal | count |
 |---|---|
-| GPU / AI-hardware probing | 64 |
+| GPU / AI-hardware probing | 65 |
 | Used a planted canary credential | 0 |
 | Seen on more than one sensor | 67 |
 | Stage-2 hosts named in payloads | 20 |
@@ -15,7 +15,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `ssh-exploit` | 439 |
+| `ssh-exploit` | 440 |
 | `ssh-bruteforce` | 263 |
 | `redis-exploit` | 227 |
 | `mcp-abuse` | 76 |
@@ -32,7 +32,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 721 |
+| `ssh` | 722 |
 | `redis` | 235 |
 | `mcp` | 107 |
 | `llamacpp` | 66 |
@@ -50,19 +50,19 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `root` | 404 |
 | `345gs5662d34` | 348 |
-| `admin` | 218 |
-| `administrator` | 67 |
-| `ubuntu` | 63 |
-| `admin1` | 52 |
-| `AdminGPON` | 45 |
+| `admin` | 222 |
+| `administrator` | 68 |
+| `ubuntu` | 66 |
+| `admin1` | 53 |
+| `AdminGPON` | 46 |
 | `aaa` | 45 |
-| `admin2` | 44 |
-| `adminuser` | 44 |
-| `a` | 43 |
-| `ai` | 43 |
-| `Caps` | 41 |
-| `adm1n` | 41 |
-| `admin123` | 41 |
+| `admin2` | 45 |
+| `adminuser` | 45 |
+| `a` | 44 |
+| `ai` | 44 |
+| `Asalem` | 42 |
+| `Caps` | 42 |
+| `admin123` | 42 |
 
 ### Top passwords tried
 
@@ -71,27 +71,27 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `3245gs5662d34` | 348 |
 | `345gs5662d34` | 348 |
 | `123456` | 193 |
-| `123` | 120 |
+| `123` | 121 |
 | `1234` | 99 |
 | `admin` | 70 |
 | `12345678` | 61 |
 | `000000` | 54 |
+| `!QAZ2wsx` | 49 |
 | `12345` | 48 |
-| `!QAZ2wsx` | 48 |
 | `1` | 47 |
-| `0` | 46 |
-| `0000` | 45 |
-| `!Q2w3e4r` | 44 |
+| `0` | 47 |
+| `0000` | 46 |
+| `!Q2w3e4r` | 45 |
 | `password` | 43 |
 
 ### Top commands run
 
 | command | times |
 |---|---|
-| `uname` | 448 |
-| `echo` | 401 |
-| `lscpu` | 393 |
-| `crontab` | 390 |
+| `uname` | 449 |
+| `echo` | 402 |
+| `lscpu` | 394 |
+| `crontab` | 391 |
 | `cd` | 386 |
 | `cat` | 386 |
 | `top` | 361 |
