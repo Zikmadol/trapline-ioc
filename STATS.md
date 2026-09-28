@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**1092 attackers** · **235,380 hostile actions** · covering 16 day(s) through 2026-09-28
+**1096 attackers** · **235,522 hostile actions** · covering 16 day(s) through 2026-09-28
 
 | signal | count |
 |---|---|
@@ -15,8 +15,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `ssh-exploit` | 435 |
-| `ssh-bruteforce` | 259 |
+| `ssh-exploit` | 437 |
+| `ssh-bruteforce` | 261 |
 | `redis-exploit` | 225 |
 | `mcp-abuse` | 76 |
 | `llamacpp-abuse` | 21 |
@@ -32,7 +32,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 713 |
+| `ssh` | 717 |
 | `redis` | 233 |
 | `mcp` | 107 |
 | `llamacpp` | 66 |
@@ -48,9 +48,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 398 |
-| `345gs5662d34` | 346 |
-| `admin` | 216 |
+| `root` | 402 |
+| `345gs5662d34` | 348 |
+| `admin` | 217 |
 | `administrator` | 66 |
 | `ubuntu` | 62 |
 | `admin1` | 51 |
@@ -68,11 +68,11 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | password | tries |
 |---|---|
-| `3245gs5662d34` | 346 |
-| `345gs5662d34` | 346 |
-| `123456` | 192 |
+| `3245gs5662d34` | 348 |
+| `345gs5662d34` | 348 |
+| `123456` | 193 |
 | `123` | 120 |
-| `1234` | 97 |
+| `1234` | 99 |
 | `admin` | 70 |
 | `12345678` | 60 |
 | `000000` | 53 |
@@ -88,18 +88,18 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | command | times |
 |---|---|
-| `uname` | 444 |
-| `echo` | 398 |
-| `lscpu` | 390 |
-| `crontab` | 387 |
-| `cd` | 384 |
-| `cat` | 384 |
-| `top` | 359 |
-| `ls` | 358 |
-| `df` | 358 |
-| `free` | 358 |
-| `whoami` | 357 |
-| `w` | 356 |
+| `uname` | 446 |
+| `echo` | 400 |
+| `lscpu` | 392 |
+| `crontab` | 389 |
+| `cd` | 386 |
+| `cat` | 386 |
+| `top` | 361 |
+| `ls` | 360 |
+| `df` | 360 |
+| `free` | 360 |
+| `whoami` | 359 |
+| `w` | 358 |
 | `INFO` | 152 |
 | `canary_env` | 95 |
 | `PING` | 88 |
