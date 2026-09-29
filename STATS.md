@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**1216 attackers** · **269,094 hostile actions** · covering 17 day(s) through 2026-09-29
+**1218 attackers** · **271,904 hostile actions** · covering 17 day(s) through 2026-09-29
 
 | signal | count |
 |---|---|
@@ -16,7 +16,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | category | IPs |
 |---|---|
 | `ssh-exploit` | 505 |
-| `ssh-bruteforce` | 290 |
+| `ssh-bruteforce` | 292 |
 | `redis-exploit` | 242 |
 | `mcp-abuse` | 77 |
 | `llamacpp-abuse` | 22 |
@@ -32,7 +32,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 815 |
+| `ssh` | 817 |
 | `redis` | 250 |
 | `mcp` | 109 |
 | `llamacpp` | 71 |
@@ -48,7 +48,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 471 |
+| `root` | 473 |
 | `345gs5662d34` | 401 |
 | `admin` | 244 |
 | `ubuntu` | 91 |
@@ -57,12 +57,12 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `a` | 52 |
 | `ai` | 52 |
 | `admin2` | 51 |
-| `AdminGPON` | 49 |
-| `aaa` | 49 |
-| `adminuser` | 48 |
+| `AdminGPON` | 50 |
+| `aaa` | 50 |
+| `adminuser` | 49 |
 | `admin123` | 47 |
-| `admins` | 46 |
-| `agent` | 46 |
+| `Asalem` | 46 |
+| `Caps` | 46 |
 
 ### Top passwords tried
 
@@ -70,15 +70,15 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `3245gs5662d34` | 401 |
 | `345gs5662d34` | 401 |
-| `123456` | 226 |
-| `123` | 134 |
+| `123456` | 227 |
+| `123` | 133 |
 | `1234` | 114 |
-| `admin` | 76 |
+| `admin` | 77 |
 | `12345678` | 71 |
+| `000000` | 63 |
 | `password` | 62 |
-| `000000` | 62 |
 | `12345` | 60 |
-| `1` | 58 |
+| `1` | 57 |
 | `!QAZ2wsx` | 53 |
 | `0` | 51 |
 | `0000` | 50 |
@@ -89,7 +89,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | command | times |
 |---|---|
 | `uname` | 519 |
-| `echo` | 461 |
+| `echo` | 462 |
 | `lscpu` | 452 |
 | `crontab` | 449 |
 | `cd` | 448 |
