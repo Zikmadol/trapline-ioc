@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**1226 attackers** · **272,390 hostile actions** · covering 17 day(s) through 2026-09-29
+**1229 attackers** · **275,759 hostile actions** · covering 17 day(s) through 2026-09-29
 
 | signal | count |
 |---|---|
@@ -16,7 +16,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | category | IPs |
 |---|---|
 | `ssh-exploit` | 507 |
-| `ssh-bruteforce` | 294 |
+| `ssh-bruteforce` | 297 |
 | `redis-exploit` | 245 |
 | `mcp-abuse` | 78 |
 | `llamacpp-abuse` | 22 |
@@ -32,7 +32,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 821 |
+| `ssh` | 824 |
 | `redis` | 253 |
 | `mcp` | 112 |
 | `llamacpp` | 72 |
@@ -50,19 +50,19 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `root` | 477 |
 | `345gs5662d34` | 404 |
-| `admin` | 247 |
-| `ubuntu` | 94 |
-| `administrator` | 76 |
-| `admin1` | 62 |
-| `a` | 52 |
-| `ai` | 52 |
+| `admin` | 249 |
+| `ubuntu` | 93 |
+| `administrator` | 77 |
+| `admin1` | 63 |
+| `a` | 53 |
+| `ai` | 53 |
+| `aaa` | 51 |
 | `admin2` | 51 |
 | `AdminGPON` | 50 |
-| `aaa` | 50 |
-| `adminuser` | 49 |
-| `admin123` | 47 |
-| `Asalem` | 46 |
-| `Caps` | 46 |
+| `adminuser` | 50 |
+| `admin123` | 48 |
+| `Asalem` | 47 |
+| `Caps` | 47 |
 
 ### Top passwords tried
 
@@ -70,7 +70,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `3245gs5662d34` | 404 |
 | `345gs5662d34` | 404 |
-| `123456` | 230 |
+| `123456` | 229 |
 | `123` | 133 |
 | `1234` | 115 |
 | `admin` | 77 |
@@ -78,10 +78,10 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `000000` | 63 |
 | `password` | 62 |
 | `12345` | 60 |
-| `1` | 57 |
-| `!QAZ2wsx` | 53 |
-| `0` | 51 |
-| `0000` | 50 |
+| `1` | 58 |
+| `!QAZ2wsx` | 54 |
+| `0` | 52 |
+| `0000` | 51 |
 | `!Q2w3e4r` | 50 |
 
 ### Top commands run
