@@ -3,7 +3,8 @@
 Free, first-party threat intelligence from a honeypot sensor network — with a focus you
 won't find in a generic blocklist: **attacks against AI infrastructure.** Alongside the
 usual SSH and Redis brute-forcers, this feed tracks the IPs probing exposed
-Ollama / vLLM / llama.cpp / Jupyter / Ray servers, hunting for GPUs, and — caught by
+Ollama / vLLM / llama.cpp / Jupyter / Ray servers, hunting for GPUs, sending those
+servers real prompts to run inference on hardware they don't own, and — caught by
 planted canary credentials — the ones stealing and reusing keys harvested from AI boxes
 (LLMjacking). Every address took a hostile action against a decoy that hosts nothing
 legitimate, so there is no reason for a real user to touch it. Updated hourly from live
@@ -12,6 +13,7 @@ capture.
 [![indicators](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FZikmadol%2Ftrapline-ioc%2Fmain%2Fmanifest.json&query=%24.count&label=indicators&color=e4572e&style=flat-square)](ips.txt)
 [![AI-infra attackers](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FZikmadol%2Ftrapline-ioc%2Fmain%2Fmanifest.json&query=%24.ai_infra&label=AI-infra%20attackers&color=8b5cf6&style=flat-square)](feeds/ai-infra.txt)
 [![GPU-probing](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FZikmadol%2Ftrapline-ioc%2Fmain%2Fmanifest.json&query=%24.gpu_probing&label=GPU-probing&color=41c9e8&style=flat-square)](feeds/gpu-probing.txt)
+[![Prompt abuse](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FZikmadol%2Ftrapline-ioc%2Fmain%2Fmanifest.json&query=%24.prompt_abuse&label=Prompt%20abuse&color=f2a65a&style=flat-square)](feeds/prompt-abuse.txt)
 [![LLMjacking](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FZikmadol%2Ftrapline-ioc%2Fmain%2Fmanifest.json&query=%24.llmjacking&label=LLMjacking&color=ff5277&style=flat-square)](feeds/llmjacking.txt)
 [![updated](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FZikmadol%2Ftrapline-ioc%2Fmain%2Fmanifest.json&query=%24.last_day&label=updated&color=5ce6ad&style=flat-square)](daily)
 [![license](https://img.shields.io/badge/license-CC%20BY%204.0-5ce6ad?style=flat-square)](LICENSE)
@@ -25,7 +27,7 @@ sensors and canaries confirmed, first-hand.
 
 ## AI-infrastructure threat feeds
 
-The reason this project exists. Most blocklists lump every attacker together; these three
+The reason this project exists. Most blocklists lump every attacker together; these four
 carve out the AI-targeting activity our decoys and canaries catch first-hand. Each is a
 plain one-IP-per-line list (with a `.csv` where noted), all-time cumulative, regenerated
 hourly under [`feeds/`](feeds).
@@ -34,6 +36,7 @@ hourly under [`feeds/`](feeds).
 |---|---|---|
 | [`feeds/ai-infra.txt`](feeds/ai-infra.txt) | Every IP that attacked AI infrastructure — drove an exposed-AI decoy, ran GPU/AI-hardware recon, or used a credential planted on an AI box. | [`.csv`](feeds/ai-infra.csv) |
 | [`feeds/gpu-probing.txt`](feeds/gpu-probing.txt) | IPs running GPU/AI-hardware reconnaissance (`nvidia-smi`, `lspci \| grep nvidia`) — hunting for compute, not generic servers. | — |
+| [`feeds/prompt-abuse.txt`](feeds/prompt-abuse.txt) | IPs that sent an exposed LLM endpoint an **actual prompt** — a `chat`, `generate` or `completion` call against Ollama/llama.cpp/vLLM/LiteLLM. Trying to run a model on someone else's hardware, not just scanning for one. | [`.csv`](feeds/prompt-abuse.csv) |
 | [`feeds/llmjacking.txt`](feeds/llmjacking.txt) | **LLMjacking**: IPs that *used* a cloud key we planted in an AI server's `.env`. Canary-confirmed, zero ambiguity (confidence 98). | [`.csv`](feeds/llmjacking.csv) |
 
 ```
@@ -89,7 +92,7 @@ Curious what the attackers actually do? [STATS.md](STATS.md) is a sanitised, agg
 | `category` | What it did, e.g. `ssh-bruteforce`, `ollama-abuse`, `canary-aws-key`, `payload-host`. |
 | `confidence` | 90 = direct observation on our decoys. 98 = used a credential we planted (unambiguous). |
 | `first_seen` / `last_seen` | UTC dates we observed it. |
-| `tags` | Coarse labels: protocol, `bruteforce`/`exploit`/`abuse`, `key-replay`, `canary`, `cloud-abuse`, `gpu-probing`, `stage2`. |
+| `tags` | Coarse labels: protocol, `bruteforce`/`exploit`/`abuse`, `prompt-abuse`, `key-replay`, `canary`, `cloud-abuse`, `gpu-probing`, `stage2`. |
 
 Confidence is deliberately high because there are no bystanders here. An IP that
 brute-forced an SSH decoy, drove a fake AI endpoint, or used a leaked canary key is not a
@@ -104,7 +107,7 @@ flowchart LR
   C -->|"key used elsewhere"| D["Attacker's real IP"]
   B --> E["Sanitise<br/>+ suppress own infra"]
   D --> E
-  E --> F["Public feed<br/>ips.txt · daily/ · feeds/ai-infra · feeds/llmjacking"]
+  E --> F["Public feed<br/>ips.txt · daily/ · feeds/ai-infra · feeds/prompt-abuse · feeds/llmjacking"]
 ```
 
 
