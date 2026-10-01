@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**1367 attackers** · **307,818 hostile actions** · covering 19 day(s) through 2026-10-01
+**1369 attackers** · **308,422 hostile actions** · covering 19 day(s) through 2026-10-01
 
 | signal | count |
 |---|---|
@@ -16,8 +16,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | category | IPs |
 |---|---|
 | `ssh-exploit` | 580 |
-| `ssh-bruteforce` | 326 |
-| `redis-exploit` | 262 |
+| `ssh-bruteforce` | 327 |
+| `redis-exploit` | 263 |
 | `mcp-abuse` | 87 |
 | `llamacpp-abuse` | 23 |
 | `litellm-key-replay` | 21 |
@@ -32,8 +32,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 929 |
-| `redis` | 270 |
+| `ssh` | 930 |
+| `redis` | 271 |
 | `mcp` | 124 |
 | `llamacpp` | 76 |
 | `vllm` | 48 |
@@ -50,16 +50,16 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `root` | 551 |
 | `345gs5662d34` | 464 |
-| `admin` | 282 |
-| `ubuntu` | 124 |
+| `admin` | 285 |
+| `ubuntu` | 127 |
 | `administrator` | 89 |
 | `admin1` | 67 |
 | `user` | 61 |
 | `admin2` | 58 |
+| `adminuser` | 58 |
+| `test` | 57 |
 | `a` | 57 |
 | `ai` | 57 |
-| `adminuser` | 56 |
-| `test` | 55 |
 | `AdminGPON` | 55 |
 | `aaa` | 55 |
 | `admin123` | 53 |
@@ -70,15 +70,15 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `3245gs5662d34` | 467 |
 | `345gs5662d34` | 464 |
-| `123456` | 288 |
-| `123` | 168 |
-| `1234` | 154 |
-| `admin` | 86 |
-| `12345678` | 86 |
+| `123456` | 291 |
+| `123` | 172 |
+| `1234` | 156 |
+| `admin` | 87 |
+| `12345678` | 87 |
 | `password` | 73 |
+| `1` | 71 |
 | `000000` | 71 |
-| `1` | 70 |
-| `12345` | 70 |
+| `12345` | 71 |
 | `!QAZ2wsx` | 61 |
 | `0` | 59 |
 | `123456789` | 57 |
