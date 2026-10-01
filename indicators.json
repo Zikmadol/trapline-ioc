@@ -1,9 +1,9 @@
 {
   "feed": "trapline-ioc",
-  "generated": "2026-10-01T18:21:04+00:00",
-  "count": 1383,
+  "generated": "2026-10-01T19:21:01+00:00",
+  "count": 1384,
   "days": {
-    "2026-10-01": 103,
+    "2026-10-01": 105,
     "2026-09-30": 137,
     "2026-09-29": 136,
     "2026-09-28": 183,
@@ -26,6 +26,25 @@
   "license": "CC-BY-4.0",
   "description": "Attacker IPs confirmed by first-party honeypot and canary observation. Each IP took a hostile action against our decoys. Research scanners are excluded from this curated view.",
   "indicators": [
+    {
+      "ip": "45.33.103.103",
+      "category": "canary-aws-key",
+      "categories": [
+        "canary-aws-key",
+        "llamacpp-abuse"
+      ],
+      "confidence": 98,
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-10-01",
+      "tags": [
+        "abuse",
+        "canary",
+        "cloud-abuse",
+        "credential-abuse",
+        "honeypot",
+        "llamacpp"
+      ]
+    },
     {
       "ip": "94.72.103.76",
       "category": "mcp-abuse",
@@ -713,21 +732,6 @@
       ]
     },
     {
-      "ip": "45.33.103.103",
-      "category": "llamacpp-abuse",
-      "categories": [
-        "llamacpp-abuse"
-      ],
-      "confidence": 90,
-      "first_seen": "2026-10-01",
-      "last_seen": "2026-10-01",
-      "tags": [
-        "abuse",
-        "honeypot",
-        "llamacpp"
-      ]
-    },
-    {
       "ip": "45.198.224.140",
       "category": "ssh-bruteforce",
       "categories": [
@@ -1237,6 +1241,21 @@
         "abuse",
         "honeypot",
         "mcp"
+      ]
+    },
+    {
+      "ip": "157.245.105.107",
+      "category": "llamacpp-abuse",
+      "categories": [
+        "llamacpp-abuse"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-10-01",
+      "tags": [
+        "abuse",
+        "honeypot",
+        "llamacpp"
       ]
     },
     {
@@ -1769,7 +1788,8 @@
       "ip": "103.159.2.113",
       "category": "ssh-bruteforce",
       "categories": [
-        "ssh-bruteforce"
+        "ssh-bruteforce",
+        "ssh-exploit"
       ],
       "confidence": 90,
       "first_seen": "2026-10-01",
