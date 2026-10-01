@@ -2,20 +2,20 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**1355 attackers** · **301,841 hostile actions** · covering 19 day(s) through 2026-10-01
+**1357 attackers** · **301,905 hostile actions** · covering 19 day(s) through 2026-10-01
 
 | signal | count |
 |---|---|
-| GPU / AI-hardware probing | 89 |
+| GPU / AI-hardware probing | 90 |
 | Used a planted canary credential | 0 |
-| Seen on more than one sensor | 94 |
+| Seen on more than one sensor | 95 |
 | Stage-2 hosts named in payloads | 23 |
 
 ### By category
 
 | category | IPs |
 |---|---|
-| `ssh-exploit` | 573 |
+| `ssh-exploit` | 575 |
 | `ssh-bruteforce` | 324 |
 | `redis-exploit` | 260 |
 | `mcp-abuse` | 86 |
@@ -32,7 +32,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 920 |
+| `ssh` | 922 |
 | `redis` | 268 |
 | `mcp` | 123 |
 | `llamacpp` | 76 |
@@ -48,10 +48,10 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 544 |
+| `root` | 545 |
 | `345gs5662d34` | 460 |
-| `admin` | 277 |
-| `ubuntu` | 119 |
+| `admin` | 278 |
+| `ubuntu` | 120 |
 | `administrator` | 88 |
 | `admin1` | 66 |
 | `user` | 61 |
@@ -75,10 +75,10 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `1234` | 149 |
 | `admin` | 85 |
 | `12345678` | 85 |
-| `password` | 72 |
+| `password` | 73 |
 | `000000` | 70 |
 | `12345` | 69 |
-| `1` | 67 |
+| `1` | 68 |
 | `!QAZ2wsx` | 60 |
 | `0` | 58 |
 | `123456789` | 56 |
@@ -88,12 +88,12 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | command | times |
 |---|---|
-| `uname` | 597 |
+| `uname` | 599 |
 | `echo` | 533 |
 | `lscpu` | 521 |
 | `crontab` | 520 |
-| `cd` | 512 |
-| `cat` | 511 |
+| `cd` | 513 |
+| `cat` | 512 |
 | `top` | 475 |
 | `ls` | 474 |
 | `df` | 474 |
