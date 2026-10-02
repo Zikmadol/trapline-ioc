@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**1405 attackers** · **322,197 hostile actions** · covering 20 day(s) through 2026-10-02
+**1407 attackers** · **322,566 hostile actions** · covering 20 day(s) through 2026-10-02
 
 | signal | count |
 |---|---|
@@ -15,8 +15,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `ssh-exploit` | 597 |
-| `ssh-bruteforce` | 334 |
+| `ssh-exploit` | 598 |
+| `ssh-bruteforce` | 335 |
 | `redis-exploit` | 268 |
 | `mcp-abuse` | 90 |
 | `llamacpp-abuse` | 25 |
@@ -32,7 +32,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 957 |
+| `ssh` | 959 |
 | `redis` | 276 |
 | `mcp` | 127 |
 | `llamacpp` | 80 |
@@ -48,17 +48,17 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 566 |
-| `345gs5662d34` | 480 |
+| `root` | 568 |
+| `345gs5662d34` | 481 |
 | `admin` | 293 |
 | `ubuntu` | 130 |
 | `administrator` | 88 |
 | `admin1` | 66 |
 | `user` | 62 |
 | `test` | 61 |
-| `a` | 57 |
 | `admin2` | 57 |
 | `adminuser` | 57 |
+| `a` | 56 |
 | `ai` | 56 |
 | `AdminGPON` | 55 |
 | `aaa` | 54 |
@@ -68,14 +68,14 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | password | tries |
 |---|---|
-| `3245gs5662d34` | 483 |
-| `345gs5662d34` | 480 |
-| `123456` | 306 |
+| `3245gs5662d34` | 484 |
+| `345gs5662d34` | 481 |
+| `123456` | 307 |
 | `123` | 184 |
 | `1234` | 160 |
 | `12345678` | 94 |
-| `admin` | 89 |
-| `password` | 75 |
+| `admin` | 90 |
+| `password` | 76 |
 | `000000` | 73 |
 | `12345` | 72 |
 | `1` | 71 |
@@ -88,18 +88,18 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | command | times |
 |---|---|
-| `uname` | 626 |
-| `echo` | 558 |
-| `lscpu` | 545 |
-| `crontab` | 544 |
-| `cd` | 536 |
-| `cat` | 536 |
-| `ls` | 495 |
-| `top` | 495 |
-| `df` | 494 |
-| `free` | 494 |
-| `whoami` | 493 |
-| `w` | 492 |
+| `uname` | 627 |
+| `echo` | 559 |
+| `lscpu` | 546 |
+| `crontab` | 545 |
+| `cd` | 537 |
+| `cat` | 537 |
+| `ls` | 496 |
+| `top` | 496 |
+| `df` | 495 |
+| `free` | 495 |
+| `whoami` | 494 |
+| `w` | 493 |
 | `INFO` | 179 |
 | `canary_env` | 113 |
 | `PING` | 112 |
