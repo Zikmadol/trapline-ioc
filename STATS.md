@@ -2,11 +2,11 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**1407 attackers** · **322,566 hostile actions** · covering 20 day(s) through 2026-10-02
+**1411 attackers** · **323,268 hostile actions** · covering 20 day(s) through 2026-10-02
 
 | signal | count |
 |---|---|
-| GPU / AI-hardware probing | 97 |
+| GPU / AI-hardware probing | 98 |
 | Used a planted canary credential | 1 |
 | Seen on more than one sensor | 98 |
 | Stage-2 hosts named in payloads | 23 |
@@ -15,12 +15,12 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `ssh-exploit` | 598 |
-| `ssh-bruteforce` | 335 |
+| `ssh-exploit` | 599 |
+| `ssh-bruteforce` | 337 |
 | `redis-exploit` | 268 |
 | `mcp-abuse` | 90 |
 | `llamacpp-abuse` | 25 |
-| `litellm-key-replay` | 21 |
+| `litellm-key-replay` | 22 |
 | `docker-abuse` | 15 |
 | `ollama-abuse` | 12 |
 | `vllm-abuse` | 5 |
@@ -32,13 +32,13 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 959 |
+| `ssh` | 962 |
 | `redis` | 276 |
 | `mcp` | 127 |
 | `llamacpp` | 80 |
 | `vllm` | 48 |
 | `jupyter` | 42 |
-| `litellm` | 41 |
+| `litellm` | 42 |
 | `hfhub` | 37 |
 | `docker` | 30 |
 | `ollama` | 20 |
@@ -48,21 +48,21 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 568 |
+| `root` | 571 |
 | `345gs5662d34` | 481 |
-| `admin` | 293 |
-| `ubuntu` | 130 |
-| `administrator` | 88 |
-| `admin1` | 66 |
-| `user` | 62 |
-| `test` | 61 |
-| `admin2` | 57 |
-| `adminuser` | 57 |
-| `a` | 56 |
-| `ai` | 56 |
+| `admin` | 292 |
+| `ubuntu` | 132 |
+| `administrator` | 87 |
+| `admin1` | 65 |
+| `test` | 63 |
+| `user` | 63 |
+| `admin2` | 56 |
+| `adminuser` | 56 |
 | `AdminGPON` | 55 |
-| `aaa` | 54 |
-| `admin123` | 53 |
+| `a` | 55 |
+| `ai` | 55 |
+| `aaa` | 53 |
+| `ftpuser` | 52 |
 
 ### Top passwords tried
 
@@ -88,7 +88,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | command | times |
 |---|---|
-| `uname` | 627 |
+| `uname` | 628 |
 | `echo` | 559 |
 | `lscpu` | 546 |
 | `crontab` | 545 |
