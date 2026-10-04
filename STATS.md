@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**1603 attackers** · **347,427 hostile actions** · covering 22 day(s) through 2026-10-04
+**1605 attackers** · **347,597 hostile actions** · covering 22 day(s) through 2026-10-04
 
 | signal | count |
 |---|---|
@@ -15,8 +15,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `ssh-exploit` | 674 |
-| `ssh-bruteforce` | 379 |
+| `ssh-exploit` | 675 |
+| `ssh-bruteforce` | 380 |
 | `redis-exploit` | 307 |
 | `mcp-abuse` | 103 |
 | `llamacpp-abuse` | 28 |
@@ -32,7 +32,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 1084 |
+| `ssh` | 1086 |
 | `redis` | 316 |
 | `mcp` | 145 |
 | `llamacpp` | 91 |
@@ -48,12 +48,12 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 644 |
-| `345gs5662d34` | 544 |
-| `admin` | 336 |
-| `ubuntu` | 149 |
+| `root` | 646 |
+| `345gs5662d34` | 545 |
+| `admin` | 337 |
+| `ubuntu` | 152 |
 | `administrator` | 81 |
-| `user` | 75 |
+| `user` | 76 |
 | `test` | 73 |
 | `ftpuser` | 68 |
 | `admin1` | 60 |
@@ -68,17 +68,17 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | password | tries |
 |---|---|
-| `3245gs5662d34` | 545 |
-| `345gs5662d34` | 543 |
-| `123456` | 377 |
-| `123` | 225 |
+| `3245gs5662d34` | 546 |
+| `345gs5662d34` | 544 |
+| `123456` | 378 |
+| `123` | 226 |
 | `1234` | 191 |
-| `admin` | 116 |
+| `admin` | 117 |
 | `12345678` | 116 |
 | `1` | 102 |
 | `12345` | 94 |
 | `password` | 90 |
-| `000000` | 77 |
+| `000000` | 78 |
 | `123456789` | 66 |
 | `!QAZ2wsx` | 63 |
 | `0` | 62 |
@@ -88,18 +88,18 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | command | times |
 |---|---|
-| `uname` | 714 |
-| `echo` | 630 |
-| `lscpu` | 617 |
-| `crontab` | 616 |
-| `cat` | 609 |
-| `cd` | 608 |
-| `ls` | 562 |
-| `top` | 561 |
-| `df` | 560 |
-| `free` | 560 |
-| `whoami` | 559 |
-| `w` | 558 |
+| `uname` | 715 |
+| `echo` | 631 |
+| `lscpu` | 618 |
+| `crontab` | 617 |
+| `cat` | 610 |
+| `cd` | 609 |
+| `ls` | 563 |
+| `top` | 562 |
+| `df` | 561 |
+| `free` | 561 |
+| `whoami` | 560 |
+| `w` | 559 |
 | `INFO` | 203 |
 | `PING` | 132 |
 | `canary_env` | 130 |
