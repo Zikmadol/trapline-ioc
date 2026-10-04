@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**1553 attackers** · **342,129 hostile actions** · covering 22 day(s) through 2026-10-04
+**1557 attackers** · **342,314 hostile actions** · covering 22 day(s) through 2026-10-04
 
 | signal | count |
 |---|---|
@@ -15,10 +15,10 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `ssh-exploit` | 657 |
-| `ssh-bruteforce` | 363 |
-| `redis-exploit` | 296 |
-| `mcp-abuse` | 99 |
+| `ssh-exploit` | 658 |
+| `ssh-bruteforce` | 364 |
+| `redis-exploit` | 297 |
+| `mcp-abuse` | 100 |
 | `llamacpp-abuse` | 28 |
 | `litellm-key-replay` | 25 |
 | `ollama-abuse` | 17 |
@@ -32,9 +32,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 1050 |
-| `redis` | 305 |
-| `mcp` | 141 |
+| `ssh` | 1052 |
+| `redis` | 306 |
+| `mcp` | 142 |
 | `llamacpp` | 89 |
 | `vllm` | 56 |
 | `jupyter` | 48 |
@@ -49,13 +49,13 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | username | tries |
 |---|---|
 | `root` | 624 |
-| `345gs5662d34` | 528 |
+| `345gs5662d34` | 529 |
 | `admin` | 325 |
-| `ubuntu` | 143 |
+| `ubuntu` | 144 |
 | `administrator` | 82 |
 | `test` | 72 |
 | `user` | 68 |
-| `ftpuser` | 63 |
+| `ftpuser` | 64 |
 | `admin1` | 61 |
 | `AdminGPON` | 55 |
 | `a` | 54 |
@@ -68,16 +68,16 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | password | tries |
 |---|---|
-| `3245gs5662d34` | 529 |
-| `345gs5662d34` | 527 |
+| `3245gs5662d34` | 530 |
+| `345gs5662d34` | 528 |
 | `123456` | 357 |
-| `123` | 215 |
+| `123` | 216 |
 | `1234` | 186 |
-| `12345678` | 112 |
+| `12345678` | 113 |
 | `admin` | 110 |
 | `1` | 86 |
 | `12345` | 86 |
-| `password` | 83 |
+| `password` | 84 |
 | `000000` | 77 |
 | `123456789` | 64 |
 | `!QAZ2wsx` | 63 |
@@ -88,21 +88,21 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | command | times |
 |---|---|
-| `uname` | 693 |
-| `echo` | 614 |
-| `lscpu` | 601 |
-| `crontab` | 600 |
-| `cd` | 590 |
-| `cat` | 590 |
-| `ls` | 545 |
-| `top` | 545 |
-| `df` | 544 |
-| `free` | 544 |
-| `whoami` | 543 |
-| `w` | 542 |
-| `INFO` | 195 |
+| `uname` | 694 |
+| `echo` | 615 |
+| `lscpu` | 602 |
+| `crontab` | 601 |
+| `cd` | 591 |
+| `cat` | 591 |
+| `ls` | 546 |
+| `top` | 546 |
+| `df` | 545 |
+| `free` | 545 |
+| `whoami` | 544 |
+| `w` | 543 |
+| `INFO` | 196 |
+| `canary_env` | 127 |
 | `PING` | 127 |
-| `canary_env` | 126 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._
