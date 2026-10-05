@@ -2,11 +2,11 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**1668 attackers** · **359,645 hostile actions** · covering 23 day(s) through 2026-10-05
+**1670 attackers** · **360,857 hostile actions** · covering 23 day(s) through 2026-10-05
 
 | signal | count |
 |---|---|
-| GPU / AI-hardware probing | 115 |
+| GPU / AI-hardware probing | 116 |
 | Used a planted canary credential | 5 |
 | Seen on more than one sensor | 117 |
 | Stage-2 hosts named in payloads | 29 |
@@ -16,7 +16,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | category | IPs |
 |---|---|
 | `ssh-exploit` | 701 |
-| `ssh-bruteforce` | 398 |
+| `ssh-bruteforce` | 400 |
 | `redis-exploit` | 312 |
 | `mcp-abuse` | 104 |
 | `llamacpp-abuse` | 30 |
@@ -32,7 +32,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 1130 |
+| `ssh` | 1132 |
 | `redis` | 321 |
 | `mcp` | 147 |
 | `llamacpp` | 94 |
@@ -50,8 +50,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `root` | 666 |
 | `345gs5662d34` | 558 |
-| `admin` | 358 |
-| `ubuntu` | 158 |
+| `admin` | 359 |
+| `ubuntu` | 160 |
 | `test` | 83 |
 | `administrator` | 81 |
 | `user` | 79 |
@@ -72,26 +72,26 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `345gs5662d34` | 557 |
 | `123456` | 396 |
 | `123` | 233 |
-| `1234` | 202 |
+| `1234` | 201 |
 | `12345678` | 130 |
-| `admin` | 124 |
-| `1` | 106 |
-| `12345` | 97 |
+| `admin` | 125 |
+| `1` | 107 |
+| `12345` | 96 |
 | `password` | 95 |
 | `000000` | 83 |
 | `P@ssw0rd` | 68 |
+| `!QAZ2wsx` | 68 |
 | `123456789` | 67 |
-| `!QAZ2wsx` | 67 |
 | `0` | 63 |
 
 ### Top commands run
 
 | command | times |
 |---|---|
-| `uname` | 745 |
-| `echo` | 650 |
-| `lscpu` | 637 |
-| `crontab` | 636 |
+| `uname` | 746 |
+| `echo` | 651 |
+| `lscpu` | 638 |
+| `crontab` | 637 |
 | `cd` | 633 |
 | `cat` | 633 |
 | `ls` | 577 |
