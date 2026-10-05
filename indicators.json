@@ -1,9 +1,9 @@
 {
   "feed": "trapline-ioc",
-  "generated": "2026-10-05T05:21:05+00:00",
-  "count": 1656,
+  "generated": "2026-10-05T06:21:05+00:00",
+  "count": 1659,
   "days": {
-    "2026-10-05": 37,
+    "2026-10-05": 44,
     "2026-10-04": 166,
     "2026-10-03": 140,
     "2026-10-02": 135,
@@ -30,6 +30,22 @@
   "license": "CC-BY-4.0",
   "description": "Attacker IPs confirmed by first-party honeypot and canary observation. Each IP took a hostile action against our decoys. Research scanners are excluded from this curated view.",
   "indicators": [
+    {
+      "ip": "104.192.92.35",
+      "category": "vllm-key-replay",
+      "categories": [
+        "vllm-key-replay"
+      ],
+      "confidence": 97,
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-05",
+      "tags": [
+        "canary",
+        "honeypot",
+        "key-replay",
+        "vllm"
+      ]
+    },
     {
       "ip": "85.217.149.15",
       "category": "redis-exploit",
@@ -64,6 +80,23 @@
         "llamacpp",
         "multi-sensor",
         "prompt-abuse"
+      ]
+    },
+    {
+      "ip": "66.132.172.209",
+      "category": "redis-exploit",
+      "categories": [
+        "redis-exploit"
+      ],
+      "confidence": 95,
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-10-05",
+      "tags": [
+        "docker",
+        "exploit",
+        "honeypot",
+        "multi-sensor",
+        "redis"
       ]
     },
     {
@@ -149,6 +182,29 @@
         "honeypot",
         "mcp",
         "multi-sensor"
+      ]
+    },
+    {
+      "ip": "18.218.118.203",
+      "category": "redis-exploit",
+      "categories": [
+        "redis-exploit"
+      ],
+      "confidence": 95,
+      "first_seen": "2026-09-15",
+      "last_seen": "2026-10-05",
+      "tags": [
+        "exploit",
+        "honeypot",
+        "jupyter",
+        "litellm",
+        "llamacpp",
+        "mcp",
+        "multi-sensor",
+        "ray",
+        "redis",
+        "ssh",
+        "vllm"
       ]
     },
     {
@@ -336,6 +392,21 @@
       ]
     },
     {
+      "ip": "31.57.62.245",
+      "category": "ssh-bruteforce",
+      "categories": [
+        "ssh-bruteforce"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-10-05",
+      "tags": [
+        "bruteforce",
+        "honeypot",
+        "ssh"
+      ]
+    },
+    {
       "ip": "200.180.162.15",
       "category": "litellm-abuse",
       "categories": [
@@ -409,6 +480,22 @@
       "last_seen": "2026-10-05",
       "tags": [
         "bruteforce",
+        "honeypot",
+        "ssh"
+      ]
+    },
+    {
+      "ip": "195.239.40.213",
+      "category": "ssh-exploit",
+      "categories": [
+        "ssh-exploit"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-09-26",
+      "last_seen": "2026-10-05",
+      "tags": [
+        "bruteforce",
+        "exploit",
         "honeypot",
         "ssh"
       ]
@@ -630,6 +717,22 @@
       ]
     },
     {
+      "ip": "141.95.162.162",
+      "category": "ssh-exploit",
+      "categories": [
+        "ssh-exploit"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-05",
+      "tags": [
+        "bruteforce",
+        "exploit",
+        "honeypot",
+        "ssh"
+      ]
+    },
+    {
       "ip": "141.94.19.216",
       "category": "ssh-bruteforce",
       "categories": [
@@ -638,6 +741,22 @@
       ],
       "confidence": 90,
       "first_seen": "2026-09-22",
+      "last_seen": "2026-10-05",
+      "tags": [
+        "bruteforce",
+        "exploit",
+        "honeypot",
+        "ssh"
+      ]
+    },
+    {
+      "ip": "130.12.180.51",
+      "category": "ssh-bruteforce",
+      "categories": [
+        "ssh-bruteforce"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-09-14",
       "last_seen": "2026-10-05",
       "tags": [
         "bruteforce",
@@ -723,6 +842,38 @@
         "bruteforce",
         "exploit",
         "gpu-probing",
+        "honeypot",
+        "ssh"
+      ]
+    },
+    {
+      "ip": "109.160.32.119",
+      "category": "ssh-exploit",
+      "categories": [
+        "ssh-exploit"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-09-19",
+      "last_seen": "2026-10-05",
+      "tags": [
+        "bruteforce",
+        "exploit",
+        "gpu-probing",
+        "honeypot",
+        "ssh"
+      ]
+    },
+    {
+      "ip": "106.12.128.184",
+      "category": "ssh-bruteforce",
+      "categories": [
+        "ssh-bruteforce"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-05",
+      "tags": [
+        "bruteforce",
         "honeypot",
         "ssh"
       ]
@@ -2929,22 +3080,6 @@
       ]
     },
     {
-      "ip": "130.12.180.51",
-      "category": "ssh-bruteforce",
-      "categories": [
-        "ssh-bruteforce"
-      ],
-      "confidence": 90,
-      "first_seen": "2026-09-14",
-      "last_seen": "2026-10-04",
-      "tags": [
-        "bruteforce",
-        "exploit",
-        "honeypot",
-        "ssh"
-      ]
-    },
-    {
       "ip": "128.14.237.154",
       "category": "ssh-bruteforce",
       "categories": [
@@ -3699,29 +3834,6 @@
         "litellm",
         "multi-sensor",
         "redis"
-      ]
-    },
-    {
-      "ip": "18.218.118.203",
-      "category": "redis-exploit",
-      "categories": [
-        "redis-exploit"
-      ],
-      "confidence": 95,
-      "first_seen": "2026-09-15",
-      "last_seen": "2026-10-03",
-      "tags": [
-        "exploit",
-        "honeypot",
-        "jupyter",
-        "litellm",
-        "llamacpp",
-        "mcp",
-        "multi-sensor",
-        "ray",
-        "redis",
-        "ssh",
-        "vllm"
       ]
     },
     {
@@ -15415,22 +15527,6 @@
       ]
     },
     {
-      "ip": "195.239.40.213",
-      "category": "ssh-exploit",
-      "categories": [
-        "ssh-exploit"
-      ],
-      "confidence": 90,
-      "first_seen": "2026-09-26",
-      "last_seen": "2026-09-26",
-      "tags": [
-        "bruteforce",
-        "exploit",
-        "honeypot",
-        "ssh"
-      ]
-    },
-    {
       "ip": "195.178.110.228",
       "category": "ssh-bruteforce",
       "categories": [
@@ -16461,21 +16557,6 @@
     },
     {
       "ip": "66.132.195.86",
-      "category": "redis-exploit",
-      "categories": [
-        "redis-exploit"
-      ],
-      "confidence": 90,
-      "first_seen": "2026-09-25",
-      "last_seen": "2026-09-25",
-      "tags": [
-        "exploit",
-        "honeypot",
-        "redis"
-      ]
-    },
-    {
-      "ip": "66.132.172.209",
       "category": "redis-exploit",
       "categories": [
         "redis-exploit"
@@ -22803,21 +22884,6 @@
       ]
     },
     {
-      "ip": "31.57.62.245",
-      "category": "ssh-bruteforce",
-      "categories": [
-        "ssh-bruteforce"
-      ],
-      "confidence": 90,
-      "first_seen": "2026-09-20",
-      "last_seen": "2026-09-20",
-      "tags": [
-        "bruteforce",
-        "honeypot",
-        "ssh"
-      ]
-    },
-    {
       "ip": "27.43.224.92",
       "category": "ssh-bruteforce",
       "categories": [
@@ -24563,23 +24629,6 @@
     },
     {
       "ip": "109.160.32.87",
-      "category": "ssh-exploit",
-      "categories": [
-        "ssh-exploit"
-      ],
-      "confidence": 90,
-      "first_seen": "2026-09-19",
-      "last_seen": "2026-09-19",
-      "tags": [
-        "bruteforce",
-        "exploit",
-        "gpu-probing",
-        "honeypot",
-        "ssh"
-      ]
-    },
-    {
-      "ip": "109.160.32.119",
       "category": "ssh-exploit",
       "categories": [
         "ssh-exploit"
