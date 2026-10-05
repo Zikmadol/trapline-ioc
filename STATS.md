@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**1673 attackers** · **360,991 hostile actions** · covering 23 day(s) through 2026-10-05
+**1675 attackers** · **361,128 hostile actions** · covering 23 day(s) through 2026-10-05
 
 | signal | count |
 |---|---|
@@ -15,7 +15,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `ssh-exploit` | 701 |
+| `ssh-exploit` | 703 |
 | `ssh-bruteforce` | 401 |
 | `redis-exploit` | 313 |
 | `mcp-abuse` | 105 |
@@ -32,7 +32,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 1133 |
+| `ssh` | 1135 |
 | `redis` | 322 |
 | `mcp` | 148 |
 | `llamacpp` | 94 |
@@ -48,8 +48,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 667 |
-| `345gs5662d34` | 558 |
+| `root` | 669 |
+| `345gs5662d34` | 560 |
 | `admin` | 359 |
 | `ubuntu` | 160 |
 | `test` | 83 |
@@ -68,11 +68,11 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | password | tries |
 |---|---|
-| `3245gs5662d34` | 559 |
-| `345gs5662d34` | 557 |
-| `123456` | 397 |
+| `3245gs5662d34` | 561 |
+| `345gs5662d34` | 559 |
+| `123456` | 399 |
 | `123` | 233 |
-| `1234` | 202 |
+| `1234` | 204 |
 | `12345678` | 131 |
 | `admin` | 125 |
 | `1` | 107 |
@@ -88,18 +88,18 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | command | times |
 |---|---|
-| `uname` | 746 |
-| `echo` | 651 |
-| `lscpu` | 638 |
-| `crontab` | 637 |
-| `cd` | 633 |
-| `cat` | 633 |
-| `ls` | 577 |
-| `top` | 576 |
-| `df` | 575 |
-| `free` | 575 |
-| `whoami` | 574 |
-| `w` | 573 |
+| `uname` | 748 |
+| `echo` | 653 |
+| `lscpu` | 640 |
+| `crontab` | 639 |
+| `cd` | 635 |
+| `cat` | 635 |
+| `ls` | 579 |
+| `top` | 578 |
+| `df` | 577 |
+| `free` | 577 |
+| `whoami` | 576 |
+| `w` | 575 |
 | `INFO` | 207 |
 | `canary_env` | 133 |
 | `PING` | 133 |
