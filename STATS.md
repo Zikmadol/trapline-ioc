@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**1710 attackers** · **365,981 hostile actions** · covering 23 day(s) through 2026-10-05
+**1712 attackers** · **366,781 hostile actions** · covering 23 day(s) through 2026-10-05
 
 | signal | count |
 |---|---|
@@ -16,8 +16,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | category | IPs |
 |---|---|
 | `ssh-exploit` | 720 |
-| `ssh-bruteforce` | 412 |
-| `redis-exploit` | 315 |
+| `ssh-bruteforce` | 413 |
+| `redis-exploit` | 316 |
 | `mcp-abuse` | 109 |
 | `llamacpp-abuse` | 32 |
 | `litellm-key-replay` | 25 |
@@ -32,8 +32,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 1163 |
-| `redis` | 324 |
+| `ssh` | 1164 |
+| `redis` | 325 |
 | `mcp` | 153 |
 | `llamacpp` | 96 |
 | `vllm` | 58 |
@@ -60,8 +60,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `AdminGPON` | 56 |
 | `a` | 53 |
 | `admin2` | 53 |
-| `Asalem` | 52 |
-| `Caps` | 51 |
+| `Asalem` | 51 |
+| `Caps` | 50 |
 | `git` | 49 |
 
 ### Top passwords tried
@@ -70,14 +70,14 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `3245gs5662d34` | 575 |
 | `345gs5662d34` | 574 |
-| `123456` | 414 |
+| `123456` | 415 |
 | `123` | 238 |
 | `1234` | 209 |
-| `12345678` | 131 |
+| `12345678` | 132 |
 | `admin` | 128 |
 | `1` | 111 |
 | `12345` | 108 |
-| `password` | 95 |
+| `password` | 96 |
 | `000000` | 84 |
 | `123456789` | 70 |
 | `P@ssw0rd` | 70 |
