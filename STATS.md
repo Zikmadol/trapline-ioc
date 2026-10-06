@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**1803 attackers** · **376,755 hostile actions** · covering 24 day(s) through 2026-10-06
+**1805 attackers** · **376,851 hostile actions** · covering 24 day(s) through 2026-10-06
 
 | signal | count |
 |---|---|
@@ -17,9 +17,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `ssh-exploit` | 743 |
 | `ssh-bruteforce` | 439 |
-| `redis-exploit` | 340 |
+| `redis-exploit` | 341 |
 | `mcp-abuse` | 115 |
-| `llamacpp-abuse` | 36 |
+| `llamacpp-abuse` | 37 |
 | `litellm-key-replay` | 25 |
 | `ollama-abuse` | 23 |
 | `docker-abuse` | 16 |
@@ -33,13 +33,13 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | protocol | events |
 |---|---|
 | `ssh` | 1214 |
-| `redis` | 350 |
+| `redis` | 351 |
 | `mcp` | 163 |
-| `llamacpp` | 103 |
+| `llamacpp` | 104 |
 | `jupyter` | 61 |
 | `vllm` | 59 |
 | `litellm` | 55 |
-| `hfhub` | 49 |
+| `hfhub` | 50 |
 | `docker` | 40 |
 | `ollama` | 36 |
 | `ray` | 10 |
