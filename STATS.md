@@ -2,20 +2,20 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**1805 attackers** · **376,851 hostile actions** · covering 24 day(s) through 2026-10-06
+**1806 attackers** · **376,989 hostile actions** · covering 24 day(s) through 2026-10-06
 
 | signal | count |
 |---|---|
 | GPU / AI-hardware probing | 127 |
 | Used a planted canary credential | 5 |
-| Seen on more than one sensor | 121 |
+| Seen on more than one sensor | 122 |
 | Stage-2 hosts named in payloads | 30 |
 
 ### By category
 
 | category | IPs |
 |---|---|
-| `ssh-exploit` | 743 |
+| `ssh-exploit` | 744 |
 | `ssh-bruteforce` | 439 |
 | `redis-exploit` | 341 |
 | `mcp-abuse` | 115 |
@@ -32,7 +32,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 1214 |
+| `ssh` | 1215 |
 | `redis` | 351 |
 | `mcp` | 163 |
 | `llamacpp` | 104 |
@@ -40,7 +40,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `vllm` | 59 |
 | `litellm` | 55 |
 | `hfhub` | 50 |
-| `docker` | 40 |
+| `docker` | 41 |
 | `ollama` | 36 |
 | `ray` | 10 |
 
@@ -50,7 +50,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `root` | 711 |
 | `345gs5662d34` | 597 |
-| `admin` | 384 |
+| `admin` | 385 |
 | `ubuntu` | 176 |
 | `user` | 90 |
 | `test` | 87 |
@@ -70,7 +70,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `3245gs5662d34` | 597 |
 | `345gs5662d34` | 596 |
-| `123456` | 432 |
+| `123456` | 433 |
 | `123` | 257 |
 | `1234` | 217 |
 | `12345678` | 140 |
@@ -88,12 +88,12 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | command | times |
 |---|---|
-| `uname` | 807 |
+| `uname` | 808 |
 | `echo` | 698 |
 | `lscpu` | 684 |
 | `crontab` | 683 |
-| `cd` | 681 |
-| `cat` | 679 |
+| `cd` | 682 |
+| `cat` | 680 |
 | `ls` | 615 |
 | `top` | 614 |
 | `df` | 613 |
