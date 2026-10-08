@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**1971 attackers** · **398,775 hostile actions** · covering 26 day(s) through 2026-10-08
+**1973 attackers** · **399,359 hostile actions** · covering 26 day(s) through 2026-10-08
 
 | signal | count |
 |---|---|
@@ -16,11 +16,11 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | category | IPs |
 |---|---|
 | `ssh-exploit` | 818 |
-| `ssh-bruteforce` | 465 |
+| `ssh-bruteforce` | 466 |
 | `redis-exploit` | 367 |
-| `mcp-abuse` | 135 |
+| `mcp-abuse` | 136 |
 | `llamacpp-abuse` | 42 |
-| `litellm-key-replay` | 29 |
+| `litellm-key-replay` | 28 |
 | `ollama-abuse` | 25 |
 | `canary-aws-key` | 17 |
 | `docker-abuse` | 16 |
@@ -32,9 +32,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 1321 |
+| `ssh` | 1322 |
 | `redis` | 378 |
-| `mcp` | 189 |
+| `mcp` | 190 |
 | `llamacpp` | 115 |
 | `vllm` | 68 |
 | `jupyter` | 67 |
@@ -50,7 +50,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `root` | 768 |
 | `345gs5662d34` | 659 |
-| `admin` | 427 |
+| `admin` | 428 |
 | `ubuntu` | 199 |
 | `test` | 102 |
 | `user` | 101 |
@@ -71,12 +71,12 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `3245gs5662d34` | 659 |
 | `345gs5662d34` | 658 |
 | `123456` | 478 |
-| `123` | 290 |
+| `123` | 291 |
 | `1234` | 242 |
 | `12345678` | 159 |
-| `admin` | 153 |
+| `admin` | 154 |
 | `12345` | 138 |
-| `1` | 128 |
+| `1` | 130 |
 | `password` | 112 |
 | `P@ssw0rd` | 89 |
 | `000000` | 88 |
@@ -101,7 +101,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `whoami` | 674 |
 | `w` | 673 |
 | `INFO` | 244 |
-| `canary_env` | 169 |
+| `canary_env` | 170 |
 | `PING` | 165 |
 
 
