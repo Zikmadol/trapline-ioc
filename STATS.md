@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**1932 attackers** · **393,969 hostile actions** · covering 26 day(s) through 2026-10-08
+**1933 attackers** · **394,107 hostile actions** · covering 26 day(s) through 2026-10-08
 
 | signal | count |
 |---|---|
@@ -16,7 +16,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | category | IPs |
 |---|---|
 | `ssh-exploit` | 797 |
-| `ssh-bruteforce` | 461 |
+| `ssh-bruteforce` | 462 |
 | `redis-exploit` | 361 |
 | `mcp-abuse` | 131 |
 | `llamacpp-abuse` | 41 |
@@ -32,12 +32,12 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 1296 |
+| `ssh` | 1297 |
 | `redis` | 372 |
 | `mcp` | 184 |
 | `llamacpp` | 113 |
+| `jupyter` | 67 |
 | `vllm` | 66 |
-| `jupyter` | 65 |
 | `litellm` | 59 |
 | `hfhub` | 53 |
 | `docker` | 42 |
@@ -53,7 +53,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `admin` | 419 |
 | `ubuntu` | 191 |
 | `user` | 100 |
-| `test` | 96 |
+| `test` | 97 |
 | `ftpuser` | 86 |
 | `administrator` | 76 |
 | `AdminGPON` | 56 |
