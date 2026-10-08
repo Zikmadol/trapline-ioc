@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**1967 attackers** · **397,162 hostile actions** · covering 26 day(s) through 2026-10-08
+**1968 attackers** · **398,058 hostile actions** · covering 26 day(s) through 2026-10-08
 
 | signal | count |
 |---|---|
@@ -17,7 +17,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `ssh-exploit` | 816 |
 | `ssh-bruteforce` | 464 |
-| `redis-exploit` | 366 |
+| `redis-exploit` | 367 |
 | `mcp-abuse` | 135 |
 | `llamacpp-abuse` | 42 |
 | `litellm-key-replay` | 29 |
@@ -33,7 +33,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | protocol | events |
 |---|---|
 | `ssh` | 1318 |
-| `redis` | 377 |
+| `redis` | 378 |
 | `mcp` | 189 |
 | `llamacpp` | 115 |
 | `vllm` | 68 |
@@ -50,15 +50,15 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `root` | 767 |
 | `345gs5662d34` | 657 |
-| `admin` | 427 |
+| `admin` | 426 |
 | `ubuntu` | 199 |
 | `test` | 102 |
 | `user` | 101 |
 | `ftpuser` | 87 |
-| `administrator` | 75 |
+| `administrator` | 74 |
 | `git` | 58 |
 | `AdminGPON` | 56 |
-| `admin1` | 56 |
+| `admin1` | 55 |
 | `postgres` | 54 |
 | `deploy` | 53 |
 | `debian` | 51 |
@@ -68,12 +68,12 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | password | tries |
 |---|---|
-| `3245gs5662d34` | 656 |
+| `3245gs5662d34` | 657 |
 | `345gs5662d34` | 656 |
 | `123456` | 475 |
 | `123` | 290 |
 | `1234` | 242 |
-| `12345678` | 158 |
+| `12345678` | 159 |
 | `admin` | 152 |
 | `12345` | 138 |
 | `1` | 126 |
@@ -100,9 +100,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `free` | 673 |
 | `whoami` | 672 |
 | `w` | 671 |
-| `INFO` | 243 |
+| `INFO` | 244 |
 | `canary_env` | 169 |
-| `PING` | 164 |
+| `PING` | 165 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._
