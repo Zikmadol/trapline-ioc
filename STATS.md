@@ -2,11 +2,11 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**2006 attackers** · **408,504 hostile actions** · covering 27 day(s) through 2026-10-09
+**2009 attackers** · **409,026 hostile actions** · covering 27 day(s) through 2026-10-09
 
 | signal | count |
 |---|---|
-| GPU / AI-hardware probing | 140 |
+| GPU / AI-hardware probing | 141 |
 | Used a planted canary credential | 8 |
 | Seen on more than one sensor | 136 |
 | Stage-2 hosts named in payloads | 31 |
@@ -16,7 +16,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | category | IPs |
 |---|---|
 | `ssh-exploit` | 833 |
-| `ssh-bruteforce` | 470 |
+| `ssh-bruteforce` | 473 |
 | `redis-exploit` | 371 |
 | `mcp-abuse` | 144 |
 | `llamacpp-abuse` | 41 |
@@ -32,7 +32,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 1341 |
+| `ssh` | 1344 |
 | `redis` | 382 |
 | `mcp` | 199 |
 | `llamacpp` | 116 |
@@ -50,7 +50,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `root` | 777 |
 | `345gs5662d34` | 671 |
-| `admin` | 433 |
+| `admin` | 435 |
 | `ubuntu` | 202 |
 | `user` | 103 |
 | `test` | 102 |
@@ -74,12 +74,12 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `123` | 299 |
 | `1234` | 247 |
 | `12345678` | 160 |
-| `admin` | 156 |
+| `admin` | 158 |
 | `12345` | 140 |
-| `1` | 136 |
+| `1` | 137 |
 | `password` | 114 |
+| `000000` | 91 |
 | `P@ssw0rd` | 91 |
-| `000000` | 90 |
 | `123456789` | 85 |
 | `admin123` | 83 |
 | `!QAZ2wsx` | 77 |
@@ -88,11 +88,11 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | command | times |
 |---|---|
-| `uname` | 906 |
-| `echo` | 784 |
-| `lscpu` | 768 |
+| `uname` | 907 |
+| `echo` | 785 |
+| `lscpu` | 769 |
+| `crontab` | 768 |
 | `cd` | 768 |
-| `crontab` | 767 |
 | `cat` | 766 |
 | `ls` | 691 |
 | `top` | 690 |
