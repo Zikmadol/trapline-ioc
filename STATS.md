@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**2053 attackers** · **416,132 hostile actions** · covering 27 day(s) through 2026-10-09
+**2053 attackers** · **416,904 hostile actions** · covering 27 day(s) through 2026-10-09
 
 | signal | count |
 |---|---|
@@ -15,8 +15,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `ssh-exploit` | 851 |
-| `ssh-bruteforce` | 483 |
+| `ssh-exploit` | 852 |
+| `ssh-bruteforce` | 482 |
 | `redis-exploit` | 380 |
 | `mcp-abuse` | 145 |
 | `llamacpp-abuse` | 42 |
@@ -49,7 +49,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | username | tries |
 |---|---|
 | `root` | 794 |
-| `345gs5662d34` | 685 |
+| `345gs5662d34` | 686 |
 | `admin` | 444 |
 | `ubuntu` | 211 |
 | `user` | 105 |
@@ -68,38 +68,38 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | password | tries |
 |---|---|
-| `3245gs5662d34` | 685 |
-| `345gs5662d34` | 684 |
+| `3245gs5662d34` | 686 |
+| `345gs5662d34` | 685 |
 | `123456` | 505 |
-| `123` | 305 |
-| `1234` | 256 |
-| `12345678` | 166 |
+| `123` | 306 |
+| `1234` | 257 |
+| `12345678` | 168 |
 | `admin` | 161 |
-| `12345` | 154 |
+| `12345` | 156 |
 | `1` | 143 |
 | `password` | 115 |
 | `P@ssw0rd` | 94 |
 | `000000` | 93 |
 | `admin123` | 89 |
-| `123456789` | 85 |
-| `!QAZ2wsx` | 80 |
+| `123456789` | 84 |
+| `!QAZ2wsx` | 81 |
 
 ### Top commands run
 
 | command | times |
 |---|---|
-| `uname` | 926 |
-| `echo` | 802 |
-| `crontab` | 785 |
-| `lscpu` | 785 |
-| `cd` | 783 |
-| `cat` | 781 |
-| `ls` | 705 |
-| `top` | 704 |
-| `df` | 703 |
-| `free` | 703 |
-| `whoami` | 702 |
-| `w` | 701 |
+| `uname` | 927 |
+| `echo` | 803 |
+| `crontab` | 786 |
+| `lscpu` | 786 |
+| `cd` | 784 |
+| `cat` | 782 |
+| `ls` | 706 |
+| `top` | 705 |
+| `df` | 704 |
+| `free` | 704 |
+| `whoami` | 703 |
+| `w` | 702 |
 | `INFO` | 254 |
 | `canary_env` | 179 |
 | `PING` | 173 |
