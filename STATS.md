@@ -2,20 +2,20 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**2084 attackers** · **419,507 hostile actions** · covering 28 day(s) through 2026-10-10
+**2085 attackers** · **419,664 hostile actions** · covering 28 day(s) through 2026-10-10
 
 | signal | count |
 |---|---|
 | GPU / AI-hardware probing | 143 |
 | Used a planted canary credential | 8 |
-| Seen on more than one sensor | 141 |
+| Seen on more than one sensor | 143 |
 | Stage-2 hosts named in payloads | 31 |
 
 ### By category
 
 | category | IPs |
 |---|---|
-| `ssh-exploit` | 860 |
+| `ssh-exploit` | 861 |
 | `ssh-bruteforce` | 489 |
 | `redis-exploit` | 387 |
 | `mcp-abuse` | 152 |
@@ -32,7 +32,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 1388 |
+| `ssh` | 1389 |
 | `redis` | 399 |
 | `mcp` | 211 |
 | `llamacpp` | 120 |
@@ -40,7 +40,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `jupyter` | 74 |
 | `litellm` | 66 |
 | `hfhub` | 60 |
-| `docker` | 45 |
+| `docker` | 46 |
 | `ollama` | 42 |
 | `ray` | 10 |
 
@@ -50,7 +50,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `root` | 803 |
 | `345gs5662d34` | 695 |
-| `admin` | 451 |
+| `admin` | 452 |
 | `ubuntu` | 209 |
 | `test` | 105 |
 | `user` | 105 |
@@ -70,7 +70,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `3245gs5662d34` | 695 |
 | `345gs5662d34` | 694 |
-| `123456` | 510 |
+| `123456` | 511 |
 | `123` | 315 |
 | `1234` | 261 |
 | `12345678` | 172 |
@@ -88,12 +88,12 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | command | times |
 |---|---|
-| `uname` | 937 |
+| `uname` | 938 |
 | `echo` | 812 |
 | `crontab` | 795 |
 | `lscpu` | 795 |
-| `cd` | 794 |
-| `cat` | 792 |
+| `cd` | 795 |
+| `cat` | 793 |
 | `ls` | 715 |
 | `top` | 714 |
 | `df` | 713 |
