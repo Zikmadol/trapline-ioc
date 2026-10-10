@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**2122 attackers** · **429,853 hostile actions** · covering 28 day(s) through 2026-10-10
+**2125 attackers** · **430,012 hostile actions** · covering 28 day(s) through 2026-10-10
 
 | signal | count |
 |---|---|
@@ -16,7 +16,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | category | IPs |
 |---|---|
 | `ssh-exploit` | 876 |
-| `ssh-bruteforce` | 492 |
+| `ssh-bruteforce` | 494 |
 | `redis-exploit` | 398 |
 | `mcp-abuse` | 158 |
 | `llamacpp-abuse` | 44 |
@@ -32,7 +32,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 1411 |
+| `ssh` | 1413 |
 | `redis` | 409 |
 | `mcp` | 217 |
 | `llamacpp` | 125 |
@@ -41,23 +41,23 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `litellm` | 68 |
 | `hfhub` | 63 |
 | `docker` | 52 |
-| `ollama` | 44 |
+| `ollama` | 45 |
 | `ray` | 10 |
 
 ### Top usernames tried
 
 | username | tries |
 |---|---|
-| `root` | 811 |
+| `root` | 813 |
 | `345gs5662d34` | 701 |
-| `admin` | 462 |
+| `admin` | 464 |
 | `ubuntu` | 219 |
 | `user` | 107 |
 | `test` | 104 |
-| `ftpuser` | 98 |
+| `ftpuser` | 99 |
 | `administrator` | 76 |
 | `git` | 69 |
-| `guest` | 63 |
+| `guest` | 64 |
 | `postgres` | 61 |
 | `deploy` | 61 |
 | `AdminGPON` | 57 |
@@ -70,17 +70,17 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `3245gs5662d34` | 701 |
 | `345gs5662d34` | 700 |
-| `123456` | 521 |
+| `123456` | 522 |
 | `123` | 325 |
-| `1234` | 263 |
-| `12345678` | 174 |
-| `admin` | 168 |
-| `12345` | 163 |
-| `1` | 148 |
+| `1234` | 264 |
+| `12345678` | 176 |
+| `admin` | 169 |
+| `12345` | 164 |
+| `1` | 149 |
 | `password` | 113 |
-| `P@ssw0rd` | 103 |
+| `P@ssw0rd` | 104 |
 | `000000` | 96 |
-| `admin123` | 95 |
+| `admin123` | 96 |
 | `123456789` | 89 |
 | `!QAZ2wsx` | 82 |
 
