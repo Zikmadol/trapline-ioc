@@ -2,13 +2,13 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**2125 attackers** · **430,012 hostile actions** · covering 28 day(s) through 2026-10-10
+**2125 attackers** · **430,080 hostile actions** · covering 28 day(s) through 2026-10-10
 
 | signal | count |
 |---|---|
 | GPU / AI-hardware probing | 145 |
 | Used a planted canary credential | 8 |
-| Seen on more than one sensor | 149 |
+| Seen on more than one sensor | 150 |
 | Stage-2 hosts named in payloads | 31 |
 
 ### By category
@@ -39,7 +39,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `jupyter` | 78 |
 | `vllm` | 78 |
 | `litellm` | 68 |
-| `hfhub` | 63 |
+| `hfhub` | 64 |
 | `docker` | 52 |
 | `ollama` | 45 |
 | `ray` | 10 |
@@ -49,7 +49,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | username | tries |
 |---|---|
 | `root` | 813 |
-| `345gs5662d34` | 701 |
+| `345gs5662d34` | 702 |
 | `admin` | 464 |
 | `ubuntu` | 219 |
 | `user` | 107 |
@@ -68,10 +68,10 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | password | tries |
 |---|---|
-| `3245gs5662d34` | 701 |
-| `345gs5662d34` | 700 |
+| `3245gs5662d34` | 702 |
+| `345gs5662d34` | 701 |
 | `123456` | 522 |
-| `123` | 325 |
+| `123` | 326 |
 | `1234` | 264 |
 | `12345678` | 176 |
 | `admin` | 169 |
@@ -88,18 +88,18 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | command | times |
 |---|---|
-| `uname` | 953 |
-| `echo` | 819 |
-| `cd` | 809 |
-| `cat` | 807 |
-| `crontab` | 802 |
-| `lscpu` | 802 |
-| `ls` | 721 |
-| `top` | 720 |
-| `df` | 719 |
-| `free` | 719 |
-| `whoami` | 718 |
-| `w` | 717 |
+| `uname` | 954 |
+| `echo` | 820 |
+| `cd` | 810 |
+| `cat` | 808 |
+| `crontab` | 803 |
+| `lscpu` | 803 |
+| `ls` | 722 |
+| `top` | 721 |
+| `df` | 720 |
+| `free` | 720 |
+| `whoami` | 719 |
+| `w` | 718 |
 | `INFO` | 264 |
 | `canary_env` | 191 |
 | `PING` | 182 |

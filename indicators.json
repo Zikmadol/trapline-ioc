@@ -1,9 +1,9 @@
 {
   "feed": "trapline-ioc",
-  "generated": "2026-10-10T19:17:53+00:00",
+  "generated": "2026-10-10T20:17:54+00:00",
   "count": 2126,
   "days": {
-    "2026-10-10": 133,
+    "2026-10-10": 134,
     "2026-10-09": 175,
     "2026-10-08": 170,
     "2026-10-07": 168,
@@ -433,6 +433,39 @@
         "honeypot",
         "mcp",
         "multi-sensor"
+      ]
+    },
+    {
+      "ip": "2.25.164.99",
+      "category": "mcp-abuse",
+      "categories": [
+        "mcp-abuse"
+      ],
+      "confidence": 95,
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-10-10",
+      "tags": [
+        "abuse",
+        "honeypot",
+        "mcp",
+        "multi-sensor"
+      ]
+    },
+    {
+      "ip": "185.223.235.13",
+      "category": "redis-exploit",
+      "categories": [
+        "redis-exploit"
+      ],
+      "confidence": 95,
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-10-10",
+      "tags": [
+        "exploit",
+        "hfhub",
+        "honeypot",
+        "multi-sensor",
+        "redis"
       ]
     },
     {
@@ -1520,13 +1553,15 @@
       "ip": "187.212.33.78",
       "category": "ssh-bruteforce",
       "categories": [
-        "ssh-bruteforce"
+        "ssh-bruteforce",
+        "ssh-exploit"
       ],
       "confidence": 90,
       "first_seen": "2026-10-10",
       "last_seen": "2026-10-10",
       "tags": [
         "bruteforce",
+        "exploit",
         "honeypot",
         "ssh"
       ]
@@ -1608,8 +1643,9 @@
     },
     {
       "ip": "185.233.3.95",
-      "category": "ssh-exploit",
+      "category": "ssh-bruteforce",
       "categories": [
+        "ssh-bruteforce",
         "ssh-exploit"
       ],
       "confidence": 90,
@@ -5091,22 +5127,6 @@
         "honeypot",
         "multi-sensor",
         "redis"
-      ]
-    },
-    {
-      "ip": "2.25.164.99",
-      "category": "mcp-abuse",
-      "categories": [
-        "mcp-abuse"
-      ],
-      "confidence": 95,
-      "first_seen": "2026-09-24",
-      "last_seen": "2026-10-08",
-      "tags": [
-        "abuse",
-        "honeypot",
-        "mcp",
-        "multi-sensor"
       ]
     },
     {
@@ -26407,21 +26427,6 @@
         "bruteforce",
         "honeypot",
         "ssh"
-      ]
-    },
-    {
-      "ip": "185.223.235.13",
-      "category": "redis-exploit",
-      "categories": [
-        "redis-exploit"
-      ],
-      "confidence": 90,
-      "first_seen": "2026-09-24",
-      "last_seen": "2026-09-24",
-      "tags": [
-        "exploit",
-        "honeypot",
-        "redis"
       ]
     },
     {
