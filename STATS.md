@@ -2,11 +2,11 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**2150 attackers** · **432,795 hostile actions** · covering 29 day(s) through 2026-10-11
+**2150 attackers** · **433,251 hostile actions** · covering 29 day(s) through 2026-10-11
 
 | signal | count |
 |---|---|
-| GPU / AI-hardware probing | 145 |
+| GPU / AI-hardware probing | 146 |
 | Used a planted canary credential | 8 |
 | Seen on more than one sensor | 152 |
 | Stage-2 hosts named in payloads | 31 |
@@ -55,7 +55,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `user` | 110 |
 | `test` | 105 |
 | `ftpuser` | 102 |
-| `administrator` | 77 |
+| `administrator` | 76 |
 | `git` | 69 |
 | `postgres` | 66 |
 | `guest` | 64 |
@@ -71,7 +71,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `3245gs5662d34` | 711 |
 | `345gs5662d34` | 711 |
 | `123456` | 531 |
-| `123` | 335 |
+| `123` | 336 |
 | `1234` | 267 |
 | `12345678` | 177 |
 | `admin` | 171 |
@@ -88,12 +88,12 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | command | times |
 |---|---|
-| `uname` | 969 |
-| `echo` | 829 |
+| `uname` | 970 |
+| `echo` | 830 |
 | `cd` | 825 |
 | `cat` | 823 |
-| `crontab` | 812 |
-| `lscpu` | 812 |
+| `crontab` | 813 |
+| `lscpu` | 813 |
 | `ls` | 731 |
 | `top` | 730 |
 | `df` | 729 |
