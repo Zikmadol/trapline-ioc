@@ -1,9 +1,9 @@
 {
   "feed": "trapline-ioc",
-  "generated": "2026-10-11T22:17:55+00:00",
-  "count": 2218,
+  "generated": "2026-10-11T23:17:56+00:00",
+  "count": 2219,
   "days": {
-    "2026-10-11": 163,
+    "2026-10-11": 165,
     "2026-10-10": 162,
     "2026-10-09": 175,
     "2026-10-08": 170,
@@ -1159,8 +1159,9 @@
     },
     {
       "ip": "45.148.10.240",
-      "category": "ssh-exploit",
+      "category": "ssh-bruteforce",
       "categories": [
+        "ssh-bruteforce",
         "ssh-exploit"
       ],
       "confidence": 90,
@@ -1901,6 +1902,22 @@
       ]
     },
     {
+      "ip": "185.180.141.12",
+      "category": "redis-exploit",
+      "categories": [
+        "redis-exploit"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-10-08",
+      "last_seen": "2026-10-11",
+      "tags": [
+        "exploit",
+        "honeypot",
+        "redis",
+        "vllm"
+      ]
+    },
+    {
       "ip": "182.44.26.211",
       "category": "ssh-exploit",
       "categories": [
@@ -1986,6 +2003,21 @@
       ],
       "confidence": 90,
       "first_seen": "2026-10-09",
+      "last_seen": "2026-10-11",
+      "tags": [
+        "abuse",
+        "honeypot",
+        "mcp"
+      ]
+    },
+    {
+      "ip": "178.238.227.252",
+      "category": "mcp-abuse",
+      "categories": [
+        "mcp-abuse"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-10-11",
       "last_seen": "2026-10-11",
       "tags": [
         "abuse",
@@ -8563,21 +8595,6 @@
         "exploit",
         "honeypot",
         "ssh"
-      ]
-    },
-    {
-      "ip": "185.180.141.12",
-      "category": "redis-exploit",
-      "categories": [
-        "redis-exploit"
-      ],
-      "confidence": 90,
-      "first_seen": "2026-10-08",
-      "last_seen": "2026-10-08",
-      "tags": [
-        "exploit",
-        "honeypot",
-        "redis"
       ]
     },
     {
