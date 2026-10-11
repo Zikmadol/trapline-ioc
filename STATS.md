@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**2155 attackers** · **433,339 hostile actions** · covering 29 day(s) through 2026-10-11
+**2155 attackers** · **433,560 hostile actions** · covering 29 day(s) through 2026-10-11
 
 | signal | count |
 |---|---|
