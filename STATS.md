@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**2310 attackers** · **457,997 hostile actions** · covering 31 day(s) through 2026-10-13
+**2312 attackers** · **458,046 hostile actions** · covering 31 day(s) through 2026-10-13
 
 | signal | count |
 |---|---|
@@ -16,10 +16,10 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | category | IPs |
 |---|---|
 | `ssh-exploit` | 938 |
-| `ssh-bruteforce` | 537 |
+| `ssh-bruteforce` | 538 |
 | `redis-exploit` | 435 |
 | `canary-aws-key` | 299 |
-| `mcp-abuse` | 182 |
+| `mcp-abuse` | 183 |
 | `llamacpp-abuse` | 48 |
 | `litellm-key-replay` | 34 |
 | `ollama-abuse` | 25 |
@@ -32,9 +32,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 1524 |
+| `ssh` | 1525 |
 | `redis` | 448 |
-| `mcp` | 252 |
+| `mcp` | 253 |
 | `llamacpp` | 140 |
 | `jupyter` | 88 |
 | `vllm` | 88 |
@@ -48,13 +48,13 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 873 |
+| `root` | 874 |
 | `345gs5662d34` | 749 |
-| `admin` | 503 |
+| `admin` | 504 |
 | `ubuntu` | 247 |
 | `user` | 122 |
-| `ftpuser` | 114 |
-| `test` | 110 |
+| `ftpuser` | 115 |
+| `test` | 111 |
 | `administrator` | 79 |
 | `postgres` | 77 |
 | `git` | 77 |
@@ -73,7 +73,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `123456` | 573 |
 | `123` | 365 |
 | `1234` | 286 |
-| `12345678` | 190 |
+| `12345678` | 191 |
 | `admin` | 184 |
 | `12345` | 178 |
 | `1` | 161 |
@@ -101,7 +101,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `whoami` | 767 |
 | `w` | 766 |
 | `INFO` | 293 |
-| `canary_env` | 218 |
+| `canary_env` | 219 |
 | `PING` | 194 |
 
 
