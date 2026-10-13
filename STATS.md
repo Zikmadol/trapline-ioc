@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**2339 attackers** · **461,811 hostile actions** · covering 31 day(s) through 2026-10-13
+**2343 attackers** · **462,456 hostile actions** · covering 31 day(s) through 2026-10-13
 
 | signal | count |
 |---|---|
@@ -15,9 +15,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `ssh-exploit` | 950 |
+| `ssh-exploit` | 953 |
 | `ssh-bruteforce` | 540 |
-| `redis-exploit` | 441 |
+| `redis-exploit` | 442 |
 | `canary-aws-key` | 370 |
 | `mcp-abuse` | 186 |
 | `llamacpp-abuse` | 48 |
@@ -32,12 +32,12 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 1542 |
-| `redis` | 454 |
+| `ssh` | 1545 |
+| `redis` | 455 |
 | `mcp` | 256 |
 | `llamacpp` | 144 |
+| `vllm` | 91 |
 | `jupyter` | 90 |
-| `vllm` | 90 |
 | `litellm` | 84 |
 | `hfhub` | 71 |
 | `docker` | 64 |
@@ -48,9 +48,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 885 |
-| `345gs5662d34` | 758 |
-| `admin` | 516 |
+| `root` | 886 |
+| `345gs5662d34` | 759 |
+| `admin` | 517 |
 | `ubuntu` | 249 |
 | `user` | 122 |
 | `test` | 115 |
@@ -68,41 +68,41 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | password | tries |
 |---|---|
-| `345gs5662d34` | 757 |
-| `3245gs5662d34` | 754 |
-| `123456` | 586 |
+| `345gs5662d34` | 758 |
+| `3245gs5662d34` | 755 |
+| `123456` | 587 |
 | `123` | 374 |
-| `1234` | 289 |
+| `1234` | 290 |
 | `12345678` | 197 |
 | `admin` | 185 |
 | `12345` | 179 |
 | `1` | 165 |
 | `password` | 128 |
 | `P@ssw0rd` | 119 |
-| `admin123` | 111 |
+| `admin123` | 112 |
 | `000000` | 100 |
 | `123456789` | 99 |
-| `!QAZ2wsx` | 88 |
+| `!QAZ2wsx` | 89 |
 
 ### Top commands run
 
 | command | times |
 |---|---|
-| `uname` | 1040 |
-| `cd` | 887 |
-| `echo` | 886 |
-| `cat` | 885 |
-| `crontab` | 867 |
-| `lscpu` | 866 |
-| `ls` | 779 |
-| `free` | 778 |
-| `top` | 777 |
-| `df` | 776 |
-| `w` | 775 |
-| `whoami` | 775 |
+| `uname` | 1043 |
+| `cd` | 890 |
+| `cat` | 888 |
+| `echo` | 888 |
+| `crontab` | 869 |
+| `lscpu` | 868 |
+| `ls` | 781 |
+| `free` | 780 |
+| `top` | 779 |
+| `df` | 778 |
+| `w` | 777 |
+| `whoami` | 777 |
 | `INFO` | 295 |
 | `canary_env` | 222 |
-| `PING` | 197 |
+| `PING` | 198 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._
