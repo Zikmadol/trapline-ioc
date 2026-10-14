@@ -2,11 +2,11 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**2397 attackers** · **470,451 hostile actions** · covering 32 day(s) through 2026-10-14
+**2398 attackers** · **471,394 hostile actions** · covering 32 day(s) through 2026-10-14
 
 | signal | count |
 |---|---|
-| GPU / AI-hardware probing | 160 |
+| GPU / AI-hardware probing | 161 |
 | Used a planted canary credential | 19 |
 | Seen on more than one sensor | 174 |
 | Stage-2 hosts named in payloads | 34 |
@@ -16,8 +16,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | category | IPs |
 |---|---|
 | `ssh-exploit` | 970 |
-| `canary-aws-key` | 779 |
-| `ssh-bruteforce` | 552 |
+| `canary-aws-key` | 792 |
+| `ssh-bruteforce` | 553 |
 | `redis-exploit` | 459 |
 | `mcp-abuse` | 187 |
 | `llamacpp-abuse` | 51 |
@@ -32,7 +32,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 1574 |
+| `ssh` | 1575 |
 | `redis` | 472 |
 | `mcp` | 262 |
 | `llamacpp` | 152 |
@@ -61,7 +61,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `deploy` | 74 |
 | `guest` | 73 |
 | `oracle` | 62 |
-| `admin1` | 59 |
+| `admin1` | 60 |
 | `AdminGPON` | 57 |
 
 ### Top passwords tried
@@ -80,20 +80,20 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `password` | 130 |
 | `P@ssw0rd` | 123 |
 | `admin123` | 116 |
+| `123456789` | 100 |
 | `000000` | 100 |
-| `123456789` | 99 |
-| `!QAZ2wsx` | 90 |
+| `!QAZ2wsx` | 91 |
 
 ### Top commands run
 
 | command | times |
 |---|---|
-| `uname` | 1063 |
+| `uname` | 1064 |
 | `cd` | 907 |
 | `cat` | 905 |
-| `echo` | 903 |
-| `crontab` | 884 |
-| `lscpu` | 883 |
+| `echo` | 904 |
+| `crontab` | 885 |
+| `lscpu` | 884 |
 | `ls` | 793 |
 | `free` | 792 |
 | `top` | 791 |
