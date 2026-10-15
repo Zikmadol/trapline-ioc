@@ -2,11 +2,11 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**2450 attackers** · **476,881 hostile actions** · covering 33 day(s) through 2026-10-15
+**2452 attackers** · **477,961 hostile actions** · covering 33 day(s) through 2026-10-15
 
 | signal | count |
 |---|---|
-| GPU / AI-hardware probing | 164 |
+| GPU / AI-hardware probing | 165 |
 | Used a planted canary credential | 19 |
 | Seen on more than one sensor | 175 |
 | Stage-2 hosts named in payloads | 35 |
@@ -17,11 +17,11 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `ssh-exploit` | 989 |
 | `canary-aws-key` | 793 |
-| `ssh-bruteforce` | 569 |
+| `ssh-bruteforce` | 570 |
 | `redis-exploit` | 469 |
 | `mcp-abuse` | 190 |
 | `llamacpp-abuse` | 53 |
-| `litellm-key-replay` | 36 |
+| `litellm-key-replay` | 37 |
 | `ollama-abuse` | 25 |
 | `docker-abuse` | 24 |
 | `jupyter-abuse` | 13 |
@@ -32,13 +32,13 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 1610 |
+| `ssh` | 1611 |
 | `redis` | 482 |
 | `mcp` | 266 |
 | `llamacpp` | 155 |
 | `vllm` | 98 |
 | `jupyter` | 94 |
-| `litellm` | 87 |
+| `litellm` | 88 |
 | `hfhub` | 75 |
 | `docker` | 66 |
 | `ollama` | 47 |
@@ -50,16 +50,16 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `root` | 923 |
 | `345gs5662d34` | 789 |
-| `admin` | 534 |
+| `admin` | 535 |
 | `ubuntu` | 254 |
 | `user` | 129 |
-| `ftpuser` | 120 |
+| `ftpuser` | 121 |
 | `test` | 118 |
 | `git` | 81 |
 | `administrator` | 80 |
 | `postgres` | 78 |
 | `deploy` | 78 |
-| `guest` | 74 |
+| `guest` | 75 |
 | `oracle` | 62 |
 | `AdminGPON` | 57 |
 | `admin1` | 57 |
@@ -70,30 +70,30 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `345gs5662d34` | 788 |
 | `3245gs5662d34` | 785 |
-| `123456` | 622 |
+| `123456` | 623 |
 | `123` | 390 |
-| `1234` | 301 |
-| `12345678` | 210 |
-| `admin` | 197 |
-| `12345` | 188 |
-| `1` | 172 |
-| `password` | 132 |
-| `P@ssw0rd` | 127 |
-| `admin123` | 122 |
+| `1234` | 302 |
+| `12345678` | 211 |
+| `admin` | 198 |
+| `12345` | 189 |
+| `1` | 173 |
+| `password` | 133 |
+| `P@ssw0rd` | 128 |
+| `admin123` | 123 |
 | `123456789` | 102 |
 | `000000` | 101 |
-| `!QAZ2wsx` | 91 |
+| `!QAZ2wsx` | 92 |
 
 ### Top commands run
 
 | command | times |
 |---|---|
-| `uname` | 1089 |
+| `uname` | 1090 |
 | `cd` | 926 |
-| `echo` | 925 |
+| `echo` | 926 |
 | `cat` | 924 |
-| `crontab` | 906 |
-| `lscpu` | 905 |
+| `crontab` | 907 |
+| `lscpu` | 906 |
 | `ls` | 811 |
 | `free` | 810 |
 | `top` | 809 |
