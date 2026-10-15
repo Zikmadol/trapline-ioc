@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**2413 attackers** · **472,714 hostile actions** · covering 32 day(s) through 2026-10-14
+**2413 attackers** · **472,801 hostile actions** · covering 33 day(s) through 2026-10-15
 
 | signal | count |
 |---|---|
@@ -48,11 +48,11 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 908 |
+| `root` | 907 |
 | `345gs5662d34` | 775 |
-| `admin` | 528 |
+| `admin` | 529 |
 | `ubuntu` | 254 |
-| `user` | 129 |
+| `user` | 128 |
 | `ftpuser` | 119 |
 | `test` | 115 |
 | `administrator` | 82 |
@@ -73,11 +73,11 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `123456` | 608 |
 | `123` | 384 |
 | `1234` | 297 |
-| `12345678` | 202 |
+| `12345678` | 203 |
 | `admin` | 191 |
 | `12345` | 185 |
 | `1` | 172 |
-| `password` | 130 |
+| `password` | 129 |
 | `P@ssw0rd` | 125 |
 | `admin123` | 119 |
 | `123456789` | 100 |
