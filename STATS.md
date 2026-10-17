@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**2600 attackers** · **503,505 hostile actions** · covering 35 day(s) through 2026-10-17
+**2603 attackers** · **504,320 hostile actions** · covering 35 day(s) through 2026-10-17
 
 | signal | count |
 |---|---|
@@ -19,10 +19,10 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `canary-aws-key` | 803 |
 | `ssh-bruteforce` | 606 |
 | `redis-exploit` | 493 |
-| `mcp-abuse` | 203 |
+| `mcp-abuse` | 204 |
 | `llamacpp-abuse` | 63 |
-| `litellm-key-replay` | 41 |
-| `docker-abuse` | 27 |
+| `litellm-key-replay` | 42 |
+| `docker-abuse` | 28 |
 | `ollama-abuse` | 25 |
 | `jupyter-abuse` | 13 |
 | `vllm-abuse` | 12 |
@@ -34,13 +34,13 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `ssh` | 1704 |
 | `redis` | 506 |
-| `mcp` | 286 |
+| `mcp` | 287 |
 | `llamacpp` | 170 |
 | `vllm` | 106 |
 | `jupyter` | 101 |
-| `litellm` | 96 |
+| `litellm` | 97 |
 | `hfhub` | 81 |
-| `docker` | 71 |
+| `docker` | 72 |
 | `ollama` | 50 |
 | `ray` | 14 |
 
@@ -52,7 +52,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `345gs5662d34` | 825 |
 | `admin` | 571 |
 | `ubuntu` | 275 |
-| `user` | 148 |
+| `user` | 147 |
 | `ftpuser` | 135 |
 | `test` | 122 |
 | `git` | 88 |
@@ -71,12 +71,12 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `345gs5662d34` | 823 |
 | `3245gs5662d34` | 819 |
 | `123456` | 672 |
-| `123` | 436 |
+| `123` | 435 |
 | `1234` | 322 |
 | `12345678` | 235 |
 | `admin` | 213 |
 | `12345` | 199 |
-| `1` | 189 |
+| `1` | 190 |
 | `password` | 142 |
 | `P@ssw0rd` | 140 |
 | `admin123` | 133 |
@@ -101,7 +101,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `whoami` | 845 |
 | `w` | 844 |
 | `INFO` | 327 |
-| `canary_env` | 246 |
+| `canary_env` | 247 |
 | `PING` | 222 |
 
 
