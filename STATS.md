@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**2624 attackers** · **506,101 hostile actions** · covering 35 day(s) through 2026-10-17
+**2625 attackers** · **506,321 hostile actions** · covering 35 day(s) through 2026-10-17
 
 | signal | count |
 |---|---|
@@ -15,7 +15,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `ssh-exploit` | 1047 |
+| `ssh-exploit` | 1048 |
 | `canary-aws-key` | 803 |
 | `ssh-bruteforce` | 608 |
 | `redis-exploit` | 495 |
@@ -32,7 +32,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 1712 |
+| `ssh` | 1713 |
 | `redis` | 509 |
 | `mcp` | 289 |
 | `llamacpp` | 171 |
@@ -62,7 +62,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `administrator` | 80 |
 | `oracle` | 66 |
 | `admin1` | 58 |
-| `AdminGPON` | 57 |
+| `ftp` | 57 |
 
 ### Top passwords tried
 
@@ -70,7 +70,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `345gs5662d34` | 825 |
 | `3245gs5662d34` | 822 |
-| `123456` | 676 |
+| `123456` | 677 |
 | `123` | 439 |
 | `1234` | 322 |
 | `12345678` | 237 |
@@ -88,18 +88,18 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | command | times |
 |---|---|
-| `uname` | 1153 |
-| `cd` | 981 |
-| `cat` | 980 |
-| `echo` | 970 |
-| `crontab` | 949 |
-| `lscpu` | 948 |
-| `ls` | 851 |
-| `free` | 850 |
-| `df` | 848 |
-| `top` | 848 |
-| `whoami` | 847 |
-| `w` | 846 |
+| `uname` | 1154 |
+| `cd` | 982 |
+| `cat` | 981 |
+| `echo` | 971 |
+| `crontab` | 950 |
+| `lscpu` | 949 |
+| `ls` | 852 |
+| `free` | 851 |
+| `df` | 849 |
+| `top` | 849 |
+| `whoami` | 848 |
+| `w` | 847 |
 | `INFO` | 330 |
 | `canary_env` | 249 |
 | `PING` | 223 |
