@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**2574 attackers** · **500,227 hostile actions** · covering 35 day(s) through 2026-10-17
+**2577 attackers** · **500,347 hostile actions** · covering 35 day(s) through 2026-10-17
 
 | signal | count |
 |---|---|
@@ -17,9 +17,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `ssh-exploit` | 1029 |
 | `canary-aws-key` | 803 |
-| `ssh-bruteforce` | 600 |
-| `redis-exploit` | 490 |
-| `mcp-abuse` | 199 |
+| `ssh-bruteforce` | 601 |
+| `redis-exploit` | 491 |
+| `mcp-abuse` | 200 |
 | `llamacpp-abuse` | 62 |
 | `litellm-key-replay` | 41 |
 | `docker-abuse` | 27 |
@@ -32,9 +32,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 1683 |
-| `redis` | 503 |
-| `mcp` | 281 |
+| `ssh` | 1684 |
+| `redis` | 504 |
+| `mcp` | 283 |
 | `llamacpp` | 169 |
 | `vllm` | 106 |
 | `jupyter` | 100 |
@@ -48,14 +48,14 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 970 |
+| `root` | 971 |
 | `345gs5662d34` | 823 |
 | `admin` | 562 |
 | `ubuntu` | 268 |
 | `user` | 144 |
-| `ftpuser` | 132 |
+| `ftpuser` | 133 |
 | `test` | 122 |
-| `git` | 87 |
+| `git` | 88 |
 | `deploy` | 87 |
 | `postgres` | 85 |
 | `guest` | 80 |
@@ -73,14 +73,14 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `123456` | 662 |
 | `123` | 427 |
 | `1234` | 319 |
-| `12345678` | 230 |
+| `12345678` | 231 |
 | `admin` | 211 |
-| `12345` | 197 |
+| `12345` | 198 |
 | `1` | 187 |
 | `password` | 142 |
 | `P@ssw0rd` | 139 |
-| `admin123` | 127 |
-| `000000` | 107 |
+| `admin123` | 128 |
+| `000000` | 108 |
 | `123456789` | 102 |
 | `!QAZ2wsx` | 93 |
 
@@ -100,9 +100,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `top` | 844 |
 | `whoami` | 843 |
 | `w` | 842 |
-| `INFO` | 325 |
-| `canary_env` | 241 |
-| `PING` | 220 |
+| `INFO` | 326 |
+| `canary_env` | 242 |
+| `PING` | 221 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._
