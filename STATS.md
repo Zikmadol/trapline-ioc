@@ -2,23 +2,23 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**2672 attackers** · **517,130 hostile actions** · covering 36 day(s) through 2026-10-18
+**2674 attackers** · **517,247 hostile actions** · covering 36 day(s) through 2026-10-18
 
 | signal | count |
 |---|---|
 | GPU / AI-hardware probing | 175 |
 | Used a planted canary credential | 22 |
-| Seen on more than one sensor | 189 |
+| Seen on more than one sensor | 190 |
 | Stage-2 hosts named in payloads | 37 |
 
 ### By category
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 1222 |
+| `canary-aws-key` | 1261 |
 | `ssh-exploit` | 1064 |
-| `ssh-bruteforce` | 621 |
-| `redis-exploit` | 500 |
+| `ssh-bruteforce` | 622 |
+| `redis-exploit` | 501 |
 | `mcp-abuse` | 212 |
 | `llamacpp-abuse` | 65 |
 | `litellm-key-replay` | 43 |
@@ -32,8 +32,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 1744 |
-| `redis` | 514 |
+| `ssh` | 1746 |
+| `redis` | 515 |
 | `mcp` | 297 |
 | `llamacpp` | 176 |
 | `vllm` | 107 |
@@ -50,8 +50,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `root` | 994 |
 | `345gs5662d34` | 845 |
-| `admin` | 593 |
-| `ubuntu` | 284 |
+| `admin` | 594 |
+| `ubuntu` | 285 |
 | `user` | 148 |
 | `ftpuser` | 138 |
 | `test` | 122 |
@@ -74,7 +74,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `123` | 446 |
 | `1234` | 330 |
 | `12345678` | 244 |
-| `admin` | 219 |
+| `admin` | 220 |
 | `12345` | 204 |
 | `1` | 199 |
 | `password` | 144 |
@@ -100,9 +100,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `top` | 866 |
 | `whoami` | 865 |
 | `w` | 864 |
-| `INFO` | 332 |
+| `INFO` | 333 |
 | `canary_env` | 255 |
-| `PING` | 225 |
+| `PING` | 226 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._
