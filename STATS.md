@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**2768 attackers** · **539,141 hostile actions** · covering 37 day(s) through 2026-10-19
+**2768 attackers** · **540,002 hostile actions** · covering 37 day(s) through 2026-10-19
 
 | signal | count |
 |---|---|
@@ -15,9 +15,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 2074 |
-| `ssh-exploit` | 1106 |
-| `ssh-bruteforce` | 636 |
+| `canary-aws-key` | 2088 |
+| `ssh-exploit` | 1105 |
+| `ssh-bruteforce` | 637 |
 | `redis-exploit` | 519 |
 | `mcp-abuse` | 218 |
 | `llamacpp-abuse` | 71 |
@@ -50,7 +50,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `root` | 1026 |
 | `345gs5662d34` | 876 |
-| `admin` | 624 |
+| `admin` | 623 |
 | `ubuntu` | 305 |
 | `user` | 153 |
 | `ftpuser` | 144 |
@@ -59,10 +59,10 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `postgres` | 95 |
 | `deploy` | 95 |
 | `guest` | 87 |
-| `administrator` | 83 |
+| `administrator` | 82 |
 | `oracle` | 72 |
 | `ftp` | 64 |
-| `admin1` | 59 |
+| `debian` | 59 |
 
 ### Top passwords tried
 
