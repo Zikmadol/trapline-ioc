@@ -2,23 +2,23 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**2849 attackers** · **559,525 hostile actions** · covering 38 day(s) through 2026-10-20
+**2851 attackers** · **561,438 hostile actions** · covering 38 day(s) through 2026-10-20
 
 | signal | count |
 |---|---|
 | GPU / AI-hardware probing | 180 |
 | Used a planted canary credential | 22 |
-| Seen on more than one sensor | 198 |
+| Seen on more than one sensor | 199 |
 | Stage-2 hosts named in payloads | 38 |
 
 ### By category
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 2305 |
+| `canary-aws-key` | 2314 |
 | `ssh-exploit` | 1121 |
-| `ssh-bruteforce` | 647 |
-| `redis-exploit` | 533 |
+| `ssh-bruteforce` | 648 |
+| `redis-exploit` | 534 |
 | `mcp-abuse` | 224 |
 | `llamacpp-abuse` | 73 |
 | `litellm-key-replay` | 46 |
@@ -32,23 +32,23 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 1836 |
-| `redis` | 547 |
+| `ssh` | 1838 |
+| `redis` | 548 |
 | `mcp` | 317 |
 | `llamacpp` | 193 |
 | `jupyter` | 126 |
 | `vllm` | 118 |
 | `litellm` | 111 |
-| `hfhub` | 93 |
+| `hfhub` | 94 |
 | `docker` | 82 |
-| `ollama` | 75 |
+| `ollama` | 76 |
 | `ray` | 19 |
 
 ### Top usernames tried
 
 | username | tries |
 |---|---|
-| `root` | 1043 |
+| `root` | 1044 |
 | `345gs5662d34` | 891 |
 | `admin` | 639 |
 | `ubuntu` | 302 |
@@ -76,7 +76,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `12345678` | 272 |
 | `admin` | 229 |
 | `12345` | 223 |
-| `1` | 214 |
+| `1` | 215 |
 | `P@ssw0rd` | 158 |
 | `password` | 153 |
 | `admin123` | 144 |
@@ -100,9 +100,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `top` | 914 |
 | `whoami` | 913 |
 | `w` | 912 |
-| `INFO` | 358 |
+| `INFO` | 359 |
 | `canary_env` | 272 |
-| `PING` | 245 |
+| `PING` | 246 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._
