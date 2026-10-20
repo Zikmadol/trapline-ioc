@@ -2,23 +2,23 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**2851 attackers** · **561,438 hostile actions** · covering 38 day(s) through 2026-10-20
+**2856 attackers** · **566,273 hostile actions** · covering 38 day(s) through 2026-10-20
 
 | signal | count |
 |---|---|
 | GPU / AI-hardware probing | 180 |
 | Used a planted canary credential | 22 |
 | Seen on more than one sensor | 199 |
-| Stage-2 hosts named in payloads | 38 |
+| Stage-2 hosts named in payloads | 39 |
 
 ### By category
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 2314 |
-| `ssh-exploit` | 1121 |
-| `ssh-bruteforce` | 648 |
-| `redis-exploit` | 534 |
+| `canary-aws-key` | 2331 |
+| `ssh-exploit` | 1122 |
+| `ssh-bruteforce` | 649 |
+| `redis-exploit` | 536 |
 | `mcp-abuse` | 224 |
 | `llamacpp-abuse` | 73 |
 | `litellm-key-replay` | 46 |
@@ -32,8 +32,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 1838 |
-| `redis` | 548 |
+| `ssh` | 1840 |
+| `redis` | 550 |
 | `mcp` | 317 |
 | `llamacpp` | 193 |
 | `jupyter` | 126 |
@@ -48,7 +48,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 1044 |
+| `root` | 1046 |
 | `345gs5662d34` | 891 |
 | `admin` | 639 |
 | `ubuntu` | 302 |
@@ -76,12 +76,12 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `12345678` | 272 |
 | `admin` | 229 |
 | `12345` | 223 |
-| `1` | 215 |
+| `1` | 214 |
 | `P@ssw0rd` | 158 |
 | `password` | 153 |
 | `admin123` | 144 |
 | `000000` | 114 |
-| `123456789` | 110 |
+| `123456789` | 111 |
 | `!QAZ2wsx` | 99 |
 
 ### Top commands run
@@ -100,7 +100,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `top` | 914 |
 | `whoami` | 913 |
 | `w` | 912 |
-| `INFO` | 359 |
+| `INFO` | 361 |
 | `canary_env` | 272 |
 | `PING` | 246 |
 
