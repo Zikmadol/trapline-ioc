@@ -2,24 +2,24 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**2881 attackers** · **571,469 hostile actions** · covering 38 day(s) through 2026-10-20
+**2882 attackers** · **571,517 hostile actions** · covering 38 day(s) through 2026-10-20
 
 | signal | count |
 |---|---|
 | GPU / AI-hardware probing | 181 |
 | Used a planted canary credential | 23 |
-| Seen on more than one sensor | 204 |
+| Seen on more than one sensor | 205 |
 | Stage-2 hosts named in payloads | 39 |
 
 ### By category
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 2397 |
+| `canary-aws-key` | 2412 |
 | `ssh-exploit` | 1128 |
 | `ssh-bruteforce` | 654 |
 | `redis-exploit` | 540 |
-| `mcp-abuse` | 225 |
+| `mcp-abuse` | 226 |
 | `llamacpp-abuse` | 73 |
 | `ollama-abuse` | 51 |
 | `litellm-key-replay` | 47 |
@@ -32,10 +32,10 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 1852 |
+| `ssh` | 1853 |
 | `redis` | 554 |
-| `mcp` | 320 |
-| `llamacpp` | 195 |
+| `mcp` | 321 |
+| `llamacpp` | 196 |
 | `jupyter` | 126 |
 | `vllm` | 122 |
 | `litellm` | 112 |
@@ -48,7 +48,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 1053 |
+| `root` | 1054 |
 | `345gs5662d34` | 898 |
 | `admin` | 641 |
 | `ubuntu` | 302 |
@@ -70,7 +70,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `345gs5662d34` | 896 |
 | `3245gs5662d34` | 892 |
-| `123456` | 739 |
+| `123456` | 740 |
 | `123` | 491 |
 | `1234` | 349 |
 | `12345678` | 273 |
@@ -101,7 +101,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `whoami` | 920 |
 | `w` | 919 |
 | `INFO` | 364 |
-| `canary_env` | 273 |
+| `canary_env` | 274 |
 | `PING` | 248 |
 
 
