@@ -1,9 +1,9 @@
 {
   "feed": "trapline-ioc",
-  "generated": "2026-10-20T18:18:03+00:00",
+  "generated": "2026-10-20T19:18:47+00:00",
   "count": 2867,
   "days": {
-    "2026-10-20": 140,
+    "2026-10-20": 141,
     "2026-10-19": 160,
     "2026-10-18": 180,
     "2026-10-17": 197,
@@ -541,6 +541,7 @@
         "bruteforce",
         "docker",
         "honeypot",
+        "llamacpp",
         "multi-sensor",
         "vllm"
       ]
@@ -1572,13 +1573,15 @@
       "ip": "185.28.61.19",
       "category": "ssh-bruteforce",
       "categories": [
-        "ssh-bruteforce"
+        "ssh-bruteforce",
+        "ssh-exploit"
       ],
       "confidence": 90,
       "first_seen": "2026-10-20",
       "last_seen": "2026-10-20",
       "tags": [
         "bruteforce",
+        "exploit",
         "honeypot",
         "ssh"
       ]
@@ -2253,8 +2256,9 @@
     },
     {
       "ip": "14.103.213.90",
-      "category": "ssh-exploit",
+      "category": "ssh-bruteforce",
       "categories": [
+        "ssh-bruteforce",
         "ssh-exploit"
       ],
       "confidence": 90,
@@ -2363,6 +2367,21 @@
       ]
     },
     {
+      "ip": "119.29.247.220",
+      "category": "docker-abuse",
+      "categories": [
+        "docker-abuse"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-10-20",
+      "tags": [
+        "abuse",
+        "docker",
+        "honeypot"
+      ]
+    },
+    {
       "ip": "118.99.91.143",
       "category": "ollama-abuse",
       "categories": [
@@ -2395,8 +2414,9 @@
     },
     {
       "ip": "117.50.73.90",
-      "category": "ssh-exploit",
+      "category": "ssh-bruteforce",
       "categories": [
+        "ssh-bruteforce",
         "ssh-exploit"
       ],
       "confidence": 90,
@@ -39144,21 +39164,6 @@
         "exploit",
         "honeypot",
         "redis"
-      ]
-    },
-    {
-      "ip": "119.29.247.220",
-      "category": "docker-abuse",
-      "categories": [
-        "docker-abuse"
-      ],
-      "confidence": 90,
-      "first_seen": "2026-09-24",
-      "last_seen": "2026-09-24",
-      "tags": [
-        "abuse",
-        "docker",
-        "honeypot"
       ]
     },
     {

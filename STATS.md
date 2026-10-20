@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**2866 attackers** · **570,649 hostile actions** · covering 38 day(s) through 2026-10-20
+**2866 attackers** · **570,921 hostile actions** · covering 38 day(s) through 2026-10-20
 
 | signal | count |
 |---|---|
@@ -15,9 +15,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 2353 |
-| `ssh-exploit` | 1126 |
-| `ssh-bruteforce` | 652 |
+| `canary-aws-key` | 2359 |
+| `ssh-exploit` | 1125 |
+| `ssh-bruteforce` | 653 |
 | `redis-exploit` | 537 |
 | `mcp-abuse` | 224 |
 | `llamacpp-abuse` | 73 |
@@ -35,7 +35,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `ssh` | 1847 |
 | `redis` | 551 |
 | `mcp` | 318 |
-| `llamacpp` | 194 |
+| `llamacpp` | 195 |
 | `jupyter` | 126 |
 | `vllm` | 122 |
 | `litellm` | 112 |
@@ -48,8 +48,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 1050 |
-| `345gs5662d34` | 895 |
+| `root` | 1051 |
+| `345gs5662d34` | 896 |
 | `admin` | 640 |
 | `ubuntu` | 302 |
 | `user` | 155 |
@@ -68,8 +68,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | password | tries |
 |---|---|
-| `345gs5662d34` | 893 |
-| `3245gs5662d34` | 890 |
+| `345gs5662d34` | 894 |
+| `3245gs5662d34` | 891 |
 | `123456` | 739 |
 | `123` | 491 |
 | `1234` | 348 |
@@ -78,7 +78,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `12345` | 223 |
 | `1` | 214 |
 | `P@ssw0rd` | 159 |
-| `password` | 153 |
+| `password` | 154 |
 | `admin123` | 144 |
 | `000000` | 114 |
 | `123456789` | 111 |
@@ -88,18 +88,18 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | command | times |
 |---|---|
-| `uname` | 1237 |
-| `cat` | 1059 |
-| `cd` | 1059 |
-| `echo` | 1044 |
-| `crontab` | 1022 |
-| `lscpu` | 1020 |
-| `ls` | 921 |
-| `free` | 920 |
-| `df` | 918 |
-| `top` | 918 |
-| `whoami` | 917 |
-| `w` | 916 |
+| `uname` | 1238 |
+| `cat` | 1060 |
+| `cd` | 1060 |
+| `echo` | 1045 |
+| `crontab` | 1023 |
+| `lscpu` | 1021 |
+| `ls` | 922 |
+| `free` | 921 |
+| `df` | 919 |
+| `top` | 919 |
+| `whoami` | 918 |
+| `w` | 917 |
 | `INFO` | 361 |
 | `canary_env` | 272 |
 | `PING` | 247 |
