@@ -27,6 +27,7 @@ ip,category,confidence,first_seen,last_seen,tags
 92.118.39.50,ssh-exploit,90,2026-09-20,2026-10-20,bruteforce|exploit|gpu-probing|honeypot|ssh
 89.21.67.190,redis-exploit,90,2026-10-09,2026-10-20,exploit|honeypot|litellm|llamacpp|redis
 89.167.25.193,mcp-abuse,90,2026-10-19,2026-10-20,abuse|honeypot|mcp
+85.11.167.7,redis-exploit,90,2026-10-05,2026-10-20,exploit|honeypot|key-replay|litellm|mcp|redis
 84.247.162.174,mcp-abuse,90,2026-10-20,2026-10-20,abuse|honeypot|mcp
 80.94.92.234,ssh-exploit,90,2026-09-19,2026-10-20,bruteforce|exploit|gpu-probing|honeypot|ssh
 69.63.211.10,ray-abuse,90,2026-10-20,2026-10-20,abuse|gpu-probing|honeypot|ollama|ray|vllm
@@ -40,6 +41,7 @@ ip,category,confidence,first_seen,last_seen,tags
 39.157.98.59,ollama-abuse,90,2026-10-20,2026-10-20,abuse|honeypot|ollama|prompt-abuse
 222.128.65.54,llamacpp-abuse,90,2026-10-19,2026-10-20,abuse|honeypot|key-replay|llamacpp|prompt-abuse
 204.194.50.232,jupyter-abuse,90,2026-10-20,2026-10-20,abuse|honeypot|jupyter
+195.178.110.228,ssh-bruteforce,90,2026-09-14,2026-10-20,bruteforce|exploit|gpu-probing|honeypot|ssh
 194.67.119.226,ollama-abuse,90,2026-10-20,2026-10-20,abuse|honeypot|ollama
 193.176.31.238,redis-exploit,90,2026-10-16,2026-10-20,exploit|hfhub|honeypot|mcp|redis
 192.99.20.68,ollama-abuse,90,2026-10-20,2026-10-20,abuse|honeypot|ollama|prompt-abuse
@@ -71,6 +73,7 @@ ip,category,confidence,first_seen,last_seen,tags
 109.160.32.37,ssh-bruteforce,90,2026-10-06,2026-10-20,bruteforce|exploit|gpu-probing|honeypot|ssh
 109.160.32.180,ssh-exploit,90,2026-10-20,2026-10-20,bruteforce|exploit|gpu-probing|honeypot|ssh
 108.235.194.142,ray-abuse,90,2026-10-20,2026-10-20,abuse|gpu-probing|honeypot|ray|vllm
+104.64.127.170,llamacpp-abuse,90,2026-10-19,2026-10-20,abuse|honeypot|llamacpp|vllm
 104.28.200.97,ollama-abuse,90,2026-10-20,2026-10-20,abuse|honeypot|ollama|prompt-abuse
 104.28.200.96,ollama-abuse,90,2026-10-20,2026-10-20,abuse|honeypot|ollama
 103.189.235.93,jupyter-abuse,90,2026-10-20,2026-10-20,abuse|honeypot|jupyter
@@ -102,7 +105,6 @@ ip,category,confidence,first_seen,last_seen,tags
 92.113.26.77,mcp-abuse,90,2026-10-09,2026-10-19,abuse|honeypot|mcp
 91.230.168.63,redis-exploit,90,2026-10-17,2026-10-19,exploit|honeypot|litellm|redis
 89.58.11.10,mcp-abuse,90,2026-10-13,2026-10-19,abuse|honeypot|mcp
-85.11.167.7,redis-exploit,90,2026-10-05,2026-10-19,exploit|honeypot|key-replay|litellm|mcp|redis
 82.29.177.108,mcp-abuse,90,2026-10-18,2026-10-19,abuse|honeypot|mcp
 81.19.216.102,redis-exploit,90,2026-10-15,2026-10-19,exploit|honeypot|mcp|redis
 79.175.176.177,ssh-exploit,90,2026-09-14,2026-10-19,bruteforce|exploit|gpu-probing|honeypot|ssh
@@ -147,7 +149,6 @@ ip,category,confidence,first_seen,last_seen,tags
 109.160.32.152,ssh-exploit,90,2026-09-28,2026-10-19,bruteforce|exploit|gpu-probing|honeypot|ssh
 109.160.32.133,ssh-bruteforce,90,2026-10-01,2026-10-19,bruteforce|exploit|gpu-probing|honeypot|ssh
 109.160.32.118,ssh-exploit,90,2026-09-29,2026-10-19,bruteforce|exploit|gpu-probing|honeypot|ssh
-104.64.127.170,llamacpp-abuse,90,2026-10-19,2026-10-19,abuse|honeypot|llamacpp
 103.253.27.236,jupyter-abuse,90,2026-10-19,2026-10-19,abuse|honeypot|jupyter
 103.238.227.226,litellm-key-replay,90,2026-10-17,2026-10-19,abuse|honeypot|key-replay|litellm|llamacpp|prompt-abuse
 89.248.172.10,redis-exploit,95,2026-09-18,2026-10-18,docker|exploit|hfhub|honeypot|jupyter|mcp|multi-sensor|redis|ssh|vllm
@@ -376,7 +377,6 @@ ip,category,confidence,first_seen,last_seen,tags
 210.91.62.44,litellm-key-replay,90,2026-10-14,2026-10-14,honeypot|key-replay|litellm
 2.27.32.222,llamacpp-abuse,90,2026-10-14,2026-10-14,abuse|honeypot|llamacpp|prompt-abuse
 199.165.159.33,redis-exploit,90,2026-10-08,2026-10-14,exploit|honeypot|mcp|ollama|redis
-195.178.110.228,ssh-bruteforce,90,2026-09-14,2026-10-14,bruteforce|exploit|gpu-probing|honeypot|ssh
 179.198.215.159,mcp-abuse,90,2026-10-10,2026-10-14,abuse|honeypot|mcp
 179.198.209.110,mcp-abuse,90,2026-10-13,2026-10-14,abuse|honeypot|mcp
 172.190.93.138,llamacpp-abuse,90,2026-10-14,2026-10-14,abuse|hfhub|honeypot|jupyter|key-replay|litellm|llamacpp|mcp|prompt-abuse|vllm

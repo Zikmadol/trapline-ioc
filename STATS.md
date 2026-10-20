@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**2844 attackers** · **554,335 hostile actions** · covering 38 day(s) through 2026-10-20
+**2845 attackers** · **554,538 hostile actions** · covering 38 day(s) through 2026-10-20
 
 | signal | count |
 |---|---|
@@ -15,9 +15,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 2270 |
+| `canary-aws-key` | 2279 |
 | `ssh-exploit` | 1120 |
-| `ssh-bruteforce` | 647 |
+| `ssh-bruteforce` | 648 |
 | `redis-exploit` | 531 |
 | `mcp-abuse` | 223 |
 | `llamacpp-abuse` | 73 |
@@ -32,12 +32,12 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 1834 |
+| `ssh` | 1835 |
 | `redis` | 545 |
 | `mcp` | 316 |
 | `llamacpp` | 193 |
 | `jupyter` | 126 |
-| `vllm` | 117 |
+| `vllm` | 118 |
 | `litellm` | 111 |
 | `hfhub` | 93 |
 | `docker` | 82 |
@@ -50,19 +50,19 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `root` | 1043 |
 | `345gs5662d34` | 891 |
-| `admin` | 638 |
+| `admin` | 639 |
 | `ubuntu` | 302 |
 | `user` | 153 |
-| `ftpuser` | 151 |
+| `ftpuser` | 152 |
 | `test` | 126 |
 | `postgres` | 102 |
 | `git` | 102 |
 | `deploy` | 97 |
-| `guest` | 90 |
+| `guest` | 91 |
 | `administrator` | 89 |
 | `oracle` | 72 |
+| `ftp` | 66 |
 | `dev` | 65 |
-| `ftp` | 65 |
 
 ### Top passwords tried
 
@@ -70,16 +70,16 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `345gs5662d34` | 889 |
 | `3245gs5662d34` | 886 |
-| `123456` | 737 |
+| `123456` | 738 |
 | `123` | 489 |
-| `1234` | 346 |
-| `12345678` | 270 |
-| `admin` | 228 |
-| `12345` | 222 |
-| `1` | 213 |
-| `P@ssw0rd` | 157 |
+| `1234` | 347 |
+| `12345678` | 271 |
+| `admin` | 229 |
+| `12345` | 223 |
+| `1` | 214 |
+| `P@ssw0rd` | 158 |
 | `password` | 153 |
-| `admin123` | 143 |
+| `admin123` | 144 |
 | `000000` | 113 |
 | `123456789` | 109 |
 | `!QAZ2wsx` | 99 |
