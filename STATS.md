@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**3046 attackers** · **609,739 hostile actions** · covering 40 day(s) through 2026-10-22
+**3049 attackers** · **609,913 hostile actions** · covering 40 day(s) through 2026-10-22
 
 | signal | count |
 |---|---|
@@ -15,15 +15,15 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 2785 |
+| `canary-aws-key` | 2788 |
 | `ssh-exploit` | 1191 |
 | `ssh-bruteforce` | 684 |
-| `redis-exploit` | 561 |
-| `mcp-abuse` | 234 |
+| `redis-exploit` | 563 |
+| `mcp-abuse` | 235 |
 | `llamacpp-abuse` | 79 |
-| `ollama-abuse` | 60 |
+| `ollama-abuse` | 59 |
 | `litellm-key-replay` | 54 |
-| `docker-abuse` | 36 |
+| `docker-abuse` | 37 |
 | `jupyter-abuse` | 32 |
 | `vllm-abuse` | 13 |
 | `vllm-key-replay` | 11 |
@@ -33,17 +33,17 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | protocol | events |
 |---|---|
 | `ssh` | 1950 |
-| `redis` | 576 |
-| `mcp` | 337 |
+| `redis` | 578 |
+| `mcp` | 338 |
 | `llamacpp` | 214 |
 | `jupyter` | 133 |
 | `vllm` | 129 |
 | `litellm` | 123 |
 | `ollama` | 100 |
 | `hfhub` | 98 |
-| `docker` | 89 |
+| `docker` | 90 |
 | `ray` | 22 |
-| `php` | 7 |
+| `php` | 8 |
 
 ### Top usernames tried
 
@@ -55,7 +55,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `ubuntu` | 310 |
 | `user` | 158 |
 | `ftpuser` | 157 |
-| `test` | 132 |
+| `test` | 131 |
 | `git` | 109 |
 | `deploy` | 106 |
 | `postgres` | 104 |
@@ -102,8 +102,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `whoami` | 976 |
 | `w` | 975 |
 | `INFO` | 380 |
-| `canary_env` | 288 |
-| `PING` | 259 |
+| `canary_env` | 289 |
+| `PING` | 261 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._
