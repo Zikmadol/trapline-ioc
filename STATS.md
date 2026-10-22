@@ -2,12 +2,12 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**2980 attackers** · **590,192 hostile actions** · covering 40 day(s) through 2026-10-22
+**2983 attackers** · **594,011 hostile actions** · covering 40 day(s) through 2026-10-22
 
 | signal | count |
 |---|---|
 | GPU / AI-hardware probing | 184 |
-| Used a planted canary credential | 30 |
+| Used a planted canary credential | 31 |
 | Seen on more than one sensor | 208 |
 | Stage-2 hosts named in payloads | 40 |
 
@@ -15,13 +15,13 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 2617 |
-| `ssh-exploit` | 1178 |
+| `canary-aws-key` | 2649 |
+| `ssh-exploit` | 1179 |
 | `ssh-bruteforce` | 665 |
 | `redis-exploit` | 550 |
 | `mcp-abuse` | 231 |
 | `llamacpp-abuse` | 76 |
-| `ollama-abuse` | 55 |
+| `ollama-abuse` | 56 |
 | `litellm-key-replay` | 48 |
 | `docker-abuse` | 35 |
 | `jupyter-abuse` | 32 |
@@ -32,15 +32,15 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 1917 |
+| `ssh` | 1918 |
 | `redis` | 564 |
 | `mcp` | 332 |
-| `llamacpp` | 206 |
+| `llamacpp` | 207 |
 | `jupyter` | 131 |
 | `vllm` | 125 |
 | `litellm` | 117 |
 | `hfhub` | 97 |
-| `ollama` | 92 |
+| `ollama` | 94 |
 | `docker` | 86 |
 | `ray` | 20 |
 
@@ -48,7 +48,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 1095 |
+| `root` | 1096 |
 | `345gs5662d34` | 944 |
 | `admin` | 654 |
 | `ubuntu` | 306 |
@@ -76,19 +76,19 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `12345678` | 278 |
 | `admin` | 235 |
 | `12345` | 228 |
-| `1` | 223 |
+| `1` | 222 |
 | `P@ssw0rd` | 162 |
 | `password` | 157 |
 | `admin123` | 145 |
-| `000000` | 116 |
-| `123456789` | 114 |
+| `000000` | 117 |
+| `123456789` | 115 |
 | `!QAZ2wsx` | 101 |
 
 ### Top commands run
 
 | command | times |
 |---|---|
-| `uname` | 1290 |
+| `uname` | 1291 |
 | `cat` | 1109 |
 | `cd` | 1109 |
 | `echo` | 1095 |
