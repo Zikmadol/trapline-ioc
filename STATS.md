@@ -2,12 +2,12 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**3009 attackers** · **608,570 hostile actions** · covering 40 day(s) through 2026-10-22
+**3011 attackers** · **608,682 hostile actions** · covering 40 day(s) through 2026-10-22
 
 | signal | count |
 |---|---|
 | GPU / AI-hardware probing | 185 |
-| Used a planted canary credential | 33 |
+| Used a planted canary credential | 34 |
 | Seen on more than one sensor | 209 |
 | Stage-2 hosts named in payloads | 40 |
 
@@ -15,12 +15,12 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 2727 |
+| `canary-aws-key` | 2735 |
 | `ssh-exploit` | 1188 |
 | `ssh-bruteforce` | 665 |
 | `redis-exploit` | 556 |
 | `mcp-abuse` | 234 |
-| `llamacpp-abuse` | 77 |
+| `llamacpp-abuse` | 78 |
 | `ollama-abuse` | 57 |
 | `litellm-key-replay` | 52 |
 | `docker-abuse` | 36 |
@@ -32,18 +32,18 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 1927 |
+| `ssh` | 1928 |
 | `redis` | 570 |
-| `mcp` | 335 |
-| `llamacpp` | 209 |
+| `mcp` | 336 |
+| `llamacpp` | 210 |
 | `jupyter` | 132 |
 | `vllm` | 127 |
 | `litellm` | 121 |
 | `ollama` | 98 |
 | `hfhub` | 97 |
-| `docker` | 88 |
+| `docker` | 89 |
 | `ray` | 21 |
-| `php` | 5 |
+| `php` | 6 |
 
 ### Top usernames tried
 
@@ -102,7 +102,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `whoami` | 973 |
 | `w` | 972 |
 | `INFO` | 375 |
-| `canary_env` | 287 |
+| `canary_env` | 288 |
 | `PING` | 257 |
 
 
