@@ -2,22 +2,22 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**3196 attackers** · **647,767 hostile actions** · covering 42 day(s) through 2026-10-24
+**3196 attackers** · **647,847 hostile actions** · covering 42 day(s) through 2026-10-24
 
 | signal | count |
 |---|---|
 | GPU / AI-hardware probing | 188 |
 | Used a planted canary credential | 38 |
-| Seen on more than one sensor | 229 |
+| Seen on more than one sensor | 230 |
 | Stage-2 hosts named in payloads | 42 |
 
 ### By category
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 3127 |
-| `ssh-exploit` | 1219 |
-| `ssh-bruteforce` | 757 |
+| `canary-aws-key` | 3133 |
+| `ssh-exploit` | 1220 |
+| `ssh-bruteforce` | 756 |
 | `redis-exploit` | 583 |
 | `mcp-abuse` | 239 |
 | `llamacpp-abuse` | 81 |
@@ -34,7 +34,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `ssh` | 2053 |
 | `redis` | 598 |
-| `mcp` | 349 |
+| `mcp` | 350 |
 | `llamacpp` | 228 |
 | `jupyter` | 140 |
 | `vllm` | 135 |
@@ -50,7 +50,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | username | tries |
 |---|---|
 | `root` | 1204 |
-| `345gs5662d34` | 976 |
+| `345gs5662d34` | 977 |
 | `admin` | 674 |
 | `ubuntu` | 319 |
 | `ftpuser` | 163 |
@@ -69,14 +69,14 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | password | tries |
 |---|---|
-| `345gs5662d34` | 974 |
-| `3245gs5662d34` | 967 |
-| `123456` | 786 |
+| `345gs5662d34` | 975 |
+| `3245gs5662d34` | 968 |
+| `123456` | 787 |
 | `123` | 509 |
 | `1234` | 373 |
 | `12345678` | 289 |
 | `admin` | 249 |
-| `12345` | 233 |
+| `12345` | 234 |
 | `1` | 232 |
 | `P@ssw0rd` | 171 |
 | `password` | 157 |
@@ -89,18 +89,18 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | command | times |
 |---|---|
-| `uname` | 1327 |
-| `cd` | 1144 |
-| `cat` | 1143 |
-| `echo` | 1128 |
-| `crontab` | 1106 |
-| `lscpu` | 1104 |
-| `ls` | 1003 |
-| `free` | 1002 |
-| `df` | 1000 |
-| `top` | 1000 |
-| `whoami` | 999 |
-| `w` | 998 |
+| `uname` | 1328 |
+| `cd` | 1145 |
+| `cat` | 1144 |
+| `echo` | 1129 |
+| `crontab` | 1107 |
+| `lscpu` | 1105 |
+| `ls` | 1004 |
+| `free` | 1003 |
+| `df` | 1001 |
+| `top` | 1001 |
+| `whoami` | 1000 |
+| `w` | 999 |
 | `INFO` | 392 |
 | `canary_env` | 298 |
 | `PING` | 268 |
