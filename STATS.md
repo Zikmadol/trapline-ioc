@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**3173 attackers** · **636,748 hostile actions** · covering 42 day(s) through 2026-10-24
+**3175 attackers** · **639,171 hostile actions** · covering 42 day(s) through 2026-10-24
 
 | signal | count |
 |---|---|
@@ -15,9 +15,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 3065 |
-| `ssh-exploit` | 1214 |
-| `ssh-bruteforce` | 744 |
+| `canary-aws-key` | 3072 |
+| `ssh-exploit` | 1215 |
+| `ssh-bruteforce` | 745 |
 | `redis-exploit` | 581 |
 | `mcp-abuse` | 239 |
 | `llamacpp-abuse` | 81 |
@@ -32,7 +32,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 2035 |
+| `ssh` | 2037 |
 | `redis` | 596 |
 | `mcp` | 349 |
 | `llamacpp` | 228 |
@@ -49,31 +49,31 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 1190 |
-| `345gs5662d34` | 972 |
+| `root` | 1192 |
+| `345gs5662d34` | 973 |
 | `admin` | 672 |
 | `ubuntu` | 317 |
 | `ftpuser` | 162 |
 | `user` | 162 |
-| `test` | 131 |
+| `test` | 132 |
 | `git` | 109 |
 | `deploy` | 106 |
 | `postgres` | 104 |
 | `guest` | 100 |
 | `administrator` | 93 |
-| `ftp` | 74 |
-| `oracle` | 74 |
+| `ftp` | 75 |
+| `oracle` | 75 |
 | `dev` | 69 |
 
 ### Top passwords tried
 
 | password | tries |
 |---|---|
-| `345gs5662d34` | 970 |
-| `3245gs5662d34` | 963 |
+| `345gs5662d34` | 971 |
+| `3245gs5662d34` | 964 |
 | `123456` | 782 |
-| `123` | 508 |
-| `1234` | 371 |
+| `123` | 509 |
+| `1234` | 372 |
 | `12345678` | 287 |
 | `admin` | 248 |
 | `1` | 232 |
@@ -89,18 +89,18 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | command | times |
 |---|---|
-| `uname` | 1322 |
-| `cd` | 1140 |
-| `cat` | 1139 |
-| `echo` | 1124 |
-| `crontab` | 1102 |
-| `lscpu` | 1100 |
-| `ls` | 999 |
-| `free` | 998 |
-| `df` | 996 |
-| `top` | 996 |
-| `whoami` | 995 |
-| `w` | 994 |
+| `uname` | 1323 |
+| `cd` | 1141 |
+| `cat` | 1140 |
+| `echo` | 1125 |
+| `crontab` | 1103 |
+| `lscpu` | 1101 |
+| `ls` | 1000 |
+| `free` | 999 |
+| `df` | 997 |
+| `top` | 997 |
+| `whoami` | 996 |
+| `w` | 995 |
 | `INFO` | 391 |
 | `canary_env` | 298 |
 | `PING` | 267 |
