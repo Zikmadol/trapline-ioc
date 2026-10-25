@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**3264 attackers** · **650,390 hostile actions** · covering 43 day(s) through 2026-10-25
+**3268 attackers** · **650,641 hostile actions** · covering 43 day(s) through 2026-10-25
 
 | signal | count |
 |---|---|
@@ -15,9 +15,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 3230 |
+| `canary-aws-key` | 3232 |
 | `ssh-exploit` | 1230 |
-| `ssh-bruteforce` | 801 |
+| `ssh-bruteforce` | 805 |
 | `redis-exploit` | 590 |
 | `mcp-abuse` | 241 |
 | `llamacpp-abuse` | 81 |
@@ -32,7 +32,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 2108 |
+| `ssh` | 2112 |
 | `redis` | 605 |
 | `mcp` | 355 |
 | `llamacpp` | 230 |
@@ -41,7 +41,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `litellm` | 128 |
 | `ollama` | 107 |
 | `hfhub` | 105 |
-| `docker` | 100 |
+| `docker` | 103 |
 | `php` | 33 |
 | `ray` | 24 |
 
@@ -49,9 +49,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 1250 |
+| `root` | 1253 |
 | `345gs5662d34` | 987 |
-| `admin` | 680 |
+| `admin` | 681 |
 | `ubuntu` | 323 |
 | `ftpuser` | 163 |
 | `user` | 163 |
@@ -62,7 +62,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `guest` | 101 |
 | `administrator` | 93 |
 | `ftp` | 76 |
-| `oracle` | 75 |
+| `oracle` | 76 |
 | `dev` | 69 |
 
 ### Top passwords tried
@@ -75,7 +75,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `123` | 512 |
 | `1234` | 377 |
 | `12345678` | 296 |
-| `admin` | 255 |
+| `admin` | 256 |
 | `12345` | 237 |
 | `1` | 232 |
 | `P@ssw0rd` | 171 |
