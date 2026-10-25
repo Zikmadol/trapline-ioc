@@ -1,9 +1,9 @@
 {
   "feed": "trapline-ioc",
-  "generated": "2026-10-25T17:18:18+00:00",
+  "generated": "2026-10-25T18:18:22+00:00",
   "count": 3313,
   "days": {
-    "2026-10-25": 198,
+    "2026-10-25": 201,
     "2026-10-24": 206,
     "2026-10-23": 206,
     "2026-10-22": 170,
@@ -749,7 +749,8 @@
         "jupyter-abuse",
         "litellm-abuse",
         "mcp-abuse",
-        "ollama-abuse"
+        "ollama-abuse",
+        "ray-abuse"
       ],
       "confidence": 90,
       "first_seen": "2026-10-18",
@@ -3125,6 +3126,21 @@
       ]
     },
     {
+      "ip": "138.226.239.233",
+      "category": "ssh-bruteforce",
+      "categories": [
+        "ssh-bruteforce"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-09-26",
+      "last_seen": "2026-10-25",
+      "tags": [
+        "bruteforce",
+        "honeypot",
+        "ssh"
+      ]
+    },
+    {
       "ip": "138.186.46.85",
       "category": "redis-exploit",
       "categories": [
@@ -3137,6 +3153,23 @@
         "exploit",
         "honeypot",
         "redis"
+      ]
+    },
+    {
+      "ip": "136.0.42.239",
+      "category": "ollama-key-replay",
+      "categories": [
+        "ollama-key-replay"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-10-10",
+      "last_seen": "2026-10-25",
+      "tags": [
+        "abuse",
+        "honeypot",
+        "key-replay",
+        "ollama",
+        "prompt-abuse"
       ]
     },
     {
@@ -5963,38 +5996,6 @@
         "abuse",
         "honeypot",
         "mcp"
-      ]
-    },
-    {
-      "ip": "138.226.239.233",
-      "category": "ssh-bruteforce",
-      "categories": [
-        "ssh-bruteforce"
-      ],
-      "confidence": 90,
-      "first_seen": "2026-09-26",
-      "last_seen": "2026-10-24",
-      "tags": [
-        "bruteforce",
-        "honeypot",
-        "ssh"
-      ]
-    },
-    {
-      "ip": "136.0.42.239",
-      "category": "ollama-key-replay",
-      "categories": [
-        "ollama-key-replay"
-      ],
-      "confidence": 90,
-      "first_seen": "2026-10-10",
-      "last_seen": "2026-10-24",
-      "tags": [
-        "abuse",
-        "honeypot",
-        "key-replay",
-        "ollama",
-        "prompt-abuse"
       ]
     },
     {
