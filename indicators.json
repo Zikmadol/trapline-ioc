@@ -1,9 +1,9 @@
 {
   "feed": "trapline-ioc",
-  "generated": "2026-10-26T16:18:16+00:00",
-  "count": 3415,
+  "generated": "2026-10-26T17:18:16+00:00",
+  "count": 3420,
   "days": {
-    "2026-10-26": 176,
+    "2026-10-26": 181,
     "2026-10-25": 267,
     "2026-10-24": 206,
     "2026-10-23": 206,
@@ -51,6 +51,25 @@
   "license": "CC-BY-4.0",
   "description": "Attacker IPs confirmed by first-party honeypot and canary observation. Each IP took a hostile action against our decoys. Research scanners are excluded from this curated view.",
   "indicators": [
+    {
+      "ip": "209.112.91.74",
+      "category": "canary-aws-key",
+      "categories": [
+        "canary-aws-key",
+        "litellm-abuse"
+      ],
+      "confidence": 98,
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "tags": [
+        "abuse",
+        "canary",
+        "cloud-abuse",
+        "credential-abuse",
+        "honeypot",
+        "litellm"
+      ]
+    },
     {
       "ip": "168.222.244.156",
       "category": "canary-aws-key",
@@ -665,6 +684,23 @@
       ]
     },
     {
+      "ip": "106.15.238.36",
+      "category": "redis-exploit",
+      "categories": [
+        "redis-exploit"
+      ],
+      "confidence": 95,
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-10-26",
+      "tags": [
+        "exploit",
+        "honeypot",
+        "multi-sensor",
+        "redis",
+        "ssh"
+      ]
+    },
+    {
       "ip": "102.220.161.85",
       "category": "ssh-bruteforce",
       "categories": [
@@ -1155,6 +1191,23 @@
       ]
     },
     {
+      "ip": "66.132.186.184",
+      "category": "redis-exploit",
+      "categories": [
+        "redis-exploit"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-26",
+      "tags": [
+        "exploit",
+        "honeypot",
+        "jupyter",
+        "mcp",
+        "redis"
+      ]
+    },
+    {
       "ip": "62.133.46.12",
       "category": "redis-exploit",
       "categories": [
@@ -1457,10 +1510,12 @@
       "first_seen": "2026-10-26",
       "last_seen": "2026-10-26",
       "tags": [
+        "abuse",
         "honeypot",
         "key-replay",
         "litellm",
-        "ollama"
+        "ollama",
+        "prompt-abuse"
       ]
     },
     {
@@ -2576,6 +2631,22 @@
       ]
     },
     {
+      "ip": "156.202.145.16",
+      "category": "ollama-abuse",
+      "categories": [
+        "ollama-abuse"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "tags": [
+        "abuse",
+        "honeypot",
+        "ollama",
+        "prompt-abuse"
+      ]
+    },
+    {
       "ip": "155.103.157.133",
       "category": "redis-exploit",
       "categories": [
@@ -2644,6 +2715,22 @@
       ],
       "confidence": 90,
       "first_seen": "2026-10-12",
+      "last_seen": "2026-10-26",
+      "tags": [
+        "bruteforce",
+        "exploit",
+        "honeypot",
+        "ssh"
+      ]
+    },
+    {
+      "ip": "149.202.60.122",
+      "category": "ssh-exploit",
+      "categories": [
+        "ssh-exploit"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-10-26",
       "last_seen": "2026-10-26",
       "tags": [
         "bruteforce",
@@ -3005,6 +3092,23 @@
         "honeypot",
         "ollama",
         "prompt-abuse"
+      ]
+    },
+    {
+      "ip": "109.160.32.151",
+      "category": "ssh-exploit",
+      "categories": [
+        "ssh-exploit"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "tags": [
+        "bruteforce",
+        "exploit",
+        "gpu-probing",
+        "honeypot",
+        "ssh"
       ]
     },
     {
@@ -26753,21 +26857,6 @@
         "gpu-probing",
         "honeypot",
         "ssh"
-      ]
-    },
-    {
-      "ip": "106.15.238.36",
-      "category": "redis-exploit",
-      "categories": [
-        "redis-exploit"
-      ],
-      "confidence": 90,
-      "first_seen": "2026-10-14",
-      "last_seen": "2026-10-14",
-      "tags": [
-        "exploit",
-        "honeypot",
-        "redis"
       ]
     },
     {
