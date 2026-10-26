@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**3364 attackers** · **663,577 hostile actions** · covering 44 day(s) through 2026-10-26
+**3372 attackers** · **663,781 hostile actions** · covering 44 day(s) through 2026-10-26
 
 | signal | count |
 |---|---|
@@ -15,9 +15,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 3368 |
+| `canary-aws-key` | 3372 |
 | `ssh-exploit` | 1243 |
-| `ssh-bruteforce` | 863 |
+| `ssh-bruteforce` | 871 |
 | `redis-exploit` | 607 |
 | `mcp-abuse` | 243 |
 | `llamacpp-abuse` | 83 |
@@ -32,7 +32,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 2183 |
+| `ssh` | 2191 |
 | `redis` | 622 |
 | `mcp` | 358 |
 | `llamacpp` | 233 |
@@ -49,19 +49,19 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 1324 |
+| `root` | 1330 |
 | `345gs5662d34` | 999 |
-| `admin` | 690 |
+| `admin` | 692 |
 | `ubuntu` | 332 |
-| `ftpuser` | 166 |
+| `ftpuser` | 167 |
 | `user` | 166 |
 | `test` | 136 |
 | `git` | 110 |
 | `deploy` | 110 |
-| `guest` | 104 |
+| `guest` | 105 |
 | `postgres` | 104 |
 | `administrator` | 94 |
-| `ftp` | 79 |
+| `ftp` | 80 |
 | `oracle` | 76 |
 | `dev` | 69 |
 
@@ -71,15 +71,15 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `345gs5662d34` | 997 |
 | `3245gs5662d34` | 989 |
-| `123456` | 807 |
+| `123456` | 808 |
 | `123` | 514 |
-| `1234` | 384 |
-| `12345678` | 302 |
-| `admin` | 260 |
-| `12345` | 240 |
-| `1` | 238 |
-| `P@ssw0rd` | 174 |
-| `admin123` | 161 |
+| `1234` | 385 |
+| `12345678` | 303 |
+| `admin` | 262 |
+| `12345` | 241 |
+| `1` | 239 |
+| `P@ssw0rd` | 175 |
+| `admin123` | 162 |
 | `password` | 154 |
 | `000000` | 121 |
 | `123456789` | 120 |
