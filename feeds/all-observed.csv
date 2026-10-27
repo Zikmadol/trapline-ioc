@@ -1,6 +1,6 @@
 ip,category,confidence,first_seen,last_seen,tags
 209.112.91.74,canary-aws-key,98,2026-10-26,2026-10-27,abuse|canary|cloud-abuse|credential-abuse|honeypot|litellm
-169.150.196.6,canary-aws-key,98,2026-10-27,2026-10-27,abuse|canary|cloud-abuse|credential-abuse|honeypot|vllm
+169.150.196.6,canary-aws-key,98,2026-10-27,2026-10-27,abuse|canary|cloud-abuse|credential-abuse|honeypot|llamacpp|vllm
 168.222.244.156,canary-aws-key,98,2026-10-17,2026-10-27,canary|cloud-abuse|credential-abuse|honeypot
 93.123.109.214,redis-exploit,95,2026-10-26,2026-10-27,exploit|honeypot|multi-sensor|php|redis|vllm
 85.217.149.15,redis-exploit,95,2026-09-14,2026-10-27,docker|exploit|hfhub|honeypot|mcp|multi-sensor|redis|ssh
@@ -121,11 +121,13 @@ ip,category,confidence,first_seen,last_seen,tags
 45.156.87.162,ssh-bruteforce,90,2026-10-27,2026-10-27,bruteforce|honeypot|ssh
 45.115.26.155,ollama-abuse,90,2026-10-23,2026-10-27,abuse|honeypot|ollama|prompt-abuse
 45.112.149.170,ollama-abuse,90,2026-10-27,2026-10-27,abuse|honeypot|ollama|prompt-abuse
+43.248.128.166,litellm-key-replay,90,2026-10-27,2026-10-27,honeypot|key-replay|litellm
 43.135.129.27,ssh-exploit,90,2026-10-19,2026-10-27,bruteforce|exploit|honeypot|ssh
 43.134.71.187,ssh-exploit,90,2026-10-21,2026-10-27,bruteforce|exploit|honeypot|ssh
 43.134.109.200,ssh-bruteforce,90,2026-10-23,2026-10-27,bruteforce|honeypot|ssh
 41.77.220.188,ssh-bruteforce,90,2026-10-27,2026-10-27,bruteforce|honeypot|ssh
 41.223.139.111,ssh-bruteforce,90,2026-10-27,2026-10-27,bruteforce|honeypot|ssh
+40.124.115.161,redis-exploit,90,2026-10-27,2026-10-27,exploit|honeypot|redis
 40.117.97.0,ssh-bruteforce,90,2026-10-05,2026-10-27,bruteforce|exploit|honeypot|ssh
 4.221.162.168,ssh-bruteforce,90,2026-09-26,2026-10-27,bruteforce|exploit|honeypot|ssh
 4.193.104.104,ssh-bruteforce,90,2026-10-27,2026-10-27,bruteforce|honeypot|ssh
@@ -231,9 +233,11 @@ ip,category,confidence,first_seen,last_seen,tags
 159.223.140.106,ssh-exploit,90,2026-10-27,2026-10-27,bruteforce|exploit|honeypot|ssh
 156.202.145.16,ollama-abuse,90,2026-10-26,2026-10-27,abuse|honeypot|ollama|prompt-abuse
 155.94.236.157,ssh-bruteforce,90,2026-10-27,2026-10-27,bruteforce|honeypot|ssh
+155.212.170.167,mcp-abuse,90,2026-10-19,2026-10-27,abuse|honeypot|mcp
 154.23.243.214,litellm-key-replay,90,2026-10-26,2026-10-27,abuse|honeypot|jupyter|key-replay|litellm|mcp
 152.32.240.36,ssh-bruteforce,90,2026-10-27,2026-10-27,bruteforce|honeypot|ssh
 152.32.226.147,ssh-bruteforce,90,2026-10-27,2026-10-27,bruteforce|honeypot|ssh
+150.136.129.10,ssh-exploit,90,2026-09-21,2026-10-27,bruteforce|exploit|honeypot|ssh
 148.113.251.79,mcp-abuse,90,2026-10-10,2026-10-27,abuse|honeypot|mcp
 148.113.150.117,mcp-abuse,90,2026-10-27,2026-10-27,abuse|honeypot|mcp
 147.90.234.13,ssh-bruteforce,90,2026-10-05,2026-10-27,bruteforce|honeypot|ssh
@@ -802,7 +806,6 @@ ip,category,confidence,first_seen,last_seen,tags
 159.75.105.181,ssh-bruteforce,90,2026-10-24,2026-10-24,bruteforce|honeypot|ssh
 158.51.96.38,ssh-bruteforce,90,2026-10-15,2026-10-24,bruteforce|honeypot|ssh
 156.67.24.120,mcp-abuse,90,2026-10-12,2026-10-24,abuse|honeypot|mcp
-155.212.170.167,mcp-abuse,90,2026-10-19,2026-10-24,abuse|honeypot|mcp
 154.83.196.237,ssh-bruteforce,90,2026-09-22,2026-10-24,bruteforce|exploit|honeypot|ssh
 154.219.124.231,ssh-bruteforce,90,2026-10-24,2026-10-24,bruteforce|honeypot|ssh
 154.18.197.35,ssh-exploit,90,2026-10-22,2026-10-24,bruteforce|exploit|honeypot|ssh
@@ -3385,7 +3388,6 @@ ip,category,confidence,first_seen,last_seen,tags
 170.130.187.50,redis-exploit,90,2026-09-17,2026-09-21,exploit|hfhub|honeypot|jupyter|llamacpp|redis
 163.7.13.17,ssh-bruteforce,90,2026-09-21,2026-09-21,bruteforce|honeypot|ssh
 151.115.99.171,mcp-abuse,90,2026-09-18,2026-09-21,abuse|honeypot|mcp
-150.136.129.10,ssh-exploit,90,2026-09-21,2026-09-21,bruteforce|exploit|honeypot|ssh
 144.91.86.222,ssh-bruteforce,90,2026-09-21,2026-09-21,bruteforce|exploit|honeypot|ssh
 13.140.171.11,mcp-abuse,90,2026-09-18,2026-09-21,abuse|honeypot|mcp
 129.121.128.211,ssh-bruteforce,90,2026-09-21,2026-09-21,bruteforce|honeypot|ssh
