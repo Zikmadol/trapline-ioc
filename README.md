@@ -6,15 +6,17 @@ usual SSH and Redis brute-forcers, this feed tracks the IPs probing exposed
 Ollama / vLLM / llama.cpp / Jupyter / Ray servers, hunting for GPUs, sending those
 servers real prompts to run inference on hardware they don't own, and — caught by
 planted canary credentials — the ones stealing and reusing keys harvested from AI boxes
-(LLMjacking). Every address took a hostile action against a decoy that hosts nothing
-legitimate, so there is no reason for a real user to touch it. Updated hourly from live
-capture.
+(LLMjacking). It also instruments decoys for freshly-disclosed CVEs to catch who is
+exploiting them in the wild first-hand — currently the **php2shell** PHP-core RCE. Every
+address took a hostile action against a decoy that hosts nothing legitimate, so there is
+no reason for a real user to touch it. Updated hourly from live capture.
 
 [![indicators](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FZikmadol%2Ftrapline-ioc%2Fmain%2Fmanifest.json&query=%24.count&label=indicators&color=e4572e&style=flat-square)](ips.txt)
 [![AI-infra attackers](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FZikmadol%2Ftrapline-ioc%2Fmain%2Fmanifest.json&query=%24.ai_infra&label=AI-infra%20attackers&color=8b5cf6&style=flat-square)](feeds/ai-infra.txt)
 [![GPU-probing](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FZikmadol%2Ftrapline-ioc%2Fmain%2Fmanifest.json&query=%24.gpu_probing&label=GPU-probing&color=41c9e8&style=flat-square)](feeds/gpu-probing.txt)
 [![Prompt abuse](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FZikmadol%2Ftrapline-ioc%2Fmain%2Fmanifest.json&query=%24.prompt_abuse&label=Prompt%20abuse&color=f2a65a&style=flat-square)](feeds/prompt-abuse.txt)
 [![LLMjacking](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FZikmadol%2Ftrapline-ioc%2Fmain%2Fmanifest.json&query=%24.llmjacking&label=LLMjacking&color=ff5277&style=flat-square)](feeds/llmjacking.txt)
+[![php2shell](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FZikmadol%2Ftrapline-ioc%2Fmain%2Fmanifest.json&query=%24.php2shell&label=php2shell&color=d03b3b&style=flat-square)](feeds/php2shell.txt)
 [![updated](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FZikmadol%2Ftrapline-ioc%2Fmain%2Fmanifest.json&query=%24.last_day&label=updated&color=5ce6ad&style=flat-square)](daily)
 [![license](https://img.shields.io/badge/license-CC%20BY%204.0-5ce6ad?style=flat-square)](LICENSE)
 
@@ -46,6 +48,18 @@ curl -s https://raw.githubusercontent.com/Zikmadol/trapline-ioc/main/feeds/ai-in
 Read [the LLMjacking writeup](reports/llmjacking-canary.md) for how a planted canary caught
 an attacker our sensors never even saw — the key was stolen from one host and used from
 another minutes later.
+
+## Fresh-CVE exploitation
+
+Beyond AI infrastructure, we stand up decoys for newly-disclosed CVEs and publish who tries
+them against us — first-hand, before anyone else has a list.
+
+| Feed | What's in it | Context |
+|---|---|---|
+| [`feeds/php2shell.txt`](feeds/php2shell.txt) | IPs that sent the **php2shell** PHP-core RCE trigger (CVE-2026-109618 / CVE-2026-109619) — the Session Upload Progress field — to an exposed PHP/Apache decoy. The decoy runs no PHP, so nothing is exploitable; the attempt is the signal. | [`.csv`](feeds/php2shell.csv) |
+
+No public IP list for php2shell exists elsewhere yet — these are first-party captures, not
+an aggregation.
 
 ## Which list to use
 
