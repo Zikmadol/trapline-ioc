@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**3799 attackers** · **736,901 hostile actions** · covering 47 day(s) through 2026-10-29
+**3801 attackers** · **737,202 hostile actions** · covering 47 day(s) through 2026-10-29
 
 | signal | count |
 |---|---|
@@ -15,10 +15,10 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 4694 |
+| `canary-aws-key` | 4710 |
 | `ssh-exploit` | 1301 |
 | `ssh-bruteforce` | 1101 |
-| `redis-exploit` | 661 |
+| `redis-exploit` | 663 |
 | `mcp-abuse` | 263 |
 | `llamacpp-abuse` | 86 |
 | `ollama-abuse` | 77 |
@@ -33,7 +33,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | protocol | events |
 |---|---|
 | `ssh` | 2490 |
-| `redis` | 680 |
+| `redis` | 682 |
 | `mcp` | 395 |
 | `llamacpp` | 261 |
 | `vllm` | 168 |
@@ -49,10 +49,10 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 1551 |
+| `root` | 1550 |
 | `345gs5662d34` | 1051 |
 | `admin` | 730 |
-| `ubuntu` | 354 |
+| `ubuntu` | 355 |
 | `user` | 178 |
 | `ftpuser` | 177 |
 | `test` | 140 |
@@ -72,7 +72,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `345gs5662d34` | 1049 |
 | `3245gs5662d34` | 1041 |
 | `123456` | 863 |
-| `123` | 525 |
+| `123` | 526 |
 | `1234` | 400 |
 | `12345678` | 318 |
 | `admin` | 279 |
@@ -83,7 +83,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `password` | 152 |
 | `123456789` | 125 |
 | `000000` | 124 |
-| `!QAZ2wsx` | 107 |
+| `!QAZ2wsx` | 108 |
 
 ### Top commands run
 
@@ -94,16 +94,16 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `cat` | 1226 |
 | `echo` | 1213 |
 | `crontab` | 1187 |
-| `lscpu` | 1184 |
+| `lscpu` | 1185 |
 | `ls` | 1081 |
 | `free` | 1079 |
-| `df` | 1075 |
-| `top` | 1075 |
+| `df` | 1076 |
+| `top` | 1076 |
 | `w` | 1075 |
-| `whoami` | 1074 |
-| `INFO` | 447 |
+| `whoami` | 1075 |
+| `INFO` | 449 |
 | `canary_env` | 336 |
-| `PING` | 318 |
+| `PING` | 319 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._
