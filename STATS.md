@@ -2,11 +2,11 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**3693 attackers** · **722,631 hostile actions** · covering 47 day(s) through 2026-10-29
+**3705 attackers** · **722,983 hostile actions** · covering 47 day(s) through 2026-10-29
 
 | signal | count |
 |---|---|
-| GPU / AI-hardware probing | 197 |
+| GPU / AI-hardware probing | 198 |
 | Used a planted canary credential | 51 |
 | Seen on more than one sensor | 265 |
 | Stage-2 hosts named in payloads | 47 |
@@ -15,16 +15,16 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 4362 |
-| `ssh-exploit` | 1290 |
-| `ssh-bruteforce` | 1048 |
-| `redis-exploit` | 644 |
+| `canary-aws-key` | 4378 |
+| `ssh-exploit` | 1292 |
+| `ssh-bruteforce` | 1056 |
+| `redis-exploit` | 643 |
 | `mcp-abuse` | 256 |
 | `llamacpp-abuse` | 85 |
 | `ollama-abuse` | 73 |
-| `litellm-key-replay` | 63 |
+| `litellm-key-replay` | 65 |
 | `docker-abuse` | 46 |
-| `jupyter-abuse` | 35 |
+| `jupyter-abuse` | 36 |
 | `vllm-abuse` | 14 |
 | `vllm-key-replay` | 12 |
 
@@ -32,14 +32,14 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 2423 |
+| `ssh` | 2433 |
 | `redis` | 661 |
-| `mcp` | 385 |
-| `llamacpp` | 252 |
+| `mcp` | 386 |
+| `llamacpp` | 253 |
 | `jupyter` | 162 |
 | `vllm` | 160 |
-| `litellm` | 149 |
-| `ollama` | 121 |
+| `litellm` | 151 |
+| `ollama` | 122 |
 | `docker` | 121 |
 | `hfhub` | 119 |
 | `php` | 59 |
@@ -49,21 +49,21 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 1497 |
+| `root` | 1504 |
 | `345gs5662d34` | 1043 |
 | `admin` | 724 |
-| `ubuntu` | 348 |
+| `ubuntu` | 349 |
 | `user` | 176 |
 | `ftpuser` | 175 |
 | `test` | 140 |
-| `guest` | 112 |
+| `guest` | 113 |
 | `git` | 112 |
 | `deploy` | 112 |
 | `postgres` | 106 |
 | `administrator` | 96 |
 | `ftp` | 89 |
-| `oracle` | 80 |
-| `dev` | 72 |
+| `oracle` | 79 |
+| `dev` | 73 |
 
 ### Top passwords tried
 
@@ -71,13 +71,13 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `345gs5662d34` | 1041 |
 | `3245gs5662d34` | 1033 |
-| `123456` | 855 |
+| `123456` | 857 |
 | `123` | 524 |
 | `1234` | 397 |
 | `12345678` | 313 |
 | `admin` | 275 |
+| `12345` | 251 |
 | `1` | 250 |
-| `12345` | 250 |
 | `P@ssw0rd` | 182 |
 | `admin123` | 169 |
 | `password` | 151 |
