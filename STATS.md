@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**3918 attackers** · **756,117 hostile actions** · covering 48 day(s) through 2026-10-30
+**3920 attackers** · **756,379 hostile actions** · covering 48 day(s) through 2026-10-30
 
 | signal | count |
 |---|---|
@@ -15,12 +15,12 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 4957 |
-| `ssh-exploit` | 1350 |
+| `canary-aws-key` | 4970 |
+| `ssh-exploit` | 1351 |
 | `ssh-bruteforce` | 1105 |
 | `redis-exploit` | 676 |
 | `mcp-abuse` | 266 |
-| `litellm-key-replay` | 99 |
+| `litellm-key-replay` | 100 |
 | `llamacpp-abuse` | 88 |
 | `ollama-abuse` | 77 |
 | `docker-abuse` | 51 |
@@ -32,11 +32,11 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 2543 |
+| `ssh` | 2544 |
 | `redis` | 695 |
 | `mcp` | 407 |
 | `llamacpp` | 272 |
-| `litellm` | 191 |
+| `litellm` | 194 |
 | `vllm` | 172 |
 | `jupyter` | 171 |
 | `docker` | 132 |
@@ -52,7 +52,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `root` | 1581 |
 | `345gs5662d34` | 1098 |
 | `admin` | 740 |
-| `ubuntu` | 371 |
+| `ubuntu` | 372 |
 | `user` | 185 |
 | `ftpuser` | 183 |
 | `test` | 140 |
@@ -72,7 +72,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `345gs5662d34` | 1096 |
 | `3245gs5662d34` | 1088 |
 | `123456` | 881 |
-| `123` | 579 |
+| `123` | 580 |
 | `1234` | 410 |
 | `12345678` | 326 |
 | `admin` | 287 |
@@ -89,9 +89,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | command | times |
 |---|---|
-| `uname` | 1469 |
-| `cd` | 1278 |
-| `cat` | 1276 |
+| `uname` | 1470 |
+| `cd` | 1279 |
+| `cat` | 1277 |
 | `echo` | 1261 |
 | `crontab` | 1235 |
 | `lscpu` | 1233 |
