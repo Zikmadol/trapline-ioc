@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**3928 attackers** · **757,553 hostile actions** · covering 49 day(s) through 2026-10-31
+**3929 attackers** · **757,942 hostile actions** · covering 49 day(s) through 2026-10-31
 
 | signal | count |
 |---|---|
@@ -15,9 +15,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 5060 |
+| `canary-aws-key` | 5072 |
 | `ssh-exploit` | 1351 |
-| `ssh-bruteforce` | 1107 |
+| `ssh-bruteforce` | 1108 |
 | `redis-exploit` | 678 |
 | `mcp-abuse` | 266 |
 | `litellm-key-replay` | 100 |
@@ -32,7 +32,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 2546 |
+| `ssh` | 2547 |
 | `redis` | 697 |
 | `mcp` | 407 |
 | `llamacpp` | 276 |
@@ -51,17 +51,17 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `root` | 1581 |
 | `345gs5662d34` | 1098 |
-| `admin` | 743 |
+| `admin` | 744 |
 | `ubuntu` | 372 |
 | `user` | 186 |
-| `ftpuser` | 183 |
+| `ftpuser` | 184 |
 | `test` | 140 |
-| `guest` | 119 |
+| `guest` | 120 |
 | `git` | 114 |
 | `deploy` | 112 |
 | `postgres` | 109 |
 | `administrator` | 99 |
-| `ftp` | 94 |
+| `ftp` | 95 |
 | `oracle` | 83 |
 | `debian` | 77 |
 
@@ -71,15 +71,15 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `345gs5662d34` | 1096 |
 | `3245gs5662d34` | 1088 |
-| `123456` | 883 |
+| `123456` | 884 |
 | `123` | 580 |
-| `1234` | 410 |
-| `12345678` | 327 |
-| `admin` | 289 |
-| `1` | 258 |
-| `12345` | 257 |
-| `P@ssw0rd` | 191 |
-| `admin123` | 180 |
+| `1234` | 411 |
+| `12345678` | 328 |
+| `admin` | 290 |
+| `1` | 259 |
+| `12345` | 258 |
+| `P@ssw0rd` | 192 |
+| `admin123` | 181 |
 | `password` | 158 |
 | `123456789` | 127 |
 | `000000` | 125 |
