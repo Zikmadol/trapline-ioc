@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**3940 attackers** · **766,926 hostile actions** · covering 49 day(s) through 2026-10-31
+**3942 attackers** · **767,584 hostile actions** · covering 49 day(s) through 2026-10-31
 
 | signal | count |
 |---|---|
@@ -15,9 +15,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 5162 |
+| `canary-aws-key` | 5173 |
 | `ssh-exploit` | 1352 |
-| `ssh-bruteforce` | 1110 |
+| `ssh-bruteforce` | 1112 |
 | `redis-exploit` | 680 |
 | `mcp-abuse` | 267 |
 | `litellm-key-replay` | 101 |
@@ -32,7 +32,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 2552 |
+| `ssh` | 2554 |
 | `redis` | 699 |
 | `mcp` | 409 |
 | `llamacpp` | 279 |
@@ -51,17 +51,17 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `root` | 1582 |
 | `345gs5662d34` | 1098 |
-| `admin` | 745 |
-| `ubuntu` | 372 |
+| `admin` | 747 |
+| `ubuntu` | 373 |
 | `user` | 186 |
 | `ftpuser` | 184 |
 | `test` | 140 |
-| `guest` | 120 |
+| `guest` | 121 |
 | `git` | 114 |
 | `deploy` | 113 |
 | `postgres` | 109 |
 | `administrator` | 99 |
-| `ftp` | 95 |
+| `ftp` | 97 |
 | `oracle` | 83 |
 | `debian` | 77 |
 
@@ -71,14 +71,14 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `345gs5662d34` | 1096 |
 | `3245gs5662d34` | 1088 |
-| `123456` | 885 |
+| `123456` | 887 |
 | `123` | 581 |
-| `1234` | 411 |
-| `12345678` | 329 |
-| `admin` | 291 |
-| `1` | 260 |
-| `12345` | 259 |
-| `P@ssw0rd` | 192 |
+| `1234` | 412 |
+| `12345678` | 330 |
+| `admin` | 292 |
+| `1` | 261 |
+| `12345` | 260 |
+| `P@ssw0rd` | 193 |
 | `admin123` | 182 |
 | `password` | 158 |
 | `123456789` | 128 |
