@@ -14,6 +14,7 @@ ip,category,confidence,first_seen,last_seen,tags
 45.156.128.10,php-abuse,95,2026-10-31,2026-10-31,abuse|honeypot|llamacpp|multi-sensor|php|php2shell
 45.148.10.61,ssh-bruteforce,95,2026-10-11,2026-10-31,bruteforce|honeypot|litellm|mcp|multi-sensor|ssh
 31.14.32.4,redis-exploit,95,2026-09-16,2026-10-31,docker|exploit|hfhub|honeypot|jupyter|litellm|llamacpp|mcp|multi-sensor|ollama|redis|ssh|vllm
+3.130.168.2,redis-exploit,95,2026-09-22,2026-10-31,docker|exploit|honeypot|jupyter|litellm|llamacpp|mcp|multi-sensor|ray|redis|ssh|vllm
 23.226.70.138,litellm-key-replay,95,2026-10-23,2026-10-31,docker|honeypot|key-replay|litellm|multi-sensor
 217.65.144.246,mcp-abuse,95,2026-09-21,2026-10-31,abuse|honeypot|mcp|multi-sensor
 184.105.139.68,redis-exploit,95,2026-10-02,2026-10-31,docker|exploit|hfhub|honeypot|jupyter|llamacpp|multi-sensor|ollama|redis|ssh
@@ -43,10 +44,12 @@ ip,category,confidence,first_seen,last_seen,tags
 193.47.62.29,jupyter-abuse,90,2026-10-30,2026-10-31,abuse|hfhub|honeypot|jupyter|llamacpp|mcp|vllm
 193.176.31.235,redis-exploit,90,2026-10-21,2026-10-31,exploit|honeypot|jupyter|redis
 185.231.102.30,litellm-key-replay,90,2026-10-10,2026-10-31,hfhub|honeypot|jupyter|key-replay|litellm|llamacpp|ray
+185.223.235.58,redis-exploit,90,2026-10-19,2026-10-31,exploit|honeypot|jupyter|llamacpp|mcp|redis
 172.238.19.249,litellm-key-replay,90,2026-10-08,2026-10-31,honeypot|key-replay|litellm|llamacpp
 163.172.51.190,mcp-abuse,90,2026-10-29,2026-10-31,abuse|honeypot|mcp
 156.67.24.120,mcp-abuse,90,2026-10-12,2026-10-31,abuse|honeypot|mcp
 148.113.251.79,mcp-abuse,90,2026-10-10,2026-10-31,abuse|honeypot|mcp
+148.113.150.117,mcp-abuse,90,2026-10-27,2026-10-31,abuse|honeypot|mcp
 147.15.117.206,mcp-abuse,90,2026-10-20,2026-10-31,abuse|honeypot|mcp
 146.59.197.49,mcp-abuse,90,2026-10-12,2026-10-31,abuse|honeypot|mcp
 145.236.63.148,llamacpp-abuse,90,2026-10-31,2026-10-31,abuse|honeypot|key-replay|llamacpp|prompt-abuse
@@ -68,7 +71,6 @@ ip,category,confidence,first_seen,last_seen,tags
 45.156.128.190,php-abuse,95,2026-10-24,2026-10-30,abuse|honeypot|llamacpp|multi-sensor|php|php2shell
 43.163.108.20,mcp-abuse,95,2026-09-26,2026-10-30,abuse|honeypot|mcp|multi-sensor
 31.184.195.246,redis-exploit,95,2026-09-19,2026-10-30,docker|exploit|honeypot|jupyter|llamacpp|multi-sensor|php|redis|ssh
-3.130.168.2,redis-exploit,95,2026-09-22,2026-10-30,docker|exploit|honeypot|jupyter|litellm|llamacpp|mcp|multi-sensor|ray|redis|ssh|vllm
 3.129.187.38,redis-exploit,95,2026-09-15,2026-10-30,exploit|honeypot|jupyter|litellm|llamacpp|mcp|multi-sensor|ollama|php|ray|redis|ssh|vllm
 216.75.142.67,docker-abuse,95,2026-10-21,2026-10-30,abuse|docker|gpu-probing|honeypot|litellm|multi-sensor
 2.26.60.113,mcp-abuse,95,2026-09-18,2026-10-30,abuse|honeypot|mcp|multi-sensor
@@ -259,7 +261,6 @@ ip,category,confidence,first_seen,last_seen,tags
 193.32.249.160,llamacpp-abuse,90,2026-10-28,2026-10-28,abuse|honeypot|llamacpp|vllm
 193.176.31.244,redis-exploit,90,2026-10-06,2026-10-28,exploit|honeypot|redis|vllm
 187.127.60.12,mcp-abuse,90,2026-10-28,2026-10-28,abuse|honeypot|mcp
-185.223.235.58,redis-exploit,90,2026-10-19,2026-10-28,exploit|honeypot|jupyter|llamacpp|redis
 185.223.235.5,redis-exploit,90,2026-10-10,2026-10-28,exploit|hfhub|honeypot|jupyter|litellm|mcp|redis
 172.235.181.226,jupyter-bruteforce,90,2026-10-28,2026-10-28,bruteforce|exploit|hfhub|honeypot|jupyter|litellm|llamacpp|mcp|redis|vllm
 169.58.170.255,mcp-abuse,90,2026-10-15,2026-10-28,abuse|honeypot|mcp
@@ -313,7 +314,6 @@ ip,category,confidence,first_seen,last_seen,tags
 166.0.112.201,docker-abuse,90,2026-10-27,2026-10-27,abuse|docker|gpu-probing|honeypot
 155.212.170.167,mcp-abuse,90,2026-10-19,2026-10-27,abuse|honeypot|mcp
 151.245.151.151,redis-exploit,90,2026-10-20,2026-10-27,exploit|honeypot|ray|redis
-148.113.150.117,mcp-abuse,90,2026-10-27,2026-10-27,abuse|honeypot|mcp
 147.79.100.125,mcp-abuse,90,2026-10-10,2026-10-27,abuse|honeypot|mcp
 129.227.235.124,litellm-key-replay,90,2026-10-27,2026-10-27,honeypot|key-replay|litellm
 114.12.0.29,jupyter-abuse,90,2026-10-27,2026-10-27,abuse|honeypot|jupyter
