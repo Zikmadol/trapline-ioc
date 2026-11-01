@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**3982 attackers** · **776,575 hostile actions** · covering 50 day(s) through 2026-11-01
+**3984 attackers** · **776,764 hostile actions** · covering 50 day(s) through 2026-11-01
 
 | signal | count |
 |---|---|
@@ -15,9 +15,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 5383 |
+| `canary-aws-key` | 5395 |
 | `ssh-exploit` | 1353 |
-| `ssh-bruteforce` | 1124 |
+| `ssh-bruteforce` | 1126 |
 | `redis-exploit` | 686 |
 | `mcp-abuse` | 268 |
 | `litellm-key-replay` | 106 |
@@ -32,7 +32,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 2568 |
+| `ssh` | 2570 |
 | `redis` | 705 |
 | `mcp` | 413 |
 | `llamacpp` | 283 |
@@ -43,13 +43,13 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `ollama` | 134 |
 | `hfhub` | 130 |
 | `php` | 69 |
-| `ray` | 32 |
+| `ray` | 33 |
 
 ### Top usernames tried
 
 | username | tries |
 |---|---|
-| `root` | 1596 |
+| `root` | 1598 |
 | `345gs5662d34` | 1098 |
 | `admin` | 757 |
 | `ubuntu` | 383 |
@@ -71,7 +71,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `345gs5662d34` | 1096 |
 | `3245gs5662d34` | 1088 |
-| `123456` | 892 |
+| `123456` | 893 |
 | `123` | 584 |
 | `1234` | 415 |
 | `12345678` | 333 |
@@ -81,7 +81,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `P@ssw0rd` | 193 |
 | `admin123` | 183 |
 | `password` | 157 |
-| `123456789` | 130 |
+| `123456789` | 131 |
 | `000000` | 125 |
 | `!QAZ2wsx` | 110 |
 
@@ -89,7 +89,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | command | times |
 |---|---|
-| `uname` | 1473 |
+| `uname` | 1475 |
 | `cd` | 1280 |
 | `cat` | 1278 |
 | `echo` | 1261 |
