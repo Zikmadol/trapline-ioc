@@ -2,23 +2,23 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**3991 attackers** · **782,363 hostile actions** · covering 50 day(s) through 2026-11-01
+**3992 attackers** · **782,565 hostile actions** · covering 50 day(s) through 2026-11-01
 
 | signal | count |
 |---|---|
 | GPU / AI-hardware probing | 209 |
 | Used a planted canary credential | 61 |
-| Seen on more than one sensor | 285 |
+| Seen on more than one sensor | 286 |
 | Stage-2 hosts named in payloads | 55 |
 
 ### By category
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 5421 |
+| `canary-aws-key` | 5434 |
 | `ssh-exploit` | 1353 |
 | `ssh-bruteforce` | 1127 |
-| `redis-exploit` | 689 |
+| `redis-exploit` | 690 |
 | `mcp-abuse` | 269 |
 | `litellm-key-replay` | 106 |
 | `llamacpp-abuse` | 90 |
@@ -32,16 +32,16 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 2571 |
-| `redis` | 708 |
+| `ssh` | 2572 |
+| `redis` | 709 |
 | `mcp` | 415 |
 | `llamacpp` | 284 |
 | `litellm` | 203 |
 | `vllm` | 178 |
-| `jupyter` | 175 |
+| `jupyter` | 176 |
 | `docker` | 137 |
 | `ollama` | 134 |
-| `hfhub` | 131 |
+| `hfhub` | 132 |
 | `php` | 69 |
 | `ray` | 33 |
 
@@ -81,7 +81,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `P@ssw0rd` | 193 |
 | `admin123` | 184 |
 | `password` | 157 |
-| `123456789` | 131 |
+| `123456789` | 132 |
 | `000000` | 125 |
 | `!QAZ2wsx` | 110 |
 
@@ -89,7 +89,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | command | times |
 |---|---|
-| `uname` | 1475 |
+| `uname` | 1476 |
 | `cd` | 1280 |
 | `cat` | 1278 |
 | `echo` | 1261 |
@@ -101,9 +101,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `top` | 1123 |
 | `whoami` | 1123 |
 | `w` | 1122 |
-| `INFO` | 467 |
+| `INFO` | 468 |
 | `canary_env` | 348 |
-| `PING` | 333 |
+| `PING` | 334 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._
