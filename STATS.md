@@ -2,12 +2,12 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**4032 attackers** · **799,838 hostile actions** · covering 51 day(s) through 2026-11-02
+**4039 attackers** · **799,923 hostile actions** · covering 51 day(s) through 2026-11-02
 
 | signal | count |
 |---|---|
 | GPU / AI-hardware probing | 211 |
-| Used a planted canary credential | 68 |
+| Used a planted canary credential | 73 |
 | Seen on more than one sensor | 296 |
 | Stage-2 hosts named in payloads | 55 |
 
@@ -15,10 +15,10 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 5621 |
+| `canary-aws-key` | 5639 |
 | `ssh-exploit` | 1357 |
 | `ssh-bruteforce` | 1131 |
-| `redis-exploit` | 700 |
+| `redis-exploit` | 702 |
 | `mcp-abuse` | 269 |
 | `litellm-key-replay` | 112 |
 | `llamacpp-abuse` | 92 |
@@ -33,15 +33,15 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | protocol | events |
 |---|---|
 | `ssh` | 2583 |
-| `redis` | 719 |
+| `redis` | 721 |
 | `mcp` | 418 |
 | `llamacpp` | 293 |
 | `litellm` | 210 |
-| `vllm` | 183 |
+| `vllm` | 184 |
 | `jupyter` | 177 |
 | `ollama` | 141 |
 | `docker` | 138 |
-| `hfhub` | 136 |
+| `hfhub` | 137 |
 | `php` | 75 |
 | `ray` | 33 |
 
@@ -78,7 +78,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `admin` | 300 |
 | `1` | 264 |
 | `12345` | 262 |
-| `P@ssw0rd` | 194 |
+| `P@ssw0rd` | 195 |
 | `admin123` | 188 |
 | `password` | 157 |
 | `123456789` | 132 |
@@ -101,9 +101,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `df` | 1123 |
 | `top` | 1123 |
 | `w` | 1122 |
-| `INFO` | 474 |
+| `INFO` | 476 |
 | `canary_env` | 351 |
-| `PING` | 338 |
+| `PING` | 339 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._
