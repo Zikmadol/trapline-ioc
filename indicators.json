@@ -1,9 +1,9 @@
 {
   "feed": "trapline-ioc",
-  "generated": "2026-11-03T20:18:36+00:00",
+  "generated": "2026-11-03T21:18:31+00:00",
   "count": 4135,
   "days": {
-    "2026-11-03": 132,
+    "2026-11-03": 134,
     "2026-11-02": 145,
     "2026-11-01": 161,
     "2026-10-31": 158,
@@ -962,6 +962,7 @@
         "multi-sensor",
         "ollama",
         "php",
+        "ray",
         "redis",
         "ssh"
       ]
@@ -974,6 +975,32 @@
       ],
       "confidence": 95,
       "first_seen": "2026-09-15",
+      "last_seen": "2026-11-03",
+      "tags": [
+        "docker",
+        "exploit",
+        "honeypot",
+        "jupyter",
+        "litellm",
+        "llamacpp",
+        "mcp",
+        "multi-sensor",
+        "ollama",
+        "php",
+        "ray",
+        "redis",
+        "ssh",
+        "vllm"
+      ]
+    },
+    {
+      "ip": "18.116.101.220",
+      "category": "redis-exploit",
+      "categories": [
+        "redis-exploit"
+      ],
+      "confidence": 95,
+      "first_seen": "2026-09-14",
       "last_seen": "2026-11-03",
       "tags": [
         "docker",
@@ -1076,6 +1103,7 @@
         "multi-sensor",
         "ollama",
         "php",
+        "ray",
         "redis",
         "ssh",
         "vllm"
@@ -1100,6 +1128,7 @@
         "multi-sensor",
         "ollama",
         "php",
+        "ray",
         "redis",
         "ssh"
       ]
@@ -1161,8 +1190,14 @@
         "docker",
         "gpu-probing",
         "honeypot",
+        "jupyter",
+        "llamacpp",
+        "mcp",
         "multi-sensor",
-        "ollama"
+        "ollama",
+        "prompt-abuse",
+        "ray",
+        "vllm"
       ]
     },
     {
@@ -2144,7 +2179,8 @@
       "tags": [
         "abuse",
         "docker",
-        "honeypot"
+        "honeypot",
+        "php"
       ]
     },
     {
@@ -2704,6 +2740,21 @@
       ],
       "confidence": 90,
       "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "tags": [
+        "abuse",
+        "honeypot",
+        "mcp"
+      ]
+    },
+    {
+      "ip": "130.210.48.93",
+      "category": "mcp-abuse",
+      "categories": [
+        "mcp-abuse"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-11-01",
       "last_seen": "2026-11-03",
       "tags": [
         "abuse",
@@ -3432,32 +3483,6 @@
         "litellm",
         "multi-sensor",
         "ssh"
-      ]
-    },
-    {
-      "ip": "18.116.101.220",
-      "category": "redis-exploit",
-      "categories": [
-        "redis-exploit"
-      ],
-      "confidence": 95,
-      "first_seen": "2026-09-14",
-      "last_seen": "2026-11-02",
-      "tags": [
-        "docker",
-        "exploit",
-        "honeypot",
-        "jupyter",
-        "litellm",
-        "llamacpp",
-        "mcp",
-        "multi-sensor",
-        "ollama",
-        "php",
-        "ray",
-        "redis",
-        "ssh",
-        "vllm"
       ]
     },
     {
@@ -4500,21 +4525,6 @@
       ],
       "confidence": 90,
       "first_seen": "2026-10-05",
-      "last_seen": "2026-11-02",
-      "tags": [
-        "abuse",
-        "honeypot",
-        "mcp"
-      ]
-    },
-    {
-      "ip": "130.210.48.93",
-      "category": "mcp-abuse",
-      "categories": [
-        "mcp-abuse"
-      ],
-      "confidence": 90,
-      "first_seen": "2026-11-01",
       "last_seen": "2026-11-02",
       "tags": [
         "abuse",
