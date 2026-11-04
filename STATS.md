@@ -2,23 +2,23 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**4186 attackers** · **857,784 hostile actions** · covering 53 day(s) through 2026-11-04
+**4190 attackers** · **858,309 hostile actions** · covering 53 day(s) through 2026-11-04
 
 | signal | count |
 |---|---|
 | GPU / AI-hardware probing | 217 |
 | Used a planted canary credential | 110 |
-| Seen on more than one sensor | 312 |
+| Seen on more than one sensor | 313 |
 | Stage-2 hosts named in payloads | 57 |
 
 ### By category
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 6268 |
+| `canary-aws-key` | 6278 |
 | `ssh-exploit` | 1365 |
 | `ssh-bruteforce` | 1148 |
-| `redis-exploit` | 735 |
+| `redis-exploit` | 739 |
 | `mcp-abuse` | 275 |
 | `litellm-key-replay` | 125 |
 | `llamacpp-abuse` | 98 |
@@ -32,17 +32,17 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 2610 |
-| `redis` | 758 |
-| `mcp` | 439 |
-| `llamacpp` | 316 |
-| `litellm` | 234 |
-| `vllm` | 195 |
+| `ssh` | 2611 |
+| `redis` | 762 |
+| `mcp` | 441 |
+| `llamacpp` | 318 |
+| `litellm` | 236 |
+| `vllm` | 197 |
 | `jupyter` | 193 |
 | `ollama` | 163 |
-| `hfhub` | 153 |
+| `hfhub` | 154 |
 | `docker` | 149 |
-| `php` | 88 |
+| `php` | 89 |
 | `ray` | 37 |
 
 ### Top usernames tried
@@ -71,7 +71,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `345gs5662d34` | 1096 |
 | `3245gs5662d34` | 1088 |
-| `123456` | 909 |
+| `123456` | 910 |
 | `123` | 588 |
 | `1234` | 420 |
 | `12345678` | 341 |
@@ -101,9 +101,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `df` | 1123 |
 | `top` | 1123 |
 | `w` | 1122 |
-| `INFO` | 503 |
+| `INFO` | 506 |
+| `PING` | 365 |
 | `canary_env` | 364 |
-| `PING` | 362 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._
