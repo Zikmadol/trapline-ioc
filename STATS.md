@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**4231 attackers** · **871,190 hostile actions** · covering 54 day(s) through 2026-11-05
+**4236 attackers** · **871,621 hostile actions** · covering 54 day(s) through 2026-11-05
 
 | signal | count |
 |---|---|
@@ -15,9 +15,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 6420 |
-| `ssh-exploit` | 1371 |
-| `ssh-bruteforce` | 1150 |
+| `canary-aws-key` | 6430 |
+| `ssh-exploit` | 1374 |
+| `ssh-bruteforce` | 1152 |
 | `redis-exploit` | 744 |
 | `mcp-abuse` | 276 |
 | `litellm-key-replay` | 128 |
@@ -32,7 +32,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 2622 |
+| `ssh` | 2627 |
 | `redis` | 768 |
 | `mcp` | 444 |
 | `llamacpp` | 322 |
@@ -49,10 +49,10 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 1617 |
+| `root` | 1619 |
 | `345gs5662d34` | 1098 |
-| `admin` | 786 |
-| `ubuntu` | 399 |
+| `admin` | 787 |
+| `ubuntu` | 401 |
 | `user` | 194 |
 | `ftpuser` | 192 |
 | `test` | 150 |
@@ -72,14 +72,14 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `345gs5662d34` | 1096 |
 | `3245gs5662d34` | 1088 |
 | `123456` | 913 |
-| `123` | 591 |
+| `123` | 592 |
 | `1234` | 422 |
-| `12345678` | 344 |
+| `12345678` | 345 |
 | `admin` | 310 |
 | `1` | 267 |
 | `12345` | 267 |
 | `P@ssw0rd` | 200 |
-| `admin123` | 194 |
+| `admin123` | 195 |
 | `password` | 159 |
 | `123456789` | 133 |
 | `000000` | 129 |
@@ -89,9 +89,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | command | times |
 |---|---|
-| `uname` | 1489 |
-| `cd` | 1288 |
-| `cat` | 1286 |
+| `uname` | 1492 |
+| `cd` | 1291 |
+| `cat` | 1289 |
 | `echo` | 1266 |
 | `crontab` | 1240 |
 | `lscpu` | 1237 |
