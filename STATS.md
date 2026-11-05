@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**4269 attackers** · **878,407 hostile actions** · covering 54 day(s) through 2026-11-05
+**4275 attackers** · **878,969 hostile actions** · covering 54 day(s) through 2026-11-05
 
 | signal | count |
 |---|---|
@@ -15,14 +15,14 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 6525 |
+| `canary-aws-key` | 6535 |
 | `ssh-exploit` | 1374 |
-| `ssh-bruteforce` | 1156 |
-| `redis-exploit` | 755 |
-| `mcp-abuse` | 278 |
+| `ssh-bruteforce` | 1157 |
+| `redis-exploit` | 758 |
+| `mcp-abuse` | 279 |
 | `litellm-key-replay` | 134 |
+| `ollama-abuse` | 103 |
 | `llamacpp-abuse` | 102 |
-| `ollama-abuse` | 102 |
 | `docker-abuse` | 59 |
 | `jupyter-abuse` | 39 |
 | `vllm-abuse` | 18 |
@@ -32,14 +32,14 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 2632 |
-| `redis` | 780 |
-| `mcp` | 449 |
-| `llamacpp` | 330 |
-| `litellm` | 250 |
-| `vllm` | 204 |
-| `jupyter` | 204 |
-| `ollama` | 175 |
+| `ssh` | 2633 |
+| `redis` | 783 |
+| `mcp` | 452 |
+| `llamacpp` | 331 |
+| `litellm` | 251 |
+| `vllm` | 205 |
+| `jupyter` | 205 |
+| `ollama` | 176 |
 | `hfhub` | 162 |
 | `docker` | 155 |
 | `php` | 93 |
@@ -49,7 +49,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 1621 |
+| `root` | 1622 |
 | `345gs5662d34` | 1098 |
 | `admin` | 789 |
 | `ubuntu` | 401 |
@@ -101,9 +101,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `df` | 1123 |
 | `top` | 1123 |
 | `w` | 1122 |
-| `INFO` | 520 |
-| `canary_env` | 374 |
-| `PING` | 374 |
+| `INFO` | 522 |
+| `PING` | 377 |
+| `canary_env` | 375 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._
