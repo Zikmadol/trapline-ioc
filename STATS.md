@@ -2,23 +2,23 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**4304 attackers** · **886,697 hostile actions** · covering 55 day(s) through 2026-11-06
+**4306 attackers** · **887,109 hostile actions** · covering 55 day(s) through 2026-11-06
 
 | signal | count |
 |---|---|
 | GPU / AI-hardware probing | 218 |
 | Used a planted canary credential | 143 |
-| Seen on more than one sensor | 323 |
+| Seen on more than one sensor | 324 |
 | Stage-2 hosts named in payloads | 58 |
 
 ### By category
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 6689 |
+| `canary-aws-key` | 6700 |
 | `ssh-exploit` | 1374 |
-| `ssh-bruteforce` | 1162 |
-| `redis-exploit` | 765 |
+| `ssh-bruteforce` | 1163 |
+| `redis-exploit` | 766 |
 | `mcp-abuse` | 280 |
 | `litellm-key-replay` | 139 |
 | `ollama-abuse` | 104 |
@@ -32,9 +32,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 2638 |
-| `redis` | 790 |
-| `mcp` | 453 |
+| `ssh` | 2639 |
+| `redis` | 791 |
+| `mcp` | 455 |
 | `llamacpp` | 333 |
 | `litellm` | 257 |
 | `vllm` | 207 |
@@ -49,9 +49,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 1624 |
+| `root` | 1626 |
 | `345gs5662d34` | 1098 |
-| `admin` | 791 |
+| `admin` | 792 |
 | `ubuntu` | 402 |
 | `user` | 194 |
 | `ftpuser` | 193 |
@@ -74,7 +74,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `123456` | 918 |
 | `123` | 593 |
 | `1234` | 424 |
-| `12345678` | 347 |
+| `12345678` | 348 |
 | `admin` | 317 |
 | `12345` | 269 |
 | `1` | 267 |
@@ -102,7 +102,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `top` | 1123 |
 | `w` | 1122 |
 | `INFO` | 527 |
-| `PING` | 381 |
+| `PING` | 382 |
 | `canary_env` | 377 |
 
 
