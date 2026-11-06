@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**4314 attackers** · **887,564 hostile actions** · covering 55 day(s) through 2026-11-06
+**4314 attackers** · **888,664 hostile actions** · covering 55 day(s) through 2026-11-06
 
 | signal | count |
 |---|---|
@@ -15,7 +15,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 6736 |
+| `canary-aws-key` | 6748 |
 | `ssh-exploit` | 1374 |
 | `ssh-bruteforce` | 1164 |
 | `redis-exploit` | 770 |
@@ -38,7 +38,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `llamacpp` | 335 |
 | `litellm` | 257 |
 | `vllm` | 209 |
-| `jupyter` | 206 |
+| `jupyter` | 207 |
 | `ollama` | 180 |
 | `hfhub` | 163 |
 | `docker` | 158 |
@@ -51,7 +51,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `root` | 1627 |
 | `345gs5662d34` | 1098 |
-| `admin` | 792 |
+| `admin` | 793 |
 | `ubuntu` | 402 |
 | `user` | 194 |
 | `ftpuser` | 193 |
@@ -61,7 +61,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `deploy` | 113 |
 | `postgres` | 108 |
 | `ftp` | 106 |
-| `administrator` | 102 |
+| `administrator` | 103 |
 | `oracle` | 90 |
 | `AdminGPON` | 80 |
 
@@ -72,17 +72,17 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `345gs5662d34` | 1096 |
 | `3245gs5662d34` | 1088 |
 | `123456` | 918 |
-| `123` | 593 |
-| `1234` | 424 |
-| `12345678` | 348 |
+| `123` | 594 |
+| `1234` | 425 |
+| `12345678` | 349 |
 | `admin` | 317 |
 | `12345` | 269 |
 | `1` | 267 |
-| `P@ssw0rd` | 202 |
+| `P@ssw0rd` | 203 |
 | `admin123` | 198 |
 | `password` | 160 |
 | `123456789` | 133 |
-| `000000` | 129 |
+| `000000` | 130 |
 | `!QAZ2wsx` | 113 |
 
 ### Top commands run
