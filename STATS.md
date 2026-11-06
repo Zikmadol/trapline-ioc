@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**4277 attackers** · **883,678 hostile actions** · covering 55 day(s) through 2026-11-06
+**4278 attackers** · **884,745 hostile actions** · covering 55 day(s) through 2026-11-06
 
 | signal | count |
 |---|---|
@@ -15,9 +15,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 6564 |
+| `canary-aws-key` | 6572 |
 | `ssh-exploit` | 1374 |
-| `ssh-bruteforce` | 1157 |
+| `ssh-bruteforce` | 1158 |
 | `redis-exploit` | 759 |
 | `mcp-abuse` | 279 |
 | `litellm-key-replay` | 135 |
@@ -32,7 +32,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 2633 |
+| `ssh` | 2634 |
 | `redis` | 784 |
 | `mcp` | 452 |
 | `llamacpp` | 331 |
@@ -51,16 +51,16 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `root` | 1622 |
 | `345gs5662d34` | 1098 |
-| `admin` | 789 |
+| `admin` | 790 |
 | `ubuntu` | 401 |
 | `user` | 194 |
-| `ftpuser` | 192 |
+| `ftpuser` | 193 |
 | `test` | 150 |
-| `guest` | 134 |
+| `guest` | 135 |
 | `git` | 116 |
 | `deploy` | 113 |
 | `postgres` | 108 |
-| `ftp` | 105 |
+| `ftp` | 106 |
 | `administrator` | 102 |
 | `oracle` | 90 |
 | `AdminGPON` | 80 |
@@ -71,15 +71,15 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `345gs5662d34` | 1096 |
 | `3245gs5662d34` | 1088 |
-| `123456` | 916 |
+| `123456` | 917 |
 | `123` | 592 |
-| `1234` | 423 |
-| `12345678` | 346 |
-| `admin` | 313 |
-| `12345` | 268 |
+| `1234` | 424 |
+| `12345678` | 347 |
+| `admin` | 314 |
+| `12345` | 269 |
 | `1` | 267 |
-| `P@ssw0rd` | 201 |
-| `admin123` | 196 |
+| `P@ssw0rd` | 202 |
+| `admin123` | 197 |
 | `password` | 160 |
 | `123456789` | 133 |
 | `000000` | 129 |
