@@ -2,28 +2,28 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**4311 attackers** · **887,197 hostile actions** · covering 55 day(s) through 2026-11-06
+**4314 attackers** · **887,564 hostile actions** · covering 55 day(s) through 2026-11-06
 
 | signal | count |
 |---|---|
 | GPU / AI-hardware probing | 219 |
-| Used a planted canary credential | 143 |
-| Seen on more than one sensor | 324 |
+| Used a planted canary credential | 144 |
+| Seen on more than one sensor | 325 |
 | Stage-2 hosts named in payloads | 58 |
 
 ### By category
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 6714 |
+| `canary-aws-key` | 6736 |
 | `ssh-exploit` | 1374 |
 | `ssh-bruteforce` | 1164 |
-| `redis-exploit` | 768 |
+| `redis-exploit` | 770 |
 | `mcp-abuse` | 280 |
-| `litellm-key-replay` | 139 |
-| `ollama-abuse` | 105 |
+| `litellm-key-replay` | 138 |
+| `ollama-abuse` | 107 |
 | `llamacpp-abuse` | 102 |
-| `docker-abuse` | 60 |
+| `docker-abuse` | 59 |
 | `jupyter-abuse` | 39 |
 | `vllm-abuse` | 18 |
 | `llamacpp-key-replay` | 17 |
@@ -33,15 +33,15 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | protocol | events |
 |---|---|
 | `ssh` | 2640 |
-| `redis` | 793 |
-| `mcp` | 455 |
-| `llamacpp` | 333 |
+| `redis` | 795 |
+| `mcp` | 456 |
+| `llamacpp` | 335 |
 | `litellm` | 257 |
-| `vllm` | 207 |
+| `vllm` | 209 |
 | `jupyter` | 206 |
-| `ollama` | 178 |
-| `hfhub` | 162 |
-| `docker` | 157 |
+| `ollama` | 180 |
+| `hfhub` | 163 |
+| `docker` | 158 |
 | `php` | 94 |
 | `ray` | 37 |
 
@@ -101,9 +101,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `df` | 1123 |
 | `top` | 1123 |
 | `w` | 1122 |
-| `INFO` | 529 |
-| `PING` | 383 |
-| `canary_env` | 377 |
+| `INFO` | 530 |
+| `PING` | 384 |
+| `canary_env` | 378 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._
