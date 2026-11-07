@@ -1,9 +1,9 @@
 {
   "feed": "trapline-ioc",
-  "generated": "2026-11-07T15:18:32+00:00",
-  "count": 4388,
+  "generated": "2026-11-07T16:18:34+00:00",
+  "count": 4390,
   "days": {
-    "2026-11-07": 76,
+    "2026-11-07": 81,
     "2026-11-06": 163,
     "2026-11-05": 146,
     "2026-11-04": 154,
@@ -71,6 +71,44 @@
       ],
       "confidence": 98,
       "first_seen": "2026-11-04",
+      "last_seen": "2026-11-07",
+      "tags": [
+        "canary",
+        "cloud-abuse",
+        "credential-abuse",
+        "honeypot"
+      ]
+    },
+    {
+      "ip": "23.226.70.138",
+      "category": "canary-aws-key",
+      "categories": [
+        "canary-aws-key",
+        "litellm-key-replay"
+      ],
+      "confidence": 98,
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-11-07",
+      "tags": [
+        "abuse",
+        "canary",
+        "cloud-abuse",
+        "credential-abuse",
+        "docker",
+        "honeypot",
+        "key-replay",
+        "litellm",
+        "multi-sensor"
+      ]
+    },
+    {
+      "ip": "216.176.239.231",
+      "category": "canary-aws-key",
+      "categories": [
+        "canary-aws-key"
+      ],
+      "confidence": 98,
+      "first_seen": "2026-11-02",
       "last_seen": "2026-11-07",
       "tags": [
         "canary",
@@ -1011,6 +1049,21 @@
       ]
     },
     {
+      "ip": "51.254.135.183",
+      "category": "redis-exploit",
+      "categories": [
+        "redis-exploit"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "tags": [
+        "exploit",
+        "honeypot",
+        "redis"
+      ]
+    },
+    {
       "ip": "50.247.88.58",
       "category": "ssh-bruteforce",
       "categories": [
@@ -1023,6 +1076,21 @@
         "bruteforce",
         "honeypot",
         "ssh"
+      ]
+    },
+    {
+      "ip": "5.2.69.85",
+      "category": "litellm-key-replay",
+      "categories": [
+        "litellm-key-replay"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "tags": [
+        "honeypot",
+        "key-replay",
+        "litellm"
       ]
     },
     {
@@ -1227,6 +1295,23 @@
         "exploit",
         "honeypot",
         "redis"
+      ]
+    },
+    {
+      "ip": "2.57.122.168",
+      "category": "ssh-exploit",
+      "categories": [
+        "ssh-exploit"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-09-16",
+      "last_seen": "2026-11-07",
+      "tags": [
+        "bruteforce",
+        "exploit",
+        "gpu-probing",
+        "honeypot",
+        "ssh"
       ]
     },
     {
@@ -9812,22 +9897,6 @@
       ]
     },
     {
-      "ip": "216.176.239.231",
-      "category": "canary-aws-key",
-      "categories": [
-        "canary-aws-key"
-      ],
-      "confidence": 98,
-      "first_seen": "2026-11-02",
-      "last_seen": "2026-11-02",
-      "tags": [
-        "canary",
-        "cloud-abuse",
-        "credential-abuse",
-        "honeypot"
-      ]
-    },
-    {
       "ip": "204.8.96.155",
       "category": "canary-aws-key",
       "categories": [
@@ -11192,28 +11261,6 @@
         "cloud-abuse",
         "credential-abuse",
         "honeypot"
-      ]
-    },
-    {
-      "ip": "23.226.70.138",
-      "category": "canary-aws-key",
-      "categories": [
-        "canary-aws-key",
-        "litellm-key-replay"
-      ],
-      "confidence": 98,
-      "first_seen": "2026-10-23",
-      "last_seen": "2026-11-01",
-      "tags": [
-        "abuse",
-        "canary",
-        "cloud-abuse",
-        "credential-abuse",
-        "docker",
-        "honeypot",
-        "key-replay",
-        "litellm",
-        "multi-sensor"
       ]
     },
     {
@@ -20463,23 +20510,6 @@
       "tags": [
         "bruteforce",
         "exploit",
-        "honeypot",
-        "ssh"
-      ]
-    },
-    {
-      "ip": "2.57.122.168",
-      "category": "ssh-exploit",
-      "categories": [
-        "ssh-exploit"
-      ],
-      "confidence": 90,
-      "first_seen": "2026-09-16",
-      "last_seen": "2026-10-28",
-      "tags": [
-        "bruteforce",
-        "exploit",
-        "gpu-probing",
         "honeypot",
         "ssh"
       ]
