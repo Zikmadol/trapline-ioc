@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**4377 attackers** · **916,238 hostile actions** · covering 56 day(s) through 2026-11-07
+**4378 attackers** · **918,036 hostile actions** · covering 56 day(s) through 2026-11-07
 
 | signal | count |
 |---|---|
@@ -15,10 +15,10 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 7065 |
+| `canary-aws-key` | 7081 |
 | `ssh-exploit` | 1376 |
 | `ssh-bruteforce` | 1174 |
-| `redis-exploit` | 785 |
+| `redis-exploit` | 786 |
 | `mcp-abuse` | 284 |
 | `litellm-key-replay` | 149 |
 | `ollama-abuse` | 109 |
@@ -33,7 +33,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | protocol | events |
 |---|---|
 | `ssh` | 2655 |
-| `redis` | 811 |
+| `redis` | 812 |
 | `mcp` | 465 |
 | `llamacpp` | 339 |
 | `litellm` | 269 |
@@ -101,8 +101,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `df` | 1123 |
 | `top` | 1123 |
 | `w` | 1122 |
-| `INFO` | 543 |
-| `PING` | 393 |
+| `INFO` | 544 |
+| `PING` | 394 |
 | `canary_env` | 384 |
 
 
