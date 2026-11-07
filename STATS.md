@@ -2,27 +2,27 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**4369 attackers** · **911,495 hostile actions** · covering 56 day(s) through 2026-11-07
+**4372 attackers** · **911,820 hostile actions** · covering 56 day(s) through 2026-11-07
 
 | signal | count |
 |---|---|
 | GPU / AI-hardware probing | 221 |
 | Used a planted canary credential | 148 |
-| Seen on more than one sensor | 329 |
+| Seen on more than one sensor | 330 |
 | Stage-2 hosts named in payloads | 58 |
 
 ### By category
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 7013 |
+| `canary-aws-key` | 7021 |
 | `ssh-exploit` | 1375 |
-| `ssh-bruteforce` | 1173 |
+| `ssh-bruteforce` | 1175 |
 | `redis-exploit` | 781 |
 | `mcp-abuse` | 283 |
 | `litellm-key-replay` | 149 |
 | `ollama-abuse` | 109 |
-| `llamacpp-abuse` | 102 |
+| `llamacpp-abuse` | 103 |
 | `docker-abuse` | 60 |
 | `jupyter-abuse` | 50 |
 | `vllm-abuse` | 18 |
@@ -32,14 +32,14 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 2651 |
+| `ssh` | 2654 |
 | `redis` | 807 |
 | `mcp` | 464 |
-| `llamacpp` | 338 |
+| `llamacpp` | 339 |
 | `litellm` | 269 |
 | `jupyter` | 222 |
-| `vllm` | 218 |
-| `ollama` | 185 |
+| `vllm` | 219 |
+| `ollama` | 186 |
 | `hfhub` | 166 |
 | `docker` | 161 |
 | `php` | 96 |
@@ -49,9 +49,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 1634 |
+| `root` | 1635 |
 | `345gs5662d34` | 1098 |
-| `admin` | 795 |
+| `admin` | 796 |
 | `ubuntu` | 402 |
 | `ftpuser` | 194 |
 | `user` | 194 |
@@ -75,7 +75,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `123` | 593 |
 | `1234` | 425 |
 | `12345678` | 349 |
-| `admin` | 320 |
+| `admin` | 321 |
 | `12345` | 270 |
 | `1` | 269 |
 | `P@ssw0rd` | 203 |
