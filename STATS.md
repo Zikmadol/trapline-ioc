@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**4413 attackers** · **973,998 hostile actions** · covering 57 day(s) through 2026-11-08
+**4413 attackers** · **976,226 hostile actions** · covering 57 day(s) through 2026-11-08
 
 | signal | count |
 |---|---|
@@ -15,7 +15,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 7328 |
+| `canary-aws-key` | 7342 |
 | `ssh-exploit` | 1380 |
 | `ssh-bruteforce` | 1175 |
 | `redis-exploit` | 803 |
@@ -37,7 +37,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `mcp` | 470 |
 | `llamacpp` | 343 |
 | `litellm` | 273 |
-| `jupyter` | 226 |
+| `jupyter` | 227 |
 | `vllm` | 223 |
 | `ollama` | 192 |
 | `hfhub` | 169 |
@@ -77,7 +77,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `12345678` | 352 |
 | `admin` | 323 |
 | `12345` | 271 |
-| `1` | 270 |
+| `1` | 269 |
 | `P@ssw0rd` | 205 |
 | `admin123` | 203 |
 | `password` | 160 |
