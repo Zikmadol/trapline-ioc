@@ -2,25 +2,25 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**4436 attackers** · **983,194 hostile actions** · covering 57 day(s) through 2026-11-08
+**4440 attackers** · **984,509 hostile actions** · covering 57 day(s) through 2026-11-08
 
 | signal | count |
 |---|---|
 | GPU / AI-hardware probing | 222 |
 | Used a planted canary credential | 149 |
-| Seen on more than one sensor | 336 |
+| Seen on more than one sensor | 337 |
 | Stage-2 hosts named in payloads | 58 |
 
 ### By category
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 7489 |
+| `canary-aws-key` | 7496 |
 | `ssh-exploit` | 1385 |
-| `ssh-bruteforce` | 1176 |
-| `redis-exploit` | 816 |
+| `ssh-bruteforce` | 1177 |
+| `redis-exploit` | 818 |
 | `mcp-abuse` | 285 |
-| `litellm-key-replay` | 151 |
+| `litellm-key-replay` | 152 |
 | `ollama-abuse` | 117 |
 | `llamacpp-abuse` | 104 |
 | `docker-abuse` | 63 |
@@ -32,24 +32,24 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 2669 |
-| `redis` | 842 |
+| `ssh` | 2671 |
+| `redis` | 844 |
 | `mcp` | 473 |
-| `llamacpp` | 345 |
-| `litellm` | 275 |
-| `jupyter` | 229 |
-| `vllm` | 225 |
-| `ollama` | 196 |
+| `llamacpp` | 346 |
+| `litellm` | 276 |
+| `jupyter` | 230 |
+| `vllm` | 226 |
+| `ollama` | 197 |
 | `hfhub` | 172 |
 | `docker` | 164 |
-| `php` | 99 |
+| `php` | 101 |
 | `ray` | 40 |
 
 ### Top usernames tried
 
 | username | tries |
 |---|---|
-| `root` | 1639 |
+| `root` | 1640 |
 | `345gs5662d34` | 1098 |
 | `admin` | 803 |
 | `ubuntu` | 407 |
@@ -77,13 +77,13 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `12345678` | 355 |
 | `admin` | 325 |
 | `12345` | 272 |
-| `1` | 269 |
+| `1` | 268 |
 | `P@ssw0rd` | 206 |
 | `admin123` | 205 |
 | `password` | 160 |
-| `000000` | 133 |
 | `123456789` | 132 |
-| `!QAZ2wsx` | 118 |
+| `000000` | 132 |
+| `!QAZ2wsx` | 119 |
 
 ### Top commands run
 
@@ -101,8 +101,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `df` | 1123 |
 | `top` | 1123 |
 | `w` | 1122 |
-| `INFO` | 572 |
-| `PING` | 417 |
+| `INFO` | 574 |
+| `PING` | 419 |
 | `canary_env` | 385 |
 
 
