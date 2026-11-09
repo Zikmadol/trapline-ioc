@@ -1,9 +1,9 @@
 {
   "feed": "trapline-ioc",
-  "generated": "2026-11-09T05:18:38+00:00",
+  "generated": "2026-11-09T06:18:37+00:00",
   "count": 4494,
   "days": {
-    "2026-11-09": 59,
+    "2026-11-09": 61,
     "2026-11-08": 141,
     "2026-11-07": 127,
     "2026-11-06": 163,
@@ -65,6 +65,22 @@
   "license": "CC-BY-4.0",
   "description": "Attacker IPs confirmed by first-party honeypot and canary observation. Each IP took a hostile action against our decoys. Research scanners are excluded from this curated view.",
   "indicators": [
+    {
+      "ip": "81.161.239.38",
+      "category": "canary-aws-key",
+      "categories": [
+        "canary-aws-key"
+      ],
+      "confidence": 98,
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-09",
+      "tags": [
+        "canary",
+        "cloud-abuse",
+        "credential-abuse",
+        "honeypot"
+      ]
+    },
     {
       "ip": "69.172.215.174",
       "category": "canary-aws-key",
@@ -327,6 +343,25 @@
         "prompt-abuse",
         "redis",
         "ssh"
+      ]
+    },
+    {
+      "ip": "199.165.159.89",
+      "category": "redis-exploit",
+      "categories": [
+        "redis-exploit"
+      ],
+      "confidence": 95,
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-11-09",
+      "tags": [
+        "exploit",
+        "honeypot",
+        "llamacpp",
+        "multi-sensor",
+        "ollama",
+        "php",
+        "redis"
       ]
     },
     {
@@ -1269,6 +1304,30 @@
       ]
     },
     {
+      "ip": "154.23.243.214",
+      "category": "litellm-key-replay",
+      "categories": [
+        "litellm-key-replay"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-11-09",
+      "tags": [
+        "abuse",
+        "exploit",
+        "gpu-probing",
+        "honeypot",
+        "jupyter",
+        "key-replay",
+        "litellm",
+        "llamacpp",
+        "mcp",
+        "ray",
+        "redis",
+        "vllm"
+      ]
+    },
+    {
       "ip": "154.219.96.139",
       "category": "redis-exploit",
       "categories": [
@@ -1342,6 +1401,21 @@
         "exploit",
         "honeypot",
         "redis"
+      ]
+    },
+    {
+      "ip": "13.140.136.236",
+      "category": "mcp-abuse",
+      "categories": [
+        "mcp-abuse"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
+      "tags": [
+        "abuse",
+        "honeypot",
+        "mcp"
       ]
     },
     {
@@ -3637,21 +3711,6 @@
       ]
     },
     {
-      "ip": "13.140.136.236",
-      "category": "mcp-abuse",
-      "categories": [
-        "mcp-abuse"
-      ],
-      "confidence": 90,
-      "first_seen": "2026-11-08",
-      "last_seen": "2026-11-08",
-      "tags": [
-        "abuse",
-        "honeypot",
-        "mcp"
-      ]
-    },
-    {
       "ip": "129.225.139.250",
       "category": "litellm-key-replay",
       "categories": [
@@ -3974,22 +4033,6 @@
         "litellm",
         "llamacpp",
         "prompt-abuse"
-      ]
-    },
-    {
-      "ip": "81.161.239.38",
-      "category": "canary-aws-key",
-      "categories": [
-        "canary-aws-key"
-      ],
-      "confidence": 98,
-      "first_seen": "2026-11-04",
-      "last_seen": "2026-11-07",
-      "tags": [
-        "canary",
-        "cloud-abuse",
-        "credential-abuse",
-        "honeypot"
       ]
     },
     {
@@ -9739,25 +9782,6 @@
         "exploit",
         "honeypot",
         "multi-sensor",
-        "redis"
-      ]
-    },
-    {
-      "ip": "199.165.159.89",
-      "category": "redis-exploit",
-      "categories": [
-        "redis-exploit"
-      ],
-      "confidence": 95,
-      "first_seen": "2026-10-26",
-      "last_seen": "2026-11-04",
-      "tags": [
-        "exploit",
-        "honeypot",
-        "llamacpp",
-        "multi-sensor",
-        "ollama",
-        "php",
         "redis"
       ]
     },
@@ -23128,28 +23152,6 @@
         "exploit",
         "honeypot",
         "ssh"
-      ]
-    },
-    {
-      "ip": "154.23.243.214",
-      "category": "litellm-key-replay",
-      "categories": [
-        "litellm-key-replay"
-      ],
-      "confidence": 90,
-      "first_seen": "2026-10-26",
-      "last_seen": "2026-10-28",
-      "tags": [
-        "abuse",
-        "exploit",
-        "gpu-probing",
-        "honeypot",
-        "jupyter",
-        "key-replay",
-        "litellm",
-        "mcp",
-        "ray",
-        "redis"
       ]
     },
     {
