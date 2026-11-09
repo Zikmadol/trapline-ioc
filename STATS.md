@@ -2,11 +2,11 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**4519 attackers** · **1,029,087 hostile actions** · covering 58 day(s) through 2026-11-09
+**4520 attackers** · **1,030,162 hostile actions** · covering 58 day(s) through 2026-11-09
 
 | signal | count |
 |---|---|
-| GPU / AI-hardware probing | 225 |
+| GPU / AI-hardware probing | 226 |
 | Used a planted canary credential | 153 |
 | Seen on more than one sensor | 350 |
 | Stage-2 hosts named in payloads | 58 |
@@ -15,9 +15,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 7948 |
+| `canary-aws-key` | 7989 |
 | `ssh-exploit` | 1387 |
-| `ssh-bruteforce` | 1186 |
+| `ssh-bruteforce` | 1187 |
 | `redis-exploit` | 862 |
 | `mcp-abuse` | 289 |
 | `litellm-key-replay` | 158 |
@@ -32,13 +32,13 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 2689 |
+| `ssh` | 2690 |
 | `redis` | 888 |
 | `mcp` | 480 |
 | `llamacpp` | 360 |
 | `litellm` | 284 |
 | `vllm` | 241 |
-| `jupyter` | 235 |
+| `jupyter` | 236 |
 | `ollama` | 208 |
 | `hfhub` | 179 |
 | `docker` | 168 |
@@ -51,9 +51,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `root` | 1644 |
 | `345gs5662d34` | 1098 |
-| `admin` | 808 |
+| `admin` | 809 |
 | `ubuntu` | 408 |
-| `ftpuser` | 199 |
+| `ftpuser` | 200 |
 | `user` | 194 |
 | `test` | 150 |
 | `guest` | 141 |
@@ -77,24 +77,24 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `12345678` | 359 |
 | `admin` | 330 |
 | `12345` | 274 |
-| `1` | 269 |
+| `1` | 270 |
 | `admin123` | 208 |
 | `P@ssw0rd` | 208 |
 | `password` | 160 |
 | `123456789` | 133 |
-| `000000` | 132 |
+| `000000` | 133 |
 | `!QAZ2wsx` | 119 |
 
 ### Top commands run
 
 | command | times |
 |---|---|
-| `uname` | 1504 |
+| `uname` | 1505 |
 | `cd` | 1299 |
 | `cat` | 1297 |
-| `echo` | 1268 |
-| `crontab` | 1241 |
-| `lscpu` | 1238 |
+| `echo` | 1269 |
+| `crontab` | 1242 |
+| `lscpu` | 1239 |
 | `ls` | 1128 |
 | `whoami` | 1128 |
 | `free` | 1126 |
