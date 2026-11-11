@@ -2,12 +2,12 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**4605 attackers** · **1,049,906 hostile actions** · covering 60 day(s) through 2026-11-11
+**4614 attackers** · **1,051,918 hostile actions** · covering 60 day(s) through 2026-11-11
 
 | signal | count |
 |---|---|
-| GPU / AI-hardware probing | 229 |
-| Used a planted canary credential | 161 |
+| GPU / AI-hardware probing | 230 |
+| Used a planted canary credential | 162 |
 | Seen on more than one sensor | 361 |
 | Stage-2 hosts named in payloads | 59 |
 
@@ -15,31 +15,31 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 8642 |
+| `canary-aws-key` | 8678 |
 | `ssh-exploit` | 1391 |
-| `ssh-bruteforce` | 1196 |
-| `redis-exploit` | 903 |
+| `ssh-bruteforce` | 1197 |
+| `redis-exploit` | 908 |
 | `mcp-abuse` | 295 |
 | `litellm-key-replay` | 162 |
-| `ollama-abuse` | 123 |
+| `ollama-abuse` | 124 |
 | `llamacpp-abuse` | 111 |
 | `docker-abuse` | 68 |
 | `jupyter-abuse` | 49 |
-| `vllm-abuse` | 22 |
+| `vllm-abuse` | 23 |
 | `php-abuse` | 20 |
 
 ### By protocol
 
 | protocol | events |
 |---|---|
-| `ssh` | 2706 |
-| `redis` | 932 |
+| `ssh` | 2707 |
+| `redis` | 937 |
 | `mcp` | 494 |
 | `llamacpp` | 371 |
 | `litellm` | 291 |
-| `vllm` | 250 |
+| `vllm` | 251 |
 | `jupyter` | 242 |
-| `ollama` | 214 |
+| `ollama` | 215 |
 | `hfhub` | 183 |
 | `docker` | 175 |
 | `php` | 115 |
@@ -51,7 +51,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `root` | 1652 |
 | `345gs5662d34` | 1098 |
-| `admin` | 815 |
+| `admin` | 816 |
 | `ubuntu` | 408 |
 | `ftpuser` | 202 |
 | `user` | 194 |
@@ -81,29 +81,29 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `admin123` | 212 |
 | `P@ssw0rd` | 211 |
 | `password` | 161 |
+| `000000` | 135 |
 | `123456789` | 134 |
-| `000000` | 134 |
 | `!QAZ2wsx` | 120 |
 
 ### Top commands run
 
 | command | times |
 |---|---|
-| `uname` | 1508 |
+| `uname` | 1509 |
 | `cd` | 1299 |
 | `cat` | 1298 |
-| `echo` | 1271 |
-| `crontab` | 1243 |
-| `lscpu` | 1240 |
+| `echo` | 1272 |
+| `crontab` | 1244 |
+| `lscpu` | 1241 |
 | `ls` | 1129 |
 | `whoami` | 1128 |
 | `free` | 1126 |
 | `df` | 1123 |
 | `top` | 1123 |
 | `w` | 1122 |
-| `INFO` | 643 |
-| `PING` | 488 |
-| `canary_env` | 400 |
+| `INFO` | 647 |
+| `PING` | 491 |
+| `canary_env` | 401 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._
