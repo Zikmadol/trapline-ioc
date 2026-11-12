@@ -2,28 +2,28 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**4743 attackers** · **1,101,413 hostile actions** · covering 61 day(s) through 2026-11-12
+**4752 attackers** · **1,101,557 hostile actions** · covering 61 day(s) through 2026-11-12
 
 | signal | count |
 |---|---|
-| GPU / AI-hardware probing | 247 |
+| GPU / AI-hardware probing | 249 |
 | Used a planted canary credential | 175 |
-| Seen on more than one sensor | 389 |
+| Seen on more than one sensor | 392 |
 | Stage-2 hosts named in payloads | 59 |
 
 ### By category
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 9386 |
+| `canary-aws-key` | 9397 |
 | `ssh-exploit` | 1395 |
-| `ssh-bruteforce` | 1243 |
+| `ssh-bruteforce` | 1246 |
 | `redis-exploit` | 932 |
 | `mcp-abuse` | 297 |
-| `litellm-key-replay` | 166 |
-| `ollama-abuse` | 127 |
-| `llamacpp-abuse` | 115 |
-| `docker-abuse` | 91 |
+| `litellm-key-replay` | 165 |
+| `ollama-abuse` | 128 |
+| `llamacpp-abuse` | 116 |
+| `docker-abuse` | 96 |
 | `jupyter-abuse` | 49 |
 | `vllm-abuse` | 23 |
 | `php-abuse` | 22 |
@@ -32,16 +32,16 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 2765 |
+| `ssh` | 2769 |
 | `redis` | 962 |
 | `mcp` | 504 |
-| `llamacpp` | 384 |
+| `llamacpp` | 386 |
 | `litellm` | 300 |
-| `vllm` | 272 |
+| `vllm` | 274 |
 | `jupyter` | 247 |
-| `ollama` | 224 |
-| `docker` | 201 |
-| `hfhub` | 193 |
+| `ollama` | 226 |
+| `docker` | 208 |
+| `hfhub` | 194 |
 | `php` | 129 |
 | `ray` | 44 |
 
@@ -49,7 +49,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 1673 |
+| `root` | 1675 |
 | `345gs5662d34` | 1098 |
 | `admin` | 829 |
 | `ubuntu` | 411 |
@@ -78,7 +78,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `admin` | 342 |
 | `12345` | 283 |
 | `1` | 271 |
-| `admin123` | 216 |
+| `admin123` | 218 |
 | `P@ssw0rd` | 216 |
 | `password` | 161 |
 | `123456789` | 136 |
