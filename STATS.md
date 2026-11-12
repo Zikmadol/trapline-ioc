@@ -2,26 +2,26 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**4661 attackers** · **1,061,801 hostile actions** · covering 61 day(s) through 2026-11-12
+**4665 attackers** · **1,068,022 hostile actions** · covering 61 day(s) through 2026-11-12
 
 | signal | count |
 |---|---|
 | GPU / AI-hardware probing | 234 |
 | Used a planted canary credential | 171 |
-| Seen on more than one sensor | 370 |
+| Seen on more than one sensor | 372 |
 | Stage-2 hosts named in payloads | 59 |
 
 ### By category
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 9019 |
+| `canary-aws-key` | 9035 |
 | `ssh-exploit` | 1393 |
 | `ssh-bruteforce` | 1207 |
-| `redis-exploit` | 918 |
+| `redis-exploit` | 920 |
 | `mcp-abuse` | 296 |
-| `litellm-key-replay` | 164 |
-| `ollama-abuse` | 125 |
+| `litellm-key-replay` | 165 |
+| `ollama-abuse` | 126 |
 | `llamacpp-abuse` | 113 |
 | `docker-abuse` | 72 |
 | `jupyter-abuse` | 49 |
@@ -32,17 +32,17 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 2722 |
-| `redis` | 947 |
+| `ssh` | 2723 |
+| `redis` | 949 |
 | `mcp` | 501 |
 | `llamacpp` | 378 |
-| `litellm` | 294 |
+| `litellm` | 297 |
 | `vllm` | 259 |
 | `jupyter` | 244 |
-| `ollama` | 220 |
+| `ollama` | 221 |
 | `hfhub` | 184 |
 | `docker` | 179 |
-| `php` | 121 |
+| `php` | 122 |
 | `ray` | 43 |
 
 ### Top usernames tried
@@ -82,7 +82,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `P@ssw0rd` | 213 |
 | `password` | 161 |
 | `123456789` | 134 |
-| `000000` | 134 |
+| `000000` | 133 |
 | `!QAZ2wsx` | 121 |
 
 ### Top commands run
@@ -101,8 +101,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `df` | 1123 |
 | `top` | 1123 |
 | `w` | 1122 |
-| `INFO` | 654 |
-| `PING` | 499 |
+| `INFO` | 656 |
+| `PING` | 500 |
 | `canary_env` | 403 |
 
 
