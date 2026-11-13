@@ -2,54 +2,54 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**4826 attackers** · **1,113,773 hostile actions** · covering 62 day(s) through 2026-11-13
+**4837 attackers** · **1,113,958 hostile actions** · covering 62 day(s) through 2026-11-13
 
 | signal | count |
 |---|---|
-| GPU / AI-hardware probing | 274 |
+| GPU / AI-hardware probing | 280 |
 | Used a planted canary credential | 175 |
-| Seen on more than one sensor | 411 |
+| Seen on more than one sensor | 414 |
 | Stage-2 hosts named in payloads | 59 |
 
 ### By category
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 9491 |
+| `canary-aws-key` | 9512 |
 | `ssh-exploit` | 1396 |
-| `ssh-bruteforce` | 1274 |
-| `redis-exploit` | 937 |
+| `ssh-bruteforce` | 1280 |
+| `redis-exploit` | 938 |
 | `mcp-abuse` | 298 |
 | `litellm-key-replay` | 163 |
-| `docker-abuse` | 133 |
-| `ollama-abuse` | 129 |
+| `docker-abuse` | 137 |
+| `ollama-abuse` | 130 |
 | `llamacpp-abuse` | 115 |
 | `jupyter-abuse` | 49 |
-| `vllm-abuse` | 24 |
+| `vllm-abuse` | 23 |
 | `php-abuse` | 22 |
 
 ### By protocol
 
 | protocol | events |
 |---|---|
-| `ssh` | 2798 |
-| `redis` | 967 |
+| `ssh` | 2804 |
+| `redis` | 968 |
 | `mcp` | 505 |
 | `llamacpp` | 387 |
 | `litellm` | 302 |
-| `vllm` | 290 |
+| `vllm` | 293 |
+| `docker` | 255 |
 | `jupyter` | 252 |
-| `docker` | 251 |
-| `ollama` | 227 |
-| `hfhub` | 194 |
-| `php` | 130 |
+| `ollama` | 228 |
+| `hfhub` | 195 |
+| `php` | 131 |
 | `ray` | 45 |
 
 ### Top usernames tried
 
 | username | tries |
 |---|---|
-| `root` | 1680 |
+| `root` | 1682 |
 | `345gs5662d34` | 1098 |
 | `admin` | 834 |
 | `ubuntu` | 412 |
@@ -101,8 +101,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `df` | 1124 |
 | `top` | 1123 |
 | `w` | 1122 |
-| `INFO` | 670 |
-| `PING` | 508 |
+| `INFO` | 671 |
+| `PING` | 509 |
 | `canary_env` | 407 |
 
 
