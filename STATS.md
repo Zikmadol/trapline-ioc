@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**4880 attackers** · **1,115,187 hostile actions** · covering 62 day(s) through 2026-11-13
+**4886 attackers** · **1,115,632 hostile actions** · covering 62 day(s) through 2026-11-13
 
 | signal | count |
 |---|---|
@@ -15,14 +15,14 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 9600 |
+| `canary-aws-key` | 9613 |
 | `ssh-exploit` | 1397 |
-| `ssh-bruteforce` | 1312 |
+| `ssh-bruteforce` | 1317 |
 | `redis-exploit` | 942 |
 | `mcp-abuse` | 298 |
 | `litellm-key-replay` | 163 |
 | `docker-abuse` | 141 |
-| `ollama-abuse` | 131 |
+| `ollama-abuse` | 132 |
 | `llamacpp-abuse` | 115 |
 | `jupyter-abuse` | 49 |
 | `vllm-abuse` | 23 |
@@ -32,16 +32,16 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 2837 |
+| `ssh` | 2842 |
 | `redis` | 972 |
 | `mcp` | 507 |
-| `llamacpp` | 388 |
+| `llamacpp` | 389 |
 | `litellm` | 303 |
-| `vllm` | 297 |
+| `vllm` | 298 |
 | `docker` | 259 |
 | `jupyter` | 253 |
-| `ollama` | 231 |
-| `hfhub` | 197 |
+| `ollama` | 232 |
+| `hfhub` | 198 |
 | `php` | 132 |
 | `ray` | 46 |
 
@@ -49,7 +49,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 1686 |
+| `root` | 1689 |
 | `345gs5662d34` | 1098 |
 | `admin` | 839 |
 | `ubuntu` | 411 |
@@ -58,7 +58,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `test` | 158 |
 | `guest` | 152 |
 | `ftp` | 121 |
-| `git` | 117 |
+| `git` | 118 |
 | `deploy` | 115 |
 | `postgres` | 110 |
 | `administrator` | 106 |
@@ -90,7 +90,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | command | times |
 |---|---|
 | `uname` | 1513 |
-| `cat` | 1301 |
+| `cat` | 1302 |
 | `cd` | 1299 |
 | `echo` | 1276 |
 | `crontab` | 1245 |
