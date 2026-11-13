@@ -1,9 +1,9 @@
 {
   "feed": "trapline-ioc",
-  "generated": "2026-11-13T17:18:37+00:00",
-  "count": 4923,
+  "generated": "2026-11-13T18:18:38+00:00",
+  "count": 4938,
   "days": {
-    "2026-11-13": 243,
+    "2026-11-13": 261,
     "2026-11-12": 201,
     "2026-11-11": 137,
     "2026-11-10": 150,
@@ -69,6 +69,25 @@
   "license": "CC-BY-4.0",
   "description": "Attacker IPs confirmed by first-party honeypot and canary observation. Each IP took a hostile action against our decoys. Research scanners are excluded from this curated view.",
   "indicators": [
+    {
+      "ip": "193.189.100.197",
+      "category": "canary-aws-key",
+      "categories": [
+        "canary-aws-key",
+        "llamacpp-abuse"
+      ],
+      "confidence": 98,
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "tags": [
+        "abuse",
+        "canary",
+        "cloud-abuse",
+        "credential-abuse",
+        "honeypot",
+        "llamacpp"
+      ]
+    },
     {
       "ip": "168.222.244.156",
       "category": "canary-aws-key",
@@ -1176,6 +1195,24 @@
       ]
     },
     {
+      "ip": "192.42.116.54",
+      "category": "llamacpp-abuse",
+      "categories": [
+        "llamacpp-abuse"
+      ],
+      "confidence": 95,
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-13",
+      "tags": [
+        "abuse",
+        "docker",
+        "honeypot",
+        "llamacpp",
+        "multi-sensor",
+        "vllm"
+      ]
+    },
+    {
       "ip": "192.42.116.52",
       "category": "docker-abuse",
       "categories": [
@@ -1287,6 +1324,23 @@
       ]
     },
     {
+      "ip": "192.42.116.18",
+      "category": "llamacpp-abuse",
+      "categories": [
+        "llamacpp-abuse"
+      ],
+      "confidence": 95,
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-13",
+      "tags": [
+        "abuse",
+        "docker",
+        "honeypot",
+        "llamacpp",
+        "multi-sensor"
+      ]
+    },
+    {
       "ip": "192.42.116.15",
       "category": "docker-abuse",
       "categories": [
@@ -1320,6 +1374,26 @@
         "honeypot",
         "multi-sensor",
         "php",
+        "vllm"
+      ]
+    },
+    {
+      "ip": "192.42.116.144",
+      "category": "litellm-key-replay",
+      "categories": [
+        "litellm-key-replay"
+      ],
+      "confidence": 95,
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-13",
+      "tags": [
+        "abuse",
+        "docker",
+        "gpu-probing",
+        "honeypot",
+        "key-replay",
+        "litellm",
+        "multi-sensor",
         "vllm"
       ]
     },
@@ -1529,6 +1603,23 @@
         "litellm",
         "multi-sensor",
         "vllm"
+      ]
+    },
+    {
+      "ip": "185.220.100.241",
+      "category": "llamacpp-abuse",
+      "categories": [
+        "llamacpp-abuse"
+      ],
+      "confidence": 95,
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "tags": [
+        "abuse",
+        "docker",
+        "honeypot",
+        "llamacpp",
+        "multi-sensor"
       ]
     },
     {
@@ -2083,6 +2174,22 @@
       ]
     },
     {
+      "ip": "92.118.39.56",
+      "category": "ssh-exploit",
+      "categories": [
+        "ssh-exploit"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "tags": [
+        "bruteforce",
+        "exploit",
+        "honeypot",
+        "ssh"
+      ]
+    },
+    {
       "ip": "91.92.33.192",
       "category": "ollama-abuse",
       "categories": [
@@ -2472,6 +2579,21 @@
       ]
     },
     {
+      "ip": "68.10.53.113",
+      "category": "ssh-bruteforce",
+      "categories": [
+        "ssh-bruteforce"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "tags": [
+        "bruteforce",
+        "honeypot",
+        "ssh"
+      ]
+    },
+    {
       "ip": "65.20.204.88",
       "category": "ssh-bruteforce",
       "categories": [
@@ -2624,6 +2746,21 @@
       ]
     },
     {
+      "ip": "57.131.142.119",
+      "category": "mcp-abuse",
+      "categories": [
+        "mcp-abuse"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-11-13",
+      "tags": [
+        "abuse",
+        "honeypot",
+        "mcp"
+      ]
+    },
+    {
       "ip": "51.79.207.222",
       "category": "ollama-abuse",
       "categories": [
@@ -2667,6 +2804,21 @@
         "abuse",
         "docker",
         "honeypot"
+      ]
+    },
+    {
+      "ip": "49.88.37.246",
+      "category": "ssh-bruteforce",
+      "categories": [
+        "ssh-bruteforce"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "tags": [
+        "bruteforce",
+        "honeypot",
+        "ssh"
       ]
     },
     {
@@ -3012,6 +3164,21 @@
       ]
     },
     {
+      "ip": "23.80.81.81",
+      "category": "mcp-abuse",
+      "categories": [
+        "mcp-abuse"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "tags": [
+        "abuse",
+        "honeypot",
+        "mcp"
+      ]
+    },
+    {
       "ip": "23.132.164.184",
       "category": "ssh-bruteforce",
       "categories": [
@@ -3213,6 +3380,22 @@
         "abuse",
         "honeypot",
         "mcp"
+      ]
+    },
+    {
+      "ip": "202.94.161.134",
+      "category": "ollama-abuse",
+      "categories": [
+        "ollama-abuse"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "tags": [
+        "abuse",
+        "honeypot",
+        "ollama",
+        "prompt-abuse"
       ]
     },
     {
@@ -4386,6 +4569,21 @@
       ]
     },
     {
+      "ip": "171.231.196.55",
+      "category": "ssh-bruteforce",
+      "categories": [
+        "ssh-bruteforce"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "tags": [
+        "bruteforce",
+        "honeypot",
+        "ssh"
+      ]
+    },
+    {
       "ip": "169.58.223.101",
       "category": "mcp-abuse",
       "categories": [
@@ -4398,6 +4596,21 @@
         "abuse",
         "honeypot",
         "mcp"
+      ]
+    },
+    {
+      "ip": "168.126.36.209",
+      "category": "ssh-bruteforce",
+      "categories": [
+        "ssh-bruteforce"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "tags": [
+        "bruteforce",
+        "honeypot",
+        "ssh"
       ]
     },
     {
@@ -4476,6 +4689,37 @@
       ]
     },
     {
+      "ip": "151.245.151.155",
+      "category": "redis-exploit",
+      "categories": [
+        "redis-exploit"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-10-20",
+      "last_seen": "2026-11-13",
+      "tags": [
+        "exploit",
+        "honeypot",
+        "jupyter",
+        "redis"
+      ]
+    },
+    {
+      "ip": "151.245.151.146",
+      "category": "redis-exploit",
+      "categories": [
+        "redis-exploit"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "tags": [
+        "exploit",
+        "honeypot",
+        "redis"
+      ]
+    },
+    {
       "ip": "151.243.11.108",
       "category": "redis-exploit",
       "categories": [
@@ -4548,6 +4792,21 @@
         "bruteforce",
         "honeypot",
         "ssh"
+      ]
+    },
+    {
+      "ip": "149.28.136.4",
+      "category": "mcp-abuse",
+      "categories": [
+        "mcp-abuse"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "tags": [
+        "abuse",
+        "honeypot",
+        "mcp"
       ]
     },
     {
@@ -4717,6 +4976,23 @@
         "honeypot",
         "php",
         "ssh"
+      ]
+    },
+    {
+      "ip": "136.0.42.239",
+      "category": "ollama-key-replay",
+      "categories": [
+        "ollama-key-replay"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-10-10",
+      "last_seen": "2026-11-13",
+      "tags": [
+        "abuse",
+        "honeypot",
+        "key-replay",
+        "ollama",
+        "prompt-abuse"
       ]
     },
     {
@@ -4932,6 +5208,21 @@
       ]
     },
     {
+      "ip": "116.99.169.71",
+      "category": "ssh-bruteforce",
+      "categories": [
+        "ssh-bruteforce"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "tags": [
+        "bruteforce",
+        "honeypot",
+        "ssh"
+      ]
+    },
+    {
       "ip": "114.246.201.245",
       "category": "litellm-key-replay",
       "categories": [
@@ -4944,6 +5235,21 @@
         "honeypot",
         "key-replay",
         "litellm"
+      ]
+    },
+    {
+      "ip": "112.168.255.132",
+      "category": "ssh-bruteforce",
+      "categories": [
+        "ssh-bruteforce"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "tags": [
+        "bruteforce",
+        "honeypot",
+        "ssh"
       ]
     },
     {
@@ -5790,24 +6096,6 @@
         "litellm",
         "multi-sensor",
         "ollama",
-        "vllm"
-      ]
-    },
-    {
-      "ip": "192.42.116.144",
-      "category": "litellm-key-replay",
-      "categories": [
-        "litellm-key-replay"
-      ],
-      "confidence": 95,
-      "first_seen": "2026-11-03",
-      "last_seen": "2026-11-12",
-      "tags": [
-        "docker",
-        "honeypot",
-        "key-replay",
-        "litellm",
-        "multi-sensor",
         "vllm"
       ]
     },
@@ -7467,23 +7755,6 @@
       ]
     },
     {
-      "ip": "136.0.42.239",
-      "category": "ollama-key-replay",
-      "categories": [
-        "ollama-key-replay"
-      ],
-      "confidence": 90,
-      "first_seen": "2026-10-10",
-      "last_seen": "2026-11-12",
-      "tags": [
-        "abuse",
-        "honeypot",
-        "key-replay",
-        "ollama",
-        "prompt-abuse"
-      ]
-    },
-    {
       "ip": "125.130.102.172",
       "category": "ssh-bruteforce",
       "categories": [
@@ -8679,21 +8950,6 @@
         "exploit",
         "honeypot",
         "redis"
-      ]
-    },
-    {
-      "ip": "57.131.142.119",
-      "category": "mcp-abuse",
-      "categories": [
-        "mcp-abuse"
-      ],
-      "confidence": 90,
-      "first_seen": "2026-10-27",
-      "last_seen": "2026-11-11",
-      "tags": [
-        "abuse",
-        "honeypot",
-        "mcp"
       ]
     },
     {
@@ -46057,21 +46313,6 @@
         "abuse",
         "honeypot",
         "jupyter"
-      ]
-    },
-    {
-      "ip": "151.245.151.155",
-      "category": "redis-exploit",
-      "categories": [
-        "redis-exploit"
-      ],
-      "confidence": 90,
-      "first_seen": "2026-10-20",
-      "last_seen": "2026-10-20",
-      "tags": [
-        "exploit",
-        "honeypot",
-        "redis"
       ]
     },
     {
