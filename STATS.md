@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**4837 attackers** · **1,113,958 hostile actions** · covering 62 day(s) through 2026-11-13
+**4844 attackers** · **1,114,180 hostile actions** · covering 62 day(s) through 2026-11-13
 
 | signal | count |
 |---|---|
@@ -15,9 +15,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 9512 |
-| `ssh-exploit` | 1396 |
-| `ssh-bruteforce` | 1280 |
+| `canary-aws-key` | 9525 |
+| `ssh-exploit` | 1397 |
+| `ssh-bruteforce` | 1286 |
 | `redis-exploit` | 938 |
 | `mcp-abuse` | 298 |
 | `litellm-key-replay` | 163 |
@@ -32,7 +32,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 2804 |
+| `ssh` | 2811 |
 | `redis` | 968 |
 | `mcp` | 505 |
 | `llamacpp` | 387 |
@@ -41,7 +41,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `docker` | 255 |
 | `jupyter` | 252 |
 | `ollama` | 228 |
-| `hfhub` | 195 |
+| `hfhub` | 196 |
 | `php` | 131 |
 | `ray` | 45 |
 
@@ -49,7 +49,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 1682 |
+| `root` | 1683 |
 | `345gs5662d34` | 1098 |
 | `admin` | 834 |
 | `ubuntu` | 412 |
@@ -71,17 +71,17 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `345gs5662d34` | 1096 |
 | `3245gs5662d34` | 1088 |
-| `123456` | 943 |
-| `123` | 599 |
-| `1234` | 446 |
-| `12345678` | 369 |
+| `123456` | 944 |
+| `123` | 600 |
+| `1234` | 447 |
+| `12345678` | 370 |
 | `admin` | 345 |
-| `12345` | 286 |
+| `12345` | 287 |
 | `1` | 271 |
 | `admin123` | 219 |
 | `P@ssw0rd` | 217 |
 | `password` | 164 |
-| `123456789` | 137 |
+| `123456789` | 138 |
 | `000000` | 132 |
 | `!QAZ2wsx` | 123 |
 
