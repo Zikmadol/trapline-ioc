@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**4997 attackers** · **1,143,021 hostile actions** · covering 63 day(s) through 2026-11-14
+**5005 attackers** · **1,143,066 hostile actions** · covering 63 day(s) through 2026-11-14
 
 | signal | count |
 |---|---|
@@ -15,14 +15,14 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 9873 |
+| `canary-aws-key` | 9889 |
 | `ssh-exploit` | 1400 |
-| `ssh-bruteforce` | 1386 |
+| `ssh-bruteforce` | 1393 |
 | `redis-exploit` | 954 |
 | `mcp-abuse` | 303 |
 | `litellm-key-replay` | 164 |
 | `docker-abuse` | 151 |
-| `ollama-abuse` | 136 |
+| `ollama-abuse` | 137 |
 | `llamacpp-abuse` | 118 |
 | `jupyter-abuse` | 49 |
 | `vllm-abuse` | 23 |
@@ -32,7 +32,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 2920 |
+| `ssh` | 2927 |
 | `redis` | 985 |
 | `mcp` | 517 |
 | `llamacpp` | 401 |
@@ -40,9 +40,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `vllm` | 306 |
 | `docker` | 274 |
 | `jupyter` | 258 |
-| `ollama` | 239 |
+| `ollama` | 240 |
 | `hfhub` | 209 |
-| `php` | 145 |
+| `php` | 147 |
 | `ray` | 46 |
 
 ### Top usernames tried
@@ -51,7 +51,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `root` | 1701 |
 | `345gs5662d34` | 1098 |
-| `admin` | 860 |
+| `admin` | 862 |
 | `ubuntu` | 414 |
 | `ftpuser` | 209 |
 | `user` | 197 |
@@ -73,8 +73,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `3245gs5662d34` | 1088 |
 | `123456` | 950 |
 | `123` | 601 |
-| `1234` | 456 |
-| `12345678` | 375 |
+| `1234` | 457 |
+| `12345678` | 377 |
 | `admin` | 352 |
 | `12345` | 290 |
 | `1` | 272 |
