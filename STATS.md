@@ -2,12 +2,12 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**5008 attackers** · **1,143,213 hostile actions** · covering 63 day(s) through 2026-11-14
+**5013 attackers** · **1,143,373 hostile actions** · covering 63 day(s) through 2026-11-14
 
 | signal | count |
 |---|---|
 | GPU / AI-hardware probing | 292 |
-| Used a planted canary credential | 178 |
+| Used a planted canary credential | 179 |
 | Seen on more than one sensor | 433 |
 | Stage-2 hosts named in payloads | 60 |
 
@@ -15,48 +15,48 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 9904 |
+| `canary-aws-key` | 9924 |
 | `ssh-exploit` | 1400 |
-| `ssh-bruteforce` | 1396 |
+| `ssh-bruteforce` | 1399 |
 | `redis-exploit` | 954 |
 | `mcp-abuse` | 303 |
 | `litellm-key-replay` | 164 |
 | `docker-abuse` | 151 |
-| `ollama-abuse` | 137 |
+| `ollama-abuse` | 138 |
 | `llamacpp-abuse` | 118 |
 | `jupyter-abuse` | 49 |
-| `vllm-abuse` | 23 |
+| `vllm-abuse` | 24 |
 | `php-abuse` | 23 |
 
 ### By protocol
 
 | protocol | events |
 |---|---|
-| `ssh` | 2930 |
+| `ssh` | 2933 |
 | `redis` | 985 |
 | `mcp` | 517 |
 | `llamacpp` | 401 |
 | `litellm` | 309 |
-| `vllm` | 306 |
+| `vllm` | 307 |
 | `docker` | 274 |
 | `jupyter` | 258 |
-| `ollama` | 240 |
+| `ollama` | 241 |
 | `hfhub` | 209 |
-| `php` | 147 |
+| `php` | 148 |
 | `ray` | 46 |
 
 ### Top usernames tried
 
 | username | tries |
 |---|---|
-| `root` | 1703 |
+| `root` | 1704 |
 | `345gs5662d34` | 1098 |
 | `admin` | 863 |
 | `ubuntu` | 414 |
 | `ftpuser` | 210 |
 | `user` | 197 |
 | `test` | 164 |
-| `guest` | 160 |
+| `guest` | 162 |
 | `ftp` | 123 |
 | `git` | 118 |
 | `deploy` | 116 |
@@ -71,7 +71,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `345gs5662d34` | 1096 |
 | `3245gs5662d34` | 1088 |
-| `123456` | 951 |
+| `123456` | 952 |
 | `123` | 601 |
 | `1234` | 458 |
 | `12345678` | 378 |
@@ -103,7 +103,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `w` | 1122 |
 | `INFO` | 681 |
 | `PING` | 520 |
-| `canary_env` | 417 |
+| `canary_env` | 418 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._
