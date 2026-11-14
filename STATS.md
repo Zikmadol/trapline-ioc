@@ -2,26 +2,26 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**5064 attackers** · **1,154,792 hostile actions** · covering 63 day(s) through 2026-11-14
+**5070 attackers** · **1,154,944 hostile actions** · covering 63 day(s) through 2026-11-14
 
 | signal | count |
 |---|---|
-| GPU / AI-hardware probing | 292 |
+| GPU / AI-hardware probing | 294 |
 | Used a planted canary credential | 179 |
-| Seen on more than one sensor | 434 |
+| Seen on more than one sensor | 435 |
 | Stage-2 hosts named in payloads | 60 |
 
 ### By category
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 10048 |
-| `ssh-bruteforce` | 1435 |
+| `canary-aws-key` | 10065 |
+| `ssh-bruteforce` | 1439 |
 | `ssh-exploit` | 1402 |
 | `redis-exploit` | 959 |
 | `mcp-abuse` | 303 |
 | `litellm-key-replay` | 165 |
-| `docker-abuse` | 154 |
+| `docker-abuse` | 156 |
 | `ollama-abuse` | 141 |
 | `llamacpp-abuse` | 120 |
 | `jupyter-abuse` | 49 |
@@ -32,15 +32,15 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 2972 |
+| `ssh` | 2976 |
 | `redis` | 990 |
 | `mcp` | 519 |
-| `llamacpp` | 405 |
-| `litellm` | 312 |
-| `vllm` | 307 |
-| `docker` | 277 |
-| `jupyter` | 261 |
-| `ollama` | 244 |
+| `llamacpp` | 406 |
+| `litellm` | 313 |
+| `vllm` | 309 |
+| `docker` | 279 |
+| `jupyter` | 262 |
+| `ollama` | 245 |
 | `hfhub` | 209 |
 | `php` | 148 |
 | `ray` | 46 |
@@ -51,11 +51,11 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `root` | 1713 |
 | `345gs5662d34` | 1098 |
-| `admin` | 870 |
+| `admin` | 871 |
 | `ubuntu` | 414 |
 | `ftpuser` | 211 |
 | `user` | 203 |
-| `guest` | 167 |
+| `guest` | 169 |
 | `test` | 164 |
 | `ftp` | 124 |
 | `git` | 118 |
@@ -71,7 +71,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `345gs5662d34` | 1096 |
 | `3245gs5662d34` | 1088 |
-| `123456` | 954 |
+| `123456` | 955 |
 | `123` | 602 |
 | `1234` | 461 |
 | `12345678` | 379 |
