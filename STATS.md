@@ -2,22 +2,22 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**5241 attackers** · **1,176,772 hostile actions** · covering 64 day(s) through 2026-11-15
+**5251 attackers** · **1,176,854 hostile actions** · covering 64 day(s) through 2026-11-15
 
 | signal | count |
 |---|---|
 | GPU / AI-hardware probing | 299 |
 | Used a planted canary credential | 193 |
-| Seen on more than one sensor | 441 |
+| Seen on more than one sensor | 442 |
 | Stage-2 hosts named in payloads | 60 |
 
 ### By category
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 10586 |
-| `ssh-bruteforce` | 1552 |
-| `ssh-exploit` | 1403 |
+| `canary-aws-key` | 10602 |
+| `ssh-bruteforce` | 1562 |
+| `ssh-exploit` | 1402 |
 | `redis-exploit` | 976 |
 | `mcp-abuse` | 303 |
 | `litellm-key-replay` | 177 |
@@ -32,14 +32,14 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 3095 |
+| `ssh` | 3104 |
 | `redis` | 1008 |
 | `mcp` | 522 |
-| `llamacpp` | 418 |
-| `litellm` | 328 |
+| `llamacpp` | 420 |
+| `litellm` | 329 |
 | `vllm` | 323 |
 | `docker` | 286 |
-| `jupyter` | 271 |
+| `jupyter` | 272 |
 | `ollama` | 254 |
 | `hfhub` | 215 |
 | `php` | 151 |
@@ -49,13 +49,13 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 1732 |
+| `root` | 1734 |
 | `345gs5662d34` | 1098 |
-| `admin` | 885 |
+| `admin` | 887 |
 | `ubuntu` | 415 |
 | `ftpuser` | 214 |
 | `user` | 207 |
-| `guest` | 190 |
+| `guest` | 192 |
 | `test` | 167 |
 | `ftp` | 128 |
 | `git` | 119 |
@@ -103,7 +103,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `w` | 1122 |
 | `INFO` | 695 |
 | `PING` | 532 |
-| `canary_env` | 425 |
+| `canary_env` | 426 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._
