@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**5137 attackers** · **1,160,920 hostile actions** · covering 64 day(s) through 2026-11-15
+**5148 attackers** · **1,162,847 hostile actions** · covering 64 day(s) through 2026-11-15
 
 | signal | count |
 |---|---|
@@ -15,12 +15,12 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 10303 |
-| `ssh-bruteforce` | 1487 |
+| `canary-aws-key` | 10319 |
+| `ssh-bruteforce` | 1496 |
 | `ssh-exploit` | 1402 |
-| `redis-exploit` | 966 |
+| `redis-exploit` | 967 |
 | `mcp-abuse` | 303 |
-| `litellm-key-replay` | 174 |
+| `litellm-key-replay` | 175 |
 | `docker-abuse` | 156 |
 | `ollama-abuse` | 142 |
 | `llamacpp-abuse` | 121 |
@@ -32,11 +32,11 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 3026 |
-| `redis` | 997 |
+| `ssh` | 3035 |
+| `redis` | 998 |
 | `mcp` | 520 |
 | `llamacpp` | 409 |
-| `litellm` | 323 |
+| `litellm` | 324 |
 | `vllm` | 315 |
 | `docker` | 280 |
 | `jupyter` | 265 |
@@ -49,7 +49,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 1722 |
+| `root` | 1723 |
 | `345gs5662d34` | 1098 |
 | `admin` | 879 |
 | `ubuntu` | 415 |
@@ -77,13 +77,13 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `12345678` | 382 |
 | `admin` | 356 |
 | `12345` | 295 |
-| `1` | 275 |
+| `1` | 276 |
 | `admin123` | 230 |
 | `P@ssw0rd` | 223 |
 | `password` | 174 |
 | `123456789` | 143 |
-| `000000` | 134 |
-| `!QAZ2wsx` | 126 |
+| `000000` | 135 |
+| `!QAZ2wsx` | 127 |
 
 ### Top commands run
 
@@ -101,7 +101,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `df` | 1124 |
 | `top` | 1123 |
 | `w` | 1122 |
-| `INFO` | 687 |
+| `INFO` | 688 |
 | `PING` | 525 |
 | `canary_env` | 419 |
 
