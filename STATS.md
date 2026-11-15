@@ -2,12 +2,12 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**5196 attackers** · **1,175,988 hostile actions** · covering 64 day(s) through 2026-11-15
+**5204 attackers** · **1,176,065 hostile actions** · covering 64 day(s) through 2026-11-15
 
 | signal | count |
 |---|---|
 | GPU / AI-hardware probing | 297 |
-| Used a planted canary credential | 189 |
+| Used a planted canary credential | 190 |
 | Seen on more than one sensor | 439 |
 | Stage-2 hosts named in payloads | 60 |
 
@@ -15,16 +15,16 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 10471 |
-| `ssh-bruteforce` | 1526 |
+| `canary-aws-key` | 10492 |
+| `ssh-bruteforce` | 1530 |
 | `ssh-exploit` | 1403 |
-| `redis-exploit` | 972 |
+| `redis-exploit` | 974 |
 | `mcp-abuse` | 303 |
 | `litellm-key-replay` | 177 |
 | `docker-abuse` | 158 |
 | `ollama-abuse` | 142 |
 | `llamacpp-abuse` | 122 |
-| `jupyter-abuse` | 49 |
+| `jupyter-abuse` | 50 |
 | `vllm-abuse` | 23 |
 | `php-abuse` | 23 |
 
@@ -32,16 +32,16 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 3069 |
-| `redis` | 1004 |
-| `mcp` | 521 |
-| `llamacpp` | 412 |
-| `litellm` | 326 |
-| `vllm` | 319 |
+| `ssh` | 3073 |
+| `redis` | 1006 |
+| `mcp` | 522 |
+| `llamacpp` | 413 |
+| `litellm` | 328 |
+| `vllm` | 320 |
 | `docker` | 282 |
-| `jupyter` | 268 |
+| `jupyter` | 270 |
 | `ollama` | 252 |
-| `hfhub` | 213 |
+| `hfhub` | 214 |
 | `php` | 150 |
 | `ray` | 47 |
 
@@ -101,9 +101,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `df` | 1124 |
 | `top` | 1123 |
 | `w` | 1122 |
-| `INFO` | 693 |
-| `PING` | 529 |
-| `canary_env` | 421 |
+| `INFO` | 694 |
+| `PING` | 531 |
+| `canary_env` | 422 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._
