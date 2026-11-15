@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**5236 attackers** · **1,176,664 hostile actions** · covering 64 day(s) through 2026-11-15
+**5241 attackers** · **1,176,772 hostile actions** · covering 64 day(s) through 2026-11-15
 
 | signal | count |
 |---|---|
@@ -15,16 +15,16 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 10565 |
-| `ssh-bruteforce` | 1550 |
+| `canary-aws-key` | 10586 |
+| `ssh-bruteforce` | 1552 |
 | `ssh-exploit` | 1403 |
 | `redis-exploit` | 976 |
 | `mcp-abuse` | 303 |
 | `litellm-key-replay` | 177 |
 | `docker-abuse` | 161 |
-| `ollama-abuse` | 143 |
-| `llamacpp-abuse` | 124 |
-| `jupyter-abuse` | 50 |
+| `ollama-abuse` | 144 |
+| `llamacpp-abuse` | 125 |
+| `jupyter-abuse` | 51 |
 | `php-abuse` | 24 |
 | `vllm-abuse` | 23 |
 
@@ -32,15 +32,15 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 3093 |
+| `ssh` | 3095 |
 | `redis` | 1008 |
 | `mcp` | 522 |
-| `llamacpp` | 417 |
+| `llamacpp` | 418 |
 | `litellm` | 328 |
-| `vllm` | 321 |
+| `vllm` | 323 |
 | `docker` | 286 |
-| `jupyter` | 270 |
-| `ollama` | 253 |
+| `jupyter` | 271 |
+| `ollama` | 254 |
 | `hfhub` | 215 |
 | `php` | 151 |
 | `ray` | 47 |
@@ -55,7 +55,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `ubuntu` | 415 |
 | `ftpuser` | 214 |
 | `user` | 207 |
-| `guest` | 188 |
+| `guest` | 190 |
 | `test` | 167 |
 | `ftp` | 128 |
 | `git` | 119 |
@@ -103,7 +103,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `w` | 1122 |
 | `INFO` | 695 |
 | `PING` | 532 |
-| `canary_env` | 423 |
+| `canary_env` | 425 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._
