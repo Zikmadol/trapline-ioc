@@ -2,12 +2,12 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**5154 attackers** · **1,164,488 hostile actions** · covering 64 day(s) through 2026-11-15
+**5165 attackers** · **1,167,133 hostile actions** · covering 64 day(s) through 2026-11-15
 
 | signal | count |
 |---|---|
 | GPU / AI-hardware probing | 294 |
-| Used a planted canary credential | 182 |
+| Used a planted canary credential | 187 |
 | Seen on more than one sensor | 438 |
 | Stage-2 hosts named in payloads | 61 |
 
@@ -15,12 +15,12 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 10341 |
-| `ssh-bruteforce` | 1500 |
+| `canary-aws-key` | 10360 |
+| `ssh-bruteforce` | 1504 |
 | `ssh-exploit` | 1402 |
-| `redis-exploit` | 967 |
+| `redis-exploit` | 969 |
 | `mcp-abuse` | 303 |
-| `litellm-key-replay` | 175 |
+| `litellm-key-replay` | 176 |
 | `docker-abuse` | 156 |
 | `ollama-abuse` | 142 |
 | `llamacpp-abuse` | 121 |
@@ -32,8 +32,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 3039 |
-| `redis` | 999 |
+| `ssh` | 3043 |
+| `redis` | 1001 |
 | `mcp` | 521 |
 | `llamacpp` | 410 |
 | `litellm` | 325 |
@@ -41,7 +41,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `docker` | 280 |
 | `jupyter` | 266 |
 | `ollama` | 252 |
-| `hfhub` | 212 |
+| `hfhub` | 213 |
 | `php` | 150 |
 | `ray` | 47 |
 
@@ -62,7 +62,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `deploy` | 116 |
 | `postgres` | 111 |
 | `administrator` | 106 |
-| `config` | 98 |
+| `config` | 100 |
 | `bin` | 93 |
 
 ### Top passwords tried
@@ -101,8 +101,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `df` | 1124 |
 | `top` | 1123 |
 | `w` | 1122 |
-| `INFO` | 689 |
-| `PING` | 526 |
+| `INFO` | 691 |
+| `PING` | 527 |
 | `canary_env` | 420 |
 
 
