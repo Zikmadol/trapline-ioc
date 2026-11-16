@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**5349 attackers** · **1,189,558 hostile actions** · covering 65 day(s) through 2026-11-16
+**5355 attackers** · **1,189,715 hostile actions** · covering 65 day(s) through 2026-11-16
 
 | signal | count |
 |---|---|
@@ -15,12 +15,12 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 10894 |
-| `ssh-bruteforce` | 1632 |
+| `canary-aws-key` | 10912 |
+| `ssh-bruteforce` | 1637 |
 | `ssh-exploit` | 1404 |
 | `redis-exploit` | 987 |
 | `mcp-abuse` | 306 |
-| `litellm-key-replay` | 178 |
+| `litellm-key-replay` | 179 |
 | `docker-abuse` | 163 |
 | `ollama-abuse` | 148 |
 | `llamacpp-abuse` | 126 |
@@ -32,11 +32,11 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 3179 |
+| `ssh` | 3184 |
 | `redis` | 1019 |
 | `mcp` | 527 |
 | `llamacpp` | 424 |
-| `litellm` | 331 |
+| `litellm` | 332 |
 | `vllm` | 325 |
 | `docker` | 290 |
 | `jupyter` | 274 |
@@ -49,20 +49,20 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 1745 |
+| `root` | 1748 |
 | `345gs5662d34` | 1098 |
-| `admin` | 889 |
+| `admin` | 890 |
 | `ubuntu` | 415 |
-| `ftpuser` | 214 |
+| `ftpuser` | 215 |
 | `user` | 212 |
-| `guest` | 203 |
+| `guest` | 204 |
 | `test` | 169 |
-| `ftp` | 128 |
+| `ftp` | 129 |
 | `git` | 119 |
 | `deploy` | 116 |
 | `postgres` | 111 |
 | `administrator` | 106 |
-| `config` | 103 |
+| `config` | 104 |
 | `support` | 100 |
 
 ### Top passwords tried
@@ -71,19 +71,19 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `345gs5662d34` | 1096 |
 | `3245gs5662d34` | 1088 |
-| `123456` | 963 |
+| `123456` | 965 |
 | `123` | 604 |
-| `1234` | 467 |
-| `12345678` | 384 |
-| `admin` | 369 |
-| `12345` | 297 |
+| `1234` | 468 |
+| `12345678` | 385 |
+| `admin` | 370 |
+| `12345` | 298 |
 | `1` | 278 |
-| `admin123` | 232 |
-| `P@ssw0rd` | 224 |
+| `admin123` | 233 |
+| `P@ssw0rd` | 225 |
 | `password` | 174 |
 | `123456789` | 143 |
 | `000000` | 136 |
-| `!QAZ2wsx` | 128 |
+| `1111` | 128 |
 
 ### Top commands run
 
