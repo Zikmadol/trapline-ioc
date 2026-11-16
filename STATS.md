@@ -2,22 +2,22 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**5378 attackers** · **1,190,615 hostile actions** · covering 65 day(s) through 2026-11-16
+**5381 attackers** · **1,190,681 hostile actions** · covering 65 day(s) through 2026-11-16
 
 | signal | count |
 |---|---|
 | GPU / AI-hardware probing | 300 |
 | Used a planted canary credential | 198 |
-| Seen on more than one sensor | 451 |
+| Seen on more than one sensor | 452 |
 | Stage-2 hosts named in payloads | 60 |
 
 ### By category
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 10968 |
-| `ssh-bruteforce` | 1651 |
-| `ssh-exploit` | 1407 |
+| `canary-aws-key` | 10975 |
+| `ssh-bruteforce` | 1653 |
+| `ssh-exploit` | 1408 |
 | `redis-exploit` | 989 |
 | `mcp-abuse` | 306 |
 | `litellm-key-replay` | 179 |
@@ -32,9 +32,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 3202 |
+| `ssh` | 3205 |
 | `redis` | 1021 |
-| `mcp` | 529 |
+| `mcp` | 530 |
 | `llamacpp` | 427 |
 | `litellm` | 334 |
 | `vllm` | 326 |
@@ -49,7 +49,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 1761 |
+| `root` | 1763 |
 | `345gs5662d34` | 1099 |
 | `admin` | 894 |
 | `ubuntu` | 417 |
@@ -58,11 +58,11 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `guest` | 206 |
 | `test` | 171 |
 | `ftp` | 129 |
-| `git` | 119 |
+| `git` | 120 |
 | `deploy` | 117 |
 | `postgres` | 111 |
 | `administrator` | 106 |
-| `config` | 104 |
+| `config` | 106 |
 | `support` | 102 |
 
 ### Top passwords tried
@@ -71,7 +71,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `345gs5662d34` | 1097 |
 | `3245gs5662d34` | 1089 |
-| `123456` | 967 |
+| `123456` | 968 |
 | `123` | 608 |
 | `1234` | 468 |
 | `12345678` | 385 |
