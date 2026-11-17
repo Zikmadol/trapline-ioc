@@ -37,6 +37,7 @@ ip,category,confidence,first_seen,last_seen,tags
 109.77.247.206,canary-aws-key,98,2026-11-17,2026-11-17,canary|cloud-abuse|credential-abuse|honeypot
 13.184.235.217,litellm-key-replay,97,2026-11-13,2026-11-17,abuse|canary|honeypot|key-replay|litellm|prompt-abuse
 89.248.172.11,redis-exploit,95,2026-09-19,2026-11-17,docker|exploit|honeypot|llamacpp|mcp|multi-sensor|php|redis
+82.29.190.176,mcp-abuse,95,2026-09-22,2026-11-17,abuse|honeypot|mcp|multi-sensor
 69.5.20.202,llamacpp-abuse,95,2026-09-18,2026-11-17,abuse|honeypot|llamacpp|multi-sensor|prompt-abuse
 66.132.186.190,redis-exploit,95,2026-09-22,2026-11-17,exploit|honeypot|jupyter|mcp|multi-sensor|redis
 65.49.1.212,redis-exploit,95,2026-09-17,2026-11-17,docker|exploit|hfhub|honeypot|jupyter|llamacpp|multi-sensor|ollama|redis|ssh
@@ -61,8 +62,10 @@ ip,category,confidence,first_seen,last_seen,tags
 164.132.195.45,mcp-abuse,95,2026-09-19,2026-11-17,abuse|honeypot|mcp|multi-sensor
 92.118.39.50,ssh-exploit,90,2026-09-20,2026-11-17,bruteforce|exploit|gpu-probing|honeypot|ssh
 92.118.39.49,ssh-exploit,90,2026-09-14,2026-11-17,bruteforce|exploit|gpu-probing|honeypot|ssh
+89.21.67.190,redis-exploit,90,2026-10-09,2026-11-17,exploit|hfhub|honeypot|litellm|llamacpp|mcp|redis|vllm
 82.29.177.108,mcp-abuse,90,2026-10-18,2026-11-17,abuse|honeypot|mcp
 81.19.216.70,redis-exploit,90,2026-10-20,2026-11-17,exploit|hfhub|honeypot|jupyter|litellm|llamacpp|mcp|ray|redis|vllm
+80.94.92.234,ssh-exploit,90,2026-09-19,2026-11-17,bruteforce|exploit|gpu-probing|honeypot|ssh
 80.241.221.45,mcp-abuse,90,2026-10-22,2026-11-17,abuse|honeypot|mcp
 78.174.210.99,ollama-abuse,90,2026-11-06,2026-11-17,abuse|hfhub|honeypot|llamacpp|ollama|prompt-abuse|vllm
 68.110.27.135,llamacpp-key-replay,90,2026-11-15,2026-11-17,abuse|honeypot|key-replay|llamacpp|prompt-abuse|vllm
@@ -191,7 +194,6 @@ ip,category,confidence,first_seen,last_seen,tags
 93.127.217.131,mcp-abuse,95,2026-09-18,2026-11-15,abuse|honeypot|mcp|multi-sensor
 87.236.176.238,redis-exploit,95,2026-09-26,2026-11-15,docker|exploit|honeypot|jupyter|multi-sensor|redis
 85.217.149.5,redis-exploit,95,2026-09-16,2026-11-15,docker|exploit|honeypot|mcp|multi-sensor|ollama|php|redis|ssh
-82.29.190.176,mcp-abuse,95,2026-09-22,2026-11-15,abuse|honeypot|mcp|multi-sensor
 81.31.208.171,docker-abuse,95,2026-11-02,2026-11-15,abuse|docker|gpu-probing|honeypot|multi-sensor|ollama
 80.66.83.80,redis-exploit,95,2026-09-18,2026-11-15,exploit|hfhub|honeypot|jupyter|litellm|llamacpp|mcp|multi-sensor|redis|vllm
 77.239.124.121,ssh-exploit,95,2026-09-22,2026-11-15,bruteforce|docker|exploit|honeypot|llamacpp|mcp|multi-sensor|ssh
@@ -589,9 +591,7 @@ ip,category,confidence,first_seen,last_seen,tags
 35.210.98.27,ssh-bruteforce,95,2026-10-30,2026-11-09,bruteforce|honeypot|jupyter|multi-sensor|ssh
 147.185.132.9,redis-exploit,95,2026-09-19,2026-11-09,exploit|hfhub|honeypot|multi-sensor|redis
 147.185.132.18,redis-exploit,95,2026-09-24,2026-11-09,exploit|honeypot|llamacpp|multi-sensor|redis|vllm
-89.21.67.190,redis-exploit,90,2026-10-09,2026-11-09,exploit|hfhub|honeypot|litellm|llamacpp|mcp|redis|vllm
 89.21.67.182,redis-exploit,90,2026-09-30,2026-11-09,exploit|hfhub|honeypot|jupyter|litellm|llamacpp|mcp|redis
-80.94.92.234,ssh-exploit,90,2026-09-19,2026-11-09,bruteforce|exploit|gpu-probing|honeypot|ssh
 80.174.118.36,litellm-key-replay,90,2026-11-09,2026-11-09,honeypot|key-replay|litellm
 80.174.118.27,litellm-key-replay,90,2026-10-28,2026-11-09,honeypot|key-replay|litellm
 77.37.51.52,mcp-abuse,90,2026-10-11,2026-11-09,abuse|honeypot|mcp
