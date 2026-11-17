@@ -2,12 +2,12 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**5464 attackers** · **1,194,652 hostile actions** · covering 66 day(s) through 2026-11-17
+**5485 attackers** · **1,195,386 hostile actions** · covering 66 day(s) through 2026-11-17
 
 | signal | count |
 |---|---|
 | GPU / AI-hardware probing | 301 |
-| Used a planted canary credential | 205 |
+| Used a planted canary credential | 224 |
 | Seen on more than one sensor | 454 |
 | Stage-2 hosts named in payloads | 60 |
 
@@ -15,9 +15,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 10999 |
-| `ssh-bruteforce` | 1703 |
-| `ssh-exploit` | 1419 |
+| `canary-aws-key` | 11031 |
+| `ssh-bruteforce` | 1704 |
+| `ssh-exploit` | 1420 |
 | `redis-exploit` | 997 |
 | `mcp-abuse` | 312 |
 | `litellm-key-replay` | 178 |
@@ -32,7 +32,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 3267 |
+| `ssh` | 3269 |
 | `redis` | 1029 |
 | `mcp` | 538 |
 | `llamacpp` | 430 |
@@ -49,14 +49,14 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 1789 |
+| `root` | 1790 |
 | `345gs5662d34` | 1101 |
 | `admin` | 897 |
-| `ubuntu` | 423 |
+| `ubuntu` | 422 |
 | `ftpuser` | 216 |
 | `user` | 214 |
 | `guest` | 211 |
-| `test` | 173 |
+| `test` | 172 |
 | `ftp` | 130 |
 | `git` | 120 |
 | `deploy` | 118 |
@@ -71,12 +71,12 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `345gs5662d34` | 1099 |
 | `3245gs5662d34` | 1091 |
-| `123456` | 978 |
+| `123456` | 979 |
 | `123` | 608 |
 | `1234` | 473 |
 | `12345678` | 386 |
 | `admin` | 373 |
-| `12345` | 301 |
+| `12345` | 302 |
 | `1` | 278 |
 | `admin123` | 234 |
 | `P@ssw0rd` | 233 |
