@@ -2,24 +2,24 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**5558 attackers** · **1,205,325 hostile actions** · covering 66 day(s) through 2026-11-17
+**5564 attackers** · **1,205,519 hostile actions** · covering 66 day(s) through 2026-11-17
 
 | signal | count |
 |---|---|
 | GPU / AI-hardware probing | 310 |
 | Used a planted canary credential | 230 |
-| Seen on more than one sensor | 466 |
+| Seen on more than one sensor | 467 |
 | Stage-2 hosts named in payloads | 61 |
 
 ### By category
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 11185 |
-| `ssh-bruteforce` | 1743 |
+| `canary-aws-key` | 11205 |
+| `ssh-bruteforce` | 1747 |
 | `ssh-exploit` | 1430 |
-| `redis-exploit` | 1001 |
-| `mcp-abuse` | 312 |
+| `redis-exploit` | 1002 |
+| `mcp-abuse` | 313 |
 | `litellm-key-replay` | 179 |
 | `docker-abuse` | 172 |
 | `ollama-abuse` | 150 |
@@ -32,13 +32,13 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 3318 |
-| `redis` | 1033 |
-| `mcp` | 539 |
+| `ssh` | 3322 |
+| `redis` | 1034 |
+| `mcp` | 540 |
 | `llamacpp` | 441 |
 | `vllm` | 337 |
 | `litellm` | 336 |
-| `docker` | 303 |
+| `docker` | 304 |
 | `jupyter` | 279 |
 | `ollama` | 271 |
 | `hfhub` | 224 |
@@ -49,12 +49,12 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 1813 |
+| `root` | 1812 |
 | `345gs5662d34` | 1101 |
 | `admin` | 899 |
 | `ubuntu` | 422 |
+| `guest` | 220 |
 | `ftpuser` | 217 |
-| `guest` | 216 |
 | `user` | 215 |
 | `test` | 173 |
 | `ftp` | 131 |
@@ -102,8 +102,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `top` | 1146 |
 | `w` | 1146 |
 | `INFO` | 713 |
-| `PING` | 545 |
-| `canary_env` | 439 |
+| `PING` | 546 |
+| `canary_env` | 440 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._
