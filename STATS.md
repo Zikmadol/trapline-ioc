@@ -2,23 +2,23 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**5703 attackers** · **1,219,400 hostile actions** · covering 67 day(s) through 2026-11-18
+**5704 attackers** · **1,219,651 hostile actions** · covering 67 day(s) through 2026-11-18
 
 | signal | count |
 |---|---|
 | GPU / AI-hardware probing | 313 |
 | Used a planted canary credential | 236 |
-| Seen on more than one sensor | 473 |
+| Seen on more than one sensor | 474 |
 | Stage-2 hosts named in payloads | 64 |
 
 ### By category
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 12118 |
+| `canary-aws-key` | 12139 |
 | `ssh-bruteforce` | 1833 |
 | `ssh-exploit` | 1437 |
-| `redis-exploit` | 1015 |
+| `redis-exploit` | 1016 |
 | `mcp-abuse` | 319 |
 | `docker-abuse` | 182 |
 | `litellm-key-replay` | 180 |
@@ -33,16 +33,16 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | protocol | events |
 |---|---|
 | `ssh` | 3418 |
-| `redis` | 1047 |
-| `mcp` | 552 |
-| `llamacpp` | 450 |
+| `redis` | 1048 |
+| `mcp` | 553 |
+| `llamacpp` | 451 |
+| `vllm` | 344 |
 | `litellm` | 344 |
-| `vllm` | 343 |
 | `docker` | 315 |
-| `jupyter` | 282 |
+| `jupyter` | 283 |
 | `ollama` | 274 |
-| `hfhub` | 228 |
-| `php` | 163 |
+| `hfhub` | 229 |
+| `php` | 164 |
 | `ray` | 51 |
 
 ### Top usernames tried
@@ -52,14 +52,14 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `root` | 1857 |
 | `345gs5662d34` | 1103 |
 | `admin` | 913 |
-| `ubuntu` | 424 |
+| `ubuntu` | 423 |
 | `guest` | 225 |
 | `ftpuser` | 220 |
 | `user` | 217 |
 | `test` | 174 |
 | `ftp` | 134 |
+| `deploy` | 124 |
 | `git` | 123 |
-| `deploy` | 123 |
 | `config` | 119 |
 | `support` | 113 |
 | `postgres` | 112 |
@@ -76,7 +76,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `1234` | 493 |
 | `12345678` | 392 |
 | `admin` | 387 |
-| `12345` | 322 |
+| `12345` | 323 |
 | `1` | 282 |
 | `P@ssw0rd` | 242 |
 | `admin123` | 237 |
