@@ -2,11 +2,11 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**5671 attackers** · **1,217,341 hostile actions** · covering 67 day(s) through 2026-11-18
+**5674 attackers** · **1,217,689 hostile actions** · covering 67 day(s) through 2026-11-18
 
 | signal | count |
 |---|---|
-| GPU / AI-hardware probing | 310 |
+| GPU / AI-hardware probing | 311 |
 | Used a planted canary credential | 233 |
 | Seen on more than one sensor | 471 |
 | Stage-2 hosts named in payloads | 63 |
@@ -15,14 +15,14 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 11684 |
+| `canary-aws-key` | 11721 |
 | `ssh-bruteforce` | 1825 |
-| `ssh-exploit` | 1435 |
+| `ssh-exploit` | 1436 |
 | `redis-exploit` | 1010 |
 | `mcp-abuse` | 318 |
 | `litellm-key-replay` | 179 |
-| `docker-abuse` | 172 |
-| `ollama-abuse` | 152 |
+| `docker-abuse` | 173 |
+| `ollama-abuse` | 153 |
 | `llamacpp-abuse` | 132 |
 | `jupyter-abuse` | 51 |
 | `vllm-abuse` | 27 |
@@ -32,15 +32,15 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 3407 |
+| `ssh` | 3408 |
 | `redis` | 1042 |
 | `mcp` | 547 |
 | `llamacpp` | 449 |
 | `vllm` | 343 |
 | `litellm` | 341 |
-| `docker` | 305 |
+| `docker` | 306 |
 | `jupyter` | 282 |
-| `ollama` | 273 |
+| `ollama` | 274 |
 | `hfhub` | 227 |
 | `php` | 163 |
 | `ray` | 50 |
@@ -52,18 +52,18 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `root` | 1852 |
 | `345gs5662d34` | 1103 |
 | `admin` | 911 |
-| `ubuntu` | 424 |
+| `ubuntu` | 422 |
 | `guest` | 224 |
 | `ftpuser` | 219 |
-| `user` | 217 |
+| `user` | 216 |
 | `test` | 174 |
 | `ftp` | 133 |
 | `git` | 123 |
 | `deploy` | 122 |
-| `config` | 116 |
+| `config` | 118 |
 | `support` | 113 |
 | `postgres` | 112 |
-| `administrator` | 110 |
+| `administrator` | 111 |
 
 ### Top passwords tried
 
