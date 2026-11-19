@@ -2,21 +2,21 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**5709 attackers** · **1,225,043 hostile actions** · covering 67 day(s) through 2026-11-18
+**5717 attackers** · **1,225,802 hostile actions** · covering 68 day(s) through 2026-11-19
 
 | signal | count |
 |---|---|
 | GPU / AI-hardware probing | 314 |
-| Used a planted canary credential | 236 |
+| Used a planted canary credential | 237 |
 | Seen on more than one sensor | 475 |
-| Stage-2 hosts named in payloads | 64 |
+| Stage-2 hosts named in payloads | 65 |
 
 ### By category
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 12301 |
-| `ssh-bruteforce` | 1833 |
+| `canary-aws-key` | 12340 |
+| `ssh-bruteforce` | 1839 |
 | `ssh-exploit` | 1439 |
 | `redis-exploit` | 1017 |
 | `mcp-abuse` | 320 |
@@ -32,7 +32,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 3421 |
+| `ssh` | 3427 |
 | `redis` | 1049 |
 | `mcp` | 554 |
 | `llamacpp` | 455 |
@@ -42,17 +42,17 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `jupyter` | 283 |
 | `ollama` | 274 |
 | `hfhub` | 230 |
-| `php` | 164 |
+| `php` | 165 |
 | `ray` | 51 |
 
 ### Top usernames tried
 
 | username | tries |
 |---|---|
-| `root` | 1859 |
+| `root` | 1864 |
 | `345gs5662d34` | 1103 |
 | `admin` | 914 |
-| `ubuntu` | 423 |
+| `ubuntu` | 424 |
 | `guest` | 225 |
 | `ftpuser` | 220 |
 | `user` | 217 |
@@ -81,7 +81,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `P@ssw0rd` | 242 |
 | `admin123` | 237 |
 | `password` | 175 |
-| `123456789` | 145 |
+| `123456789` | 146 |
 | `000000` | 139 |
 | `1111` | 134 |
 
@@ -89,7 +89,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | command | times |
 |---|---|
-| `uname` | 1561 |
+| `uname` | 1562 |
 | `cat` | 1343 |
 | `cd` | 1337 |
 | `echo` | 1317 |
