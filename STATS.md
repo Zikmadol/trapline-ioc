@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**5782 attackers** · **1,252,751 hostile actions** · covering 69 day(s) through 2026-11-20
+**5783 attackers** · **1,252,828 hostile actions** · covering 69 day(s) through 2026-11-20
 
 | signal | count |
 |---|---|
@@ -15,11 +15,11 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 13324 |
+| `canary-aws-key` | 13345 |
 | `ssh-bruteforce` | 1858 |
 | `ssh-exploit` | 1449 |
 | `redis-exploit` | 1035 |
-| `mcp-abuse` | 323 |
+| `mcp-abuse` | 324 |
 | `docker-abuse` | 184 |
 | `litellm-key-replay` | 183 |
 | `ollama-abuse` | 155 |
@@ -34,12 +34,12 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `ssh` | 3458 |
 | `redis` | 1067 |
-| `mcp` | 562 |
+| `mcp` | 563 |
 | `llamacpp` | 460 |
 | `litellm` | 355 |
 | `vllm` | 354 |
 | `docker` | 320 |
-| `jupyter` | 288 |
+| `jupyter` | 289 |
 | `ollama` | 278 |
 | `hfhub` | 235 |
 | `php` | 167 |
@@ -50,7 +50,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | username | tries |
 |---|---|
 | `root` | 1880 |
-| `345gs5662d34` | 1104 |
+| `345gs5662d34` | 1105 |
 | `admin` | 917 |
 | `ubuntu` | 425 |
 | `guest` | 228 |
@@ -69,13 +69,13 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | password | tries |
 |---|---|
-| `345gs5662d34` | 1101 |
-| `3245gs5662d34` | 1093 |
+| `345gs5662d34` | 1102 |
+| `3245gs5662d34` | 1094 |
 | `123456` | 1010 |
 | `123` | 616 |
 | `1234` | 500 |
 | `12345678` | 394 |
-| `admin` | 389 |
+| `admin` | 390 |
 | `12345` | 332 |
 | `1` | 289 |
 | `P@ssw0rd` | 244 |
@@ -89,21 +89,21 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | command | times |
 |---|---|
-| `uname` | 1573 |
-| `cat` | 1353 |
-| `cd` | 1346 |
-| `echo` | 1328 |
-| `crontab` | 1294 |
-| `lscpu` | 1289 |
-| `ls` | 1179 |
-| `whoami` | 1174 |
-| `free` | 1173 |
-| `df` | 1171 |
-| `top` | 1169 |
-| `w` | 1169 |
+| `uname` | 1574 |
+| `cat` | 1354 |
+| `cd` | 1347 |
+| `echo` | 1329 |
+| `crontab` | 1295 |
+| `lscpu` | 1290 |
+| `ls` | 1180 |
+| `whoami` | 1175 |
+| `free` | 1174 |
+| `df` | 1172 |
+| `top` | 1170 |
+| `w` | 1170 |
 | `INFO` | 730 |
 | `PING` | 561 |
-| `canary_env` | 454 |
+| `canary_env` | 455 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._
