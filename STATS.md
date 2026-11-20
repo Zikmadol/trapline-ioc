@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**5835 attackers** · **1,272,937 hostile actions** · covering 69 day(s) through 2026-11-20
+**5837 attackers** · **1,273,158 hostile actions** · covering 69 day(s) through 2026-11-20
 
 | signal | count |
 |---|---|
@@ -16,12 +16,12 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | category | IPs |
 |---|---|
 | `canary-aws-key` | 13508 |
-| `ssh-bruteforce` | 1878 |
-| `ssh-exploit` | 1453 |
+| `ssh-bruteforce` | 1877 |
+| `ssh-exploit` | 1455 |
 | `redis-exploit` | 1045 |
 | `mcp-abuse` | 326 |
 | `docker-abuse` | 188 |
-| `litellm-key-replay` | 185 |
+| `litellm-key-replay` | 186 |
 | `ollama-abuse` | 158 |
 | `llamacpp-abuse` | 135 |
 | `jupyter-abuse` | 50 |
@@ -32,11 +32,11 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 3482 |
+| `ssh` | 3483 |
 | `redis` | 1077 |
 | `mcp` | 567 |
 | `llamacpp` | 464 |
-| `litellm` | 357 |
+| `litellm` | 358 |
 | `vllm` | 355 |
 | `docker` | 325 |
 | `jupyter` | 292 |
@@ -51,8 +51,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `root` | 1890 |
 | `345gs5662d34` | 1105 |
-| `admin` | 926 |
-| `ubuntu` | 428 |
+| `admin` | 927 |
+| `ubuntu` | 429 |
 | `guest` | 230 |
 | `ftpuser` | 224 |
 | `user` | 218 |
@@ -72,16 +72,16 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `345gs5662d34` | 1102 |
 | `3245gs5662d34` | 1094 |
 | `123456` | 1018 |
-| `123` | 622 |
+| `123` | 623 |
 | `1234` | 506 |
 | `12345678` | 399 |
 | `admin` | 395 |
-| `12345` | 337 |
+| `12345` | 338 |
 | `1` | 292 |
+| `admin123` | 245 |
 | `P@ssw0rd` | 245 |
-| `admin123` | 244 |
 | `password` | 173 |
-| `123456789` | 147 |
+| `123456789` | 148 |
 | `000000` | 142 |
 | `1111` | 142 |
 
