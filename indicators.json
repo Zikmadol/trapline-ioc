@@ -1,9 +1,9 @@
 {
   "feed": "trapline-ioc",
-  "generated": "2026-11-21T16:18:49+00:00",
-  "count": 5894,
+  "generated": "2026-11-21T17:18:48+00:00",
+  "count": 5895,
   "days": {
-    "2026-11-21": 140,
+    "2026-11-21": 145,
     "2026-11-20": 195,
     "2026-11-19": 177,
     "2026-11-18": 231,
@@ -77,6 +77,24 @@
   "license": "CC-BY-4.0",
   "description": "Attacker IPs confirmed by first-party honeypot and canary observation. Each IP took a hostile action against our decoys. Research scanners are excluded from this curated view.",
   "indicators": [
+    {
+      "ip": "13.184.235.217",
+      "category": "litellm-key-replay",
+      "categories": [
+        "litellm-key-replay"
+      ],
+      "confidence": 97,
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-21",
+      "tags": [
+        "abuse",
+        "canary",
+        "honeypot",
+        "key-replay",
+        "litellm",
+        "prompt-abuse"
+      ]
+    },
     {
       "ip": "89.248.172.11",
       "category": "redis-exploit",
@@ -239,6 +257,25 @@
       ]
     },
     {
+      "ip": "66.228.40.100",
+      "category": "redis-exploit",
+      "categories": [
+        "redis-exploit"
+      ],
+      "confidence": 95,
+      "first_seen": "2026-09-16",
+      "last_seen": "2026-11-21",
+      "tags": [
+        "exploit",
+        "honeypot",
+        "jupyter",
+        "llamacpp",
+        "multi-sensor",
+        "redis",
+        "vllm"
+      ]
+    },
+    {
       "ip": "66.132.195.40",
       "category": "redis-exploit",
       "categories": [
@@ -339,6 +376,26 @@
         "llamacpp",
         "multi-sensor",
         "php"
+      ]
+    },
+    {
+      "ip": "45.156.128.185",
+      "category": "php-abuse",
+      "categories": [
+        "php-abuse"
+      ],
+      "confidence": 95,
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-11-21",
+      "tags": [
+        "abuse",
+        "hfhub",
+        "honeypot",
+        "llamacpp",
+        "multi-sensor",
+        "php",
+        "php2shell",
+        "vllm"
       ]
     },
     {
@@ -1807,6 +1864,21 @@
       ]
     },
     {
+      "ip": "31.185.105.65",
+      "category": "redis-exploit",
+      "categories": [
+        "redis-exploit"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "tags": [
+        "exploit",
+        "honeypot",
+        "redis"
+      ]
+    },
+    {
       "ip": "27.79.46.186",
       "category": "ssh-bruteforce",
       "categories": [
@@ -2697,6 +2769,23 @@
       ]
     },
     {
+      "ip": "136.0.42.239",
+      "category": "ollama-key-replay",
+      "categories": [
+        "ollama-key-replay"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-10-10",
+      "last_seen": "2026-11-21",
+      "tags": [
+        "abuse",
+        "honeypot",
+        "key-replay",
+        "ollama",
+        "prompt-abuse"
+      ]
+    },
+    {
       "ip": "136.0.10.220",
       "category": "ollama-abuse",
       "categories": [
@@ -2840,8 +2929,9 @@
     },
     {
       "ip": "118.193.45.134",
-      "category": "ssh-exploit",
+      "category": "ssh-bruteforce",
       "categories": [
+        "ssh-bruteforce",
         "ssh-exploit"
       ],
       "confidence": 90,
@@ -3138,6 +3228,25 @@
         "key-replay",
         "litellm",
         "llamacpp"
+      ]
+    },
+    {
+      "ip": "104.28.195.186",
+      "category": "litellm-key-replay",
+      "categories": [
+        "litellm-key-replay",
+        "llamacpp-abuse"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-21",
+      "tags": [
+        "abuse",
+        "honeypot",
+        "key-replay",
+        "litellm",
+        "llamacpp",
+        "prompt-abuse"
       ]
     },
     {
@@ -3467,24 +3576,6 @@
       ]
     },
     {
-      "ip": "13.184.235.217",
-      "category": "litellm-key-replay",
-      "categories": [
-        "litellm-key-replay"
-      ],
-      "confidence": 97,
-      "first_seen": "2026-11-13",
-      "last_seen": "2026-11-20",
-      "tags": [
-        "abuse",
-        "canary",
-        "honeypot",
-        "key-replay",
-        "litellm",
-        "prompt-abuse"
-      ]
-    },
-    {
       "ip": "93.127.217.131",
       "category": "mcp-abuse",
       "categories": [
@@ -3658,25 +3749,6 @@
         "llamacpp",
         "multi-sensor",
         "ollama",
-        "vllm"
-      ]
-    },
-    {
-      "ip": "66.228.40.100",
-      "category": "redis-exploit",
-      "categories": [
-        "redis-exploit"
-      ],
-      "confidence": 95,
-      "first_seen": "2026-09-16",
-      "last_seen": "2026-11-20",
-      "tags": [
-        "exploit",
-        "honeypot",
-        "jupyter",
-        "llamacpp",
-        "multi-sensor",
-        "redis",
         "vllm"
       ]
     },
@@ -6024,23 +6096,6 @@
         "exploit",
         "honeypot",
         "ssh"
-      ]
-    },
-    {
-      "ip": "136.0.42.239",
-      "category": "ollama-key-replay",
-      "categories": [
-        "ollama-key-replay"
-      ],
-      "confidence": 90,
-      "first_seen": "2026-10-10",
-      "last_seen": "2026-11-20",
-      "tags": [
-        "abuse",
-        "honeypot",
-        "key-replay",
-        "ollama",
-        "prompt-abuse"
       ]
     },
     {
@@ -33488,22 +33543,6 @@
       ]
     },
     {
-      "ip": "104.28.195.186",
-      "category": "llamacpp-abuse",
-      "categories": [
-        "llamacpp-abuse"
-      ],
-      "confidence": 90,
-      "first_seen": "2026-11-08",
-      "last_seen": "2026-11-08",
-      "tags": [
-        "abuse",
-        "honeypot",
-        "llamacpp",
-        "prompt-abuse"
-      ]
-    },
-    {
       "ip": "103.67.188.52",
       "category": "ssh-exploit",
       "categories": [
@@ -40568,25 +40607,6 @@
         "mcp",
         "multi-sensor",
         "redis"
-      ]
-    },
-    {
-      "ip": "45.156.128.185",
-      "category": "php-abuse",
-      "categories": [
-        "php-abuse"
-      ],
-      "confidence": 95,
-      "first_seen": "2026-10-26",
-      "last_seen": "2026-11-01",
-      "tags": [
-        "abuse",
-        "hfhub",
-        "honeypot",
-        "llamacpp",
-        "multi-sensor",
-        "php",
-        "php2shell"
       ]
     },
     {
