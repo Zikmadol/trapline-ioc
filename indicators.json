@@ -1,9 +1,9 @@
 {
   "feed": "trapline-ioc",
-  "generated": "2026-11-22T12:18:50+00:00",
-  "count": 5944,
+  "generated": "2026-11-22T13:18:51+00:00",
+  "count": 5946,
   "days": {
-    "2026-11-22": 84,
+    "2026-11-22": 87,
     "2026-11-21": 198,
     "2026-11-20": 195,
     "2026-11-19": 177,
@@ -79,6 +79,23 @@
   "description": "Attacker IPs confirmed by first-party honeypot and canary observation. Each IP took a hostile action against our decoys. Research scanners are excluded from this curated view.",
   "indicators": [
     {
+      "ip": "79.124.58.82",
+      "category": "llamacpp-abuse",
+      "categories": [
+        "llamacpp-abuse"
+      ],
+      "confidence": 95,
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-11-22",
+      "tags": [
+        "abuse",
+        "honeypot",
+        "llamacpp",
+        "multi-sensor",
+        "php"
+      ]
+    },
+    {
       "ip": "69.5.20.202",
       "category": "llamacpp-abuse",
       "categories": [
@@ -93,6 +110,24 @@
         "llamacpp",
         "multi-sensor",
         "prompt-abuse"
+      ]
+    },
+    {
+      "ip": "69.5.169.12",
+      "category": "redis-exploit",
+      "categories": [
+        "redis-exploit"
+      ],
+      "confidence": 95,
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-11-22",
+      "tags": [
+        "exploit",
+        "honeypot",
+        "multi-sensor",
+        "php",
+        "redis",
+        "ssh"
       ]
     },
     {
@@ -1036,6 +1071,21 @@
         "gpu-probing",
         "honeypot",
         "ssh"
+      ]
+    },
+    {
+      "ip": "92.113.25.237",
+      "category": "mcp-abuse",
+      "categories": [
+        "mcp-abuse"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-11-22",
+      "tags": [
+        "abuse",
+        "honeypot",
+        "mcp"
       ]
     },
     {
@@ -2281,6 +2331,21 @@
       ]
     },
     {
+      "ip": "116.62.84.191",
+      "category": "redis-exploit",
+      "categories": [
+        "redis-exploit"
+      ],
+      "confidence": 90,
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "tags": [
+        "exploit",
+        "honeypot",
+        "redis"
+      ]
+    },
+    {
       "ip": "109.167.40.63",
       "category": "ssh-exploit",
       "categories": [
@@ -2363,6 +2428,21 @@
       ]
     },
     {
+      "ip": "82.156.227.70",
+      "category": "payload-host",
+      "categories": [
+        "payload-host"
+      ],
+      "confidence": 75,
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "tags": [
+        "derived",
+        "honeypot",
+        "stage2"
+      ]
+    },
+    {
       "ip": "172.245.22.123",
       "category": "canary-aws-key",
       "categories": [
@@ -2430,23 +2510,6 @@
         "honeypot",
         "mcp",
         "multi-sensor"
-      ]
-    },
-    {
-      "ip": "79.124.58.82",
-      "category": "llamacpp-abuse",
-      "categories": [
-        "llamacpp-abuse"
-      ],
-      "confidence": 95,
-      "first_seen": "2026-10-17",
-      "last_seen": "2026-11-21",
-      "tags": [
-        "abuse",
-        "honeypot",
-        "llamacpp",
-        "multi-sensor",
-        "php"
       ]
     },
     {
@@ -3317,21 +3380,6 @@
       ],
       "confidence": 90,
       "first_seen": "2026-10-09",
-      "last_seen": "2026-11-21",
-      "tags": [
-        "abuse",
-        "honeypot",
-        "mcp"
-      ]
-    },
-    {
-      "ip": "92.113.25.237",
-      "category": "mcp-abuse",
-      "categories": [
-        "mcp-abuse"
-      ],
-      "confidence": 90,
-      "first_seen": "2026-10-29",
       "last_seen": "2026-11-21",
       "tags": [
         "abuse",
@@ -30308,24 +30356,6 @@
         "cloud-abuse",
         "credential-abuse",
         "honeypot"
-      ]
-    },
-    {
-      "ip": "69.5.169.12",
-      "category": "redis-exploit",
-      "categories": [
-        "redis-exploit"
-      ],
-      "confidence": 95,
-      "first_seen": "2026-10-24",
-      "last_seen": "2026-11-11",
-      "tags": [
-        "exploit",
-        "honeypot",
-        "multi-sensor",
-        "php",
-        "redis",
-        "ssh"
       ]
     },
     {
