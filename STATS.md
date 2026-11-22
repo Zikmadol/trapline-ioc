@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**5958 attackers** · **1,314,753 hostile actions** · covering 71 day(s) through 2026-11-22
+**5959 attackers** · **1,318,045 hostile actions** · covering 71 day(s) through 2026-11-22
 
 | signal | count |
 |---|---|
@@ -15,9 +15,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 13519 |
+| `canary-aws-key` | 13521 |
 | `ssh-bruteforce` | 1907 |
-| `ssh-exploit` | 1461 |
+| `ssh-exploit` | 1462 |
 | `redis-exploit` | 1075 |
 | `mcp-abuse` | 333 |
 | `docker-abuse` | 210 |
@@ -32,7 +32,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 3524 |
+| `ssh` | 3525 |
 | `redis` | 1107 |
 | `mcp` | 580 |
 | `llamacpp` | 489 |
@@ -51,8 +51,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 |---|---|
 | `root` | 1910 |
 | `345gs5662d34` | 1106 |
-| `admin` | 938 |
-| `ubuntu` | 434 |
+| `admin` | 939 |
+| `ubuntu` | 435 |
 | `guest` | 234 |
 | `ftpuser` | 227 |
 | `user` | 219 |
@@ -72,13 +72,13 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `345gs5662d34` | 1103 |
 | `3245gs5662d34` | 1095 |
 | `123456` | 1030 |
-| `123` | 630 |
+| `123` | 631 |
 | `1234` | 515 |
 | `12345678` | 404 |
 | `admin` | 402 |
 | `12345` | 348 |
 | `1` | 297 |
-| `admin123` | 251 |
+| `admin123` | 252 |
 | `P@ssw0rd` | 249 |
 | `password` | 172 |
 | `123456789` | 150 |
@@ -89,9 +89,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | command | times |
 |---|---|
-| `uname` | 1594 |
-| `cat` | 1369 |
-| `cd` | 1364 |
+| `uname` | 1595 |
+| `cat` | 1370 |
+| `cd` | 1365 |
 | `echo` | 1339 |
 | `crontab` | 1306 |
 | `lscpu` | 1299 |
