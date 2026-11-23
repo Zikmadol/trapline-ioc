@@ -2,30 +2,30 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**6040 attackers** · **1,330,698 hostile actions** · covering 72 day(s) through 2026-11-23
+**6046 attackers** · **1,330,795 hostile actions** · covering 72 day(s) through 2026-11-23
 
 | signal | count |
 |---|---|
 | GPU / AI-hardware probing | 333 |
-| Used a planted canary credential | 259 |
+| Used a planted canary credential | 261 |
 | Seen on more than one sensor | 504 |
-| Stage-2 hosts named in payloads | 69 |
+| Stage-2 hosts named in payloads | 70 |
 
 ### By category
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 13539 |
+| `canary-aws-key` | 13548 |
 | `ssh-bruteforce` | 1911 |
 | `ssh-exploit` | 1463 |
-| `redis-exploit` | 1086 |
+| `redis-exploit` | 1087 |
 | `mcp-abuse` | 338 |
 | `docker-abuse` | 214 |
 | `litellm-key-replay` | 191 |
 | `ollama-abuse` | 164 |
-| `llamacpp-abuse` | 155 |
+| `llamacpp-abuse` | 156 |
 | `jupyter-abuse` | 53 |
-| `litellm-abuse` | 40 |
+| `litellm-abuse` | 41 |
 | `vllm-abuse` | 29 |
 
 ### By protocol
@@ -33,16 +33,16 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | protocol | events |
 |---|---|
 | `ssh` | 3531 |
-| `redis` | 1118 |
-| `mcp` | 610 |
-| `llamacpp` | 535 |
-| `vllm` | 407 |
-| `litellm` | 397 |
+| `redis` | 1119 |
+| `mcp` | 612 |
+| `llamacpp` | 537 |
+| `vllm` | 409 |
+| `litellm` | 399 |
 | `docker` | 361 |
-| `jupyter` | 310 |
+| `jupyter` | 313 |
 | `ollama` | 295 |
-| `hfhub` | 253 |
-| `php` | 185 |
+| `hfhub` | 254 |
+| `php` | 187 |
 | `ray` | 60 |
 
 ### Top usernames tried
@@ -103,7 +103,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `w` | 1179 |
 | `INFO` | 768 |
 | `PING` | 595 |
-| `canary_env` | 509 |
+| `canary_env` | 510 |
 
 
 _Generated from first-party honeypot capture. CC BY 4.0._
