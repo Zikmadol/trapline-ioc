@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**6113 attackers** · **1,339,669 hostile actions** · covering 73 day(s) through 2026-11-24
+**6116 attackers** · **1,339,728 hostile actions** · covering 73 day(s) through 2026-11-24
 
 | signal | count |
 |---|---|
@@ -16,12 +16,12 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | category | IPs |
 |---|---|
 | `canary-aws-key` | 13553 |
-| `ssh-bruteforce` | 1922 |
+| `ssh-bruteforce` | 1923 |
 | `ssh-exploit` | 1464 |
-| `redis-exploit` | 1107 |
+| `redis-exploit` | 1108 |
 | `mcp-abuse` | 345 |
 | `docker-abuse` | 218 |
-| `litellm-key-replay` | 195 |
+| `litellm-key-replay` | 196 |
 | `ollama-abuse` | 168 |
 | `llamacpp-abuse` | 158 |
 | `jupyter-abuse` | 55 |
@@ -32,12 +32,12 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 3545 |
-| `redis` | 1139 |
+| `ssh` | 3546 |
+| `redis` | 1140 |
 | `mcp` | 626 |
 | `llamacpp` | 550 |
 | `vllm` | 418 |
-| `litellm` | 408 |
+| `litellm` | 410 |
 | `docker` | 366 |
 | `jupyter` | 322 |
 | `ollama` | 299 |
@@ -49,7 +49,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 1915 |
+| `root` | 1916 |
 | `345gs5662d34` | 1106 |
 | `admin` | 948 |
 | `ubuntu` | 438 |
@@ -74,7 +74,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `123456` | 1038 |
 | `123` | 633 |
 | `1234` | 520 |
-| `admin` | 413 |
+| `admin` | 414 |
 | `12345678` | 409 |
 | `12345` | 352 |
 | `1` | 301 |
@@ -101,8 +101,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `df` | 1180 |
 | `top` | 1179 |
 | `w` | 1179 |
-| `INFO` | 780 |
-| `PING` | 606 |
+| `INFO` | 781 |
+| `PING` | 607 |
 | `canary_env` | 521 |
 
 
