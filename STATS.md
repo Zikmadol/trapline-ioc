@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**6394 attackers** · **1,382,619 hostile actions** · covering 75 day(s) through 2026-11-26
+**6400 attackers** · **1,385,602 hostile actions** · covering 75 day(s) through 2026-11-26
 
 | signal | count |
 |---|---|
@@ -16,9 +16,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | category | IPs |
 |---|---|
 | `canary-aws-key` | 13601 |
-| `ssh-bruteforce` | 1974 |
+| `ssh-bruteforce` | 1979 |
 | `ssh-exploit` | 1475 |
-| `redis-exploit` | 1175 |
+| `redis-exploit` | 1176 |
 | `mcp-abuse` | 363 |
 | `docker-abuse` | 230 |
 | `llamacpp-abuse` | 225 |
@@ -32,8 +32,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | protocol | events |
 |---|---|
-| `ssh` | 3616 |
-| `redis` | 1207 |
+| `ssh` | 3621 |
+| `redis` | 1208 |
 | `mcp` | 714 |
 | `llamacpp` | 626 |
 | `vllm` | 499 |
@@ -49,7 +49,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 
 | username | tries |
 |---|---|
-| `root` | 1967 |
+| `root` | 1971 |
 | `345gs5662d34` | 1107 |
 | `admin` | 961 |
 | `ubuntu` | 442 |
@@ -72,12 +72,12 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `345gs5662d34` | 1103 |
 | `3245gs5662d34` | 1097 |
 | `123456` | 1049 |
-| `123` | 639 |
+| `123` | 640 |
 | `1234` | 541 |
 | `admin` | 422 |
 | `12345678` | 415 |
 | `12345` | 359 |
-| `1` | 303 |
+| `1` | 302 |
 | `admin123` | 267 |
 | `P@ssw0rd` | 258 |
 | `password` | 175 |
@@ -101,8 +101,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `df` | 1197 |
 | `top` | 1196 |
 | `w` | 1196 |
-| `INFO` | 836 |
-| `PING` | 659 |
+| `INFO` | 837 |
+| `PING` | 660 |
 | `canary_env` | 600 |
 
 
