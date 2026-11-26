@@ -1,4 +1,5 @@
 ip,category,confidence,first_seen,last_seen,tags
+138.199.60.30,canary-aws-key,98,2026-11-26,2026-11-26,canary|cloud-abuse|credential-abuse|honeypot
 89.248.172.11,redis-exploit,95,2026-09-19,2026-11-26,docker|exploit|honeypot|llamacpp|mcp|multi-sensor|php|redis
 69.5.20.202,llamacpp-abuse,95,2026-09-18,2026-11-26,abuse|honeypot|llamacpp|multi-sensor|prompt-abuse
 68.166.163.72,docker-abuse,95,2026-11-09,2026-11-26,abuse|docker|gpu-probing|honeypot|llamacpp|multi-sensor|ollama
@@ -39,6 +40,7 @@ ip,category,confidence,first_seen,last_seen,tags
 9.151.139.186,jupyter-abuse,90,2026-11-26,2026-11-26,abuse|honeypot|jupyter
 9.151.135.38,ray-abuse,90,2026-11-26,2026-11-26,abuse|honeypot|jupyter|ray|vllm
 9.151.129.244,ray-abuse,90,2026-11-26,2026-11-26,abuse|honeypot|ray
+85.155.14.60,llamacpp-abuse,90,2026-11-24,2026-11-26,abuse|honeypot|llamacpp|vllm
 82.196.104.78,llamacpp-abuse,90,2026-11-26,2026-11-26,abuse|honeypot|llamacpp|mcp|vllm
 72.1.140.95,mcp-abuse,90,2026-11-26,2026-11-26,abuse|gpu-probing|honeypot|mcp
 68.110.27.135,llamacpp-key-replay,90,2026-11-15,2026-11-26,abuse|honeypot|key-replay|llamacpp|prompt-abuse|vllm
@@ -79,6 +81,7 @@ ip,category,confidence,first_seen,last_seen,tags
 136.0.10.220,ollama-abuse,90,2026-11-14,2026-11-26,abuse|honeypot|ollama|prompt-abuse
 125.229.173.196,litellm-key-replay,90,2026-11-02,2026-11-26,honeypot|key-replay|litellm
 124.43.203.26,llamacpp-abuse,90,2026-11-26,2026-11-26,abuse|honeypot|llamacpp|mcp|vllm
+114.252.238.31,litellm-key-replay,90,2026-11-26,2026-11-26,honeypot|key-replay|litellm
 109.160.32.32,ssh-exploit,90,2026-11-25,2026-11-26,bruteforce|exploit|gpu-probing|honeypot|ssh
 109.160.32.179,ssh-exploit,90,2026-10-22,2026-11-26,bruteforce|exploit|gpu-probing|honeypot|ssh
 104.28.232.97,ollama-abuse,90,2026-10-20,2026-11-26,abuse|honeypot|ollama|prompt-abuse
@@ -273,7 +276,6 @@ ip,category,confidence,first_seen,last_seen,tags
 89.21.67.190,redis-exploit,90,2026-10-09,2026-11-24,exploit|hfhub|honeypot|litellm|llamacpp|mcp|redis|vllm
 89.21.67.182,redis-exploit,90,2026-09-30,2026-11-24,exploit|hfhub|honeypot|jupyter|litellm|llamacpp|mcp|redis|vllm
 88.99.63.208,mcp-abuse,90,2026-11-24,2026-11-24,abuse|honeypot|mcp
-85.155.14.60,llamacpp-abuse,90,2026-11-24,2026-11-24,abuse|honeypot|llamacpp
 81.19.216.105,redis-exploit,90,2026-10-08,2026-11-24,exploit|honeypot|jupyter|llamacpp|mcp|redis|vllm
 81.19.216.102,redis-exploit,90,2026-10-15,2026-11-24,exploit|hfhub|honeypot|litellm|llamacpp|mcp|redis|vllm
 77.239.124.150,ssh-exploit,90,2026-10-30,2026-11-24,bruteforce|exploit|gpu-probing|honeypot|ssh
