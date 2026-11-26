@@ -2,27 +2,27 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**6400 attackers** · **1,385,602 hostile actions** · covering 75 day(s) through 2026-11-26
+**6405 attackers** · **1,388,066 hostile actions** · covering 75 day(s) through 2026-11-26
 
 | signal | count |
 |---|---|
 | GPU / AI-hardware probing | 345 |
 | Used a planted canary credential | 276 |
-| Seen on more than one sensor | 523 |
+| Seen on more than one sensor | 524 |
 | Stage-2 hosts named in payloads | 74 |
 
 ### By category
 
 | category | IPs |
 |---|---|
-| `canary-aws-key` | 13601 |
+| `canary-aws-key` | 13604 |
 | `ssh-bruteforce` | 1979 |
 | `ssh-exploit` | 1475 |
-| `redis-exploit` | 1176 |
+| `redis-exploit` | 1180 |
 | `mcp-abuse` | 363 |
 | `docker-abuse` | 230 |
 | `llamacpp-abuse` | 225 |
-| `litellm-key-replay` | 216 |
+| `litellm-key-replay` | 217 |
 | `ollama-abuse` | 170 |
 | `jupyter-abuse` | 58 |
 | `litellm-abuse` | 41 |
@@ -33,16 +33,16 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | protocol | events |
 |---|---|
 | `ssh` | 3621 |
-| `redis` | 1208 |
+| `redis` | 1212 |
 | `mcp` | 714 |
 | `llamacpp` | 626 |
 | `vllm` | 499 |
-| `litellm` | 442 |
+| `litellm` | 444 |
 | `docker` | 387 |
-| `jupyter` | 334 |
+| `jupyter` | 335 |
 | `ollama` | 308 |
 | `hfhub` | 268 |
-| `php` | 202 |
+| `php` | 203 |
 | `ray` | 76 |
 
 ### Top usernames tried
@@ -83,7 +83,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `password` | 175 |
 | `1111` | 154 |
 | `123456789` | 152 |
-| `000000` | 148 |
+| `000000` | 149 |
 
 ### Top commands run
 
@@ -101,8 +101,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `df` | 1197 |
 | `top` | 1196 |
 | `w` | 1196 |
-| `INFO` | 837 |
-| `PING` | 660 |
+| `INFO` | 841 |
+| `PING` | 664 |
 | `canary_env` | 600 |
 
 
