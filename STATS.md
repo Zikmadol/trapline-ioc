@@ -2,7 +2,7 @@
 
 Aggregate, sanitised view of **recent** activity against the Trapline honeypot sensors (the capture window below) — no raw logs, no credentials of ours, no prompts. The IP feed itself (`ips.txt`) is cumulative; these counts are the rolling window.
 
-**6502 attackers** · **1,400,336 hostile actions** · covering 76 day(s) through 2026-11-27
+**6505 attackers** · **1,402,094 hostile actions** · covering 76 day(s) through 2026-11-27
 
 | signal | count |
 |---|---|
@@ -18,10 +18,10 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `canary-aws-key` | 13609 |
 | `ssh-bruteforce` | 2011 |
 | `ssh-exploit` | 1488 |
-| `redis-exploit` | 1208 |
+| `redis-exploit` | 1210 |
 | `mcp-abuse` | 365 |
 | `docker-abuse` | 233 |
-| `litellm-key-replay` | 229 |
+| `litellm-key-replay` | 230 |
 | `llamacpp-abuse` | 228 |
 | `ollama-abuse` | 170 |
 | `jupyter-abuse` | 59 |
@@ -33,17 +33,17 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | protocol | events |
 |---|---|
 | `ssh` | 3667 |
-| `redis` | 1241 |
+| `redis` | 1243 |
 | `mcp` | 719 |
 | `llamacpp` | 638 |
 | `vllm` | 506 |
-| `litellm` | 460 |
+| `litellm` | 461 |
 | `docker` | 393 |
 | `jupyter` | 342 |
 | `ollama` | 312 |
-| `hfhub` | 271 |
+| `hfhub` | 272 |
 | `php` | 209 |
-| `ray` | 79 |
+| `ray` | 80 |
 
 ### Top usernames tried
 
@@ -52,9 +52,9 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `root` | 2003 |
 | `345gs5662d34` | 1108 |
 | `admin` | 967 |
-| `ubuntu` | 440 |
+| `ubuntu` | 439 |
 | `guest` | 246 |
-| `ftpuser` | 241 |
+| `ftpuser` | 240 |
 | `user` | 226 |
 | `test` | 178 |
 | `ftp` | 155 |
@@ -72,7 +72,7 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `345gs5662d34` | 1104 |
 | `3245gs5662d34` | 1098 |
 | `123456` | 1059 |
-| `123` | 645 |
+| `123` | 646 |
 | `1234` | 545 |
 | `admin` | 425 |
 | `12345678` | 417 |
@@ -101,8 +101,8 @@ Aggregate, sanitised view of **recent** activity against the Trapline honeypot s
 | `df` | 1212 |
 | `top` | 1211 |
 | `w` | 1211 |
-| `INFO` | 866 |
-| `PING` | 689 |
+| `INFO` | 868 |
+| `PING` | 691 |
 | `canary_env` | 603 |
 
 
